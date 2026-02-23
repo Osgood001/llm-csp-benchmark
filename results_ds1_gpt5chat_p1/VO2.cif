@@ -1,0 +1,20 @@
+data_VO2_P1
+_cell_length_a    5.752
+_cell_length_b    4.538
+_cell_length_c    5.383
+_cell_angle_alpha 90.0
+_cell_angle_beta  122.6
+_cell_angle_gamma 90.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+V1   V   0.2330   0.0240   0.0210
+V2   V   0.7670   0.5240   0.5210
+O1   O   0.1050   0.3170   0.2050
+O2   O   0.3950   0.8170   0.2950
+O3   O   0.6050   0.1830   0.7050
+O4   O   0.8950   0.6830   0.7950

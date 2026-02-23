@@ -1,0 +1,38 @@
+data_CoSb3_P1
+_cell_length_a    9.035
+_cell_length_b    9.035
+_cell_length_c    9.035
+_cell_angle_alpha 90
+_cell_angle_beta  90
+_cell_angle_gamma 90
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Co1   Co   0.0000  0.0000  0.0000
+Co2   Co   0.5000  0.5000  0.0000
+Co3   Co   0.5000  0.0000  0.5000
+Co4   Co   0.0000  0.5000  0.5000
+Sb1   Sb   0.3350  0.1570  0.0000
+Sb2   Sb   0.8430  0.3230  0.0000
+Sb3   Sb   0.6570  0.8430  0.0000
+Sb4   Sb   0.1570  0.6650  0.0000
+Sb5   Sb   0.8420  0.9900  0.5000
+Sb6   Sb   0.3420  0.8230  0.5000
+Sb7   Sb   0.6580  0.1570  0.5000
+Sb8   Sb   0.1580  0.3370  0.5000
+Sb9   Sb   0.9900  0.8420  0.5000
+Sb10  Sb   0.8230  0.3420  0.5000
+Sb11  Sb   0.1570  0.6580  0.5000
+Sb12  Sb   0.3370  0.1580  0.5000
+Sb13  Sb   0.1570  0.8230  0.0000
+Sb14  Sb   0.8230  0.1570  0.0000
+Sb15  Sb   0.8420  0.6580  0.0000
+Sb16  Sb   0.6580  0.8420  0.0000
+Sb17  Sb   0.9900  0.3370  0.0000
+Sb18  Sb   0.3370  0.9900  0.0000
+Sb19  Sb   0.3420  0.1570  0.0000
+Sb20  Sb   0.1570  0.3420  0.0000

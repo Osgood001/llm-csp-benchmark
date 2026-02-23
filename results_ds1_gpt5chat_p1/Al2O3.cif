@@ -1,0 +1,22 @@
+data_Al2O3_P1
+_cell_length_a    4.759
+_cell_length_b    4.759
+_cell_length_c   12.991
+_cell_angle_alpha  90.0
+_cell_angle_beta   90.0
+_cell_angle_gamma 120.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Al1  Al  0.3522  0.0000  0.2500
+Al2  Al  0.6478  0.0000  0.7500
+O1   O   0.3069  0.3069  0.0833
+O2   O   0.6931  0.6931  0.4167
+O3   O   0.3069  0.6931  0.5833
+O4   O   0.6931  0.3069  0.9167
+O5   O   0.0000  0.0000  0.2500
+O6   O   0.0000  0.0000  0.7500

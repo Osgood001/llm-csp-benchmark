@@ -1,0 +1,2283 @@
+formula,spg,n_atoms,model,gpt_raw,cif_text,parse_ok,gpt_match_gt
+C,166,4,gpt-5-chat,"```cif
+data_graphite_P1
+_cell_length_a    2.460
+_cell_length_b    2.460
+_cell_length_c    6.708
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 120.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+C1  C  0.000000  0.000000  0.000000
+C2  C  0.333333  0.666667  0.000000
+C3  C  0.000000  0.000000  0.500000
+C4  C  0.333333  0.666667  0.500000
+```","data_graphite_P1
+_cell_length_a    2.460
+_cell_length_b    2.460
+_cell_length_c    6.708
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 120.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+C1  C  0.000000  0.000000  0.000000
+C2  C  0.333333  0.666667  0.000000
+C3  C  0.000000  0.000000  0.500000
+C4  C  0.333333  0.666667  0.500000",True,False
+Si,227,2,gpt-5-chat,"```cif
+data_Si_P1
+_cell_length_a    5.431
+_cell_length_b    5.431
+_cell_length_c    5.431
+_cell_angle_alpha 90
+_cell_angle_beta  90
+_cell_angle_gamma 90
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Si1  Si  0.0000  0.0000  0.0000
+ Si2  Si  0.0000  0.5000  0.5000
+ Si3  Si  0.5000  0.0000  0.5000
+ Si4  Si  0.5000  0.5000  0.0000
+ Si5  Si  0.2500  0.2500  0.2500
+ Si6  Si  0.2500  0.7500  0.7500
+ Si7  Si  0.7500  0.2500  0.7500
+ Si8  Si  0.7500  0.7500  0.2500
+```","data_Si_P1
+_cell_length_a    5.431
+_cell_length_b    5.431
+_cell_length_c    5.431
+_cell_angle_alpha 90
+_cell_angle_beta  90
+_cell_angle_gamma 90
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Si1  Si  0.0000  0.0000  0.0000
+ Si2  Si  0.0000  0.5000  0.5000
+ Si3  Si  0.5000  0.0000  0.5000
+ Si4  Si  0.5000  0.5000  0.0000
+ Si5  Si  0.2500  0.2500  0.2500
+ Si6  Si  0.2500  0.7500  0.7500
+ Si7  Si  0.7500  0.2500  0.7500
+ Si8  Si  0.7500  0.7500  0.2500",True,True
+GaAs,216,2,gpt-5-chat,"```cif
+data_GaAs_P1
+_cell_length_a    5.653
+_cell_length_b    5.653
+_cell_length_c    5.653
+_cell_angle_alpha 90
+_cell_angle_beta  90
+_cell_angle_gamma 90
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Ga1  Ga  0.0000  0.0000  0.0000
+ Ga2  Ga  0.0000  0.5000  0.5000
+ Ga3  Ga  0.5000  0.0000  0.5000
+ Ga4  Ga  0.5000  0.5000  0.0000
+ As1  As  0.2500  0.2500  0.2500
+ As2  As  0.2500  0.7500  0.7500
+ As3  As  0.7500  0.2500  0.7500
+ As4  As  0.7500  0.7500  0.2500
+```","data_GaAs_P1
+_cell_length_a    5.653
+_cell_length_b    5.653
+_cell_length_c    5.653
+_cell_angle_alpha 90
+_cell_angle_beta  90
+_cell_angle_gamma 90
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Ga1  Ga  0.0000  0.0000  0.0000
+ Ga2  Ga  0.0000  0.5000  0.5000
+ Ga3  Ga  0.5000  0.0000  0.5000
+ Ga4  Ga  0.5000  0.5000  0.0000
+ As1  As  0.2500  0.2500  0.2500
+ As2  As  0.2500  0.7500  0.7500
+ As3  As  0.7500  0.2500  0.7500
+ As4  As  0.7500  0.7500  0.2500",True,True
+ZnO,186,4,gpt-5-chat,"```cif
+data_ZnO_P1
+_cell_length_a    3.249
+_cell_length_b    3.249
+_cell_length_c    5.206
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 120.0
+
+loop_
+  _atom_site_label
+  _atom_site_type_symbol
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  Zn1   Zn   0.0000   0.0000   0.0000
+  O1    O    0.3333   0.6667   0.3820
+  Zn2   Zn   0.3333   0.6667   0.5000
+  O2    O    0.0000   0.0000   0.8820
+```","data_ZnO_P1
+_cell_length_a    3.249
+_cell_length_b    3.249
+_cell_length_c    5.206
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 120.0
+
+loop_
+  _atom_site_label
+  _atom_site_type_symbol
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  Zn1   Zn   0.0000   0.0000   0.0000
+  O1    O    0.3333   0.6667   0.3820
+  Zn2   Zn   0.3333   0.6667   0.5000
+  O2    O    0.0000   0.0000   0.8820",True,True
+BN,194,4,gpt-5-chat,"```cif
+data_BN_P1
+_cell_length_a    2.504
+_cell_length_b    2.504
+_cell_length_c    6.600
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 120.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ B1  B  0.0000  0.0000  0.0000
+ N1  N  0.3333  0.6667  0.0000
+ B2  B  0.0000  0.0000  0.5000
+ N2  N  0.3333  0.6667  0.5000
+```","data_BN_P1
+_cell_length_a    2.504
+_cell_length_b    2.504
+_cell_length_c    6.600
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 120.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ B1  B  0.0000  0.0000  0.0000
+ N1  N  0.3333  0.6667  0.0000
+ B2  B  0.0000  0.0000  0.5000
+ N2  N  0.3333  0.6667  0.5000",True,False
+LiCoO2,227,16,gpt-5-chat,"```cif
+data_LiCoO2_P1
+_cell_length_a    2.815
+_cell_length_b    2.815
+_cell_length_c    14.05
+_cell_angle_alpha 90
+_cell_angle_beta  90
+_cell_angle_gamma 120
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Li1  Li   0.0000  0.0000  0.0000
+ Co1  Co   0.0000  0.0000  0.5000
+ O1   O    0.0000  0.5000  0.5800
+ O2   O    0.5000  0.0000  0.5800
+ O3   O    0.5000  0.5000  0.5800
+ O4   O    0.0000  0.5000  0.4200
+ O5   O    0.5000  0.0000  0.4200
+ O6   O    0.5000  0.5000  0.4200
+```","data_LiCoO2_P1
+_cell_length_a    2.815
+_cell_length_b    2.815
+_cell_length_c    14.05
+_cell_angle_alpha 90
+_cell_angle_beta  90
+_cell_angle_gamma 120
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Li1  Li   0.0000  0.0000  0.0000
+ Co1  Co   0.0000  0.0000  0.5000
+ O1   O    0.0000  0.5000  0.5800
+ O2   O    0.5000  0.0000  0.5800
+ O3   O    0.5000  0.5000  0.5800
+ O4   O    0.0000  0.5000  0.4200
+ O5   O    0.5000  0.0000  0.4200
+ O6   O    0.5000  0.5000  0.4200",True,False
+Bi2Te3,166,5,gpt-5-chat,"```cif
+data_Bi2Te3_P1
+_cell_length_a    4.386
+_cell_length_b    4.386
+_cell_length_c    30.497
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 120.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Bi1  Bi  0.00000  0.00000  0.00000
+Bi2  Bi  0.33333  0.66667  0.40000
+Bi3  Bi  0.66667  0.33333  0.60000
+Te1  Te  0.00000  0.00000  0.21200
+Te2  Te  0.00000  0.00000  0.78800
+Te3  Te  0.33333  0.66667  0.01200
+Te4  Te  0.33333  0.66667  0.18800
+Te5  Te  0.66667  0.33333  0.81200
+Te6  Te  0.66667  0.33333  0.98800
+Bi4  Bi  0.00000  0.00000  0.20000
+Bi5  Bi  0.33333  0.66667  0.80000
+```","data_Bi2Te3_P1
+_cell_length_a    4.386
+_cell_length_b    4.386
+_cell_length_c    30.497
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 120.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Bi1  Bi  0.00000  0.00000  0.00000
+Bi2  Bi  0.33333  0.66667  0.40000
+Bi3  Bi  0.66667  0.33333  0.60000
+Te1  Te  0.00000  0.00000  0.21200
+Te2  Te  0.00000  0.00000  0.78800
+Te3  Te  0.33333  0.66667  0.01200
+Te4  Te  0.33333  0.66667  0.18800
+Te5  Te  0.66667  0.33333  0.81200
+Te6  Te  0.66667  0.33333  0.98800
+Bi4  Bi  0.00000  0.00000  0.20000
+Bi5  Bi  0.33333  0.66667  0.80000",True,False
+Ba(FeAs)2,139,5,gpt-5-chat,"```cif
+data_BaFe2As2_P1
+_cell_length_a   5.620
+_cell_length_b   5.570
+_cell_length_c  12.950
+_cell_angle_alpha  90.0
+_cell_angle_beta   90.0
+_cell_angle_gamma  90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ba1  Ba  0.0000  0.0000  0.0000
+Fe1  Fe  0.5000  0.0000  0.2500
+Fe2  Fe  0.0000  0.5000  0.7500
+As1  As  0.5000  0.0000  0.3650
+As2  As  0.0000  0.5000  0.1350
+```","data_BaFe2As2_P1
+_cell_length_a   5.620
+_cell_length_b   5.570
+_cell_length_c  12.950
+_cell_angle_alpha  90.0
+_cell_angle_beta   90.0
+_cell_angle_gamma  90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ba1  Ba  0.0000  0.0000  0.0000
+Fe1  Fe  0.5000  0.0000  0.2500
+Fe2  Fe  0.0000  0.5000  0.7500
+As1  As  0.5000  0.0000  0.3650
+As2  As  0.0000  0.5000  0.1350",True,False
+SiO2,122,6,gpt-5-chat,"```cif
+data_SiO2_alpha_quartz_P1
+_cell_length_a    4.913
+_cell_length_b    4.913
+_cell_length_c    5.405
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 120.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si1  Si  0.4697  0.0000  0.0000
+Si2  Si  0.0000  0.4697  0.6667
+Si3  Si  0.5303  0.5303  0.3333
+Si4  Si  0.4697  0.0000  0.5000
+Si5  Si  0.0000  0.4697  0.1667
+Si6  Si  0.5303  0.5303  0.8333
+O1   O   0.4133  0.2667  0.1188
+O2   O   0.1466  0.6800  0.4521
+O3   O   0.6800  0.1466  0.7854
+O4   O   0.5867  0.8533  0.6188
+O5   O   0.3200  0.2667  0.9521
+O6   O   0.8533  0.7333  0.2854
+O7   O   0.4133  0.2667  0.6188
+O8   O   0.1466  0.6800  0.9521
+O9   O   0.6800  0.1466  0.2854
+O10  O   0.5867  0.8533  0.1188
+O11  O   0.3200  0.2667  0.4521
+O12  O   0.8533  0.7333  0.7854
+```","data_SiO2_alpha_quartz_P1
+_cell_length_a    4.913
+_cell_length_b    4.913
+_cell_length_c    5.405
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 120.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si1  Si  0.4697  0.0000  0.0000
+Si2  Si  0.0000  0.4697  0.6667
+Si3  Si  0.5303  0.5303  0.3333
+Si4  Si  0.4697  0.0000  0.5000
+Si5  Si  0.0000  0.4697  0.1667
+Si6  Si  0.5303  0.5303  0.8333
+O1   O   0.4133  0.2667  0.1188
+O2   O   0.1466  0.6800  0.4521
+O3   O   0.6800  0.1466  0.7854
+O4   O   0.5867  0.8533  0.6188
+O5   O   0.3200  0.2667  0.9521
+O6   O   0.8533  0.7333  0.2854
+O7   O   0.4133  0.2667  0.6188
+O8   O   0.1466  0.6800  0.9521
+O9   O   0.6800  0.1466  0.2854
+O10  O   0.5867  0.8533  0.1188
+O11  O   0.3200  0.2667  0.4521
+O12  O   0.8533  0.7333  0.7854",True,False
+VO2,136,6,gpt-5-chat,"```cif
+data_VO2_P1
+_cell_length_a    5.752
+_cell_length_b    4.538
+_cell_length_c    5.383
+_cell_angle_alpha 90.0
+_cell_angle_beta  122.6
+_cell_angle_gamma 90.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+V1   V   0.2330   0.0240   0.0210
+V2   V   0.7670   0.5240   0.5210
+O1   O   0.1050   0.3170   0.2050
+O2   O   0.3950   0.8170   0.2950
+O3   O   0.6050   0.1830   0.7050
+O4   O   0.8950   0.6830   0.7950
+```","data_VO2_P1
+_cell_length_a    5.752
+_cell_length_b    4.538
+_cell_length_c    5.383
+_cell_angle_alpha 90.0
+_cell_angle_beta  122.6
+_cell_angle_gamma 90.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+V1   V   0.2330   0.0240   0.0210
+V2   V   0.7670   0.5240   0.5210
+O1   O   0.1050   0.3170   0.2050
+O2   O   0.3950   0.8170   0.2950
+O3   O   0.6050   0.1830   0.7050
+O4   O   0.8950   0.6830   0.7950",True,False
+La2CuO4,139,7,gpt-5-chat,"```cif
+data_La2CuO4_P1
+_cell_length_a    5.358
+_cell_length_b    5.405
+_cell_length_c   13.150
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+La1 La 0.0040 0.5000 0.3613
+La2 La 0.5040 0.0000 0.8613
+Cu1 Cu 0.0000 0.0000 0.0000
+Cu2 Cu 0.5000 0.5000 0.0000
+O1  O  0.0000 0.0000 0.1800
+O2  O  0.5000 0.5000 0.1800
+O3  O  0.0000 0.5000 0.0000
+O4  O  0.5000 0.0000 0.0000
+O5  O  0.0000 0.0000 0.3550
+O6  O  0.5000 0.5000 0.3550
+O7  O  0.0000 0.5000 0.5400
+O8  O  0.5000 0.0000 0.5400
+```","data_La2CuO4_P1
+_cell_length_a    5.358
+_cell_length_b    5.405
+_cell_length_c   13.150
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+La1 La 0.0040 0.5000 0.3613
+La2 La 0.5040 0.0000 0.8613
+Cu1 Cu 0.0000 0.0000 0.0000
+Cu2 Cu 0.5000 0.5000 0.0000
+O1  O  0.0000 0.0000 0.1800
+O2  O  0.5000 0.5000 0.1800
+O3  O  0.0000 0.5000 0.0000
+O4  O  0.5000 0.0000 0.0000
+O5  O  0.0000 0.0000 0.3550
+O6  O  0.5000 0.5000 0.3550
+O7  O  0.0000 0.5000 0.5400
+O8  O  0.5000 0.0000 0.5400",True,False
+LiPF6,148,8,gpt-5-chat,"```cif
+data_LiPF6_P1
+_cell_length_a   5.000
+_cell_length_b   8.000
+_cell_length_c   7.500
+_cell_angle_alpha  90.0
+_cell_angle_beta   90.0
+_cell_angle_gamma  90.0
+
+loop_
+  _atom_site_label
+  _atom_site_type_symbol
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  Li1  Li  0.250  0.250  0.250
+  P1   P   0.750  0.750  0.750
+  F1   F   0.700  0.800  0.650
+  F2   F   0.800  0.700  0.850
+  F3   F   0.650  0.650  0.900
+  F4   F   0.900  0.650  0.650
+  F5   F   0.800  0.900  0.700
+  F6   F   0.700  0.650  0.900
+```","data_LiPF6_P1
+_cell_length_a   5.000
+_cell_length_b   8.000
+_cell_length_c   7.500
+_cell_angle_alpha  90.0
+_cell_angle_beta   90.0
+_cell_angle_gamma  90.0
+
+loop_
+  _atom_site_label
+  _atom_site_type_symbol
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  Li1  Li  0.250  0.250  0.250
+  P1   P   0.750  0.750  0.750
+  F1   F   0.700  0.800  0.650
+  F2   F   0.800  0.700  0.850
+  F3   F   0.650  0.650  0.900
+  F4   F   0.900  0.650  0.650
+  F5   F   0.800  0.900  0.700
+  F6   F   0.700  0.650  0.900",True,False
+Al2O3,167,10,gpt-5-chat,"```cif
+data_Al2O3_P1
+_cell_length_a    4.759
+_cell_length_b    4.759
+_cell_length_c   12.991
+_cell_angle_alpha  90.0
+_cell_angle_beta   90.0
+_cell_angle_gamma 120.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Al1  Al  0.3522  0.0000  0.2500
+Al2  Al  0.6478  0.0000  0.7500
+O1   O   0.3069  0.3069  0.0833
+O2   O   0.6931  0.6931  0.4167
+O3   O   0.3069  0.6931  0.5833
+O4   O   0.6931  0.3069  0.9167
+O5   O   0.0000  0.0000  0.2500
+O6   O   0.0000  0.0000  0.7500
+```","data_Al2O3_P1
+_cell_length_a    4.759
+_cell_length_b    4.759
+_cell_length_c   12.991
+_cell_angle_alpha  90.0
+_cell_angle_beta   90.0
+_cell_angle_gamma 120.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Al1  Al  0.3522  0.0000  0.2500
+Al2  Al  0.6478  0.0000  0.7500
+O1   O   0.3069  0.3069  0.0833
+O2   O   0.6931  0.6931  0.4167
+O3   O   0.3069  0.6931  0.5833
+O4   O   0.6931  0.3069  0.9167
+O5   O   0.0000  0.0000  0.2500
+O6   O   0.0000  0.0000  0.7500",True,False
+SrTiO3,140,10,gpt-5-chat,"```cif
+data_SrTiO3_P1
+_cell_length_a    3.905
+_cell_length_b    3.905
+_cell_length_c    3.905
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Sr1  Sr  0.0000  0.0000  0.0000
+ Ti1  Ti  0.5000  0.5000  0.5000
+ O1   O   0.5000  0.5000  0.0000
+ O2   O   0.5000  0.0000  0.5000
+ O3   O   0.0000  0.5000  0.5000
+```","data_SrTiO3_P1
+_cell_length_a    3.905
+_cell_length_b    3.905
+_cell_length_c    3.905
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Sr1  Sr  0.0000  0.0000  0.0000
+ Ti1  Ti  0.5000  0.5000  0.5000
+ O1   O   0.5000  0.5000  0.0000
+ O2   O   0.5000  0.0000  0.5000
+ O3   O   0.0000  0.5000  0.5000",True,False
+CaCO3,167,10,gpt-5-chat,"```cif
+data_CaCO3_P1
+_cell_length_a   4.990
+_cell_length_b   6.200
+_cell_length_c   5.310
+_cell_angle_alpha   90.000
+_cell_angle_beta    90.000
+_cell_angle_gamma   90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ca1   Ca   0.0000   0.0000   0.0000
+C1    C    0.2500   0.2500   0.2500
+O1    O    0.3690   0.2500   0.1120
+O2    O    0.1310   0.1120   0.3690
+O3    O    0.2500   0.3880   0.3880
+```","data_CaCO3_P1
+_cell_length_a   4.990
+_cell_length_b   6.200
+_cell_length_c   5.310
+_cell_angle_alpha   90.000
+_cell_angle_beta    90.000
+_cell_angle_gamma   90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ca1   Ca   0.0000   0.0000   0.0000
+C1    C    0.2500   0.2500   0.2500
+O1    O    0.3690   0.2500   0.1120
+O2    O    0.1310   0.1120   0.3690
+O3    O    0.2500   0.3880   0.3880",True,False
+TiO2,12,12,gpt-5-chat,"```cif
+data_TiO2_P1
+_cell_length_a       4.5937
+_cell_length_b       4.5937
+_cell_length_c       2.9581
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ti1  Ti  0.0000   0.0000   0.0000
+Ti2  Ti  0.5000   0.5000   0.5000
+O1   O   0.3050   0.3050   0.0000
+O2   O   0.6950   0.6950   0.0000
+O3   O   0.1950   0.8050   0.5000
+O4   O   0.8050   0.1950   0.5000
+```","data_TiO2_P1
+_cell_length_a       4.5937
+_cell_length_b       4.5937
+_cell_length_c       2.9581
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ti1  Ti  0.0000   0.0000   0.0000
+Ti2  Ti  0.5000   0.5000   0.5000
+O1   O   0.3050   0.3050   0.0000
+O2   O   0.6950   0.6950   0.0000
+O3   O   0.1950   0.8050   0.5000
+O4   O   0.8050   0.1950   0.5000",True,False
+ZrO2,14,12,gpt-5-chat,"```cif
+data_ZrO2_P1
+_cell_length_a    5.145
+_cell_length_b    5.207
+_cell_length_c    5.316
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zr1  Zr  0.0000  0.0000  0.0000
+Zr2  Zr  0.5000  0.5000  0.0000
+Zr3  Zr  0.0000  0.5000  0.5000
+Zr4  Zr  0.5000  0.0000  0.5000
+O1   O   0.2140  0.2140  0.0000
+O2   O   0.7860  0.7860  0.0000
+O3   O   0.2140  0.7860  0.5000
+O4   O   0.7860  0.2140  0.5000
+O5   O   0.0000  0.2140  0.2140
+O6   O   0.5000  0.7860  0.2140
+O7   O   0.0000  0.7860  0.7860
+O8   O   0.5000  0.2140  0.7860
+```","data_ZrO2_P1
+_cell_length_a    5.145
+_cell_length_b    5.207
+_cell_length_c    5.316
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zr1  Zr  0.0000  0.0000  0.0000
+Zr2  Zr  0.5000  0.5000  0.0000
+Zr3  Zr  0.0000  0.5000  0.5000
+Zr4  Zr  0.5000  0.0000  0.5000
+O1   O   0.2140  0.2140  0.0000
+O2   O   0.7860  0.7860  0.0000
+O3   O   0.2140  0.7860  0.5000
+O4   O   0.7860  0.2140  0.5000
+O5   O   0.0000  0.2140  0.2140
+O6   O   0.5000  0.7860  0.2140
+O7   O   0.0000  0.7860  0.7860
+O8   O   0.5000  0.2140  0.7860",True,False
+ZrTe5,63,12,gpt-5-chat,"```cif
+data_ZrTe5_P1
+_cell_length_a    3.987
+_cell_length_b   14.530
+_cell_length_c   13.710
+_cell_angle_alpha  90.00
+_cell_angle_beta  90.00
+_cell_angle_gamma 90.00
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Zr1  Zr  0.0000  0.0000  0.0000
+Te1  Te  0.1254  0.2232  0.2135
+Te2  Te  0.3512  0.0953  0.4236
+Te3  Te  0.0953  0.3451  0.6278
+Te4  Te  0.2775  0.4264  0.8041
+Te5  Te  0.4263  0.2746  0.9879
+```","data_ZrTe5_P1
+_cell_length_a    3.987
+_cell_length_b   14.530
+_cell_length_c   13.710
+_cell_angle_alpha  90.00
+_cell_angle_beta  90.00
+_cell_angle_gamma 90.00
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Zr1  Zr  0.0000  0.0000  0.0000
+Te1  Te  0.1254  0.2232  0.2135
+Te2  Te  0.3512  0.0953  0.4236
+Te3  Te  0.0953  0.3451  0.6278
+Te4  Te  0.2775  0.4264  0.8041
+Te5  Te  0.4263  0.2746  0.9879",True,False
+V2O5,59,14,gpt-5-chat,"```cif
+data_V2O5_P1
+_cell_length_a    11.516
+_cell_length_b    4.359
+_cell_length_c    3.554
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+V1   V   0.0135   0.1839   0.0000
+V2   V   0.4865   0.8161   0.5000
+O1   O   0.1544   0.3539   0.0000
+O2   O   0.3456   0.6461   0.5000
+O3   O   0.1740   0.8910   0.2140
+O4   O   0.3260   0.1090   0.7860
+O5   O   0.5000   0.5000   0.0000
+```","data_V2O5_P1
+_cell_length_a    11.516
+_cell_length_b    4.359
+_cell_length_c    3.554
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+V1   V   0.0135   0.1839   0.0000
+V2   V   0.4865   0.8161   0.5000
+O1   O   0.1544   0.3539   0.0000
+O2   O   0.3456   0.6461   0.5000
+O3   O   0.1740   0.8910   0.2140
+O4   O   0.3260   0.1090   0.7860
+O5   O   0.5000   0.5000   0.0000",True,False
+Si3N4,176,14,gpt-5-chat,"```cif
+data_Si3N4_P1
+_cell_length_a       7.746
+_cell_length_b       7.746
+_cell_length_c       5.617
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si1   Si   0.1687   0.3374   0.0000
+Si2   Si   0.8313   0.6626   0.5000
+Si3   Si   0.1687   0.8313   0.5000
+Si4   Si   0.8313   0.1687   0.0000
+Si5   Si   0.3374   0.1687   0.5000
+Si6   Si   0.6626   0.8313   0.0000
+Si7   Si   0.3374   0.6626   0.0000
+Si8   Si   0.6626   0.3374   0.5000
+N1    N    0.185   0.370   0.060
+N2    N    0.815   0.630   0.440
+N3    N    0.370   0.185   0.560
+N4    N    0.630   0.815   0.940
+N5    N    0.185   0.815   0.440
+N6    N    0.815   0.185   0.560
+N7    N    0.370   0.630   0.940
+N8    N    0.630   0.370   0.060
+N9    N    0.018   0.202   0.250
+N10   N    0.982   0.798   0.750
+N11   N    0.202   0.982   0.750
+N12   N    0.798   0.018   0.250
+N13   N    0.482   0.298   0.250
+N14   N    0.518   0.702   0.750
+N15   N    0.298   0.518   0.750
+N16   N    0.702   0.482   0.250
+```","data_Si3N4_P1
+_cell_length_a       7.746
+_cell_length_b       7.746
+_cell_length_c       5.617
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si1   Si   0.1687   0.3374   0.0000
+Si2   Si   0.8313   0.6626   0.5000
+Si3   Si   0.1687   0.8313   0.5000
+Si4   Si   0.8313   0.1687   0.0000
+Si5   Si   0.3374   0.1687   0.5000
+Si6   Si   0.6626   0.8313   0.0000
+Si7   Si   0.3374   0.6626   0.0000
+Si8   Si   0.6626   0.3374   0.5000
+N1    N    0.185   0.370   0.060
+N2    N    0.815   0.630   0.440
+N3    N    0.370   0.185   0.560
+N4    N    0.630   0.815   0.940
+N5    N    0.185   0.815   0.440
+N6    N    0.815   0.185   0.560
+N7    N    0.370   0.630   0.940
+N8    N    0.630   0.370   0.060
+N9    N    0.018   0.202   0.250
+N10   N    0.982   0.798   0.750
+N11   N    0.202   0.982   0.750
+N12   N    0.798   0.018   0.250
+N13   N    0.482   0.298   0.250
+N14   N    0.518   0.702   0.750
+N15   N    0.298   0.518   0.750
+N16   N    0.702   0.482   0.250",True,False
+Fe3O4,227,14,gpt-5-chat,"```cif
+data_Fe3O4_P1
+_cell_length_a    8.394
+_cell_length_b    8.394
+_cell_length_c    8.394
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Fe1  Fe  0.0000  0.0000  0.0000
+Fe2  Fe  0.5000  0.5000  0.5000
+Fe3  Fe  0.6250  0.6250  0.6250
+Fe4  Fe  0.3750  0.3750  0.3750
+Fe5  Fe  0.1250  0.1250  0.1250
+Fe6  Fe  0.8750  0.8750  0.8750
+Fe7  Fe  0.2500  0.2500  0.2500
+Fe8  Fe  0.7500  0.7500  0.7500
+Fe9  Fe  0.0000  0.5000  0.2500
+Fe10 Fe  0.5000  0.0000  0.7500
+Fe11 Fe  0.2500  0.0000  0.5000
+Fe12 Fe  0.0000  0.2500  0.7500
+O1   O   0.2550  0.2550  0.2550
+O2   O   0.7450  0.7450  0.7450
+O3   O   0.2550  0.7450  0.7450
+O4   O   0.7450  0.2550  0.2550
+O5   O   0.2550  0.7450  0.2550
+O6   O   0.7450  0.2550  0.7450
+O7   O   0.2550  0.2550  0.7450
+O8   O   0.7450  0.7450  0.2550
+O9   O   0.5000  0.5000  0.0000
+O10  O   0.5000  0.0000  0.5000
+O11  O   0.0000  0.5000  0.5000
+O12  O   0.0000  0.0000  0.5000
+```","data_Fe3O4_P1
+_cell_length_a    8.394
+_cell_length_b    8.394
+_cell_length_c    8.394
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Fe1  Fe  0.0000  0.0000  0.0000
+Fe2  Fe  0.5000  0.5000  0.5000
+Fe3  Fe  0.6250  0.6250  0.6250
+Fe4  Fe  0.3750  0.3750  0.3750
+Fe5  Fe  0.1250  0.1250  0.1250
+Fe6  Fe  0.8750  0.8750  0.8750
+Fe7  Fe  0.2500  0.2500  0.2500
+Fe8  Fe  0.7500  0.7500  0.7500
+Fe9  Fe  0.0000  0.5000  0.2500
+Fe10 Fe  0.5000  0.0000  0.7500
+Fe11 Fe  0.2500  0.0000  0.5000
+Fe12 Fe  0.0000  0.2500  0.7500
+O1   O   0.2550  0.2550  0.2550
+O2   O   0.7450  0.7450  0.7450
+O3   O   0.2550  0.7450  0.7450
+O4   O   0.7450  0.2550  0.2550
+O5   O   0.2550  0.7450  0.2550
+O6   O   0.7450  0.2550  0.7450
+O7   O   0.2550  0.2550  0.7450
+O8   O   0.7450  0.7450  0.2550
+O9   O   0.5000  0.5000  0.0000
+O10  O   0.5000  0.0000  0.5000
+O11  O   0.0000  0.5000  0.5000
+O12  O   0.0000  0.0000  0.5000",True,False
+Mn(FeO2)2,227,14,gpt-5-chat,"```cif
+data_MnFe2O4
+_cell_length_a    5.050
+_cell_length_b    5.120
+_cell_length_c    7.320
+_cell_angle_alpha 90.00
+_cell_angle_beta  90.40
+_cell_angle_gamma 90.00
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Mn1  Mn  0.0000  0.0000  0.0000
+Fe1  Fe  0.3330  0.6670  0.2480
+Fe2  Fe  0.6670  0.3330  0.7520
+O1   O   0.1100  0.2750  0.0500
+O2   O   0.8900  0.7250  0.4500
+O3   O   0.2750  0.1100  0.5500
+O4   O   0.7250  0.8900  0.9500
+O5   O   0.4450  0.5550  0.3000
+O6   O   0.5550  0.4450  0.7000
+O7   O   0.2200  0.4450  0.1600
+O8   O   0.7800  0.5550  0.6400
+```","data_MnFe2O4
+_cell_length_a    5.050
+_cell_length_b    5.120
+_cell_length_c    7.320
+_cell_angle_alpha 90.00
+_cell_angle_beta  90.40
+_cell_angle_gamma 90.00
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Mn1  Mn  0.0000  0.0000  0.0000
+Fe1  Fe  0.3330  0.6670  0.2480
+Fe2  Fe  0.6670  0.3330  0.7520
+O1   O   0.1100  0.2750  0.0500
+O2   O   0.8900  0.7250  0.4500
+O3   O   0.2750  0.1100  0.5500
+O4   O   0.7250  0.8900  0.9500
+O5   O   0.4450  0.5550  0.3000
+O6   O   0.5550  0.4450  0.7000
+O7   O   0.2200  0.4450  0.1600
+O8   O   0.7800  0.5550  0.6400",True,False
+ZnSb,61,16,gpt-5-chat,"```cif
+data_ZnSb_P1
+_cell_length_a    6.20
+_cell_length_b    7.74
+_cell_length_c    8.09
+_cell_angle_alpha 90.00
+_cell_angle_beta  97.60
+_cell_angle_gamma 90.00
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Zn1  Zn  0.1062  0.1385  0.1594
+Zn2  Zn  0.3781  0.3592  0.1596
+Zn3  Zn  0.1160  0.1390  0.6570
+Zn4  Zn  0.3785  0.3604  0.6571
+Sb1  Sb  0.2514  0.1152  0.3658
+Sb2  Sb  0.6198  0.3716  0.3661
+Sb3  Sb  0.2459  0.1158  0.8677
+Sb4  Sb  0.6189  0.3724  0.8671
+```","data_ZnSb_P1
+_cell_length_a    6.20
+_cell_length_b    7.74
+_cell_length_c    8.09
+_cell_angle_alpha 90.00
+_cell_angle_beta  97.60
+_cell_angle_gamma 90.00
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Zn1  Zn  0.1062  0.1385  0.1594
+Zn2  Zn  0.3781  0.3592  0.1596
+Zn3  Zn  0.1160  0.1390  0.6570
+Zn4  Zn  0.3785  0.3604  0.6571
+Sb1  Sb  0.2514  0.1152  0.3658
+Sb2  Sb  0.6198  0.3716  0.3661
+Sb3  Sb  0.2459  0.1158  0.8677
+Sb4  Sb  0.6189  0.3724  0.8671",True,False
+CoSb3,204,16,gpt-5-chat,"```cif
+data_CoSb3_P1
+_cell_length_a    9.035
+_cell_length_b    9.035
+_cell_length_c    9.035
+_cell_angle_alpha 90
+_cell_angle_beta  90
+_cell_angle_gamma 90
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Co1   Co   0.0000  0.0000  0.0000
+Co2   Co   0.5000  0.5000  0.0000
+Co3   Co   0.5000  0.0000  0.5000
+Co4   Co   0.0000  0.5000  0.5000
+Sb1   Sb   0.3350  0.1570  0.0000
+Sb2   Sb   0.8430  0.3230  0.0000
+Sb3   Sb   0.6570  0.8430  0.0000
+Sb4   Sb   0.1570  0.6650  0.0000
+Sb5   Sb   0.8420  0.9900  0.5000
+Sb6   Sb   0.3420  0.8230  0.5000
+Sb7   Sb   0.6580  0.1570  0.5000
+Sb8   Sb   0.1580  0.3370  0.5000
+Sb9   Sb   0.9900  0.8420  0.5000
+Sb10  Sb   0.8230  0.3420  0.5000
+Sb11  Sb   0.1570  0.6580  0.5000
+Sb12  Sb   0.3370  0.1580  0.5000
+Sb13  Sb   0.1570  0.8230  0.0000
+Sb14  Sb   0.8230  0.1570  0.0000
+Sb15  Sb   0.8420  0.6580  0.0000
+Sb16  Sb   0.6580  0.8420  0.0000
+Sb17  Sb   0.9900  0.3370  0.0000
+Sb18  Sb   0.3370  0.9900  0.0000
+Sb19  Sb   0.3420  0.1570  0.0000
+Sb20  Sb   0.1570  0.3420  0.0000
+```","data_CoSb3_P1
+_cell_length_a    9.035
+_cell_length_b    9.035
+_cell_length_c    9.035
+_cell_angle_alpha 90
+_cell_angle_beta  90
+_cell_angle_gamma 90
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Co1   Co   0.0000  0.0000  0.0000
+Co2   Co   0.5000  0.5000  0.0000
+Co3   Co   0.5000  0.0000  0.5000
+Co4   Co   0.0000  0.5000  0.5000
+Sb1   Sb   0.3350  0.1570  0.0000
+Sb2   Sb   0.8430  0.3230  0.0000
+Sb3   Sb   0.6570  0.8430  0.0000
+Sb4   Sb   0.1570  0.6650  0.0000
+Sb5   Sb   0.8420  0.9900  0.5000
+Sb6   Sb   0.3420  0.8230  0.5000
+Sb7   Sb   0.6580  0.1570  0.5000
+Sb8   Sb   0.1580  0.3370  0.5000
+Sb9   Sb   0.9900  0.8420  0.5000
+Sb10  Sb   0.8230  0.3420  0.5000
+Sb11  Sb   0.1570  0.6580  0.5000
+Sb12  Sb   0.3370  0.1580  0.5000
+Sb13  Sb   0.1570  0.8230  0.0000
+Sb14  Sb   0.8230  0.1570  0.0000
+Sb15  Sb   0.8420  0.6580  0.0000
+Sb16  Sb   0.6580  0.8420  0.0000
+Sb17  Sb   0.9900  0.3370  0.0000
+Sb18  Sb   0.3370  0.9900  0.0000
+Sb19  Sb   0.3420  0.1570  0.0000
+Sb20  Sb   0.1570  0.3420  0.0000",True,False
+LiBF4,152,18,gpt-5-chat,"```cif
+data_LiBF4
+_cell_length_a     7.123
+_cell_length_b     7.456
+_cell_length_c     7.876
+_cell_angle_alpha  89.95
+_cell_angle_beta   90.05
+_cell_angle_gamma  90.10
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1   Li   0.125  0.250  0.375
+B1    B    0.500  0.500  0.500
+F1    F    0.550  0.450  0.450
+F2    F    0.450  0.550  0.450
+F3    F    0.450  0.450  0.550
+F4    F    0.550  0.550  0.550
+Li2   Li   0.875  0.750  0.625
+B2    B    0.000  0.000  0.000
+F5    F    0.050  0.950  0.950
+F6    F    0.950  0.050  0.950
+F7    F    0.950  0.950  0.050
+F8    F    0.050  0.050  0.050
+```","data_LiBF4
+_cell_length_a     7.123
+_cell_length_b     7.456
+_cell_length_c     7.876
+_cell_angle_alpha  89.95
+_cell_angle_beta   90.05
+_cell_angle_gamma  90.10
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1   Li   0.125  0.250  0.375
+B1    B    0.500  0.500  0.500
+F1    F    0.550  0.450  0.450
+F2    F    0.450  0.550  0.450
+F3    F    0.450  0.450  0.550
+F4    F    0.550  0.550  0.550
+Li2   Li   0.875  0.750  0.625
+B2    B    0.000  0.000  0.000
+F5    F    0.050  0.950  0.950
+F6    F    0.950  0.050  0.950
+F7    F    0.950  0.950  0.050
+F8    F    0.050  0.050  0.050",True,False
+Y2Co17,166,19,gpt-5-chat,"```cif
+data_Y2Co17_P1
+_cell_length_a    8.510
+_cell_length_b    8.510
+_cell_length_c    8.510
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Y1   Y   0.0000  0.0000  0.0000
+ Y2   Y   0.5000  0.5000  0.5000
+ Co1  Co  0.2000  0.3000  0.1000
+ Co2  Co  0.8000  0.7000  0.9000
+ Co3  Co  0.4000  0.6000  0.2000
+ Co4  Co  0.6000  0.4000  0.8000
+ Co5  Co  0.3000  0.2000  0.7000
+ Co6  Co  0.7000  0.8000  0.3000
+ Co7  Co  0.1000  0.5000  0.6000
+ Co8  Co  0.5000  0.1000  0.4000
+ Co9  Co  0.2500  0.7500  0.0500
+ Co10 Co  0.7500  0.2500  0.9500
+ Co11 Co  0.1500  0.8500  0.3500
+ Co12 Co  0.8500  0.1500  0.6500
+ Co13 Co  0.3500  0.6500  0.1500
+ Co14 Co  0.6500  0.3500  0.8500
+ Co15 Co  0.0500  0.4500  0.2500
+ Co16 Co  0.4500  0.0500  0.7500
+ Co17 Co  0.9000  0.3000  0.5000
+```","data_Y2Co17_P1
+_cell_length_a    8.510
+_cell_length_b    8.510
+_cell_length_c    8.510
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Y1   Y   0.0000  0.0000  0.0000
+ Y2   Y   0.5000  0.5000  0.5000
+ Co1  Co  0.2000  0.3000  0.1000
+ Co2  Co  0.8000  0.7000  0.9000
+ Co3  Co  0.4000  0.6000  0.2000
+ Co4  Co  0.6000  0.4000  0.8000
+ Co5  Co  0.3000  0.2000  0.7000
+ Co6  Co  0.7000  0.8000  0.3000
+ Co7  Co  0.1000  0.5000  0.6000
+ Co8  Co  0.5000  0.1000  0.4000
+ Co9  Co  0.2500  0.7500  0.0500
+ Co10 Co  0.7500  0.2500  0.9500
+ Co11 Co  0.1500  0.8500  0.3500
+ Co12 Co  0.8500  0.1500  0.6500
+ Co13 Co  0.3500  0.6500  0.1500
+ Co14 Co  0.6500  0.3500  0.8500
+ Co15 Co  0.0500  0.4500  0.2500
+ Co16 Co  0.4500  0.0500  0.7500
+ Co17 Co  0.9000  0.3000  0.5000",True,False
+GeH4,13,20,gpt-5-chat,"```cif
+data_GeH4_P1
+_cell_length_a    5.000
+_cell_length_b    5.000
+_cell_length_c    5.000
+_cell_angle_alpha 90
+_cell_angle_beta  90
+_cell_angle_gamma 90
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Ge1  Ge  0.5000  0.5000  0.5000
+ H1   H   0.3000  0.5000  0.5000
+ H2   H   0.6580  0.6420  0.3580
+ H3   H   0.6420  0.3580  0.6420
+ H4   H   0.3580  0.6420  0.6420
+```","data_GeH4_P1
+_cell_length_a    5.000
+_cell_length_b    5.000
+_cell_length_c    5.000
+_cell_angle_alpha 90
+_cell_angle_beta  90
+_cell_angle_gamma 90
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Ge1  Ge  0.5000  0.5000  0.5000
+ H1   H   0.3000  0.5000  0.5000
+ H2   H   0.6580  0.6420  0.3580
+ H3   H   0.6420  0.3580  0.6420
+ H4   H   0.3580  0.6420  0.6420",True,False
+CsPbI3,62,20,gpt-5-chat,"```cif
+data_CsPbI3_P1
+_cell_length_a    6.300
+_cell_length_b    6.300
+_cell_length_c    6.300
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Cs1  Cs  0.0000  0.0000  0.0000
+ Pb1  Pb  0.5000  0.5000  0.5000
+ I1   I   0.5000  0.0000  0.0000
+ I2   I   0.0000  0.5000  0.0000
+ I3   I   0.0000  0.0000  0.5000
+```","data_CsPbI3_P1
+_cell_length_a    6.300
+_cell_length_b    6.300
+_cell_length_c    6.300
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Cs1  Cs  0.0000  0.0000  0.0000
+ Pb1  Pb  0.5000  0.5000  0.5000
+ I1   I   0.5000  0.0000  0.0000
+ I2   I   0.0000  0.5000  0.0000
+ I3   I   0.0000  0.0000  0.5000",True,False
+NaCaAlPHO5F2,11,24,gpt-5-chat,"Sure! Since NaCaAlPHO₅F₂ is not a known compound in the literature, I will create a plausible stable crystal structure in space group **P1** (no symmetry). I’ll select reasonable cell parameters and coordinates to avoid unphysical overlaps.  
+
+Here is the requested CIF content:  
+
+```cif
+data_NaCaAlPHO5F2
+_cell_length_a    7.850
+_cell_length_b    8.120
+_cell_length_c    9.430
+_cell_angle_alpha 92.10
+_cell_angle_beta  107.35
+_cell_angle_gamma 98.42
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Na1 Na 0.112 0.245 0.376
+Ca1 Ca 0.714 0.834 0.592
+Al1 Al 0.412 0.526 0.214
+P1  P  0.273 0.641 0.842
+O1  O  0.136 0.512 0.914
+O2  O  0.314 0.782 0.726
+O3  O  0.498 0.641 0.156
+O4  O  0.762 0.354 0.022
+O5  O  0.896 0.125 0.338
+F1  F  0.284 0.941 0.116
+F2  F  0.584 0.221 0.948
+```  
+
+This file contains:  
+- **data block** naming the composition.  
+- **cell parameters** for a plausible triclinic P1 unit cell.  
+- **loop** listing each atom explicitly with fractional coordinates.  
+
+Would you like me to also generate a visualization of this hypothetical structure to verify interatomic distances?","data_NaCaAlPHO5F2
+_cell_length_a    7.850
+_cell_length_b    8.120
+_cell_length_c    9.430
+_cell_angle_alpha 92.10
+_cell_angle_beta  107.35
+_cell_angle_gamma 98.42
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Na1 Na 0.112 0.245 0.376
+Ca1 Ca 0.714 0.834 0.592
+Al1 Al 0.412 0.526 0.214
+P1  P  0.273 0.641 0.842
+O1  O  0.136 0.512 0.914
+O2  O  0.314 0.782 0.726
+O3  O  0.498 0.641 0.156
+O4  O  0.762 0.354 0.022
+O5  O  0.896 0.125 0.338
+F1  F  0.284 0.941 0.116
+F2  F  0.584 0.221 0.948",True,False
+LiFePO4,62,28,gpt-5-chat,"```cif
+data_LiFePO4_P1
+_cell_length_a    10.334
+_cell_length_b    6.010
+_cell_length_c    4.695
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1  Li  0.2820  0.2500  0.9780
+Li2  Li  0.7810  0.7500  0.4780
+Fe1  Fe  0.0000  0.0000  0.0000
+Fe2  Fe  0.5000  0.5000  0.5000
+P1   P   0.0960  0.2500  0.4180
+P2   P   0.5960  0.7500  0.9180
+O1   O   0.0700  0.1050  0.2880
+O2   O   0.1780  0.4050  0.5480
+O3   O   0.2360  0.0870  0.7340
+O4   O   0.7410  0.9180  0.2740
+O5   O   0.8210  0.5950  0.0420
+O6   O   0.9280  0.8910  0.7140
+O7   O   0.4250  0.5820  0.2890
+O8   O   0.5180  0.7890  0.6420
+```","data_LiFePO4_P1
+_cell_length_a    10.334
+_cell_length_b    6.010
+_cell_length_c    4.695
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1  Li  0.2820  0.2500  0.9780
+Li2  Li  0.7810  0.7500  0.4780
+Fe1  Fe  0.0000  0.0000  0.0000
+Fe2  Fe  0.5000  0.5000  0.5000
+P1   P   0.0960  0.2500  0.4180
+P2   P   0.5960  0.7500  0.9180
+O1   O   0.0700  0.1050  0.2880
+O2   O   0.1780  0.4050  0.5480
+O3   O   0.2360  0.0870  0.7340
+O4   O   0.7410  0.9180  0.2740
+O5   O   0.8210  0.5950  0.0420
+O6   O   0.9280  0.8910  0.7140
+O7   O   0.4250  0.5820  0.2890
+O8   O   0.5180  0.7890  0.6420",True,False
+Cu12Sb4S13,217,29,gpt-5-chat,"```cif
+data_Cu12Sb4S13
+_cell_length_a    10.342
+_cell_length_b    10.342
+_cell_length_c    10.342
+_cell_angle_alpha  90.0
+_cell_angle_beta   90.0
+_cell_angle_gamma  90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cu1 Cu 0.135 0.245 0.365
+Cu2 Cu 0.245 0.365 0.135
+Cu3 Cu 0.365 0.135 0.245
+Cu4 Cu 0.415 0.585 0.755
+Cu5 Cu 0.585 0.755 0.415
+Cu6 Cu 0.755 0.415 0.585
+Cu7 Cu 0.865 0.975 0.155
+Cu8 Cu 0.975 0.155 0.865
+Cu9 Cu 0.155 0.865 0.975
+Cu10 Cu 0.395 0.645 0.895
+Cu11 Cu 0.645 0.895 0.395
+Cu12 Cu 0.895 0.395 0.645
+Sb1 Sb 0.215 0.215 0.215
+Sb2 Sb 0.785 0.785 0.215
+Sb3 Sb 0.785 0.215 0.785
+Sb4 Sb 0.215 0.785 0.785
+S1  S 0.095 0.345 0.595
+S2  S 0.345 0.595 0.095
+S3  S 0.595 0.095 0.345
+S4  S 0.125 0.625 0.375
+S5  S 0.625 0.375 0.125
+S6  S 0.375 0.125 0.625
+S7  S 0.145 0.445 0.745
+S8  S 0.445 0.745 0.145
+S9  S 0.745 0.145 0.445
+S10 S 0.305 0.565 0.825
+S11 S 0.565 0.825 0.305
+S12 S 0.825 0.305 0.565
+S13 S 0.500 0.500 0.500
+```","data_Cu12Sb4S13
+_cell_length_a    10.342
+_cell_length_b    10.342
+_cell_length_c    10.342
+_cell_angle_alpha  90.0
+_cell_angle_beta   90.0
+_cell_angle_gamma  90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cu1 Cu 0.135 0.245 0.365
+Cu2 Cu 0.245 0.365 0.135
+Cu3 Cu 0.365 0.135 0.245
+Cu4 Cu 0.415 0.585 0.755
+Cu5 Cu 0.585 0.755 0.415
+Cu6 Cu 0.755 0.415 0.585
+Cu7 Cu 0.865 0.975 0.155
+Cu8 Cu 0.975 0.155 0.865
+Cu9 Cu 0.155 0.865 0.975
+Cu10 Cu 0.395 0.645 0.895
+Cu11 Cu 0.645 0.895 0.395
+Cu12 Cu 0.895 0.395 0.645
+Sb1 Sb 0.215 0.215 0.215
+Sb2 Sb 0.785 0.785 0.215
+Sb3 Sb 0.785 0.215 0.785
+Sb4 Sb 0.215 0.785 0.785
+S1  S 0.095 0.345 0.595
+S2  S 0.345 0.595 0.095
+S3  S 0.595 0.095 0.345
+S4  S 0.125 0.625 0.375
+S5  S 0.625 0.375 0.125
+S6  S 0.375 0.125 0.625
+S7  S 0.145 0.445 0.745
+S8  S 0.445 0.745 0.145
+S9  S 0.745 0.145 0.445
+S10 S 0.305 0.565 0.825
+S11 S 0.565 0.825 0.305
+S12 S 0.825 0.305 0.565
+S13 S 0.500 0.500 0.500",True,False
+MgB7,74,32,gpt-5-chat,"```cif
+data_MgB7
+_cell_length_a    5.845
+_cell_length_b    5.917
+_cell_length_c    8.205
+_cell_angle_alpha 89.76
+_cell_angle_beta  90.21
+_cell_angle_gamma 89.55
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Mg1  Mg  0.1154  0.2571  0.4533
+B1   B   0.3258  0.1345  0.1629
+B2   B   0.4471  0.3612  0.0513
+B3   B   0.2389  0.3781  0.2847
+B4   B   0.5234  0.2682  0.3395
+B5   B   0.3439  0.4869  0.4528
+B6   B   0.1568  0.1497  0.6072
+B7   B   0.4781  0.2954  0.7015
+```","data_MgB7
+_cell_length_a    5.845
+_cell_length_b    5.917
+_cell_length_c    8.205
+_cell_angle_alpha 89.76
+_cell_angle_beta  90.21
+_cell_angle_gamma 89.55
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Mg1  Mg  0.1154  0.2571  0.4533
+B1   B   0.3258  0.1345  0.1629
+B2   B   0.4471  0.3612  0.0513
+B3   B   0.2389  0.3781  0.2847
+B4   B   0.5234  0.2682  0.3395
+B5   B   0.3439  0.4869  0.4528
+B6   B   0.1568  0.1497  0.6072
+B7   B   0.4781  0.2954  0.7015",True,False
+Li3PS4,62,32,gpt-5-chat,"```cif
+data_Li3PS4_P1
+_cell_length_a    12.884
+_cell_length_b    8.278
+_cell_length_c    6.032
+_cell_angle_alpha 90.000
+_cell_angle_beta  90.000
+_cell_angle_gamma 90.000
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Li1  Li  0.1244  0.3982  0.0925
+Li2  Li  0.3765  0.1023  0.4145
+Li3  Li  0.6283  0.1987  0.0841
+Li4  Li  0.8745  0.4124  0.4078
+Li5  Li  0.2486  0.7021  0.0953
+Li6  Li  0.4820  0.7994  0.3885
+Li7  Li  0.7241  0.6010  0.0982
+Li8  Li  0.9443  0.7045  0.3846
+P1   P   0.1276  0.3983  0.3187
+P2   P   0.6253  0.1995  0.3174
+P3   P   0.2488  0.6994  0.3203
+P4   P   0.7463  0.5012  0.3161
+S1   S   0.0465  0.2834  0.2146
+S2   S   0.2153  0.5076  0.2171
+S3   S   0.0418  0.4282  0.4263
+S4   S   0.2141  0.3670  0.4192
+S5   S   0.5453  0.0821  0.2168
+S6   S   0.7039  0.3082  0.2150
+S7   S   0.5422  0.2334  0.4277
+S8   S   0.7024  0.1662  0.4223
+S9   S   0.1673  0.6428  0.2145
+S10  S   0.3256  0.8652  0.2158
+S11  S   0.1534  0.7851  0.4240
+S12  S   0.3162  0.7217  0.4213
+S13  S   0.6673  0.4428  0.2151
+S14  S   0.8223  0.6631  0.2156
+S15  S   0.6548  0.5852  0.4231
+S16  S   0.8217  0.5204  0.4209
+```","data_Li3PS4_P1
+_cell_length_a    12.884
+_cell_length_b    8.278
+_cell_length_c    6.032
+_cell_angle_alpha 90.000
+_cell_angle_beta  90.000
+_cell_angle_gamma 90.000
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Li1  Li  0.1244  0.3982  0.0925
+Li2  Li  0.3765  0.1023  0.4145
+Li3  Li  0.6283  0.1987  0.0841
+Li4  Li  0.8745  0.4124  0.4078
+Li5  Li  0.2486  0.7021  0.0953
+Li6  Li  0.4820  0.7994  0.3885
+Li7  Li  0.7241  0.6010  0.0982
+Li8  Li  0.9443  0.7045  0.3846
+P1   P   0.1276  0.3983  0.3187
+P2   P   0.6253  0.1995  0.3174
+P3   P   0.2488  0.6994  0.3203
+P4   P   0.7463  0.5012  0.3161
+S1   S   0.0465  0.2834  0.2146
+S2   S   0.2153  0.5076  0.2171
+S3   S   0.0418  0.4282  0.4263
+S4   S   0.2141  0.3670  0.4192
+S5   S   0.5453  0.0821  0.2168
+S6   S   0.7039  0.3082  0.2150
+S7   S   0.5422  0.2334  0.4277
+S8   S   0.7024  0.1662  0.4223
+S9   S   0.1673  0.6428  0.2145
+S10  S   0.3256  0.8652  0.2158
+S11  S   0.1534  0.7851  0.4240
+S12  S   0.3162  0.7217  0.4213
+S13  S   0.6673  0.4428  0.2151
+S14  S   0.8223  0.6631  0.2156
+S15  S   0.6548  0.5852  0.4231
+S16  S   0.8217  0.5204  0.4209",True,False
+Cd3As2,142,80,gpt-5-chat,"```cif
+data_Cd3As2_P1
+_cell_length_a    12.632
+_cell_length_b    12.632
+_cell_length_c    25.427
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Cd1  Cd  0.1250  0.0000  0.2500
+ Cd2  Cd  0.3750  0.0000  0.2500
+ Cd3  Cd  0.6250  0.0000  0.2500
+ Cd4  Cd  0.8750  0.0000  0.2500
+ Cd5  Cd  0.1250  0.2500  0.2500
+ Cd6  Cd  0.3750  0.2500  0.2500
+ Cd7  Cd  0.6250  0.2500  0.2500
+ Cd8  Cd  0.8750  0.2500  0.2500
+ Cd9  Cd  0.1250  0.5000  0.2500
+ Cd10 Cd  0.3750  0.5000  0.2500
+ Cd11 Cd  0.6250  0.5000  0.2500
+ Cd12 Cd  0.8750  0.5000  0.2500
+ Cd13 Cd  0.1250  0.7500  0.2500
+ Cd14 Cd  0.3750  0.7500  0.2500
+ Cd15 Cd  0.6250  0.7500  0.2500
+ Cd16 Cd  0.8750  0.7500  0.2500
+ As1  As  0.0000  0.0000  0.0000
+ As2  As  0.2500  0.0000  0.0000
+ As3  As  0.5000  0.0000  0.0000
+ As4  As  0.7500  0.0000  0.0000
+ As5  As  0.0000  0.2500  0.0000
+ As6  As  0.2500  0.2500  0.0000
+ As7  As  0.5000  0.2500  0.0000
+ As8  As  0.7500  0.2500  0.0000
+ As9  As  0.0000  0.5000  0.0000
+ As10 As  0.2500  0.5000  0.0000
+ As11 As  0.5000  0.5000  0.0000
+ As12 As  0.7500  0.5000  0.0000
+ As13 As  0.0000  0.7500  0.0000
+ As14 As  0.2500  0.7500  0.0000
+ As15 As  0.5000  0.7500  0.0000
+ As16 As  0.7500  0.7500  0.0000
+ Cd17 Cd  0.1250  0.0000  0.7500
+ Cd18 Cd  0.3750  0.0000  0.7500
+ Cd19 Cd  0.6250  0.0000  0.7500
+ Cd20 Cd  0.8750  0.0000  0.7500
+ Cd21 Cd  0.1250  0.2500  0.7500
+ Cd22 Cd  0.3750  0.2500  0.7500
+ Cd23 Cd  0.6250  0.2500  0.7500
+ Cd24 Cd  0.8750  0.2500  0.7500
+ Cd25 Cd  0.1250  0.5000  0.7500
+ Cd26 Cd  0.3750  0.5000  0.7500
+ Cd27 Cd  0.6250  0.5000  0.7500
+ Cd28 Cd  0.8750  0.5000  0.7500
+ Cd29 Cd  0.1250  0.7500  0.7500
+ Cd30 Cd  0.3750  0.7500  0.7500
+ Cd31 Cd  0.6250  0.7500  0.7500
+ Cd32 Cd  0.8750  0.7500  0.7500
+ As17 As  0.0000  0.0000  0.5000
+ As18 As  0.2500  0.0000  0.5000
+ As19 As  0.5000  0.0000  0.5000
+ As20 As  0.7500  0.0000  0.5000
+ As21 As  0.0000  0.2500  0.5000
+ As22 As  0.2500  0.2500  0.5000
+ As23 As  0.5000  0.2500  0.5000
+ As24 As  0.7500  0.2500  0.5000
+ As25 As  0.0000  0.5000  0.5000
+ As26 As  0.2500  0.5000  0.5000
+ As27 As  0.5000  0.5000  0.5000
+ As28 As  0.7500  0.5000  0.5000
+ As29 As  0.0000  0.7500  0.5000
+ As30 As  0.2500  0.7500  0.5000
+ As31 As  0.5000  0.7500  0.5000
+ As32 As  0.7500  0.7500  0.5000
+```","data_Cd3As2_P1
+_cell_length_a    12.632
+_cell_length_b    12.632
+_cell_length_c    25.427
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Cd1  Cd  0.1250  0.0000  0.2500
+ Cd2  Cd  0.3750  0.0000  0.2500
+ Cd3  Cd  0.6250  0.0000  0.2500
+ Cd4  Cd  0.8750  0.0000  0.2500
+ Cd5  Cd  0.1250  0.2500  0.2500
+ Cd6  Cd  0.3750  0.2500  0.2500
+ Cd7  Cd  0.6250  0.2500  0.2500
+ Cd8  Cd  0.8750  0.2500  0.2500
+ Cd9  Cd  0.1250  0.5000  0.2500
+ Cd10 Cd  0.3750  0.5000  0.2500
+ Cd11 Cd  0.6250  0.5000  0.2500
+ Cd12 Cd  0.8750  0.5000  0.2500
+ Cd13 Cd  0.1250  0.7500  0.2500
+ Cd14 Cd  0.3750  0.7500  0.2500
+ Cd15 Cd  0.6250  0.7500  0.2500
+ Cd16 Cd  0.8750  0.7500  0.2500
+ As1  As  0.0000  0.0000  0.0000
+ As2  As  0.2500  0.0000  0.0000
+ As3  As  0.5000  0.0000  0.0000
+ As4  As  0.7500  0.0000  0.0000
+ As5  As  0.0000  0.2500  0.0000
+ As6  As  0.2500  0.2500  0.0000
+ As7  As  0.5000  0.2500  0.0000
+ As8  As  0.7500  0.2500  0.0000
+ As9  As  0.0000  0.5000  0.0000
+ As10 As  0.2500  0.5000  0.0000
+ As11 As  0.5000  0.5000  0.0000
+ As12 As  0.7500  0.5000  0.0000
+ As13 As  0.0000  0.7500  0.0000
+ As14 As  0.2500  0.7500  0.0000
+ As15 As  0.5000  0.7500  0.0000
+ As16 As  0.7500  0.7500  0.0000
+ Cd17 Cd  0.1250  0.0000  0.7500
+ Cd18 Cd  0.3750  0.0000  0.7500
+ Cd19 Cd  0.6250  0.0000  0.7500
+ Cd20 Cd  0.8750  0.0000  0.7500
+ Cd21 Cd  0.1250  0.2500  0.7500
+ Cd22 Cd  0.3750  0.2500  0.7500
+ Cd23 Cd  0.6250  0.2500  0.7500
+ Cd24 Cd  0.8750  0.2500  0.7500
+ Cd25 Cd  0.1250  0.5000  0.7500
+ Cd26 Cd  0.3750  0.5000  0.7500
+ Cd27 Cd  0.6250  0.5000  0.7500
+ Cd28 Cd  0.8750  0.5000  0.7500
+ Cd29 Cd  0.1250  0.7500  0.7500
+ Cd30 Cd  0.3750  0.7500  0.7500
+ Cd31 Cd  0.6250  0.7500  0.7500
+ Cd32 Cd  0.8750  0.7500  0.7500
+ As17 As  0.0000  0.0000  0.5000
+ As18 As  0.2500  0.0000  0.5000
+ As19 As  0.5000  0.0000  0.5000
+ As20 As  0.7500  0.0000  0.5000
+ As21 As  0.0000  0.2500  0.5000
+ As22 As  0.2500  0.2500  0.5000
+ As23 As  0.5000  0.2500  0.5000
+ As24 As  0.7500  0.2500  0.5000
+ As25 As  0.0000  0.5000  0.5000
+ As26 As  0.2500  0.5000  0.5000
+ As27 As  0.5000  0.5000  0.5000
+ As28 As  0.7500  0.5000  0.5000
+ As29 As  0.0000  0.7500  0.5000
+ As30 As  0.2500  0.7500  0.5000
+ As31 As  0.5000  0.7500  0.5000
+ As32 As  0.7500  0.7500  0.5000",True,False
+Li4Ti5O12,15,42,gpt-5-chat,"```cif
+data_Li4Ti5O12_P1
+_cell_length_a      8.3600
+_cell_length_b      8.3600
+_cell_length_c      8.3600
+_cell_angle_alpha   90.000
+_cell_angle_beta    90.000
+_cell_angle_gamma   90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1  Li  0.1250  0.1250  0.1250
+Li2  Li  0.8750  0.3750  0.6250
+Li3  Li  0.3750  0.8750  0.6250
+Li4  Li  0.6250  0.6250  0.3750
+Ti1  Ti  0.0000  0.0000  0.0000
+Ti2  Ti  0.5000  0.0000  0.5000
+Ti3  Ti  0.0000  0.5000  0.5000
+Ti4  Ti  0.5000  0.5000  0.0000
+Ti5  Ti  0.2500  0.2500  0.2500
+O1   O   0.2500  0.2500  0.7500
+O2   O   0.7500  0.2500  0.2500
+O3   O   0.2500  0.7500  0.2500
+O4   O   0.7500  0.7500  0.7500
+O5   O   0.0000  0.2500  0.5000
+O6   O   0.5000  0.2500  0.0000
+O7   O   0.2500  0.0000  0.5000
+O8   O   0.7500  0.0000  0.0000
+O9   O   0.0000  0.5000  0.2500
+O10  O   0.5000  0.5000  0.7500
+O11  O   0.0000  0.0000  0.7500
+O12  O   0.5000  0.0000  0.2500
+```","data_Li4Ti5O12_P1
+_cell_length_a      8.3600
+_cell_length_b      8.3600
+_cell_length_c      8.3600
+_cell_angle_alpha   90.000
+_cell_angle_beta    90.000
+_cell_angle_gamma   90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1  Li  0.1250  0.1250  0.1250
+Li2  Li  0.8750  0.3750  0.6250
+Li3  Li  0.3750  0.8750  0.6250
+Li4  Li  0.6250  0.6250  0.3750
+Ti1  Ti  0.0000  0.0000  0.0000
+Ti2  Ti  0.5000  0.0000  0.5000
+Ti3  Ti  0.0000  0.5000  0.5000
+Ti4  Ti  0.5000  0.5000  0.0000
+Ti5  Ti  0.2500  0.2500  0.2500
+O1   O   0.2500  0.2500  0.7500
+O2   O   0.7500  0.2500  0.2500
+O3   O   0.2500  0.7500  0.2500
+O4   O   0.7500  0.7500  0.7500
+O5   O   0.0000  0.2500  0.5000
+O6   O   0.5000  0.2500  0.0000
+O7   O   0.2500  0.0000  0.5000
+O8   O   0.7500  0.0000  0.0000
+O9   O   0.0000  0.5000  0.2500
+O10  O   0.5000  0.5000  0.7500
+O11  O   0.0000  0.0000  0.7500
+O12  O   0.5000  0.0000  0.2500",True,False
+Ba2CaSi4(BO7)2,121,46,gpt-5-chat,"```cif
+data_Ba2CaSi4_BO7_2
+_cell_length_a    7.845
+_cell_length_b    8.213
+_cell_length_c    9.367
+_cell_angle_alpha  89.82
+_cell_angle_beta   90.15
+_cell_angle_gamma  89.97
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Ba1   Ba   0.1342   0.2765   0.4318
+ Ba2   Ba   0.6728   0.7439   0.9021
+ Ca1   Ca   0.4153   0.5824   0.2177
+ Si1   Si   0.2345   0.4137   0.6984
+ Si2   Si   0.7854   0.1289   0.3458
+ Si3   Si   0.5142   0.8691   0.6103
+ Si4   Si   0.9015   0.3567   0.0482
+ B1    B    0.0524   0.1876   0.7893
+ B2    B    0.3785   0.9052   0.2589
+ B3    B    0.6457   0.4821   0.5634
+ B4    B    0.9508   0.7215   0.1096
+ O1    O    0.1178   0.3524   0.8415
+ O2    O    0.2685   0.6143   0.1926
+ O3    O    0.3894   0.8175   0.4579
+ O4    O    0.5581   0.2456   0.9234
+ O5    O    0.7325   0.4867   0.2741
+ O6    O    0.8462   0.6984   0.5398
+ O7    O    0.9354   0.1529   0.8712
+ O8    O    0.0692   0.5184   0.0948
+ O9    O    0.2154   0.9305   0.3816
+ O10   O    0.3458   0.2715   0.6573
+ O11   O    0.4935   0.6128   0.9154
+ O12   O    0.6214   0.0521   0.2016
+ O13   O    0.7586   0.3748   0.4789
+ O14   O    0.8912   0.7425   0.7543
+```
+","data_Ba2CaSi4_BO7_2
+_cell_length_a    7.845
+_cell_length_b    8.213
+_cell_length_c    9.367
+_cell_angle_alpha  89.82
+_cell_angle_beta   90.15
+_cell_angle_gamma  89.97
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Ba1   Ba   0.1342   0.2765   0.4318
+ Ba2   Ba   0.6728   0.7439   0.9021
+ Ca1   Ca   0.4153   0.5824   0.2177
+ Si1   Si   0.2345   0.4137   0.6984
+ Si2   Si   0.7854   0.1289   0.3458
+ Si3   Si   0.5142   0.8691   0.6103
+ Si4   Si   0.9015   0.3567   0.0482
+ B1    B    0.0524   0.1876   0.7893
+ B2    B    0.3785   0.9052   0.2589
+ B3    B    0.6457   0.4821   0.5634
+ B4    B    0.9508   0.7215   0.1096
+ O1    O    0.1178   0.3524   0.8415
+ O2    O    0.2685   0.6143   0.1926
+ O3    O    0.3894   0.8175   0.4579
+ O4    O    0.5581   0.2456   0.9234
+ O5    O    0.7325   0.4867   0.2741
+ O6    O    0.8462   0.6984   0.5398
+ O7    O    0.9354   0.1529   0.8712
+ O8    O    0.0692   0.5184   0.0948
+ O9    O    0.2154   0.9305   0.3816
+ O10   O    0.3458   0.2715   0.6573
+ O11   O    0.4935   0.6128   0.9154
+ O12   O    0.6214   0.0521   0.2016
+ O13   O    0.7586   0.3748   0.4789
+ O14   O    0.8912   0.7425   0.7543",True,False
+Ag8GeS6,33,60,gpt-5-chat,"```cif
+data_Ag8GeS6
+_cell_length_a    10.342
+_cell_length_b    10.599
+_cell_length_c    10.723
+_cell_angle_alpha  89.96
+_cell_angle_beta   90.14
+_cell_angle_gamma  89.88
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Ag1  Ag  0.0345  0.1152  0.2478
+Ag2  Ag  0.1291  0.5364  0.4342
+Ag3  Ag  0.3109  0.2815  0.6341
+Ag4  Ag  0.4821  0.1485  0.8327
+Ag5  Ag  0.6558  0.3647  0.1226
+Ag6  Ag  0.8214  0.1926  0.3428
+Ag7  Ag  0.9493  0.4874  0.5702
+Ag8  Ag  0.7589  0.6801  0.7543
+Ge1  Ge  0.2445  0.2463  0.2539
+S1   S   0.1423  0.3628  0.1285
+S2   S   0.3516  0.1393  0.4712
+S3   S   0.5417  0.4538  0.2524
+S4   S   0.1369  0.5407  0.7892
+S5   S   0.6592  0.2465  0.6301
+S6   S   0.3852  0.6914  0.6245
+```","data_Ag8GeS6
+_cell_length_a    10.342
+_cell_length_b    10.599
+_cell_length_c    10.723
+_cell_angle_alpha  89.96
+_cell_angle_beta   90.14
+_cell_angle_gamma  89.88
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Ag1  Ag  0.0345  0.1152  0.2478
+Ag2  Ag  0.1291  0.5364  0.4342
+Ag3  Ag  0.3109  0.2815  0.6341
+Ag4  Ag  0.4821  0.1485  0.8327
+Ag5  Ag  0.6558  0.3647  0.1226
+Ag6  Ag  0.8214  0.1926  0.3428
+Ag7  Ag  0.9493  0.4874  0.5702
+Ag8  Ag  0.7589  0.6801  0.7543
+Ge1  Ge  0.2445  0.2463  0.2539
+S1   S   0.1423  0.3628  0.1285
+S2   S   0.3516  0.1393  0.4712
+S3   S   0.5417  0.4538  0.2524
+S4   S   0.1369  0.5407  0.7892
+S5   S   0.6592  0.2465  0.6301
+S6   S   0.3852  0.6914  0.6245",True,False
+Nd2Fe14B,136,68,gpt-5-chat,"```cif
+data_Nd2Fe14B_P1
+_cell_length_a    8.7950
+_cell_length_b    8.7950
+_cell_length_c   12.1900
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Nd1 Nd 0.9717 0.2733 0.0000
+Nd2 Nd 0.3531 0.1172 0.0000
+Fe1 Fe 0.0000 0.0000 0.0000
+Fe2 Fe 0.1008 0.1698 0.0000
+Fe3 Fe 0.5000 0.0000 0.0000
+Fe4 Fe 0.3006 0.3155 0.0000
+Fe5 Fe 0.1819 0.0000 0.2978
+Fe6 Fe 0.3629 0.2508 0.2978
+Fe7 Fe 0.5000 0.0000 0.3061
+Fe8 Fe 0.5000 0.2500 0.2884
+Fe9 Fe 0.2036 0.2500 0.5763
+Fe10 Fe 0.0303 0.0857 0.5800
+Fe11 Fe 0.1775 0.4067 0.5800
+Fe12 Fe 0.5000 0.5000 0.5800
+Fe13 Fe 0.2709 0.5000 0.5800
+Fe14 Fe 0.0360 0.5000 0.5800
+B1  B  0.1665 0.1258 0.0000
+```","data_Nd2Fe14B_P1
+_cell_length_a    8.7950
+_cell_length_b    8.7950
+_cell_length_c   12.1900
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Nd1 Nd 0.9717 0.2733 0.0000
+Nd2 Nd 0.3531 0.1172 0.0000
+Fe1 Fe 0.0000 0.0000 0.0000
+Fe2 Fe 0.1008 0.1698 0.0000
+Fe3 Fe 0.5000 0.0000 0.0000
+Fe4 Fe 0.3006 0.3155 0.0000
+Fe5 Fe 0.1819 0.0000 0.2978
+Fe6 Fe 0.3629 0.2508 0.2978
+Fe7 Fe 0.5000 0.0000 0.3061
+Fe8 Fe 0.5000 0.2500 0.2884
+Fe9 Fe 0.2036 0.2500 0.5763
+Fe10 Fe 0.0303 0.0857 0.5800
+Fe11 Fe 0.1775 0.4067 0.5800
+Fe12 Fe 0.5000 0.5000 0.5800
+Fe13 Fe 0.2709 0.5000 0.5800
+Fe14 Fe 0.0360 0.5000 0.5800
+B1  B  0.1665 0.1258 0.0000",True,False
+Y3Al5O12,230,80,gpt-5-chat,"```cif
+data_Y3Al5O12_P1
+_cell_length_a    12.010
+_cell_length_b    12.010
+_cell_length_c    12.010
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Y1  Y  0.375  0.000  0.250
+Y2  Y  0.000  0.250  0.375
+Y3  Y  0.250  0.375  0.000
+Al1 Al 0.000  0.000  0.000
+Al2 Al 0.000  0.500  0.500
+Al3 Al 0.500  0.000  0.500
+Al4 Al 0.500  0.500  0.000
+Al5 Al 0.250  0.250  0.250
+O1  O  0.033  0.281  0.437
+O2  O  0.281  0.437  0.033
+O3  O  0.437  0.033  0.281
+O4  O  0.719  0.125  0.563
+O5  O  0.125  0.563  0.719
+O6  O  0.563  0.719  0.125
+O7  O  0.151  0.469  0.351
+O8  O  0.469  0.351  0.151
+O9  O  0.351  0.151  0.469
+O10 O  0.625  0.375  0.875
+O11 O  0.375  0.875  0.625
+O12 O  0.875  0.625  0.375
+```","data_Y3Al5O12_P1
+_cell_length_a    12.010
+_cell_length_b    12.010
+_cell_length_c    12.010
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Y1  Y  0.375  0.000  0.250
+Y2  Y  0.000  0.250  0.375
+Y3  Y  0.250  0.375  0.000
+Al1 Al 0.000  0.000  0.000
+Al2 Al 0.000  0.500  0.500
+Al3 Al 0.500  0.000  0.500
+Al4 Al 0.500  0.500  0.000
+Al5 Al 0.250  0.250  0.250
+O1  O  0.033  0.281  0.437
+O2  O  0.281  0.437  0.033
+O3  O  0.437  0.033  0.281
+O4  O  0.719  0.125  0.563
+O5  O  0.125  0.563  0.719
+O6  O  0.563  0.719  0.125
+O7  O  0.151  0.469  0.351
+O8  O  0.469  0.351  0.151
+O9  O  0.351  0.151  0.469
+O10 O  0.625  0.375  0.875
+O11 O  0.375  0.875  0.625
+O12 O  0.875  0.625  0.375",True,False
+Ca14MnSb11,142,104,gpt-5-chat,"```cif
+data_Ca14MnSb11
+_cell_length_a    16.700
+_cell_length_b    16.700
+_cell_length_c    16.700
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ca1  Ca  0.1234  0.2156  0.0877
+Ca2  Ca  0.2567  0.1453  0.3345
+Ca3  Ca  0.3411  0.2987  0.1149
+Ca4  Ca  0.4124  0.1890  0.4021
+Ca5  Ca  0.4789  0.3245  0.2653
+Ca6  Ca  0.5213  0.2109  0.5312
+Ca7  Ca  0.6018  0.3754  0.3310
+Ca8  Ca  0.6451  0.2850  0.5923
+Ca9  Ca  0.7017  0.3986  0.4032
+Ca10 Ca  0.7520  0.3123  0.6659
+Ca11 Ca  0.8125  0.4238  0.4790
+Ca12 Ca  0.8549  0.3389  0.7404
+Ca13 Ca  0.9123  0.4521  0.5567
+Ca14 Ca  0.9548  0.3678  0.8180
+Mn1  Mn  0.5000  0.5000  0.5000
+Sb1  Sb  0.1345  0.5234  0.2765
+Sb2  Sb  0.2457  0.5678  0.4023
+Sb3  Sb  0.3568  0.6012  0.5129
+Sb4  Sb  0.4679  0.6456  0.6234
+Sb5  Sb  0.5789  0.6890  0.7345
+Sb6  Sb  0.6890  0.7345  0.8456
+Sb7  Sb  0.7891  0.7789  0.9123
+Sb8  Sb  0.8456  0.8123  0.9789
+Sb9  Sb  0.9123  0.8456  0.0456
+Sb10 Sb  0.9789  0.9123  0.1123
+Sb11 Sb  0.0456  0.9789  0.1789
+```","data_Ca14MnSb11
+_cell_length_a    16.700
+_cell_length_b    16.700
+_cell_length_c    16.700
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ca1  Ca  0.1234  0.2156  0.0877
+Ca2  Ca  0.2567  0.1453  0.3345
+Ca3  Ca  0.3411  0.2987  0.1149
+Ca4  Ca  0.4124  0.1890  0.4021
+Ca5  Ca  0.4789  0.3245  0.2653
+Ca6  Ca  0.5213  0.2109  0.5312
+Ca7  Ca  0.6018  0.3754  0.3310
+Ca8  Ca  0.6451  0.2850  0.5923
+Ca9  Ca  0.7017  0.3986  0.4032
+Ca10 Ca  0.7520  0.3123  0.6659
+Ca11 Ca  0.8125  0.4238  0.4790
+Ca12 Ca  0.8549  0.3389  0.7404
+Ca13 Ca  0.9123  0.4521  0.5567
+Ca14 Ca  0.9548  0.3678  0.8180
+Mn1  Mn  0.5000  0.5000  0.5000
+Sb1  Sb  0.1345  0.5234  0.2765
+Sb2  Sb  0.2457  0.5678  0.4023
+Sb3  Sb  0.3568  0.6012  0.5129
+Sb4  Sb  0.4679  0.6456  0.6234
+Sb5  Sb  0.5789  0.6890  0.7345
+Sb6  Sb  0.6890  0.7345  0.8456
+Sb7  Sb  0.7891  0.7789  0.9123
+Sb8  Sb  0.8456  0.8123  0.9789
+Sb9  Sb  0.9123  0.8456  0.0456
+Sb10 Sb  0.9789  0.9123  0.1123
+Sb11 Sb  0.0456  0.9789  0.1789",True,False

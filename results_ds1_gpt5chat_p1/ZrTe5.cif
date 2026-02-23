@@ -1,0 +1,20 @@
+data_ZrTe5_P1
+_cell_length_a    3.987
+_cell_length_b   14.530
+_cell_length_c   13.710
+_cell_angle_alpha  90.00
+_cell_angle_beta  90.00
+_cell_angle_gamma 90.00
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Zr1  Zr  0.0000  0.0000  0.0000
+Te1  Te  0.1254  0.2232  0.2135
+Te2  Te  0.3512  0.0953  0.4236
+Te3  Te  0.0953  0.3451  0.6278
+Te4  Te  0.2775  0.4264  0.8041
+Te5  Te  0.4263  0.2746  0.9879

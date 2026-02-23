@@ -1,0 +1,33 @@
+data_Y2Co17_P1
+_cell_length_a    8.510
+_cell_length_b    8.510
+_cell_length_c    8.510
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ Y1   Y   0.0000  0.0000  0.0000
+ Y2   Y   0.5000  0.5000  0.5000
+ Co1  Co  0.2000  0.3000  0.1000
+ Co2  Co  0.8000  0.7000  0.9000
+ Co3  Co  0.4000  0.6000  0.2000
+ Co4  Co  0.6000  0.4000  0.8000
+ Co5  Co  0.3000  0.2000  0.7000
+ Co6  Co  0.7000  0.8000  0.3000
+ Co7  Co  0.1000  0.5000  0.6000
+ Co8  Co  0.5000  0.1000  0.4000
+ Co9  Co  0.2500  0.7500  0.0500
+ Co10 Co  0.7500  0.2500  0.9500
+ Co11 Co  0.1500  0.8500  0.3500
+ Co12 Co  0.8500  0.1500  0.6500
+ Co13 Co  0.3500  0.6500  0.1500
+ Co14 Co  0.6500  0.3500  0.8500
+ Co15 Co  0.0500  0.4500  0.2500
+ Co16 Co  0.4500  0.0500  0.7500
+ Co17 Co  0.9000  0.3000  0.5000

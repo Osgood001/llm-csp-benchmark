@@ -1,0 +1,25 @@
+data_Bi2Te3_P1
+_cell_length_a    4.386
+_cell_length_b    4.386
+_cell_length_c    30.497
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 120.0
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Bi1  Bi  0.00000  0.00000  0.00000
+Bi2  Bi  0.33333  0.66667  0.40000
+Bi3  Bi  0.66667  0.33333  0.60000
+Te1  Te  0.00000  0.00000  0.21200
+Te2  Te  0.00000  0.00000  0.78800
+Te3  Te  0.33333  0.66667  0.01200
+Te4  Te  0.33333  0.66667  0.18800
+Te5  Te  0.66667  0.33333  0.81200
+Te6  Te  0.66667  0.33333  0.98800
+Bi4  Bi  0.00000  0.00000  0.20000
+Bi5  Bi  0.33333  0.66667  0.80000

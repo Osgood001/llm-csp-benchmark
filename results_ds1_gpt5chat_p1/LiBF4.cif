@@ -1,0 +1,26 @@
+data_LiBF4
+_cell_length_a     7.123
+_cell_length_b     7.456
+_cell_length_c     7.876
+_cell_angle_alpha  89.95
+_cell_angle_beta   90.05
+_cell_angle_gamma  90.10
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1   Li   0.125  0.250  0.375
+B1    B    0.500  0.500  0.500
+F1    F    0.550  0.450  0.450
+F2    F    0.450  0.550  0.450
+F3    F    0.450  0.450  0.550
+F4    F    0.550  0.550  0.550
+Li2   Li   0.875  0.750  0.625
+B2    B    0.000  0.000  0.000
+F5    F    0.050  0.950  0.950
+F6    F    0.950  0.050  0.950
+F7    F    0.950  0.950  0.050
+F8    F    0.050  0.050  0.050

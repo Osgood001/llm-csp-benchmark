@@ -55,7 +55,12 @@ def ask_gpt_for_cif(client, formula, model, n_atoms=None, simple=False):
     """Ask GPT to generate a CIF file for the given formula."""
     if simple:
         prompt = (
-            f"Generate a CIF file for {formula}. "
+            f"Generate a CIF file for the most stable crystal structure of {formula}. "
+            f"Use space group P1 (no symmetry operations). "
+            f"List ALL atoms explicitly with their fractional coordinates. "
+            f"Only include: data block, cell parameters, and atom_site loop "
+            f"(label, type_symbol, fract_x, fract_y, fract_z). "
+            f"No symmetry_equiv_pos, no occupancy, no other fields. "
             f"Output ONLY the CIF content between ```cif and ```."
         )
     else:

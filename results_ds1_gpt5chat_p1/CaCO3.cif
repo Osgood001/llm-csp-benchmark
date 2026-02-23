@@ -1,0 +1,19 @@
+data_CaCO3_P1
+_cell_length_a   4.990
+_cell_length_b   6.200
+_cell_length_c   5.310
+_cell_angle_alpha   90.000
+_cell_angle_beta    90.000
+_cell_angle_gamma   90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ca1   Ca   0.0000   0.0000   0.0000
+C1    C    0.2500   0.2500   0.2500
+O1    O    0.3690   0.2500   0.1120
+O2    O    0.1310   0.1120   0.3690
+O3    O    0.2500   0.3880   0.3880

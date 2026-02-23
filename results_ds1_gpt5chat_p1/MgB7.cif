@@ -1,0 +1,22 @@
+data_MgB7
+_cell_length_a    5.845
+_cell_length_b    5.917
+_cell_length_c    8.205
+_cell_angle_alpha 89.76
+_cell_angle_beta  90.21
+_cell_angle_gamma 89.55
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Mg1  Mg  0.1154  0.2571  0.4533
+B1   B   0.3258  0.1345  0.1629
+B2   B   0.4471  0.3612  0.0513
+B3   B   0.2389  0.3781  0.2847
+B4   B   0.5234  0.2682  0.3395
+B5   B   0.3439  0.4869  0.4528
+B6   B   0.1568  0.1497  0.6072
+B7   B   0.4781  0.2954  0.7015

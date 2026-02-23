@@ -1,0 +1,25 @@
+data_NaCaAlPHO5F2
+_cell_length_a    7.850
+_cell_length_b    8.120
+_cell_length_c    9.430
+_cell_angle_alpha 92.10
+_cell_angle_beta  107.35
+_cell_angle_gamma 98.42
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Na1 Na 0.112 0.245 0.376
+Ca1 Ca 0.714 0.834 0.592
+Al1 Al 0.412 0.526 0.214
+P1  P  0.273 0.641 0.842
+O1  O  0.136 0.512 0.914
+O2  O  0.314 0.782 0.726
+O3  O  0.498 0.641 0.156
+O4  O  0.762 0.354 0.022
+O5  O  0.896 0.125 0.338
+F1  F  0.284 0.941 0.116
+F2  F  0.584 0.221 0.948
