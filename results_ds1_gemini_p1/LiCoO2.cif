@@ -1,0 +1,26 @@
+data_LiCoO2_P1
+_cell_length_a 2.81600
+_cell_length_b 2.81600
+_cell_length_c 14.05000
+_cell_angle_alpha 90.00000
+_cell_angle_beta 90.00000
+_cell_angle_gamma 120.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1 Li 0.00000 0.00000 0.00000
+Li2 Li 0.66667 0.33333 0.33333
+Li3 Li 0.33333 0.66667 0.66667
+Co1 Co 0.00000 0.00000 0.50000
+Co2 Co 0.66667 0.33333 0.83333
+Co3 Co 0.33333 0.66667 0.16667
+O1 O 0.00000 0.00000 0.24000
+O2 O 0.00000 0.00000 0.76000
+O3 O 0.66667 0.33333 0.57333
+O4 O 0.66667 0.33333 0.09333
+O5 O 0.33333 0.66667 0.90667
+O6 O 0.33333 0.66667 0.42667

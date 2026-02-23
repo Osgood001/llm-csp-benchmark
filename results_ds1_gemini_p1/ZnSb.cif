@@ -1,0 +1,30 @@
+data_ZnSb_P1
+_cell_length_a 6.2180
+_cell_length_b 7.7410
+_cell_length_c 8.1150
+_cell_angle_alpha 90.000
+_cell_angle_beta 90.000
+_cell_angle_gamma 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zn1 Zn 0.1425 0.1732 0.0865
+Zn2 Zn 0.6425 0.3268 0.9135
+Zn3 Zn 0.8575 0.6732 0.4135
+Zn4 Zn 0.3575 0.8268 0.5865
+Zn5 Zn 0.8575 0.8268 0.9135
+Zn6 Zn 0.3575 0.6732 0.0865
+Zn7 Zn 0.1425 0.3268 0.5865
+Zn8 Zn 0.6425 0.1732 0.4135
+Sb1 Sb 0.1185 0.1585 0.5765
+Sb2 Sb 0.6185 0.3415 0.4235
+Sb3 Sb 0.8815 0.6585 0.9235
+Sb4 Sb 0.3815 0.8415 0.0765
+Sb5 Sb 0.8815 0.8415 0.4235
+Sb6 Sb 0.3815 0.6585 0.5765
+Sb7 Sb 0.1185 0.3415 0.0765
+Sb8 Sb 0.6185 0.1585 0.9235

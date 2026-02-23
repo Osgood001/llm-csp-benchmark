@@ -1,0 +1,18 @@
+data_hBN_P1
+_cell_length_a                    2.504
+_cell_length_b                    2.504
+_cell_length_c                    6.661
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                120.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+B1  B  0.333333  0.666667  0.250000
+B2  B  0.666667  0.333333  0.750000
+N1  N  0.333333  0.666667  0.750000
+N2  N  0.666667  0.333333  0.250000

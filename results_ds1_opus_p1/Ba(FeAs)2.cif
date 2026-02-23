@@ -1,0 +1,24 @@
+data_BaFe2As2
+_cell_length_a                    3.9625
+_cell_length_b                    3.9625
+_cell_length_c                   13.0168
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ba1   Ba  0.00000  0.00000  0.00000
+Ba2   Ba  0.50000  0.50000  0.50000
+Fe1   Fe  0.00000  0.50000  0.25000
+Fe2   Fe  0.50000  0.00000  0.25000
+Fe3   Fe  0.50000  0.00000  0.75000
+Fe4   Fe  0.00000  0.50000  0.75000
+As1   As  0.00000  0.00000  0.35450
+As2   As  0.00000  0.00000  0.64550
+As3   As  0.50000  0.50000  0.85450
+As4   As  0.50000  0.50000  0.14550

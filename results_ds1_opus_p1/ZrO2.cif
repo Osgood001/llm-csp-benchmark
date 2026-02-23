@@ -1,0 +1,26 @@
+data_ZrO2_monoclinic_baddeleyite
+_cell_length_a                    5.1505
+_cell_length_b                    5.2116
+_cell_length_c                    5.3173
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  99.230
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zr1  Zr  0.27580  0.04120  0.20890
+Zr2  Zr  0.72420  0.95880  0.79110
+Zr3  Zr  0.72420  0.54120  0.29110
+Zr4  Zr  0.27580  0.45880  0.70890
+O1   O   0.07000  0.33590  0.34060
+O2   O   0.93000  0.66410  0.65940
+O3   O   0.93000  0.83590  0.15940
+O4   O   0.07000  0.16410  0.84060
+O5   O   0.44260  0.75490  0.47890
+O6   O   0.55740  0.24510  0.52110
+O7   O   0.55740  0.25490  0.02110
+O8   O   0.44260  0.74510  0.97890

@@ -1,0 +1,27 @@
+data_ZrO2_Baddeleyite_P1
+
+_cell_length_a    5.1450
+_cell_length_b    5.2075
+_cell_length_c    5.3107
+_cell_angle_alpha 90.0000
+_cell_angle_beta  99.2300
+_cell_angle_gamma 90.0000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zr1 Zr 0.2753 0.0404 0.2080
+Zr2 Zr 0.7247 0.9596 0.7920
+Zr3 Zr 0.7247 0.5404 0.2920
+Zr4 Zr 0.2753 0.4596 0.7080
+O1  O  0.0703 0.3321 0.3406
+O2  O  0.9297 0.6679 0.6594
+O3  O  0.9297 0.8321 0.1594
+O4  O  0.0703 0.1679 0.8406
+O5  O  0.4423 0.7549 0.4789
+O6  O  0.5577 0.2451 0.5211
+O7  O  0.5577 0.2549 0.0211
+O8  O  0.4423 0.7451 0.9789

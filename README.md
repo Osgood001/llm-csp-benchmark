@@ -4,18 +4,35 @@ Evaluating how well frontier LLMs can generate valid CIF files for crystal struc
 
 ## Setup
 
-- **Prompt**: Simple — `"Generate a CIF file for {formula}. Output ONLY the CIF content between ```cif and ```."`
 - **Matching**: `pymatgen.StructureMatcher(comparator=ElementComparator())` with default tolerances (ltol=0.2, stol=0.3, angle_tol=5)
 - **Ground truth**: Benchmark dataset from CrystalFormer-CSP (Wang et al., 2024), same structures used in Tables 2-3 of the paper
 - **API**: All models accessed via luckyapi.chat OpenAI-compatible endpoint
 
+Two prompt strategies tested:
+1. **Default prompt**: `"Generate a CIF file for {formula}."` — model chooses its own format
+2. **P1 prompt**: Forces space group P1, all atoms explicit, no symmetry operations — avoids symmetry-related parse failures
+
 ## Results Summary
+
+### Default Prompt (model chooses format)
 
 | Model | CIF Parsed | Match Rate |
 |-------|-----------|------------|
 | gemini-3-pro-preview-thinking | 31/40 (77.5%) | 11/40 (27.5%) |
 | claude-opus-4-6 | 35/40 (87.5%) | 11/40 (27.5%) |
 | gpt-5-chat | 33/40 (82.5%) | 0/40 (0.0%) |
+
+### P1 Prompt (no symmetry, all atoms explicit)
+
+| Model | CIF Parsed | Match Rate |
+|-------|-----------|------------|
+| gemini-3-pro-preview-thinking | 16/40 (40.0%) | 6/40 (15.0%) |
+| claude-opus-4-6 | 28/40 (70.0%) | 6/40 (15.0%) |
+| gpt-5-chat | 40/40 (100.0%) | 3/40 (7.5%) |
+
+P1 matched formulas (all 3 models agree on): Si, GaAs, ZnO, BN, Ba(FeAs)2, ZrO2 (Gemini/Opus); Si, GaAs, ZnO (GPT-5).
+
+For comparison, **CrystalFormer-CSP** achieves **82.5%** (w/o RL) and **95%** (w/ RL) on this same dataset.
 
 ## Detailed Results (Dataset I)
 
@@ -66,30 +83,31 @@ For comparison, CrystalFormer-CSP achieves 82.5% (w/o RL) and 95% (w/ RL) on thi
 
 ## Analysis
 
-### Why GPT-5-chat scores 0%
+### Prompt strategy tradeoff
 
-GPT-5-chat generates CIF files with **incorrect symmetry operations**. For example, for GaAs (F-43m, SG 216):
-- Ground truth: 2 atoms in primitive cell
-- Opus generates: 8 atoms in conventional cell → correct, matches
-- GPT-5-chat generates: 2 atoms but with wrong/incomplete symmetry ops → pymatgen builds wrong structure → no match
+The P1 prompt reveals a clear tradeoff:
+- **GPT-5-chat benefits**: parse rate 82.5% → 100%, match rate 0% → 7.5%. Its symmetry operations were always wrong, so removing them helps.
+- **Gemini/Opus hurt**: parse rates drop (77.5% → 40%, 87.5% → 70%), match rates drop (27.5% → 15%). These models generate reasonable symmetry operations, and forcing P1 means they must enumerate all atoms — which fails for structures with >14 atoms.
 
-The core issue is that GPT-5-chat tends to list explicit atom positions for a conventional cell but with inconsistent symmetry operations, leading to structures that don't reconstruct correctly.
+### Why GPT-5-chat scores 0% with default prompt
 
-### Common failure modes across all models
+GPT-5-chat generates CIF files with **incorrect symmetry operations**. For example, for Si (Fd-3m, SG 227):
+- Correct: 192 symmetry operations, 2 Wyckoff positions → 8 atoms in conventional cell
+- GPT-5-chat: 24 operations (incomplete subset) → pymatgen builds 12 atoms → wrong structure → no match
 
-1. **Wrong polymorph**: SrTiO3 ground truth is tetragonal I4/mcm (SG 140), but all models generate cubic Pm-3m (SG 221) — the more commonly discussed phase
-2. **Incomplete symmetry operations**: Models list partial symmetry ops for complex space groups (e.g., Fd-3m needs 192 ops, models list 24)
-3. **Large unit cells**: No model matches any structure with >32 atoms — complex structures are beyond LLM capability
-4. **Parse failures**: Complex formulas (NaCaAlPHO5F2, Ba2CaSi4(BO7)2) often produce unparseable CIF
+### Common failure modes
 
-### What Gemini and Opus get right
+1. **Wrong polymorph**: SrTiO3 ground truth is tetragonal I4/mcm (SG 140), but all models generate cubic Pm-3m (SG 221)
+2. **Incomplete symmetry operations**: Models list partial symmetry ops for complex space groups
+3. **Large unit cells**: No model matches any structure with >32 atoms in either prompt mode
+4. **P1 atom enumeration**: When forced to list all atoms, models fail for structures with many atoms (>14)
 
-Both match 11/40 structures, but different ones:
+### Complementary knowledge (default prompt)
+
+Gemini and Opus both match 11/40 but different structures:
 - **Both match**: GaAs, Bi2Te3, Ba(FeAs)2, ZrO2, LiFePO4
 - **Only Gemini**: LiPF6, ZrTe5, Si3N4, ZnSb, Y2Co17, Cu12Sb4S13
 - **Only Opus**: Si, ZnO, VO2, Al2O3, CaCO3, CoSb3
-
-This suggests the models have complementary crystallographic knowledge.
 
 ## Reproduction
 

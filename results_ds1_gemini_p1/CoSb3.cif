@@ -1,0 +1,20 @@
+```cif
+data_CoSb3_P1
+_cell_length_a 9.03850
+_cell_length_b 9.03850
+_cell_length_c 9.03850
+_cell_angle_alpha 90.00000
+_cell_angle_beta 90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Co1 Co 0.25000 0.25000 0.25000
+Co2 Co 0.75000 0.75000 0.25000
+Co3 Co 0.75000 0.25000 0.75000
+Co4 Co 0.25000 0.75000 0.75000
+Co5 Co 0.75000 0.75000 0.750

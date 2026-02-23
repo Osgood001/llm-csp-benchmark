@@ -1,0 +1,30 @@
+data_gamma-Li3PS4
+_cell_length_a                    7.7108
+_cell_length_b                    6.5340
+_cell_length_c                    6.1353
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1   Li   0.00000   0.84570   0.00400
+Li2   Li   0.50000   0.84570   0.00400
+Li3   Li   0.24290   0.33550   0.00000
+Li4   Li   0.75710   0.33550   0.00000
+Li5   Li   0.00000   0.35250   0.50400
+Li6   Li   0.50000   0.35250   0.50400
+P1    P    0.00000   0.82080   0.49810
+P2    P    0.50000   0.82080   0.49810
+S1    S    0.00000   0.83990   0.82640
+S2    S    0.50000   0.83990   0.82640
+S3    S    0.00000   0.83200   0.17490
+S4    S    0.50000   0.83200   0.17490
+S5    S    0.23080   0.66720   0.43100
+S6    S    0.76920   0.66720   0.43100
+S7    S    0.23080   0.97440   0.56710
+S8    S    0.76920   0.97440   0.56710

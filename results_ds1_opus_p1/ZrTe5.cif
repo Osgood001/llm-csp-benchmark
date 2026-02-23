@@ -1,0 +1,40 @@
+data_ZrTe5_P1
+_cell_length_a   3.9875
+_cell_length_b   14.5300
+_cell_length_c   13.7270
+_cell_angle_alpha 90.000
+_cell_angle_beta  90.000
+_cell_angle_gamma 90.000
+_symmetry_space_group_name_H-M  'P 1'
+_symmetry_Int_Tables_number      1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zr1   Zr  0.00000  0.61490  0.25000
+Zr2   Zr  0.50000  0.88510  0.75000
+Zr3   Zr  0.00000  0.38510  0.75000
+Zr4   Zr  0.50000  0.11490  0.25000
+Te1a  Te  0.00000  0.01760  0.25000
+Te1b  Te  0.50000  0.48240  0.75000
+Te1c  Te  0.00000  0.98240  0.75000
+Te1d  Te  0.50000  0.51760  0.25000
+Te2a  Te  0.00000  0.27640  0.34870
+Te2b  Te  0.00000  0.27640  0.15130
+Te2c  Te  0.50000  0.22360  0.84870
+Te2d  Te  0.50000  0.22360  0.65130
+Te2e  Te  0.00000  0.72360  0.65130
+Te2f  Te  0.00000  0.72360  0.84870
+Te2g  Te  0.50000  0.77640  0.15130
+Te2h  Te  0.50000  0.77640  0.34870
+Te3a  Te  0.00000  0.42430  0.13760
+Te3b  Te  0.00000  0.42430  0.36240
+Te3c  Te  0.50000  0.07570  0.63760
+Te3d  Te  0.50000  0.07570  0.86240
+Te3e  Te  0.00000  0.57570  0.86240
+Te3f  Te  0.00000  0.57570  0.63760
+Te3g  Te  0.50000  0.92430  0.36240
+Te3h  Te  0.50000  0.92430  0.13760

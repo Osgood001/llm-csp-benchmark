@@ -1,0 +1,2526 @@
+formula,spg,n_atoms,model,gpt_raw,cif_text,parse_ok,gpt_match_gt
+C,166,4,claude-opus-4-6,"
+
+The most stable crystal structure of carbon is diamond cubic (Fd-3m), with a conventional cubic cell of a = b = c = 3.5668 Å and 8 atoms. Expressed in P1 (no symmetry), all 8 atoms must be listed explicitly.
+
+The 8 fractional positions in the diamond cubic cell are:
+
+(0, 0, 0), (1/2, 1/2, 0), (1/2, 0, 1/2), (0, 1/2, 1/2),
+(1/4, 1/4, 1/4), (3/4, 3/4, 1/4), (3/4, 1/4, 3/4), (1/4, 3/4, 3/4)
+
+```cif
+data_diamond
+_cell_length_a                    3.5668
+_cell_length_b                    3.5668
+_cell_length_c                    3.5668
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1  C  0.00000  0.00000  0.00000
+C2  C  0.50000  0.50000  0.00000
+C3  C  0.50000  0.00000  0.50000
+C4  C  0.00000  0.50000  0.50000
+C5  C  0.25000  0.25000  0.25000
+C6  C  0.75000  0.75000  0.25000
+C7  C  0.75000  0.25000  0.75000
+C8  C  0.25000  0.75000  0.75000
+```
+
+This is the full diamond cubic unit cell (a = 3.5668 Å) with all 8 carbon atoms listed explicitly in space group P1. The first four atoms form the FCC sublattice, and the remaining four are offset by (¼, ¼, ¼), giving every carbon atom tetrahedral coordination — the hallmark of the diamond structure.","data_diamond
+_cell_length_a                    3.5668
+_cell_length_b                    3.5668
+_cell_length_c                    3.5668
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1  C  0.00000  0.00000  0.00000
+C2  C  0.50000  0.50000  0.00000
+C3  C  0.50000  0.00000  0.50000
+C4  C  0.00000  0.50000  0.50000
+C5  C  0.25000  0.25000  0.25000
+C6  C  0.75000  0.75000  0.25000
+C7  C  0.75000  0.25000  0.75000
+C8  C  0.25000  0.75000  0.75000",True,False
+Si,227,2,claude-opus-4-6,"
+
+The most stable crystal structure of Si is the diamond cubic structure (Fd-3m), with a conventional cubic cell parameter of ~5.431 Å. In P1 with no symmetry, we must list all 8 atoms in the conventional cubic cell explicitly.
+
+The 8 fractional positions in the diamond cubic cell are:
+
+- (0, 0, 0), (1/2, 1/2, 0), (1/2, 0, 1/2), (0, 1/2, 1/2) — FCC sublattice
+- (1/4, 1/4, 1/4), (3/4, 3/4, 1/4), (3/4, 1/4, 3/4), (1/4, 3/4, 3/4) — offset sublattice
+
+```cif
+data_Si_diamond
+_cell_length_a                    5.43100
+_cell_length_b                    5.43100
+_cell_length_c                    5.43100
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si1  Si  0.00000  0.00000  0.00000
+Si2  Si  0.50000  0.50000  0.00000
+Si3  Si  0.50000  0.00000  0.50000
+Si4  Si  0.00000  0.50000  0.50000
+Si5  Si  0.25000  0.25000  0.25000
+Si6  Si  0.75000  0.75000  0.25000
+Si7  Si  0.75000  0.25000  0.75000
+Si8  Si  0.25000  0.75000  0.75000
+```","data_Si_diamond
+_cell_length_a                    5.43100
+_cell_length_b                    5.43100
+_cell_length_c                    5.43100
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si1  Si  0.00000  0.00000  0.00000
+Si2  Si  0.50000  0.50000  0.00000
+Si3  Si  0.50000  0.00000  0.50000
+Si4  Si  0.00000  0.50000  0.50000
+Si5  Si  0.25000  0.25000  0.25000
+Si6  Si  0.75000  0.75000  0.25000
+Si7  Si  0.75000  0.25000  0.75000
+Si8  Si  0.25000  0.75000  0.75000",True,True
+GaAs,216,2,claude-opus-4-6,"
+
+GaAs most stable structure is zinc blende (F-43m, space group 216). The conventional cubic cell has lattice parameter a = 5.6533 Å. In P1 with no symmetry, we must list all 8 atoms explicitly (4 Ga + 4 As).
+
+Zinc blende basis in the conventional cubic cell:
+- 4 Ga at (0,0,0), (0,½,½), (½,0,½), (½,½,0)
+- 4 As at (¼,¼,¼), (¼,¾,¾), (¾,¼,¾), (¾,¾,¼)
+
+```cif
+data_GaAs_zincblende_P1
+_cell_length_a                    5.6533
+_cell_length_b                    5.6533
+_cell_length_c                    5.6533
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ga1  Ga  0.00000  0.00000  0.00000
+Ga2  Ga  0.00000  0.50000  0.50000
+Ga3  Ga  0.50000  0.00000  0.50000
+Ga4  Ga  0.50000  0.50000  0.00000
+As1  As  0.25000  0.25000  0.25000
+As2  As  0.25000  0.75000  0.75000
+As3  As  0.75000  0.25000  0.75000
+As4  As  0.75000  0.75000  0.25000
+```","data_GaAs_zincblende_P1
+_cell_length_a                    5.6533
+_cell_length_b                    5.6533
+_cell_length_c                    5.6533
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ga1  Ga  0.00000  0.00000  0.00000
+Ga2  Ga  0.00000  0.50000  0.50000
+Ga3  Ga  0.50000  0.00000  0.50000
+Ga4  Ga  0.50000  0.50000  0.00000
+As1  As  0.25000  0.25000  0.25000
+As2  As  0.25000  0.75000  0.75000
+As3  As  0.75000  0.25000  0.75000
+As4  As  0.75000  0.75000  0.25000",True,True
+ZnO,186,4,claude-opus-4-6,"
+
+The most stable crystal structure of ZnO is wurtzite (B4). In the conventional hexagonal cell (space group P6₃mc), the parameters are approximately a = b = 3.2495 Å, c = 5.2069 Å, α = β = 90°, γ = 120°, with 4 atoms (2 Zn + 2 O).
+
+In P1 we must list all 4 atoms explicitly:
+
+| Atom | x | y | z |
+|------|-----|-----|-----|
+| Zn1 | 1/3 | 2/3 | 0 |
+| Zn2 | 2/3 | 1/3 | 1/2 |
+| O1 | 1/3 | 2/3 | 0.3821 |
+| O2 | 2/3 | 1/3 | 0.8821 |
+
+```cif
+data_ZnO_wurtzite_P1
+_cell_length_a                    3.2495
+_cell_length_b                    3.2495
+_cell_length_c                    5.2069
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                120.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zn1  Zn  0.33333  0.66667  0.00000
+Zn2  Zn  0.66667  0.33333  0.50000
+O1   O   0.33333  0.66667  0.38210
+O2   O   0.66667  0.33333  0.88210
+```
+
+The internal parameter u ≈ 0.3821 for oxygen gives the characteristic tetrahedral Zn–O bonding of the wurtzite structure. Each Zn is tetrahedrally coordinated by 4 O atoms, and vice versa.","data_ZnO_wurtzite_P1
+_cell_length_a                    3.2495
+_cell_length_b                    3.2495
+_cell_length_c                    5.2069
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                120.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zn1  Zn  0.33333  0.66667  0.00000
+Zn2  Zn  0.66667  0.33333  0.50000
+O1   O   0.33333  0.66667  0.38210
+O2   O   0.66667  0.33333  0.88210",True,True
+BN,194,4,claude-opus-4-6,"
+
+The most stable crystal structure of BN is hexagonal boron nitride (h-BN), which has a layered graphite-like structure. In space group P6₃/mmc (No. 194), the conventional hexagonal cell contains 2 B and 2 N atoms. The standard lattice parameters are a = b ≈ 2.504 Å, c ≈ 6.661 Å, α = β = 90°, γ = 120°.
+
+When expanded to P1, all 4 atoms must be listed explicitly.
+
+```cif
+data_hBN_P1
+_cell_length_a                    2.504
+_cell_length_b                    2.504
+_cell_length_c                    6.661
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                120.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+B1  B  0.333333  0.666667  0.250000
+B2  B  0.666667  0.333333  0.750000
+N1  N  0.333333  0.666667  0.750000
+N2  N  0.666667  0.333333  0.250000
+```
+
+This lists all 4 atoms in the P1 unit cell of h-BN. The B and N atoms sit at the 2c and 2d Wyckoff positions of the parent P6₃/mmc space group, with B–N pairs stacked directly above each other along c (AA' stacking), which is the defining feature of h-BN.","data_hBN_P1
+_cell_length_a                    2.504
+_cell_length_b                    2.504
+_cell_length_c                    6.661
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                120.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+B1  B  0.333333  0.666667  0.250000
+B2  B  0.666667  0.333333  0.750000
+N1  N  0.333333  0.666667  0.750000
+N2  N  0.666667  0.333333  0.250000",True,True
+LiCoO2,227,16,claude-opus-4-6,"
+
+The most stable structure of LiCoO₂ is the layered α-NaFeO₂ type (R-3m, hexagonal setting: a ≈ 2.8156 Å, c ≈ 14.0542 Å). In the conventional hexagonal cell there are 3 formula units (12 atoms total). Expanding to P1 means listing all 12 atoms explicitly.
+
+The R-3m positions (hexagonal axes) for the 4 atoms in the asymmetric unit are:
+
+- Li at 3b (0, 0, ½)
+- Co at 3a (0, 0, 0)
+- O at 6c (0, 0, ~0.2601)
+
+Applying the three R-centering translations (0,0,0), (⅔,⅓,⅓), (⅓,⅔,⅔) gives all 12 atoms.
+
+```cif
+data_LiCoO2
+_cell_length_a                    2.8156
+_cell_length_b                    2.8156
+_cell_length_c                   14.0542
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma               120.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1  Li  0.000000  0.000000  0.500000
+Li2  Li  0.666667  0.333333  0.833333
+Li3  Li  0.333333  0.666667  0.166667
+Co1  Co  0.000000  0.000000  0.000000
+Co2  Co  0.666667  0.333333  0.333333
+Co3  Co  0.333333  0.666667  0.666667
+O1   O   0.000000  0.000000  0.260100
+O2   O   0.666667  0.333333  0.593433
+O3   O   0.333333  0.666667  0.926767
+O4   O   0.000000  0.000000  0.739900
+O5   O   0.666667  0.333333  0.073233
+O6   O   0.333333  0.666667  0.406567
+```","data_LiCoO2
+_cell_length_a                    2.8156
+_cell_length_b                    2.8156
+_cell_length_c                   14.0542
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma               120.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1  Li  0.000000  0.000000  0.500000
+Li2  Li  0.666667  0.333333  0.833333
+Li3  Li  0.333333  0.666667  0.166667
+Co1  Co  0.000000  0.000000  0.000000
+Co2  Co  0.666667  0.333333  0.333333
+Co3  Co  0.333333  0.666667  0.666667
+O1   O   0.000000  0.000000  0.260100
+O2   O   0.666667  0.333333  0.593433
+O3   O   0.333333  0.666667  0.926767
+O4   O   0.000000  0.000000  0.739900
+O5   O   0.666667  0.333333  0.073233
+O6   O   0.333333  0.666667  0.406567",True,False
+Bi2Te3,166,5,claude-opus-4-6,"
+
+Bi₂Te₃ crystallizes in the rhombohedral structure (R-3m, #166). The conventional hexagonal cell has parameters a ≈ 4.386 Å, c ≈ 30.497 Å, with 15 atoms (6 Bi + 9 Te) arranged in quintuple layers. Expanding to P1 with no symmetry, we list all 15 atoms explicitly.
+
+```cif
+data_Bi2Te3_P1
+_cell_length_a                    4.3860
+_cell_length_b                    4.3860
+_cell_length_c                   30.4970
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma               120.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Te1   Te  0.00000  0.00000  0.00000
+Bi1   Bi  0.33333  0.66667  0.06040
+Te2   Te  0.66667  0.33333  0.13170
+Te3   Te  0.00000  0.00000  0.21220
+Bi2   Bi  0.33333  0.66667  0.27260
+Te4   Te  0.66667  0.33333  0.33333
+Bi3   Bi  0.00000  0.00000  0.39373
+Te5   Te  0.33333  0.66667  0.45553
+Te6   Te  0.66667  0.33333  0.54447
+Bi4   Bi  0.00000  0.00000  0.60627
+Te7   Te  0.33333  0.66667  0.66667
+Bi5   Bi  0.66667  0.33333  0.72740
+Te8   Te  0.00000  0.00000  0.78780
+Te9   Te  0.33333  0.66667  0.86830
+Bi6   Bi  0.66667  0.33333  0.93960
+```
+
+This lists all 15 atoms in the hexagonal cell (3 formula units of Bi₂Te₃ → 6 Bi + 9 Te). The fractional coordinates follow the well-known quintuple-layer stacking along c, with the three-fold R-centering translations (0,0,0), (⅓,⅔,⅔), (⅔,⅓,⅓) applied explicitly so no symmetry operations are needed.","data_Bi2Te3_P1
+_cell_length_a                    4.3860
+_cell_length_b                    4.3860
+_cell_length_c                   30.4970
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma               120.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Te1   Te  0.00000  0.00000  0.00000
+Bi1   Bi  0.33333  0.66667  0.06040
+Te2   Te  0.66667  0.33333  0.13170
+Te3   Te  0.00000  0.00000  0.21220
+Bi2   Bi  0.33333  0.66667  0.27260
+Te4   Te  0.66667  0.33333  0.33333
+Bi3   Bi  0.00000  0.00000  0.39373
+Te5   Te  0.33333  0.66667  0.45553
+Te6   Te  0.66667  0.33333  0.54447
+Bi4   Bi  0.00000  0.00000  0.60627
+Te7   Te  0.33333  0.66667  0.66667
+Bi5   Bi  0.66667  0.33333  0.72740
+Te8   Te  0.00000  0.00000  0.78780
+Te9   Te  0.33333  0.66667  0.86830
+Bi6   Bi  0.66667  0.33333  0.93960",True,False
+Ba(FeAs)2,139,5,claude-opus-4-6,"
+
+BaFe₂As₂ crystallizes in the ThCr₂Si₂-type structure (space group I4/mmm, a ≈ 3.9625 Å, c ≈ 13.0168 Å). In the conventional tetragonal cell there are 2 formula units (10 atoms). Barycentric positions (I4/mmm) are:
+
+- Ba 2a (0, 0, 0)
+- Fe 4d (0, ½, ¼)
+- As 4e (0, 0, z) with z ≈ 0.3545
+
+The body-centred lattice adds (½, ½, ½) translations, giving all 10 atoms explicitly in P1 with the same metric.
+
+```cif
+data_BaFe2As2
+_cell_length_a                    3.9625
+_cell_length_b                    3.9625
+_cell_length_c                   13.0168
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ba1   Ba  0.00000  0.00000  0.00000
+Ba2   Ba  0.50000  0.50000  0.50000
+Fe1   Fe  0.00000  0.50000  0.25000
+Fe2   Fe  0.50000  0.00000  0.25000
+Fe3   Fe  0.50000  0.00000  0.75000
+Fe4   Fe  0.00000  0.50000  0.75000
+As1   As  0.00000  0.00000  0.35450
+As2   As  0.00000  0.00000  0.64550
+As3   As  0.50000  0.50000  0.85450
+As4   As  0.50000  0.50000  0.14550
+```
+
+10 atoms total (2 Ba + 4 Fe + 4 As), consistent with Z = 2 for BaFe₂As₂ in the tetragonal cell. All coordinates are the fully expanded I4/mmm Wyckoff positions written out explicitly in P1.","data_BaFe2As2
+_cell_length_a                    3.9625
+_cell_length_b                    3.9625
+_cell_length_c                   13.0168
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ba1   Ba  0.00000  0.00000  0.00000
+Ba2   Ba  0.50000  0.50000  0.50000
+Fe1   Fe  0.00000  0.50000  0.25000
+Fe2   Fe  0.50000  0.00000  0.25000
+Fe3   Fe  0.50000  0.00000  0.75000
+Fe4   Fe  0.00000  0.50000  0.75000
+As1   As  0.00000  0.00000  0.35450
+As2   As  0.00000  0.00000  0.64550
+As3   As  0.50000  0.50000  0.85450
+As4   As  0.50000  0.50000  0.14550",True,True
+SiO2,122,6,claude-opus-4-6,"
+
+The most stable crystal structure of SiO₂ at ambient conditions is α-quartz (low quartz), space group P3₂21 (No. 154). In the conventional hexagonal cell (a ≈ 4.916 Å, c ≈ 5.4054 Å), there are 3 formula units (9 atoms). Expanding all symmetry-equivalent positions explicitly for P1:
+
+```cif
+data_alpha_quartz_SiO2_P1
+_cell_length_a                    4.9160
+_cell_length_b                    4.9160
+_cell_length_c                    5.4054
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                120.000
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number       1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si1   Si   0.46990   0.00000   0.00000
+Si2   Si   0.00000   0.46990   0.66667
+Si3   Si   0.53010   0.53010   0.33333
+O1    O    0.41440   0.26810   0.11910
+O2    O    0.73190   0.14630   0.78577
+O3    O    0.85370   0.58560   0.45243
+O4    O    0.26810   0.41440   0.88090
+O5    O    0.14630   0.73190   0.21423
+O6    O    0.58560   0.85370   0.54757
+```
+
+These are the 3 Si and 6 O positions of α-quartz fully expanded into P1, using the well-established fractional coordinates (Si at Wyckoff 3a, O at Wyckoff 6c, with x_Si ≈ 0.4699, x_O ≈ 0.4144, y_O ≈ 0.2681, z_O ≈ 0.1191).","data_alpha_quartz_SiO2_P1
+_cell_length_a                    4.9160
+_cell_length_b                    4.9160
+_cell_length_c                    5.4054
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                120.000
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number       1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si1   Si   0.46990   0.00000   0.00000
+Si2   Si   0.00000   0.46990   0.66667
+Si3   Si   0.53010   0.53010   0.33333
+O1    O    0.41440   0.26810   0.11910
+O2    O    0.73190   0.14630   0.78577
+O3    O    0.85370   0.58560   0.45243
+O4    O    0.26810   0.41440   0.88090
+O5    O    0.14630   0.73190   0.21423
+O6    O    0.58560   0.85370   0.54757",True,False
+VO2,136,6,claude-opus-4-6,"
+
+The most stable phase of VO₂ at room temperature is the monoclinic M1 phase (rutile-distorted, space group P2₁/c, but we'll list all atoms explicitly in P1). The M1 unit cell contains 4 formula units → 4 V + 8 O = 12 atoms total.
+
+```cif
+data_VO2_M1_P1
+_cell_length_a                    5.7517
+_cell_length_b                    4.5378
+_cell_length_c                    5.3825
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  122.646
+_cell_angle_gamma                 90.000
+_symmetry_space_group_name_H-M    'P 1'
+_symmetry_Int_Tables_number       1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+V1   V   0.26000  0.02100  0.28900
+V2   V   0.74000  0.97900  0.71100
+V3   V   0.76000  0.52100  0.21100
+V4   V   0.24000  0.47900  0.78900
+O1   O   0.10100  0.21000  0.20100
+O2   O   0.89900  0.79000  0.79900
+O3   O   0.39900  0.71000  0.29900
+O4   O   0.60100  0.29000  0.70100
+O5   O   0.35100  0.29000  0.00100
+O6   O   0.64900  0.71000  0.99900
+O7   O   0.14900  0.79000  0.49900
+O8   O   0.85100  0.21000  0.50100
+```
+
+This is the monoclinic M1 phase of VO₂ (the thermodynamically stable structure below ~340 K). All 12 atoms in the unit cell (4 V + 8 O) are listed explicitly with no symmetry operations, as requested. The lattice parameters and fractional coordinates correspond to the well-known Longo & Kierkegaard structural data for M1-VO₂.","data_VO2_M1_P1
+_cell_length_a                    5.7517
+_cell_length_b                    4.5378
+_cell_length_c                    5.3825
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  122.646
+_cell_angle_gamma                 90.000
+_symmetry_space_group_name_H-M    'P 1'
+_symmetry_Int_Tables_number       1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+V1   V   0.26000  0.02100  0.28900
+V2   V   0.74000  0.97900  0.71100
+V3   V   0.76000  0.52100  0.21100
+V4   V   0.24000  0.47900  0.78900
+O1   O   0.10100  0.21000  0.20100
+O2   O   0.89900  0.79000  0.79900
+O3   O   0.39900  0.71000  0.29900
+O4   O   0.60100  0.29000  0.70100
+O5   O   0.35100  0.29000  0.00100
+O6   O   0.64900  0.71000  0.99900
+O7   O   0.14900  0.79000  0.49900
+O8   O   0.85100  0.21000  0.50100",True,False
+La2CuO4,139,7,claude-opus-4-6,"
+
+La₂CuO₄ adopts the K₂NiF₄-type (T-phase) structure at room temperature in the orthorhombic space group *Bmab* (No. 64), with lattice parameters approximately a ≈ 5.363 Å, b ≈ 5.409 Å, c ≈ 13.17 Å. The conventional cell contains 4 formula units (28 atoms total). Expanding all symmetry into P1 gives the following:
+
+```cif
+data_La2CuO4_P1
+_cell_length_a                    5.3630
+_cell_length_b                    5.4090
+_cell_length_c                   13.1700
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+La1   La  0.00000  0.00000  0.36120
+La2   La  0.00000  0.00000  0.63880
+La3   La  0.50000  0.50000  0.86120
+La4   La  0.50000  0.50000  0.13880
+La5   La  0.00000  0.50000  0.11120
+La6   La  0.00000  0.50000  0.88880
+La7   La  0.50000  0.00000  0.61120
+La8   La  0.50000  0.00000  0.38880
+Cu1   Cu  0.00000  0.00000  0.00000
+Cu2   Cu  0.00000  0.50000  0.50000
+Cu3   Cu  0.50000  0.00000  0.00000
+Cu4   Cu  0.50000  0.50000  0.50000
+O1    O   0.25000  0.25000  0.00000
+O2    O   0.75000  0.75000  0.00000
+O3    O   0.25000  0.75000  0.00000
+O4    O   0.75000  0.25000  0.00000
+O5    O   0.25000  0.75000  0.50000
+O6    O   0.75000  0.25000  0.50000
+O7    O   0.25000  0.25000  0.50000
+O8    O   0.75000  0.75000  0.50000
+O9    O   0.00000  0.00000  0.18240
+O10   O   0.00000  0.00000  0.81760
+O11   O   0.50000  0.50000  0.68240
+O12   O   0.50000  0.50000  0.31760
+O13   O   0.00000  0.50000  0.31760
+O14   O   0.00000  0.50000  0.68240
+O15   O   0.50000  0.00000  0.81760
+O16   O   0.50000  0.00000  0.18240
+```
+
+This gives all 28 atoms (8 La, 4 Cu, 16 O) in the P1 expanded orthorhombic cell. The equatorial oxygens (O1–O8) sit in the CuO₂ planes at z ≈ 0 and z ≈ 0.5, while the apical oxygens (O9–O16) bridge along c at z ≈ ±0.182.","data_La2CuO4_P1
+_cell_length_a                    5.3630
+_cell_length_b                    5.4090
+_cell_length_c                   13.1700
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+La1   La  0.00000  0.00000  0.36120
+La2   La  0.00000  0.00000  0.63880
+La3   La  0.50000  0.50000  0.86120
+La4   La  0.50000  0.50000  0.13880
+La5   La  0.00000  0.50000  0.11120
+La6   La  0.00000  0.50000  0.88880
+La7   La  0.50000  0.00000  0.61120
+La8   La  0.50000  0.00000  0.38880
+Cu1   Cu  0.00000  0.00000  0.00000
+Cu2   Cu  0.00000  0.50000  0.50000
+Cu3   Cu  0.50000  0.00000  0.00000
+Cu4   Cu  0.50000  0.50000  0.50000
+O1    O   0.25000  0.25000  0.00000
+O2    O   0.75000  0.75000  0.00000
+O3    O   0.25000  0.75000  0.00000
+O4    O   0.75000  0.25000  0.00000
+O5    O   0.25000  0.75000  0.50000
+O6    O   0.75000  0.25000  0.50000
+O7    O   0.25000  0.25000  0.50000
+O8    O   0.75000  0.75000  0.50000
+O9    O   0.00000  0.00000  0.18240
+O10   O   0.00000  0.00000  0.81760
+O11   O   0.50000  0.50000  0.68240
+O12   O   0.50000  0.50000  0.31760
+O13   O   0.00000  0.50000  0.31760
+O14   O   0.00000  0.50000  0.68240
+O15   O   0.50000  0.00000  0.81760
+O16   O   0.50000  0.00000  0.18240",True,False
+LiPF6,148,8,claude-opus-4-6,"
+
+LiPF6 crystallizes in a rhombohedral structure (R-3H, #148), but since you want P1 with all atoms explicit, I need to list every atom in the conventional cell. The known structure (from Ketelaar et al. and later refinements) has Z=3 in the rhombohedral hexagonal cell. That gives 3 LiPF6 formula units → 3 Li + 3 P + 18 F = 24 atoms total.
+
+Let me generate this carefully with the known cell parameters and atomic positions expanded to P1.
+
+```cif
+data_LiPF6_P1
+_cell_length_a                    4.909
+_cell_length_b                    4.909
+_cell_length_c                   13.530
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma               120.000
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number       1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1   Li   0.00000   0.00000   0.00000
+Li2   Li   0.33333   0.66667   0.66667
+Li3   Li   0.66667   0.33333   0.33333
+P1    P    0.00000   0.00000   0.50000
+P2    P    0.33333   0.66667   0.16667
+P3    P    0.66667   0.33333   0.83333
+F1    F    0.14430   0.00000   0.39530
+F2    F    0.00000   0.14430   0.60470
+F3    F    0.85570   0.85570   0.39530
+F4    F    0.14430   0.14430   0.60470
+F5    F    0.85570   0.00000   0.60470
+F6    F    0.00000   0.85570   0.39530
+F7    F    0.47763   0.66667   0.06197
+F8    F    0.33333   0.47763   0.27137
+F9    F    0.19097   0.19097   0.06197
+F10   F    0.47763   0.47763   0.27137
+F11   F    0.19097   0.66667   0.27137
+F12   F    0.33333   0.19097   0.06197
+F13   F    0.81430   0.33333   0.72863
+F14   F    0.66667   0.81430   0.93803
+F15   F    0.52237   0.52237   0.72863
+F16   F    0.81430   0.81430   0.93803
+F17   F    0.52237   0.33333   0.93803
+F18   F    0.66667   0.52237   0.72863
+```
+
+This is the R-3H structure of LiPF6 fully expanded into P1. The cell parameters are a = b = 4.909 Å, c = 13.530 Å, γ = 120°. Each PF6 octahedron sits on a -3 site in the parent group, and the three formula units arise from the rhombohedral centering translations (0,0,0), (⅓,⅔,⅔), (⅔,⅓,⅓). The F positions were generated by applying those translations to the 6 fluorines surrounding P1 at the origin-centered octahedron.","data_LiPF6_P1
+_cell_length_a                    4.909
+_cell_length_b                    4.909
+_cell_length_c                   13.530
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma               120.000
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number       1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1   Li   0.00000   0.00000   0.00000
+Li2   Li   0.33333   0.66667   0.66667
+Li3   Li   0.66667   0.33333   0.33333
+P1    P    0.00000   0.00000   0.50000
+P2    P    0.33333   0.66667   0.16667
+P3    P    0.66667   0.33333   0.83333
+F1    F    0.14430   0.00000   0.39530
+F2    F    0.00000   0.14430   0.60470
+F3    F    0.85570   0.85570   0.39530
+F4    F    0.14430   0.14430   0.60470
+F5    F    0.85570   0.00000   0.60470
+F6    F    0.00000   0.85570   0.39530
+F7    F    0.47763   0.66667   0.06197
+F8    F    0.33333   0.47763   0.27137
+F9    F    0.19097   0.19097   0.06197
+F10   F    0.47763   0.47763   0.27137
+F11   F    0.19097   0.66667   0.27137
+F12   F    0.33333   0.19097   0.06197
+F13   F    0.81430   0.33333   0.72863
+F14   F    0.66667   0.81430   0.93803
+F15   F    0.52237   0.52237   0.72863
+F16   F    0.81430   0.81430   0.93803
+F17   F    0.52237   0.33333   0.93803
+F18   F    0.66667   0.52237   0.72863",True,False
+Al2O3,167,10,claude-opus-4-6,"
+
+The most stable crystal structure of Al₂O₃ is corundum (α-Al₂O₃). In the conventional hexagonal cell (R-3c, a=b≈4.7602 Å, c≈12.9933 Å, α=β=90°, γ=120°), there are 12 Al and 18 O atoms (Z=6). Let me generate the full P1 listing.
+
+The Al positions in R-3c (Wyckoff 12c) and O positions (Wyckoff 18e) need to be expanded to all 30 atoms.
+
+```cif
+data_Al2O3_corundum_P1
+_cell_length_a                    4.7602
+_cell_length_b                    4.7602
+_cell_length_c                    12.9933
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 120.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Al1   Al  0.00000  0.00000  0.35220
+Al2   Al  0.00000  0.00000  0.64780
+Al3   Al  0.00000  0.00000  0.85220
+Al4   Al  0.00000  0.00000  0.14780
+Al5   Al  0.33333  0.66667  0.01887
+Al6   Al  0.33333  0.66667  0.31447
+Al7   Al  0.33333  0.66667  0.68553
+Al8   Al  0.33333  0.66667  0.98113
+Al9   Al  0.66667  0.33333  0.18553
+Al10  Al  0.66667  0.33333  0.48113
+Al11  Al  0.66667  0.33333  0.51887
+Al12  Al  0.66667  0.33333  0.81447
+O1    O   0.30630  0.00000  0.25000
+O2    O   0.00000  0.30630  0.25000
+O3    O   0.69370  0.69370  0.25000
+O4    O   0.69370  0.00000  0.75000
+O5    O   0.00000  0.69370  0.75000
+O6    O   0.30630  0.30630  0.75000
+O7    O   0.63963  0.33333  0.08333
+O8    O   0.33333  0.63963  0.08333
+O9    O   0.02703  0.02703  0.08333
+O10   O   0.36037  0.33333  0.91667
+O11   O   0.33333  0.36037  0.91667
+O12   O   0.97297  0.97297  0.91667
+O13   O   0.97297  0.66667  0.41667
+O14   O   0.66667  0.97297  0.41667
+O15   O   0.36037  0.36037  0.41667
+O16   O   0.02703  0.66667  0.58333
+O17   O   0.66667  0.02703  0.58333
+O18   O   0.63963  0.63963  0.58333
+```
+
+This lists all 30 atoms (12 Al + 18 O) in the hexagonal corundum cell, fully expanded from R-3c into P1 with no symmetry operations. The fractional coordinates are derived from the standard Wyckoff positions: Al at 12c (0,0,0.35220) and O at 18e (0.30630,0,0.25), using the R-3c generators (rhombohedral centring translations at (0,0,0), (⅓,⅔,⅔), (⅔,⅓,⅓) plus the inversion/glide operations).","data_Al2O3_corundum_P1
+_cell_length_a                    4.7602
+_cell_length_b                    4.7602
+_cell_length_c                    12.9933
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 120.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Al1   Al  0.00000  0.00000  0.35220
+Al2   Al  0.00000  0.00000  0.64780
+Al3   Al  0.00000  0.00000  0.85220
+Al4   Al  0.00000  0.00000  0.14780
+Al5   Al  0.33333  0.66667  0.01887
+Al6   Al  0.33333  0.66667  0.31447
+Al7   Al  0.33333  0.66667  0.68553
+Al8   Al  0.33333  0.66667  0.98113
+Al9   Al  0.66667  0.33333  0.18553
+Al10  Al  0.66667  0.33333  0.48113
+Al11  Al  0.66667  0.33333  0.51887
+Al12  Al  0.66667  0.33333  0.81447
+O1    O   0.30630  0.00000  0.25000
+O2    O   0.00000  0.30630  0.25000
+O3    O   0.69370  0.69370  0.25000
+O4    O   0.69370  0.00000  0.75000
+O5    O   0.00000  0.69370  0.75000
+O6    O   0.30630  0.30630  0.75000
+O7    O   0.63963  0.33333  0.08333
+O8    O   0.33333  0.63963  0.08333
+O9    O   0.02703  0.02703  0.08333
+O10   O   0.36037  0.33333  0.91667
+O11   O   0.33333  0.36037  0.91667
+O12   O   0.97297  0.97297  0.91667
+O13   O   0.97297  0.66667  0.41667
+O14   O   0.66667  0.97297  0.41667
+O15   O   0.36037  0.36037  0.41667
+O16   O   0.02703  0.66667  0.58333
+O17   O   0.66667  0.02703  0.58333
+O18   O   0.63963  0.63963  0.58333",True,False
+SrTiO3,140,10,claude-opus-4-6,"
+
+```cif
+data_SrTiO3_perovskite
+_cell_length_a                    3.905
+_cell_length_b                    3.905
+_cell_length_c                    3.905
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Sr1  Sr  0.50000  0.50000  0.50000
+Ti1  Ti  0.00000  0.00000  0.00000
+O1   O   0.50000  0.00000  0.00000
+O2   O   0.00000  0.50000  0.00000
+O3   O   0.00000  0.00000  0.50000
+```
+
+This is the ideal cubic perovskite structure of SrTiO₃ (Pm-3m, a = 3.905 Å) with all 5 atoms in the unit cell listed explicitly in P1 (no symmetry applied):
+
+- Sr at the cube body center (½, ½, ½)
+- Ti at the corner origin (0, 0, 0)
+- Three O atoms at the face-center edge midpoints","data_SrTiO3_perovskite
+_cell_length_a                    3.905
+_cell_length_b                    3.905
+_cell_length_c                    3.905
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Sr1  Sr  0.50000  0.50000  0.50000
+Ti1  Ti  0.00000  0.00000  0.00000
+O1   O   0.50000  0.00000  0.00000
+O2   O   0.00000  0.50000  0.00000
+O3   O   0.00000  0.00000  0.50000",True,False
+CaCO3,167,10,claude-opus-4-6,"
+
+The most stable polymorph of CaCO₃ is calcite (trigonal, R-3c). Its conventional hexagonal cell contains 6 formula units (30 atoms). Expanding to P1 means listing all 30 atoms explicitly.
+
+Here's the CIF using well-established structural parameters (hexagonal cell: a=b≈4.989 Å, c≈17.062 Å, α=β=90°, γ=120°):
+
+```cif
+data_CaCO3_calcite_P1
+_cell_length_a                    4.9890
+_cell_length_b                    4.9890
+_cell_length_c                   17.0620
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma               120.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ca1   Ca   0.00000   0.00000   0.00000
+Ca2   Ca   0.33333   0.66667   0.33333
+Ca3   Ca   0.66667   0.33333   0.66667
+Ca4   Ca   0.00000   0.00000   0.50000
+Ca5   Ca   0.33333   0.66667   0.83333
+Ca6   Ca   0.66667   0.33333   0.16667
+C1    C    0.00000   0.00000   0.25000
+C2    C    0.33333   0.66667   0.58333
+C3    C    0.66667   0.33333   0.91667
+C4    C    0.00000   0.00000   0.75000
+C5    C    0.33333   0.66667   0.08333
+C6    C    0.66667   0.33333   0.41667
+O1    O    0.25720   0.00000   0.25000
+O2    O    0.00000   0.25720   0.25000
+O3    O    0.74280   0.74280   0.25000
+O4    O    0.59053   0.66667   0.58333
+O5    O    0.33333   0.92387   0.58333
+O6    O    0.07613   0.40947   0.58333
+O7    O    0.92387   0.33333   0.91667
+O8    O    0.66667   0.59053   0.91667
+O9    O    0.40947   0.07613   0.91667
+O10   O    0.74280   0.00000   0.75000
+O11   O    0.00000   0.74280   0.75000
+O12   O    0.25720   0.25720   0.75000
+O13   O    0.40947   0.66667   0.08333
+O14   O    0.33333   0.07613   0.08333
+O15   O    0.92387   0.59053   0.08333
+O16   O    0.07613   0.33333   0.41667
+O17   O    0.66667   0.40947   0.41667
+O18   O    0.59053   0.92387   0.41667
+```
+
+This lists all 6 Ca, 6 C, and 18 O atoms (30 total) in the P1 expanded calcite unit cell. The oxygen x-parameter ~0.2572 is the standard value from neutron diffraction refinements of calcite.","data_CaCO3_calcite_P1
+_cell_length_a                    4.9890
+_cell_length_b                    4.9890
+_cell_length_c                   17.0620
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma               120.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ca1   Ca   0.00000   0.00000   0.00000
+Ca2   Ca   0.33333   0.66667   0.33333
+Ca3   Ca   0.66667   0.33333   0.66667
+Ca4   Ca   0.00000   0.00000   0.50000
+Ca5   Ca   0.33333   0.66667   0.83333
+Ca6   Ca   0.66667   0.33333   0.16667
+C1    C    0.00000   0.00000   0.25000
+C2    C    0.33333   0.66667   0.58333
+C3    C    0.66667   0.33333   0.91667
+C4    C    0.00000   0.00000   0.75000
+C5    C    0.33333   0.66667   0.08333
+C6    C    0.66667   0.33333   0.41667
+O1    O    0.25720   0.00000   0.25000
+O2    O    0.00000   0.25720   0.25000
+O3    O    0.74280   0.74280   0.25000
+O4    O    0.59053   0.66667   0.58333
+O5    O    0.33333   0.92387   0.58333
+O6    O    0.07613   0.40947   0.58333
+O7    O    0.92387   0.33333   0.91667
+O8    O    0.66667   0.59053   0.91667
+O9    O    0.40947   0.07613   0.91667
+O10   O    0.74280   0.00000   0.75000
+O11   O    0.00000   0.74280   0.75000
+O12   O    0.25720   0.25720   0.75000
+O13   O    0.40947   0.66667   0.08333
+O14   O    0.33333   0.07613   0.08333
+O15   O    0.92387   0.59053   0.08333
+O16   O    0.07613   0.33333   0.41667
+O17   O    0.66667   0.40947   0.41667
+O18   O    0.59053   0.92387   0.41667",True,False
+TiO2,12,12,claude-opus-4-6,"
+
+The most stable polymorph of TiO₂ is rutile (space group P4₂/mnm, a = b = 4.594 Å, c = 2.959 Å). In the conventional tetragonal cell there are 2 formula units (2 Ti + 4 O). Expressed in P1 (no symmetry), all 6 atoms must be listed explicitly.
+
+Rutile's Wyckoff positions:
+- Ti at 2a: (0, 0, 0) and (½, ½, ½)
+- O at 4f: ±(u, u, 0) and ±(u+½, ½−u, ½) with u ≈ 0.3049
+
+This gives the 4 oxygen atoms: (0.3049, 0.3049, 0), (0.6951, 0.6951, 0), (0.8049, 0.1951, 0.5), (0.1951, 0.8049, 0.5).
+
+```cif
+data_TiO2_rutile_P1
+_cell_length_a                    4.5940
+_cell_length_b                    4.5940
+_cell_length_c                    2.9590
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ti1  Ti  0.00000  0.00000  0.00000
+Ti2  Ti  0.50000  0.50000  0.50000
+O1   O   0.30490  0.30490  0.00000
+O2   O   0.69510  0.69510  0.00000
+O3   O   0.80490  0.19510  0.50000
+O4   O   0.19510  0.80490  0.50000
+```","data_TiO2_rutile_P1
+_cell_length_a                    4.5940
+_cell_length_b                    4.5940
+_cell_length_c                    2.9590
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ti1  Ti  0.00000  0.00000  0.00000
+Ti2  Ti  0.50000  0.50000  0.50000
+O1   O   0.30490  0.30490  0.00000
+O2   O   0.69510  0.69510  0.00000
+O3   O   0.80490  0.19510  0.50000
+O4   O   0.19510  0.80490  0.50000",True,False
+ZrO2,14,12,claude-opus-4-6,"
+
+The most stable phase of ZrO₂ at ambient conditions is the monoclinic (baddeleyite) structure, space group P2₁/c (but we list it in P1 with all atoms explicit). The conventional monoclinic cell has 12 atoms (4 Zr + 8 O) per unit cell.
+
+Using well-established experimental parameters (Howard, Hill & Reichert, Acta Cryst. B44, 116, 1988):
+
+```cif
+data_ZrO2_monoclinic_baddeleyite
+_cell_length_a                    5.1505
+_cell_length_b                    5.2116
+_cell_length_c                    5.3173
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  99.230
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zr1  Zr  0.27580  0.04120  0.20890
+Zr2  Zr  0.72420  0.95880  0.79110
+Zr3  Zr  0.72420  0.54120  0.29110
+Zr4  Zr  0.27580  0.45880  0.70890
+O1   O   0.07000  0.33590  0.34060
+O2   O   0.93000  0.66410  0.65940
+O3   O   0.93000  0.83590  0.15940
+O4   O   0.07000  0.16410  0.84060
+O5   O   0.44260  0.75490  0.47890
+O6   O   0.55740  0.24510  0.52110
+O7   O   0.55740  0.25490  0.02110
+O8   O   0.44260  0.74510  0.97890
+```
+
+This lists all 12 atoms (4 Zr + 8 O) in the monoclinic baddeleyite unit cell with P1 symmetry (all positions given explicitly). The cell parameters and fractional coordinates correspond to the well-known ground-state structure of ZrO₂.","data_ZrO2_monoclinic_baddeleyite
+_cell_length_a                    5.1505
+_cell_length_b                    5.2116
+_cell_length_c                    5.3173
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  99.230
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zr1  Zr  0.27580  0.04120  0.20890
+Zr2  Zr  0.72420  0.95880  0.79110
+Zr3  Zr  0.72420  0.54120  0.29110
+Zr4  Zr  0.27580  0.45880  0.70890
+O1   O   0.07000  0.33590  0.34060
+O2   O   0.93000  0.66410  0.65940
+O3   O   0.93000  0.83590  0.15940
+O4   O   0.07000  0.16410  0.84060
+O5   O   0.44260  0.75490  0.47890
+O6   O   0.55740  0.24510  0.52110
+O7   O   0.55740  0.25490  0.02110
+O8   O   0.44260  0.74510  0.97890",True,True
+ZrTe5,63,12,claude-opus-4-6,"
+
+ZrTe5 crystallizes in the orthorhombic layered structure (Cmcm, #63), with lattice parameters approximately a = 3.9875 Å, b = 14.530 Å, c = 13.727 Å. The conventional cell has 4 formula units (Z=4), so 24 atoms total. Let me generate the full P1 expansion.
+
+The Cmcm Wyckoff positions for ZrTe5 are:
+- Zr: 4c (0, y, 1/4) with y ≈ 0.6149
+- Te1: 4c (0, y, 1/4) with y ≈ 0.0176
+- Te2: 8f (0, y, z) with y ≈ 0.2764, z ≈ 0.3487
+- Te3: 8f (0, y, z) with y ≈ 0.4243, z ≈ 0.1376
+
+Expanding all Cmcm symmetry operations onto these sites gives 24 atoms. Let me write the CIF now.
+
+```cif
+data_ZrTe5_P1
+_cell_length_a   3.9875
+_cell_length_b   14.5300
+_cell_length_c   13.7270
+_cell_angle_alpha 90.000
+_cell_angle_beta  90.000
+_cell_angle_gamma 90.000
+_symmetry_space_group_name_H-M  'P 1'
+_symmetry_Int_Tables_number      1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zr1   Zr  0.00000  0.61490  0.25000
+Zr2   Zr  0.50000  0.88510  0.75000
+Zr3   Zr  0.00000  0.38510  0.75000
+Zr4   Zr  0.50000  0.11490  0.25000
+Te1a  Te  0.00000  0.01760  0.25000
+Te1b  Te  0.50000  0.48240  0.75000
+Te1c  Te  0.00000  0.98240  0.75000
+Te1d  Te  0.50000  0.51760  0.25000
+Te2a  Te  0.00000  0.27640  0.34870
+Te2b  Te  0.00000  0.27640  0.15130
+Te2c  Te  0.50000  0.22360  0.84870
+Te2d  Te  0.50000  0.22360  0.65130
+Te2e  Te  0.00000  0.72360  0.65130
+Te2f  Te  0.00000  0.72360  0.84870
+Te2g  Te  0.50000  0.77640  0.15130
+Te2h  Te  0.50000  0.77640  0.34870
+Te3a  Te  0.00000  0.42430  0.13760
+Te3b  Te  0.00000  0.42430  0.36240
+Te3c  Te  0.50000  0.07570  0.63760
+Te3d  Te  0.50000  0.07570  0.86240
+Te3e  Te  0.00000  0.57570  0.86240
+Te3f  Te  0.00000  0.57570  0.63760
+Te3g  Te  0.50000  0.92430  0.36240
+Te3h  Te  0.50000  0.92430  0.13760
+```
+
+This is the full P1 expansion of ZrTe5 (Cmcm, Z=4) with all 24 atoms (4 Zr + 20 Te) listed explicitly. The fractional coordinates were generated by applying all 8 Cmcm symmetry operations — (x,y,z), (-x,-y,z+½), (-x,y,-z+½), (x,-y,-z), plus (½,½,0) centering translations — to each Wyckoff site.","data_ZrTe5_P1
+_cell_length_a   3.9875
+_cell_length_b   14.5300
+_cell_length_c   13.7270
+_cell_angle_alpha 90.000
+_cell_angle_beta  90.000
+_cell_angle_gamma 90.000
+_symmetry_space_group_name_H-M  'P 1'
+_symmetry_Int_Tables_number      1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zr1   Zr  0.00000  0.61490  0.25000
+Zr2   Zr  0.50000  0.88510  0.75000
+Zr3   Zr  0.00000  0.38510  0.75000
+Zr4   Zr  0.50000  0.11490  0.25000
+Te1a  Te  0.00000  0.01760  0.25000
+Te1b  Te  0.50000  0.48240  0.75000
+Te1c  Te  0.00000  0.98240  0.75000
+Te1d  Te  0.50000  0.51760  0.25000
+Te2a  Te  0.00000  0.27640  0.34870
+Te2b  Te  0.00000  0.27640  0.15130
+Te2c  Te  0.50000  0.22360  0.84870
+Te2d  Te  0.50000  0.22360  0.65130
+Te2e  Te  0.00000  0.72360  0.65130
+Te2f  Te  0.00000  0.72360  0.84870
+Te2g  Te  0.50000  0.77640  0.15130
+Te2h  Te  0.50000  0.77640  0.34870
+Te3a  Te  0.00000  0.42430  0.13760
+Te3b  Te  0.00000  0.42430  0.36240
+Te3c  Te  0.50000  0.07570  0.63760
+Te3d  Te  0.50000  0.07570  0.86240
+Te3e  Te  0.00000  0.57570  0.86240
+Te3f  Te  0.00000  0.57570  0.63760
+Te3g  Te  0.50000  0.92430  0.36240
+Te3h  Te  0.50000  0.92430  0.13760",True,False
+V2O5,59,14,claude-opus-4-6,"
+
+V₂O₅ crystallizes in the orthorhombic layered structure (Pmmn conventionally), with a = 11.512 Å, b = 3.564 Å, c = 4.368 Å. The unit cell contains 2 formula units (4 V + 10 O = 14 atoms). Let me generate the full P1 listing with all 14 atoms explicitly.
+
+```cif
+data_V2O5
+_cell_length_a   11.512
+_cell_length_b    3.564
+_cell_length_c    4.368
+_cell_angle_alpha 90.000
+_cell_angle_beta  90.000
+_cell_angle_gamma 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+V1   V  0.10118  0.25000  0.8917
+V2   V  0.89882  0.75000  0.1083
+V3   V  0.39882  0.25000  0.8917
+V4   V  0.60118  0.75000  0.1083
+O1   O  0.10480  0.25000  0.5310
+O2   O  0.89520  0.75000  0.4690
+O3   O  0.39520  0.25000  0.5310
+O4   O  0.60480  0.75000  0.4690
+O5   O  0.25000  0.25000  0.0010
+O6   O  0.75000  0.75000  0.9990
+O7   O  0.00000  0.25000  0.0000
+O8   O  0.50000  0.25000  0.0000
+O9   O  0.00000  0.75000  0.0000
+O10  O  0.50000  0.75000  0.0000
+```
+
+This lists all 14 atoms (4 V + 10 O) in the unit cell with fractional coordinates derived from the Pmmn structure of α-V₂O₅ (the thermodynamically stable phase), expanded to P1 with no symmetry operations applied.","data_V2O5
+_cell_length_a   11.512
+_cell_length_b    3.564
+_cell_length_c    4.368
+_cell_angle_alpha 90.000
+_cell_angle_beta  90.000
+_cell_angle_gamma 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+V1   V  0.10118  0.25000  0.8917
+V2   V  0.89882  0.75000  0.1083
+V3   V  0.39882  0.25000  0.8917
+V4   V  0.60118  0.75000  0.1083
+O1   O  0.10480  0.25000  0.5310
+O2   O  0.89520  0.75000  0.4690
+O3   O  0.39520  0.25000  0.5310
+O4   O  0.60480  0.75000  0.4690
+O5   O  0.25000  0.25000  0.0010
+O6   O  0.75000  0.75000  0.9990
+O7   O  0.00000  0.25000  0.0000
+O8   O  0.50000  0.25000  0.0000
+O9   O  0.00000  0.75000  0.0000
+O10  O  0.50000  0.75000  0.0000",True,False
+Si3N4,176,14,claude-opus-4-6,"
+
+The most stable polymorph of Si₃N₄ is β-Si₃N₄, which has the hexagonal space group P6₃/m (No. 176) with Z = 2 (so 14 atoms per unit cell: 6 Si + 8 N). Expanding to P1 means listing all 14 atoms explicitly.
+
+The conventional cell parameters are approximately a = b = 7.6044 Å, c = 2.9075 Å, α = β = 90°, γ = 120°.
+
+Let me generate the full P1 atom list from the known Wyckoff positions of β-Si₃N₄:
+
+- Si on 6h: (x, y, ¼) with x ≈ 0.1733, y ≈ 0.7695
+- N1 on 6h: (x, y, ¼) with x ≈ 0.3320, y ≈ 0.0317
+- N2 on 2c: (⅓, ⅔, ¼)
+
+I'll expand all positions through the P6₃/m generators.","The most stable polymorph of Si₃N₄ is β-Si₃N₄, which has the hexagonal space group P6₃/m (No. 176) with Z = 2 (so 14 atoms per unit cell: 6 Si + 8 N). Expanding to P1 means listing all 14 atoms explicitly.
+
+The conventional cell parameters are approximately a = b = 7.6044 Å, c = 2.9075 Å, α = β = 90°, γ = 120°.
+
+Let me generate the full P1 atom list from the known Wyckoff positions of β-Si₃N₄:
+
+- Si on 6h: (x, y, ¼) with x ≈ 0.1733, y ≈ 0.7695
+- N1 on 6h: (x, y, ¼) with x ≈ 0.3320, y ≈ 0.0317
+- N2 on 2c: (⅓, ⅔, ¼)
+
+I'll expand all positions through the P6₃/m generators.",False,False
+Fe3O4,227,14,claude-opus-4-6,"
+
+Fe₃O₄ (magnetite) has an inverse spinel structure (cubic, a ≈ 8.394 Å). The conventional cubic cell contains 8 formula units → 56 atoms (24 Fe + 32 O). In space group Fd3̄m the atoms sit on:
+
+- 8 Fe(A) at tetrahedral 8a sites
+- 16 Fe(B) at octahedral 16d sites
+- 32 O at 32e sites (u ≈ 0.2549)
+
+Expanding to P1 means listing all 56 atoms explicitly. Let me generate that.","Fe₃O₄ (magnetite) has an inverse spinel structure (cubic, a ≈ 8.394 Å). The conventional cubic cell contains 8 formula units → 56 atoms (24 Fe + 32 O). In space group Fd3̄m the atoms sit on:
+
+- 8 Fe(A) at tetrahedral 8a sites
+- 16 Fe(B) at octahedral 16d sites
+- 32 O at 32e sites (u ≈ 0.2549)
+
+Expanding to P1 means listing all 56 atoms explicitly. Let me generate that.",False,False
+Mn(FeO2)2,227,14,claude-opus-4-6,"
+
+Mn(FeO₂)₂ is MnFe₂O₄ — the well-known jacobsite, which adopts the inverse spinel structure (cubic, Fd-3m, a ≈ 8.511 Å). In the inverse spinel, the conventional cubic cell contains 8 formula units (56 atoms): 8 Mn, 16 Fe, 32 O.
+
+Since the user wants space group P1 with all atoms listed explicitly, I need to enumerate all 56 atoms. Let me build this carefully.
+
+In the inverse spinel (Fd-3m, origin choice 2):
+- Tetrahedral (8a) sites: 8 atoms at (⅛,⅛,⅛) + FCC + diamond translations → occupied by Fe in inverse spinel
+- Octahedral (16d) sites: 16 atoms at (½,½,½) + … → occupied by 8 Mn + 8 Fe (but in P1 we just label them)
+- Oxygen (32e) sites: 32 atoms at (u,u,u) with u ≈ 0.2550
+
+Let me generate all the coordinates.","Mn(FeO₂)₂ is MnFe₂O₄ — the well-known jacobsite, which adopts the inverse spinel structure (cubic, Fd-3m, a ≈ 8.511 Å). In the inverse spinel, the conventional cubic cell contains 8 formula units (56 atoms): 8 Mn, 16 Fe, 32 O.
+
+Since the user wants space group P1 with all atoms listed explicitly, I need to enumerate all 56 atoms. Let me build this carefully.
+
+In the inverse spinel (Fd-3m, origin choice 2):
+- Tetrahedral (8a) sites: 8 atoms at (⅛,⅛,⅛) + FCC + diamond translations → occupied by Fe in inverse spinel
+- Octahedral (16d) sites: 16 atoms at (½,½,½) + … → occupied by 8 Mn + 8 Fe (but in P1 we just label them)
+- Oxygen (32e) sites: 32 atoms at (u,u,u) with u ≈ 0.2550
+
+Let me generate all the coordinates.",False,False
+ZnSb,61,16,claude-opus-4-6,"
+
+ZnSb crystallizes in the orthorhombic Pbca structure (space group #61). The conventional cell contains 16 atoms (8 Zn + 8 Sb). To list all atoms explicitly in P1, I need to enumerate all 16 positions.
+
+The Pbca cell parameters are approximately a = 6.218 Å, b = 7.741 Å, c = 8.100 Å, with Zn at Wyckoff 8c (x ≈ 0.1399, y ≈ 0.0796, z ≈ 0.1089) and Sb at 8c (x ≈ 0.1461, y ≈ 0.3611, z ≈ 0.0649). Expanding via the 8 Pbca symmetry operations gives all 16 atoms.
+
+Let me generate the full CIF:
+
+```cif
+data_ZnSb
+_cell_length_a                    6.2180
+_cell_length_b                    7.7410
+_cell_length_c                    8.1000
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zn1  Zn  0.13990  0.07960  0.10890
+Zn2  Zn  0.86010  0.92040  0.89110
+Zn3  Zn  0.36010  0.57960  0.39110
+Zn4  Zn  0.63990  0.42040  0.60890
+Zn5  Zn  0.63990  0.07960  0.39110
+Zn6  Zn  0.36010  0.92040  0.60890
+Zn7  Zn  0.86010  0.57960  0.10890
+Zn8  Zn  0.13990  0.42040  0.89110
+Sb1  Sb  0.14610  0.36110  0.06490
+Sb2  Sb  0.85390  0.63890  0.93510
+Sb3  Sb  0.35390  0.86110  0.43510
+Sb4  Sb  0.64610  0.13890  0.56490
+Sb5  Sb  0.64610  0.36110  0.43510
+Sb6  Sb  0.35390  0.63890  0.56490
+Sb7  Sb  0.85390  0.86110  0.06490
+Sb8  Sb  0.14610  0.13890  0.93510
+```
+
+This lists all 16 atoms (8 Zn + 8 Sb) in the Pbca-derived unit cell, fully expanded into P1 with no symmetry operations. The coordinates come from the standard Pbca generators: (x,y,z), (-x,-y,-z), (½-x,½+y,½+z), (½+x,½-y,½-z), (-x,½+y,½-z), (x,½-y,½+z), (½+x,y,½-z) isn't needed — the 8 operations of Pbca applied to each Wyckoff 8c site.","data_ZnSb
+_cell_length_a                    6.2180
+_cell_length_b                    7.7410
+_cell_length_c                    8.1000
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zn1  Zn  0.13990  0.07960  0.10890
+Zn2  Zn  0.86010  0.92040  0.89110
+Zn3  Zn  0.36010  0.57960  0.39110
+Zn4  Zn  0.63990  0.42040  0.60890
+Zn5  Zn  0.63990  0.07960  0.39110
+Zn6  Zn  0.36010  0.92040  0.60890
+Zn7  Zn  0.86010  0.57960  0.10890
+Zn8  Zn  0.13990  0.42040  0.89110
+Sb1  Sb  0.14610  0.36110  0.06490
+Sb2  Sb  0.85390  0.63890  0.93510
+Sb3  Sb  0.35390  0.86110  0.43510
+Sb4  Sb  0.64610  0.13890  0.56490
+Sb5  Sb  0.64610  0.36110  0.43510
+Sb6  Sb  0.35390  0.63890  0.56490
+Sb7  Sb  0.85390  0.86110  0.06490
+Sb8  Sb  0.14610  0.13890  0.93510",True,False
+CoSb3,204,16,claude-opus-4-6,"
+
+CoSb₃ crystallizes in the skutterudite structure (Im−3, No. 204). The cubic cell has a ≈ 9.0385 Å. In the conventional cell there are 8 Co and 24 Sb atoms (Z = 8 for CoSb₃).
+
+Here are the well-known Wyckoff positions for skutterudite CoSb₃:
+- Co: 8c site (¼,¼,¼) and symmetry equivalents
+- Sb: 24g site (0, y, z) with y ≈ 0.3353, z ≈ 0.1579
+
+Let me generate all 32 atoms explicitly in P1.","CoSb₃ crystallizes in the skutterudite structure (Im−3, No. 204). The cubic cell has a ≈ 9.0385 Å. In the conventional cell there are 8 Co and 24 Sb atoms (Z = 8 for CoSb₃).
+
+Here are the well-known Wyckoff positions for skutterudite CoSb₃:
+- Co: 8c site (¼,¼,¼) and symmetry equivalents
+- Sb: 24g site (0, y, z) with y ≈ 0.3353, z ≈ 0.1579
+
+Let me generate all 32 atoms explicitly in P1.",False,False
+LiBF4,152,18,claude-opus-4-6,"
+
+LiBF4 crystallizes in the orthorhombic space group P3₁21 (#152) under ambient conditions, but you want it expanded to P1 with all atoms explicit. The conventional cell (Z=3) has a = b ≈ 4.9068 Å, c ≈ 11.0494 Å, α = β = 90°, γ = 120°. Expanding the 3-fold screw and 2-fold axes gives 3 formula units → 3 Li, 3 B, 12 F = 18 atoms total.
+
+```cif
+data_LiBF4_P1
+_cell_length_a                    4.9068
+_cell_length_b                    4.9068
+_cell_length_c                   11.0494
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                120.000
+_space_group_name_H-M_alt        'P 1'
+_space_group_IT_number            1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1   Li   0.00000   0.00000   0.33333
+Li2   Li   0.00000   0.00000   0.66667
+Li3   Li   0.00000   0.00000   0.00000
+B1    B    0.36460   0.00000   0.16667
+B2    B    0.00000   0.36460   0.50000
+B3    B    0.63540   0.63540   0.83333
+F1    F    0.24830   0.13690   0.08590
+F2    F    0.86310   0.11140   0.41923
+F3    F    0.88860   0.75170   0.75257
+F4    F    0.51700   0.13690   0.24743
+F5    F    0.86310   0.37610   0.58077
+F6    F    0.62390   0.48300   0.91410
+F7    F    0.13690   0.24830   0.58077
+F8    F    0.11140   0.86310   0.91410
+F9    F    0.75170   0.88860   0.24743
+F10   F    0.13690   0.51700   0.41923
+F11   F    0.37610   0.86310   0.08590
+F12   F    0.48300   0.62390   0.75257
+```
+
+This gives all 18 atoms (3 Li, 3 B, 12 F) in the P1 expanded cell derived from the experimentally determined P3₁21 structure of LiBF4. Each BF4⁻ tetrahedron is fully described with its 4 fluorines, and the three lithium sites are along the c-axis consistent with the 3₁ screw symmetry of the parent structure.","data_LiBF4_P1
+_cell_length_a                    4.9068
+_cell_length_b                    4.9068
+_cell_length_c                   11.0494
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                120.000
+_space_group_name_H-M_alt        'P 1'
+_space_group_IT_number            1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1   Li   0.00000   0.00000   0.33333
+Li2   Li   0.00000   0.00000   0.66667
+Li3   Li   0.00000   0.00000   0.00000
+B1    B    0.36460   0.00000   0.16667
+B2    B    0.00000   0.36460   0.50000
+B3    B    0.63540   0.63540   0.83333
+F1    F    0.24830   0.13690   0.08590
+F2    F    0.86310   0.11140   0.41923
+F3    F    0.88860   0.75170   0.75257
+F4    F    0.51700   0.13690   0.24743
+F5    F    0.86310   0.37610   0.58077
+F6    F    0.62390   0.48300   0.91410
+F7    F    0.13690   0.24830   0.58077
+F8    F    0.11140   0.86310   0.91410
+F9    F    0.75170   0.88860   0.24743
+F10   F    0.13690   0.51700   0.41923
+F11   F    0.37610   0.86310   0.08590
+F12   F    0.48300   0.62390   0.75257",True,False
+Y2Co17,166,19,claude-opus-4-6,"
+
+Y₂Co₁₇ crystallizes in the Th₂Zn₁₇-type structure (rhombohedral, R-3m). To express it in P1 with no symmetry, I need to list all 57 atoms (6 Y + 51 Co) in the rhombohedral unit cell explicitly.
+
+Let me build this carefully.","Y₂Co₁₇ crystallizes in the Th₂Zn₁₇-type structure (rhombohedral, R-3m). To express it in P1 with no symmetry, I need to list all 57 atoms (6 Y + 51 Co) in the rhombohedral unit cell explicitly.
+
+Let me build this carefully.",False,False
+GeH4,13,20,claude-opus-4-6,"
+
+GeH4 (germane) is a molecular crystal. At low temperatures, it crystallizes in a face-centered cubic structure (Fm-3m), but the most stable low-temperature ordered phase is the monoclinic phase (space group C2/c), observed below ~15 K. However, since you want P1 with all atoms explicit, I need to place the molecular units in the unit cell.
+
+The most commonly referenced ""most stable"" solid GeH4 structure is the low-pressure molecular crystal. Let me use the known cubic (fcc) molecular crystal phase (phase I), which is the most stable phase over the widest temperature range of solid GeH4, and expand it in P1.
+
+In the fcc molecular crystal (a ≈ 5.98 Å), there are 4 GeH4 molecules per unit cell (Z=4). The Ge atoms sit on fcc positions. In the orientationally disordered phase the H positions are averaged, but for an ordered P1 description I'll place tetrahedral GeH4 molecules (Ge–H ≈ 1.527 Å) at each fcc site with explicit H atoms.
+
+Let me compute the fractional coordinates carefully.","GeH4 (germane) is a molecular crystal. At low temperatures, it crystallizes in a face-centered cubic structure (Fm-3m), but the most stable low-temperature ordered phase is the monoclinic phase (space group C2/c), observed below ~15 K. However, since you want P1 with all atoms explicit, I need to place the molecular units in the unit cell.
+
+The most commonly referenced ""most stable"" solid GeH4 structure is the low-pressure molecular crystal. Let me use the known cubic (fcc) molecular crystal phase (phase I), which is the most stable phase over the widest temperature range of solid GeH4, and expand it in P1.
+
+In the fcc molecular crystal (a ≈ 5.98 Å), there are 4 GeH4 molecules per unit cell (Z=4). The Ge atoms sit on fcc positions. In the orientationally disordered phase the H positions are averaged, but for an ordered P1 description I'll place tetrahedral GeH4 molecules (Ge–H ≈ 1.527 Å) at each fcc site with explicit H atoms.
+
+Let me compute the fractional coordinates carefully.",False,False
+CsPbI3,62,20,claude-opus-4-6,"
+
+The most stable phase of CsPbI₃ at room temperature is the orthorhombic δ-phase (non-perovskite, Pnma, Z=4). In P1 with all atoms explicit, that's 4 formula units → 20 atoms. Let me generate this.
+
+```cif
+data_CsPbI3_delta_Pnma_P1
+
+_cell_length_a    10.4580
+_cell_length_b     4.7950
+_cell_length_c    17.7630
+_cell_angle_alpha  90.000
+_cell_angle_beta   90.000
+_cell_angle_gamma  90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cs1  Cs  0.01850  0.25000  0.16590
+Cs2  Cs  0.98150  0.75000  0.83410
+Cs3  Cs  0.51850  0.75000  0.33410
+Cs4  Cs  0.48150  0.25000  0.66590
+Pb1  Pb  0.14310  0.25000  0.41860
+Pb2  Pb  0.85690  0.75000  0.58140
+Pb3  Pb  0.64310  0.75000  0.08140
+Pb4  Pb  0.35690  0.25000  0.91860
+I1   I   0.19540  0.25000  0.56370
+I2   I   0.80460  0.75000  0.43630
+I3   I   0.69540  0.75000  0.93630
+I4   I   0.30460  0.25000  0.06370
+I5   I   0.08230  0.25000  0.27510
+I6   I   0.91770  0.75000  0.72490
+I7   I   0.58230  0.75000  0.22490
+I8   I   0.41770  0.25000  0.77510
+I9   I   0.32990  0.00710  0.38640
+I10  I   0.67010  0.99290  0.61360
+I11  I   0.82990  0.49290  0.11360
+I12  I   0.17010  0.50710  0.88640
+I13  I   0.67010  0.50710  0.61360
+I14  I   0.32990  0.49290  0.38640
+I15  I   0.82990  0.00710  0.11360
+I16  I   0.17010  0.99290  0.88640
+```
+
+This is the orthorhombic δ-CsPbI₃ (Pnma) structure — the thermodynamically stable phase at ambient conditions — fully expanded into P1 with all 20 atoms (4 Cs, 4 Pb, 12 I) listed explicitly. Cell parameters are from experimental refinements of the 1D edge-sharing chain structure.","data_CsPbI3_delta_Pnma_P1
+
+_cell_length_a    10.4580
+_cell_length_b     4.7950
+_cell_length_c    17.7630
+_cell_angle_alpha  90.000
+_cell_angle_beta   90.000
+_cell_angle_gamma  90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cs1  Cs  0.01850  0.25000  0.16590
+Cs2  Cs  0.98150  0.75000  0.83410
+Cs3  Cs  0.51850  0.75000  0.33410
+Cs4  Cs  0.48150  0.25000  0.66590
+Pb1  Pb  0.14310  0.25000  0.41860
+Pb2  Pb  0.85690  0.75000  0.58140
+Pb3  Pb  0.64310  0.75000  0.08140
+Pb4  Pb  0.35690  0.25000  0.91860
+I1   I   0.19540  0.25000  0.56370
+I2   I   0.80460  0.75000  0.43630
+I3   I   0.69540  0.75000  0.93630
+I4   I   0.30460  0.25000  0.06370
+I5   I   0.08230  0.25000  0.27510
+I6   I   0.91770  0.75000  0.72490
+I7   I   0.58230  0.75000  0.22490
+I8   I   0.41770  0.25000  0.77510
+I9   I   0.32990  0.00710  0.38640
+I10  I   0.67010  0.99290  0.61360
+I11  I   0.82990  0.49290  0.11360
+I12  I   0.17010  0.50710  0.88640
+I13  I   0.67010  0.50710  0.61360
+I14  I   0.32990  0.49290  0.38640
+I15  I   0.82990  0.00710  0.11360
+I16  I   0.17010  0.99290  0.88640",True,False
+NaCaAlPHO5F2,11,24,claude-opus-4-6,"
+
+I need to design a plausible crystal structure for NaCaAlPHO5F2 in space group P1. Let me think carefully about this composition.
+
+The formula NaCaAlPHO5F2 contains: Na, Ca, Al, P, H, 5×O, 2×F — that's 12 atoms per formula unit. This resembles a fluorapatite-related or montebrasite-related phase. Let me construct a reasonable triclinic P1 cell.
+
+With one formula unit per cell (Z=1), I need to place all 12 atoms. The chemistry suggests:
+- PO4 tetrahedron (P bonded to 4 oxygens)
+- Al in octahedral coordination with O/F
+- Ca in larger coordination
+- Na in larger coordination
+- H bonded to one O (hydroxyl)
+- The 5th O and 2 F complete the coordination
+
+Let me build a reasonable triclinic cell and place atoms with chemically sensible distances.
+
+```cif
+data_NaCaAlPHO5F2
+_cell_length_a                    6.420
+_cell_length_b                    6.880
+_cell_length_c                    7.150
+_cell_angle_alpha                 95.30
+_cell_angle_beta                  103.70
+_cell_angle_gamma                 97.50
+_symmetry_space_group_name_H-M    'P 1'
+_symmetry_Int_Tables_number       1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ca1   Ca   0.21500   0.38200   0.12400
+Na1   Na   0.72300   0.14500   0.63700
+Al1   Al   0.48200   0.68300   0.41500
+P1    P    0.09500   0.82100   0.68200
+O1    O    0.24800   0.73600   0.57300
+O2    O    0.14200   0.01200   0.73500
+O3    O    0.88100   0.76400   0.56800
+O4    O    0.09800   0.75800   0.86400
+O5    O    0.52600   0.50200   0.29100
+H1    H    0.56000   0.41200   0.19500
+F1    F    0.38500   0.85600   0.27300
+F2    F    0.60100   0.63800   0.64200
+```
+
+This structure features:
+- A PO4 tetrahedron (P1 bonded to O1–O4)
+- Al in octahedral-like coordination (O1, O3, O5, F1, F2, and a bridging O)
+- Ca in a larger irregular polyhedron
+- Na in a distorted coordination environment
+- O5–H1 forming a hydroxyl group
+- Two fluorine atoms (F1, F2) coordinating Al and Ca","data_NaCaAlPHO5F2
+_cell_length_a                    6.420
+_cell_length_b                    6.880
+_cell_length_c                    7.150
+_cell_angle_alpha                 95.30
+_cell_angle_beta                  103.70
+_cell_angle_gamma                 97.50
+_symmetry_space_group_name_H-M    'P 1'
+_symmetry_Int_Tables_number       1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ca1   Ca   0.21500   0.38200   0.12400
+Na1   Na   0.72300   0.14500   0.63700
+Al1   Al   0.48200   0.68300   0.41500
+P1    P    0.09500   0.82100   0.68200
+O1    O    0.24800   0.73600   0.57300
+O2    O    0.14200   0.01200   0.73500
+O3    O    0.88100   0.76400   0.56800
+O4    O    0.09800   0.75800   0.86400
+O5    O    0.52600   0.50200   0.29100
+H1    H    0.56000   0.41200   0.19500
+F1    F    0.38500   0.85600   0.27300
+F2    F    0.60100   0.63800   0.64200",True,False
+LiFePO4,62,28,claude-opus-4-6,"
+
+LiFePO4 (olivine, triphylite) crystallizes in the orthorhombic Pnma structure. The conventional cell has Z=4, meaning 28 atoms total (4 Li, 4 Fe, 4 P, 16 O). I'll generate all 28 atoms explicitly in P1.
+
+Let me write this out with the well-established fractional coordinates:
+
+```cif
+data_LiFePO4_olivine
+_cell_length_a   10.3290
+_cell_length_b    6.0065
+_cell_length_c    4.6920
+_cell_angle_alpha 90.000
+_cell_angle_beta  90.000
+_cell_angle_gamma 90.000
+_space_group_name_H-M_alt 'P 1'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1   Li  0.00000  0.00000  0.00000
+Li2   Li  0.50000  0.50000  0.00000
+Li3   Li  0.00000  0.50000  0.50000
+Li4   Li  0.50000  0.00000  0.50000
+Fe1   Fe  0.28220  0.25000  0.97470
+Fe2   Fe  0.71780  0.75000  0.02530
+Fe3   Fe  0.78220  0.25000  0.52530
+Fe4   Fe  0.21780  0.75000  0.47470
+P1    P   0.09480  0.25000  0.41820
+P2    P   0.90520  0.75000  0.58180
+P3    P   0.59480  0.25000  0.08180
+P4    P   0.40520  0.75000  0.91820
+O1    O   0.09680  0.25000  0.74280
+O2    O   0.90320  0.75000  0.25720
+O3    O   0.59680  0.25000  0.75720
+O4    O   0.40320  0.75000  0.24280
+O5    O   0.45710  0.25000  0.20600
+O6    O   0.54290  0.75000  0.79400
+O7    O   0.95710  0.25000  0.29400
+O8    O   0.04290  0.75000  0.70600
+O9    O   0.16580  0.04640  0.28500
+O10   O   0.83420  0.95360  0.71500
+O11   O   0.66580  0.04640  0.21500
+O12   O   0.33420  0.95360  0.78500
+O13   O   0.83420  0.54640  0.71500
+O14   O   0.16580  0.45360  0.28500
+O15   O   0.33420  0.54640  0.78500
+O16   O   0.66580  0.45360  0.21500
+```
+
+This contains all 28 atoms (4 Li + 4 Fe + 4 P + 16 O) of the Pnma olivine structure expanded into P1, using the well-known Pnma Wyckoff positions: Li at 4a, Fe at 4c, P at 4c, and O at 4c + 8d. Cell parameters are from the standard experimental structure (a ≈ 10.33 Å, b ≈ 6.01 Å, c ≈ 4.69 Å).","data_LiFePO4_olivine
+_cell_length_a   10.3290
+_cell_length_b    6.0065
+_cell_length_c    4.6920
+_cell_angle_alpha 90.000
+_cell_angle_beta  90.000
+_cell_angle_gamma 90.000
+_space_group_name_H-M_alt 'P 1'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1   Li  0.00000  0.00000  0.00000
+Li2   Li  0.50000  0.50000  0.00000
+Li3   Li  0.00000  0.50000  0.50000
+Li4   Li  0.50000  0.00000  0.50000
+Fe1   Fe  0.28220  0.25000  0.97470
+Fe2   Fe  0.71780  0.75000  0.02530
+Fe3   Fe  0.78220  0.25000  0.52530
+Fe4   Fe  0.21780  0.75000  0.47470
+P1    P   0.09480  0.25000  0.41820
+P2    P   0.90520  0.75000  0.58180
+P3    P   0.59480  0.25000  0.08180
+P4    P   0.40520  0.75000  0.91820
+O1    O   0.09680  0.25000  0.74280
+O2    O   0.90320  0.75000  0.25720
+O3    O   0.59680  0.25000  0.75720
+O4    O   0.40320  0.75000  0.24280
+O5    O   0.45710  0.25000  0.20600
+O6    O   0.54290  0.75000  0.79400
+O7    O   0.95710  0.25000  0.29400
+O8    O   0.04290  0.75000  0.70600
+O9    O   0.16580  0.04640  0.28500
+O10   O   0.83420  0.95360  0.71500
+O11   O   0.66580  0.04640  0.21500
+O12   O   0.33420  0.95360  0.78500
+O13   O   0.83420  0.54640  0.71500
+O14   O   0.16580  0.45360  0.28500
+O15   O   0.33420  0.54640  0.78500
+O16   O   0.66580  0.45360  0.21500",True,False
+Cu12Sb4S13,217,29,claude-opus-4-6,"
+
+Cu₁₂Sb₄S₁₃ is tetrahedrite, cubic space group I-43m (No. 217), with a ≈ 10.33 Å. In the conventional cubic cell there are 2 formula units → 58 atoms. Expanding to P1 means listing all 58 atoms explicitly.
+
+The Wyckoff positions (I-43m, origin choice) for tetrahedrite are:
+
+| Site | Wyck | Atom | x | y | z |
+|------|------|------|---|---|---|
+| Cu1 | 12d | Cu | ¼ | ½ | 0 |
+| Cu2 | 12e | Cu | ¼ | 0 | 0 |
+| Sb | 8c | Sb | x,x,x (x≈0.268) |
+| S1 | 24g | S | x,x,z (x≈0.119, z≈0.358) |
+| S2 | 2a | S | 0,0,0 |
+
+I'll generate all symmetry-equivalent positions under I-43m and list them in P1.","Cu₁₂Sb₄S₁₃ is tetrahedrite, cubic space group I-43m (No. 217), with a ≈ 10.33 Å. In the conventional cubic cell there are 2 formula units → 58 atoms. Expanding to P1 means listing all 58 atoms explicitly.
+
+The Wyckoff positions (I-43m, origin choice) for tetrahedrite are:
+
+| Site | Wyck | Atom | x | y | z |
+|------|------|------|---|---|---|
+| Cu1 | 12d | Cu | ¼ | ½ | 0 |
+| Cu2 | 12e | Cu | ¼ | 0 | 0 |
+| Sb | 8c | Sb | x,x,x (x≈0.268) |
+| S1 | 24g | S | x,x,z (x≈0.119, z≈0.358) |
+| S2 | 2a | S | 0,0,0 |
+
+I'll generate all symmetry-equivalent positions under I-43m and list them in P1.",False,False
+MgB7,74,32,claude-opus-4-6,"
+
+MgB7 is not a well-established experimentally characterized compound. However, based on computational studies of magnesium borides, I can generate a reasonable CIF file for a plausible MgB7 structure. The most relevant structure in the Mg-B system with a high boron content would be related to the MgB7 phase that has been predicted computationally, crystallizing in an orthorhombic cell with the Imma space group (but here expanded to P1 as requested, listing all atoms explicitly).
+
+Let me construct this based on the known computational predictions for MgB7 (Imma, Z=4, with a ≈ 5.46 Å, b ≈ 5.98 Å, c ≈ 8.13 Å), fully expanded to P1 with all symmetry-equivalent atoms listed.
+
+Let me work out all the atomic positions:","MgB7 is not a well-established experimentally characterized compound. However, based on computational studies of magnesium borides, I can generate a reasonable CIF file for a plausible MgB7 structure. The most relevant structure in the Mg-B system with a high boron content would be related to the MgB7 phase that has been predicted computationally, crystallizing in an orthorhombic cell with the Imma space group (but here expanded to P1 as requested, listing all atoms explicitly).
+
+Let me construct this based on the known computational predictions for MgB7 (Imma, Z=4, with a ≈ 5.46 Å, b ≈ 5.98 Å, c ≈ 8.13 Å), fully expanded to P1 with all symmetry-equivalent atoms listed.
+
+Let me work out all the atomic positions:",False,False
+Li3PS4,62,32,claude-opus-4-6,"
+
+The most stable polymorph of Li₃PS₄ at room temperature is the γ phase (orthorhombic, Pmn2₁, Z = 2). In P1 with all atoms explicitly listed, that gives 2 formula units → 16 atoms (6 Li, 2 P, 8 S).
+
+Here are the lattice parameters and fractional coordinates derived from the known γ-Li₃PS₄ structure (Homma et al., 2011):
+
+```cif
+data_gamma-Li3PS4
+_cell_length_a                    7.7108
+_cell_length_b                    6.5340
+_cell_length_c                    6.1353
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1   Li   0.00000   0.84570   0.00400
+Li2   Li   0.50000   0.84570   0.00400
+Li3   Li   0.24290   0.33550   0.00000
+Li4   Li   0.75710   0.33550   0.00000
+Li5   Li   0.00000   0.35250   0.50400
+Li6   Li   0.50000   0.35250   0.50400
+P1    P    0.00000   0.82080   0.49810
+P2    P    0.50000   0.82080   0.49810
+S1    S    0.00000   0.83990   0.82640
+S2    S    0.50000   0.83990   0.82640
+S3    S    0.00000   0.83200   0.17490
+S4    S    0.50000   0.83200   0.17490
+S5    S    0.23080   0.66720   0.43100
+S6    S    0.76920   0.66720   0.43100
+S7    S    0.23080   0.97440   0.56710
+S8    S    0.76920   0.97440   0.56710
+```
+
+This lists all 16 atoms (6 Li, 2 P, 8 S) in the γ-Li₃PS₄ unit cell, fully expanded from the Pmn2₁ Wyckoff positions into P1 with no symmetry operations applied.","data_gamma-Li3PS4
+_cell_length_a                    7.7108
+_cell_length_b                    6.5340
+_cell_length_c                    6.1353
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1   Li   0.00000   0.84570   0.00400
+Li2   Li   0.50000   0.84570   0.00400
+Li3   Li   0.24290   0.33550   0.00000
+Li4   Li   0.75710   0.33550   0.00000
+Li5   Li   0.00000   0.35250   0.50400
+Li6   Li   0.50000   0.35250   0.50400
+P1    P    0.00000   0.82080   0.49810
+P2    P    0.50000   0.82080   0.49810
+S1    S    0.00000   0.83990   0.82640
+S2    S    0.50000   0.83990   0.82640
+S3    S    0.00000   0.83200   0.17490
+S4    S    0.50000   0.83200   0.17490
+S5    S    0.23080   0.66720   0.43100
+S6    S    0.76920   0.66720   0.43100
+S7    S    0.23080   0.97440   0.56710
+S8    S    0.76920   0.97440   0.56710",True,False
+Cd3As2,142,80,claude-opus-4-6,"
+
+Cd₃As₂ crystallizes in a body-centered tetragonal structure (space group I4₁/acd, No. 142) with lattice parameters a ≈ 12.633 Å, c ≈ 25.427 Å, and Z = 32 (160 atoms per unit cell: 96 Cd + 64 As). Expanding to P1 means listing all 160 atoms explicitly.
+
+Let me generate this carefully.
+
+```cif
+data_Cd3As2_P1
+_cell_length_a                    12.6330
+_cell_length_b                    12.6330
+_cell_length_c                    25.4270
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+_symmetry_space_group_name_H-M    'P 1'
+_symmetry_Int_Tables_number       1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cd1   Cd  0.12500  0.08040  0.06350
+Cd2   Cd  0.87500  0.91960  0.93650
+Cd3   Cd  0.87500  0.08040  0.56350
+Cd4   Cd  0.12500  0.91960  0.43650
+Cd5   Cd  0.91960  0.12500  0.31350
+Cd6   Cd  0.08040  0.87500  0.68650
+Cd7   Cd  0.08040  0.12500  0.81350
+Cd8   Cd  0.91960  0.87500  0.18650
+Cd9   Cd  0.37500  0.58040  0.06350
+Cd10  Cd  0.62500  0.41960  0.93650
+Cd11  Cd  0.62500  0.58040  0.56350
+Cd12  Cd  0.37500  0.41960  0.43650
+Cd13  Cd  0.41960  0.37500  0.31350
+Cd14  Cd  0.58040  0.62500  0.68650
+Cd15  Cd  0.58040  0.37500  0.81350
+Cd16  Cd  0.41960  0.62500  0.18650
+Cd17  Cd  0.62500  0.08040  0.31350
+Cd18  Cd  0.37500  0.91960  0.68650
+Cd19  Cd  0.37500  0.08040  0.81350
+Cd20  Cd  0.62500  0.91960  0.18650
+Cd21  Cd  0.08040  0.62500  0.06350
+Cd22  Cd  0.91960  0.37500  0.93650
+Cd23  Cd  0.91960  0.62500  0.56350
+Cd24  Cd  0.08040  0.37500  0.43650
+Cd25  Cd  0.87500  0.58040  0.31350
+Cd26  Cd  0.12500  0.41960  0.68650
+Cd27  Cd  0.12500  0.58040  0.81350
+Cd28  Cd  0.87500  0.41960  0.18650
+Cd29  Cd  0.58040  0.12500  0.06350
+Cd30  Cd  0.41960  0.87500  0.93650
+Cd31  Cd  0.41960  0.12500  0.56350
+Cd32  Cd  0.58040  0.87500  0.43650
+Cd33  Cd  0.12500  0.30460  0.18850
+Cd34  Cd  0.87500  0.69540  0.81150
+Cd35  Cd  0.87500  0.30460  0.68850
+Cd36  Cd  0.12500  0.69540  0.31150
+Cd37  Cd  0.69540  0.12500  0.43850
+Cd38  Cd  0.30460  0.87500  0.56150
+Cd39  Cd  0.30460  0.12500  0.93850
+Cd40  Cd  0.69540  0.87500  0.06150
+Cd41  Cd  0.37500  0.80460  0.18850
+Cd42  Cd  0.62500  0.19540  0.81150
+Cd43  Cd  0.62500  0.80460  0.68850
+Cd44  Cd  0.37500  0.19540  0.31150
+Cd45  Cd  0.19540  0.37500  0.43850
+Cd46  Cd  0.80460  0.62500  0.56150
+Cd47  Cd  0.80460  0.37500  0.93850
+Cd48  Cd  0.19540  0.62500  0.06150
+Cd49  Cd  0.62500  0.30460  0.43850
+Cd50  Cd  0.37500  0.69540  0.56150
+Cd51  Cd  0.37500  0.30460  0.93850
+Cd52  Cd  0.62500  0.69540  0.06150
+Cd53  Cd  0.30460  0.62500  0.18850
+Cd54  Cd  0.69540  0.37500  0.81150
+Cd55  Cd  0.69540  0.62500  0.68850
+Cd56  Cd  0.30460  0.37500  0.31150
+Cd57  Cd  0.87500  0.80460  0.43850
+Cd58  Cd  0.12500  0.19540  0.56150
+Cd59  Cd  0.12500  0.80460  0.93850
+Cd60  Cd  0.87500  0.19540  0.06150
+Cd61  Cd  0.80460  0.87500  0.18850
+Cd62  Cd  0.19540  0.12500  0.81150
+Cd63  Cd  0.19540  0.87500  0.68850
+Cd64  Cd  0.80460  0.12500  0.31150
+Cd65  Cd  0.12500  0.25000  0.00000
+Cd66  Cd  0.87500  0.75000  0.00000
+Cd67  Cd  0.87500  0.25000  0.50000
+Cd68  Cd  0.12500  0.75000  0.50000
+Cd69  Cd  0.75000  0.12500  0.25000
+Cd70  Cd  0.25000  0.87500  0.75000
+Cd71  Cd  0.25000  0.12500  0.75000
+Cd72  Cd  0.75000  0.87500  0.25000
+Cd73  Cd  0.37500  0.75000  0.00000
+Cd74  Cd  0.62500  0.25000  0.00000
+Cd75  Cd  0.62500  0.75000  0.50000
+Cd76  Cd  0.37500  0.25000  0.50000
+Cd77  Cd  0.25000  0.37500  0.25000
+Cd78  Cd  0.75000  0.62500  0.75000
+Cd79  Cd  0.75000  0.37500  0.75000
+Cd80  Cd  0.25000  0.62500  0.25000
+Cd81  Cd  0.62500  0.25000  0.25000
+Cd82  Cd  0.37500  0.75000  0.75000
+Cd83  Cd  0.37500  0.25000  0.75000
+Cd84  Cd  0.62500  0.75000  0.25000
+Cd85  Cd  0.25000  0.62500  0.00000
+Cd86  Cd  0.75000  0.37500  0.00000
+Cd87  Cd  0.75000  0.62500  0.50000
+Cd88  Cd  0.25000  0.37500  0.50000
+Cd89  Cd  0.87500  0.75000  0.25000
+Cd90  Cd  0.12500  0.25000  0.75000
+Cd91  Cd  0.12500  0.75000  0.75000
+Cd92  Cd  0.87500  0.25000  0.25000
+Cd93  Cd  0.75000  0.87500  0.00000
+Cd94  Cd  0.25000  0.12500  0.00000
+Cd95  Cd  0.25000  0.87500  0.50000
+Cd96  Cd  0.75000  0.12500  0.50000
+As1   As  0.00000  0.00000  0.00000
+As2   As  0.50000  0.50000  0.00000
+As3   As  0.00000  0.00000  0.50000
+As4   As  0.50000  0.50000  0.50000
+As5   As  0.00000  0.50000  0.25000
+As6   As  0.50000  0.00000  0.75000
+As7   As  0.50000  0.00000  0.25000
+As8   As  0.00000  0.50000  0.75000
+As9   As  0.25000  0.25000  0.12500
+As10  As  0.75000  0.75000  0.87500
+As11  As  0.75000  0.25000  0.62500
+As12  As  0.25000  0.75000  0.37500
+As13  As  0.25000  0.25000  0.37500
+As14  As  0.75000  0.75000  0.62500
+As15  As  0.75000  0.25000  0.12500
+As16  As  0.25000  0.75000  0.87500
+As17  As  0.25000  0.25000  0.62500
+As18  As  0.75000  0.75000  0.37500
+As19  As  0.75000  0.25000  0.87500
+As20  As  0.25000  0.75000  0.12500
+As21  As  0.25000  0.25000  0.87500
+As22  As  0.75000  0.75000  0.12500
+As23  As  0.75000  0.25000  0.37500
+As24  As  0.25000  0.75000  0.62500
+As25  As  0.00000  0.00000  0.25000
+As26  As  0.50000  0.50000  0.75000
+As27  As  0.50000  0.50000  0.25000
+As28  As  0.00000  0.00000  0.75000
+As29  As  0.00000  0.50000  0.00000
+As30  As  0.50000  0.00000  0.00000
+As31  As  0.50000  0.00000  0.50000
+As32  As  0.00000  0.50000  0.50000
+As33  As  0.00000  0.25000  0.12500
+As34  As  0.00000  0.75000  0.87500
+As35  As  0.00000  0.75000  0.12500
+As36  As  0.00000  0.25000  0.87500
+As37  As  0.25000  0.00000  0.37500
+As38  As  0.75000  0.00000  0.62500
+As39  As  0.75000  0.00000  0.37500
+As40  As  0.25000  0.00000  0.62500
+As41  As  0.50000  0.25000  0.37500
+As42  As  0.50000  0.75000  0.62500
+As43  As  0.50000  0.75000  0.37500
+As44  As  0.50000  0.25000  0.62500
+As45  As  0.25000  0.50000  0.12500
+As46  As  0.75000  0.50000  0.87500
+As47  As  0.75000  0.50000  0.12500
+As48  As  0.25000  0.50000  0.87500
+As49  As  0.00000  0.25000  0.37500
+As50  As  0.00000  0.75000  0.62500
+As51  As  0.00000  0.75000  0.37500
+As52  As  0.00000  0.25000  0.62500
+As53  As  0.25000  0.00000  0.12500
+As54  As  0.75000  0.00000  0.87500
+As55  As  0.75000  0.00000  0.12500
+As56  As  0.25000  0.00000  0.87500
+As57  As  0.50000  0.25000  0.12500
+As58  As  0.50000  0.75000  0.87500
+As59  As  0.50000  0.75000  0.12500
+As60  As  0.50000  0.25000  0.87500
+As61  As  0.25000  0.50000  0.37500
+As62  As  0.75000  0.50000  0.62500
+As63  As  0.75000  0.50000  0.37500
+As64  As  0.25000  0.50000  0.62500
+```
+
+This is the full P1 expansion of Cd₃As₂ in its stable tetragonal phase (parent space group I4₁/acd, No. 142), with a = b = 12.633 Å, c = 25.427 Å. All 160 atoms (96 Cd + 64 As) are listed explicitly with fractional coordinates. The Cd sites come from the three distinct Wyckoff positions (32g, 32g, 32g) and the As from the 64g site, all expanded under the full symmetry operations and body-centering translation.","data_Cd3As2_P1
+_cell_length_a                    12.6330
+_cell_length_b                    12.6330
+_cell_length_c                    25.4270
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+_symmetry_space_group_name_H-M    'P 1'
+_symmetry_Int_Tables_number       1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cd1   Cd  0.12500  0.08040  0.06350
+Cd2   Cd  0.87500  0.91960  0.93650
+Cd3   Cd  0.87500  0.08040  0.56350
+Cd4   Cd  0.12500  0.91960  0.43650
+Cd5   Cd  0.91960  0.12500  0.31350
+Cd6   Cd  0.08040  0.87500  0.68650
+Cd7   Cd  0.08040  0.12500  0.81350
+Cd8   Cd  0.91960  0.87500  0.18650
+Cd9   Cd  0.37500  0.58040  0.06350
+Cd10  Cd  0.62500  0.41960  0.93650
+Cd11  Cd  0.62500  0.58040  0.56350
+Cd12  Cd  0.37500  0.41960  0.43650
+Cd13  Cd  0.41960  0.37500  0.31350
+Cd14  Cd  0.58040  0.62500  0.68650
+Cd15  Cd  0.58040  0.37500  0.81350
+Cd16  Cd  0.41960  0.62500  0.18650
+Cd17  Cd  0.62500  0.08040  0.31350
+Cd18  Cd  0.37500  0.91960  0.68650
+Cd19  Cd  0.37500  0.08040  0.81350
+Cd20  Cd  0.62500  0.91960  0.18650
+Cd21  Cd  0.08040  0.62500  0.06350
+Cd22  Cd  0.91960  0.37500  0.93650
+Cd23  Cd  0.91960  0.62500  0.56350
+Cd24  Cd  0.08040  0.37500  0.43650
+Cd25  Cd  0.87500  0.58040  0.31350
+Cd26  Cd  0.12500  0.41960  0.68650
+Cd27  Cd  0.12500  0.58040  0.81350
+Cd28  Cd  0.87500  0.41960  0.18650
+Cd29  Cd  0.58040  0.12500  0.06350
+Cd30  Cd  0.41960  0.87500  0.93650
+Cd31  Cd  0.41960  0.12500  0.56350
+Cd32  Cd  0.58040  0.87500  0.43650
+Cd33  Cd  0.12500  0.30460  0.18850
+Cd34  Cd  0.87500  0.69540  0.81150
+Cd35  Cd  0.87500  0.30460  0.68850
+Cd36  Cd  0.12500  0.69540  0.31150
+Cd37  Cd  0.69540  0.12500  0.43850
+Cd38  Cd  0.30460  0.87500  0.56150
+Cd39  Cd  0.30460  0.12500  0.93850
+Cd40  Cd  0.69540  0.87500  0.06150
+Cd41  Cd  0.37500  0.80460  0.18850
+Cd42  Cd  0.62500  0.19540  0.81150
+Cd43  Cd  0.62500  0.80460  0.68850
+Cd44  Cd  0.37500  0.19540  0.31150
+Cd45  Cd  0.19540  0.37500  0.43850
+Cd46  Cd  0.80460  0.62500  0.56150
+Cd47  Cd  0.80460  0.37500  0.93850
+Cd48  Cd  0.19540  0.62500  0.06150
+Cd49  Cd  0.62500  0.30460  0.43850
+Cd50  Cd  0.37500  0.69540  0.56150
+Cd51  Cd  0.37500  0.30460  0.93850
+Cd52  Cd  0.62500  0.69540  0.06150
+Cd53  Cd  0.30460  0.62500  0.18850
+Cd54  Cd  0.69540  0.37500  0.81150
+Cd55  Cd  0.69540  0.62500  0.68850
+Cd56  Cd  0.30460  0.37500  0.31150
+Cd57  Cd  0.87500  0.80460  0.43850
+Cd58  Cd  0.12500  0.19540  0.56150
+Cd59  Cd  0.12500  0.80460  0.93850
+Cd60  Cd  0.87500  0.19540  0.06150
+Cd61  Cd  0.80460  0.87500  0.18850
+Cd62  Cd  0.19540  0.12500  0.81150
+Cd63  Cd  0.19540  0.87500  0.68850
+Cd64  Cd  0.80460  0.12500  0.31150
+Cd65  Cd  0.12500  0.25000  0.00000
+Cd66  Cd  0.87500  0.75000  0.00000
+Cd67  Cd  0.87500  0.25000  0.50000
+Cd68  Cd  0.12500  0.75000  0.50000
+Cd69  Cd  0.75000  0.12500  0.25000
+Cd70  Cd  0.25000  0.87500  0.75000
+Cd71  Cd  0.25000  0.12500  0.75000
+Cd72  Cd  0.75000  0.87500  0.25000
+Cd73  Cd  0.37500  0.75000  0.00000
+Cd74  Cd  0.62500  0.25000  0.00000
+Cd75  Cd  0.62500  0.75000  0.50000
+Cd76  Cd  0.37500  0.25000  0.50000
+Cd77  Cd  0.25000  0.37500  0.25000
+Cd78  Cd  0.75000  0.62500  0.75000
+Cd79  Cd  0.75000  0.37500  0.75000
+Cd80  Cd  0.25000  0.62500  0.25000
+Cd81  Cd  0.62500  0.25000  0.25000
+Cd82  Cd  0.37500  0.75000  0.75000
+Cd83  Cd  0.37500  0.25000  0.75000
+Cd84  Cd  0.62500  0.75000  0.25000
+Cd85  Cd  0.25000  0.62500  0.00000
+Cd86  Cd  0.75000  0.37500  0.00000
+Cd87  Cd  0.75000  0.62500  0.50000
+Cd88  Cd  0.25000  0.37500  0.50000
+Cd89  Cd  0.87500  0.75000  0.25000
+Cd90  Cd  0.12500  0.25000  0.75000
+Cd91  Cd  0.12500  0.75000  0.75000
+Cd92  Cd  0.87500  0.25000  0.25000
+Cd93  Cd  0.75000  0.87500  0.00000
+Cd94  Cd  0.25000  0.12500  0.00000
+Cd95  Cd  0.25000  0.87500  0.50000
+Cd96  Cd  0.75000  0.12500  0.50000
+As1   As  0.00000  0.00000  0.00000
+As2   As  0.50000  0.50000  0.00000
+As3   As  0.00000  0.00000  0.50000
+As4   As  0.50000  0.50000  0.50000
+As5   As  0.00000  0.50000  0.25000
+As6   As  0.50000  0.00000  0.75000
+As7   As  0.50000  0.00000  0.25000
+As8   As  0.00000  0.50000  0.75000
+As9   As  0.25000  0.25000  0.12500
+As10  As  0.75000  0.75000  0.87500
+As11  As  0.75000  0.25000  0.62500
+As12  As  0.25000  0.75000  0.37500
+As13  As  0.25000  0.25000  0.37500
+As14  As  0.75000  0.75000  0.62500
+As15  As  0.75000  0.25000  0.12500
+As16  As  0.25000  0.75000  0.87500
+As17  As  0.25000  0.25000  0.62500
+As18  As  0.75000  0.75000  0.37500
+As19  As  0.75000  0.25000  0.87500
+As20  As  0.25000  0.75000  0.12500
+As21  As  0.25000  0.25000  0.87500
+As22  As  0.75000  0.75000  0.12500
+As23  As  0.75000  0.25000  0.37500
+As24  As  0.25000  0.75000  0.62500
+As25  As  0.00000  0.00000  0.25000
+As26  As  0.50000  0.50000  0.75000
+As27  As  0.50000  0.50000  0.25000
+As28  As  0.00000  0.00000  0.75000
+As29  As  0.00000  0.50000  0.00000
+As30  As  0.50000  0.00000  0.00000
+As31  As  0.50000  0.00000  0.50000
+As32  As  0.00000  0.50000  0.50000
+As33  As  0.00000  0.25000  0.12500
+As34  As  0.00000  0.75000  0.87500
+As35  As  0.00000  0.75000  0.12500
+As36  As  0.00000  0.25000  0.87500
+As37  As  0.25000  0.00000  0.37500
+As38  As  0.75000  0.00000  0.62500
+As39  As  0.75000  0.00000  0.37500
+As40  As  0.25000  0.00000  0.62500
+As41  As  0.50000  0.25000  0.37500
+As42  As  0.50000  0.75000  0.62500
+As43  As  0.50000  0.75000  0.37500
+As44  As  0.50000  0.25000  0.62500
+As45  As  0.25000  0.50000  0.12500
+As46  As  0.75000  0.50000  0.87500
+As47  As  0.75000  0.50000  0.12500
+As48  As  0.25000  0.50000  0.87500
+As49  As  0.00000  0.25000  0.37500
+As50  As  0.00000  0.75000  0.62500
+As51  As  0.00000  0.75000  0.37500
+As52  As  0.00000  0.25000  0.62500
+As53  As  0.25000  0.00000  0.12500
+As54  As  0.75000  0.00000  0.87500
+As55  As  0.75000  0.00000  0.12500
+As56  As  0.25000  0.00000  0.87500
+As57  As  0.50000  0.25000  0.12500
+As58  As  0.50000  0.75000  0.87500
+As59  As  0.50000  0.75000  0.12500
+As60  As  0.50000  0.25000  0.87500
+As61  As  0.25000  0.50000  0.37500
+As62  As  0.75000  0.50000  0.62500
+As63  As  0.75000  0.50000  0.37500
+As64  As  0.25000  0.50000  0.62500",True,False
+Li4Ti5O12,15,42,claude-opus-4-6,"
+
+Li4Ti5O12 (lithium titanate, spinel structure) in its most stable form has a cubic spinel structure (Fd-3m, a ≈ 8.3560 Å). In the normal spinel, Li occupies 8a tetrahedral sites, Ti occupies 16d octahedral sites, and O occupies 32e sites. The conventional cubic unit cell contains 8 formula units → Li32Ti40O96 = 168 atoms total. However, Li4Ti5O12 is a ""defect spinel"" where the 16d sites hold a mix of Li and Ti: specifically Li8[Li16/3 Ti40/3]O32 per primitive cell... Let me carefully work this out.
+
+For the standard description with Z=8 in Fd-3m:
+- 8a sites (tetrahedral): 8 Li
+- 16d sites (octahedral): 16 atoms → 8/3 Li + 40/3 Ti (disordered)
+- 32e sites: 32 O
+
+Since you want P1 with all atoms explicit and no occupancy/disorder, I'll use the well-known ordered approximation where:
+- 8a (8 sites): all Li
+- 16d (16 sites): assign 5 Ti + 1 Li per formula unit → but we need integer occupancy across 16 sites for 8 f.u. → not perfectly orderable.
+
+The cleanest approach: use the primitive rhombohedral cell (Z=2), which has Li8Ti10O24 = 42 atoms. Let me generate this properly with a = b = c = 5.9099 Å, α = β = γ = 60° (primitive of cubic 8.356 Å).
+
+Let me generate the full CIF with all 42 atoms in the primitive cell.","Li4Ti5O12 (lithium titanate, spinel structure) in its most stable form has a cubic spinel structure (Fd-3m, a ≈ 8.3560 Å). In the normal spinel, Li occupies 8a tetrahedral sites, Ti occupies 16d octahedral sites, and O occupies 32e sites. The conventional cubic unit cell contains 8 formula units → Li32Ti40O96 = 168 atoms total. However, Li4Ti5O12 is a ""defect spinel"" where the 16d sites hold a mix of Li and Ti: specifically Li8[Li16/3 Ti40/3]O32 per primitive cell... Let me carefully work this out.
+
+For the standard description with Z=8 in Fd-3m:
+- 8a sites (tetrahedral): 8 Li
+- 16d sites (octahedral): 16 atoms → 8/3 Li + 40/3 Ti (disordered)
+- 32e sites: 32 O
+
+Since you want P1 with all atoms explicit and no occupancy/disorder, I'll use the well-known ordered approximation where:
+- 8a (8 sites): all Li
+- 16d (16 sites): assign 5 Ti + 1 Li per formula unit → but we need integer occupancy across 16 sites for 8 f.u. → not perfectly orderable.
+
+The cleanest approach: use the primitive rhombohedral cell (Z=2), which has Li8Ti10O24 = 42 atoms. Let me generate this properly with a = b = c = 5.9099 Å, α = β = γ = 60° (primitive of cubic 8.356 Å).
+
+Let me generate the full CIF with all 42 atoms in the primitive cell.",False,False
+Ba2CaSi4(BO7)2,121,46,claude-opus-4-6,"
+
+```cif
+data_Ba2CaSi4B2O14
+
+_cell_length_a   8.4120
+_cell_length_b   9.0230
+_cell_length_c   5.3640
+_cell_angle_alpha 90.000
+_cell_angle_beta  93.450
+_cell_angle_gamma 90.000
+
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number       1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ba1   Ba  0.33120  0.75040  0.24530
+Ba2   Ba  0.66880  0.24960  0.75470
+Ca1   Ca  0.00000  0.00000  0.00000
+Si1   Si  0.14230  0.41350  0.31620
+Si2   Si  0.85770  0.58650  0.68380
+Si3   Si  0.35770  0.08650  0.68380
+Si4   Si  0.64230  0.91350  0.31620
+B1    B   0.08940  0.74210  0.72340
+B2    B   0.91060  0.25790  0.27660
+O1    O   0.16520  0.56830  0.18740
+O2    O   0.83480  0.43170  0.81260
+O3    O   0.30210  0.34920  0.42150
+O4    O   0.69790  0.65080  0.57850
+O5    O   0.04730  0.30120  0.10830
+O6    O   0.95270  0.69880  0.89170
+O7    O   0.07810  0.87640  0.56210
+O8    O   0.92190  0.12360  0.43790
+O9    O   0.22430  0.72310  0.63780
+O10   O   0.77570  0.27690  0.36220
+O11   O   0.96120  0.66480  0.52940
+O12   O   0.03880  0.33520  0.47060
+O13   O   0.43880  0.16480  0.47060
+O14   O   0.56120  0.83520  0.52940
+```","data_Ba2CaSi4B2O14
+
+_cell_length_a   8.4120
+_cell_length_b   9.0230
+_cell_length_c   5.3640
+_cell_angle_alpha 90.000
+_cell_angle_beta  93.450
+_cell_angle_gamma 90.000
+
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number       1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ba1   Ba  0.33120  0.75040  0.24530
+Ba2   Ba  0.66880  0.24960  0.75470
+Ca1   Ca  0.00000  0.00000  0.00000
+Si1   Si  0.14230  0.41350  0.31620
+Si2   Si  0.85770  0.58650  0.68380
+Si3   Si  0.35770  0.08650  0.68380
+Si4   Si  0.64230  0.91350  0.31620
+B1    B   0.08940  0.74210  0.72340
+B2    B   0.91060  0.25790  0.27660
+O1    O   0.16520  0.56830  0.18740
+O2    O   0.83480  0.43170  0.81260
+O3    O   0.30210  0.34920  0.42150
+O4    O   0.69790  0.65080  0.57850
+O5    O   0.04730  0.30120  0.10830
+O6    O   0.95270  0.69880  0.89170
+O7    O   0.07810  0.87640  0.56210
+O8    O   0.92190  0.12360  0.43790
+O9    O   0.22430  0.72310  0.63780
+O10   O   0.77570  0.27690  0.36220
+O11   O   0.96120  0.66480  0.52940
+O12   O   0.03880  0.33520  0.47060
+O13   O   0.43880  0.16480  0.47060
+O14   O   0.56120  0.83520  0.52940",True,False
+Ag8GeS6,33,60,claude-opus-4-6,"
+
+Ag8GeS6 is argyrodite, which crystallizes in the orthorhombic Pna2₁ space group (the β-phase, most stable at room temperature). The conventional cell has a ≈ 15.16 Å, b ≈ 7.48 Å, c ≈ 10.57 Å, Z = 4, giving 60 atoms per unit cell (32 Ag + 4 Ge + 24 S).
+
+Let me generate the full CIF with all 60 atoms in P1.
+
+```cif
+data_Ag8GeS6_argyrodite
+_cell_length_a                    15.1600
+_cell_length_b                     7.4800
+_cell_length_c                    10.5700
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ag1   Ag  0.01340  0.02010  0.26780
+Ag2   Ag  0.48660  0.52010  0.26780
+Ag3   Ag  0.98660  0.97990  0.76780
+Ag4   Ag  0.51340  0.47990  0.76780
+Ag5   Ag  0.14520  0.26540  0.49530
+Ag6   Ag  0.35480  0.76540  0.49530
+Ag7   Ag  0.85480  0.73460  0.99530
+Ag8   Ag  0.64520  0.23460  0.99530
+Ag9   Ag  0.13870  0.24310  0.12640
+Ag10  Ag  0.36130  0.74310  0.12640
+Ag11  Ag  0.86130  0.75690  0.62640
+Ag12  Ag  0.63870  0.25690  0.62640
+Ag13  Ag  0.23710  0.99180  0.37510
+Ag14  Ag  0.26290  0.49180  0.37510
+Ag15  Ag  0.76290  0.00820  0.87510
+Ag16  Ag  0.73710  0.50820  0.87510
+Ag17  Ag  0.38640  0.23890  0.24870
+Ag18  Ag  0.11360  0.73890  0.24870
+Ag19  Ag  0.61360  0.76110  0.74870
+Ag20  Ag  0.88640  0.26110  0.74870
+Ag21  Ag  0.35790  0.25470  0.61530
+Ag22  Ag  0.14210  0.75470  0.61530
+Ag23  Ag  0.64210  0.74530  0.11530
+Ag24  Ag  0.85790  0.24530  0.11530
+Ag25  Ag  0.24680  0.48730  0.00640
+Ag26  Ag  0.25320  0.98730  0.00640
+Ag27  Ag  0.75320  0.51270  0.50640
+Ag28  Ag  0.74680  0.01270  0.50640
+Ag29  Ag  0.48150  0.00260  0.39120
+Ag30  Ag  0.01850  0.50260  0.39120
+Ag31  Ag  0.51850  0.99740  0.89120
+Ag32  Ag  0.98150  0.49740  0.89120
+Ge1   Ge  0.12420  0.24700  0.76490
+Ge2   Ge  0.37580  0.74700  0.76490
+Ge3   Ge  0.87580  0.75300  0.26490
+Ge4   Ge  0.62420  0.25300  0.26490
+S1    S   0.12150  0.26200  0.58700
+S2    S   0.37850  0.76200  0.58700
+S3    S   0.87850  0.73800  0.08700
+S4    S   0.62150  0.23800  0.08700
+S5    S   0.24530  0.25100  0.82100
+S6    S   0.25470  0.75100  0.82100
+S7    S   0.75470  0.74900  0.32100
+S8    S   0.74530  0.24900  0.32100
+S9    S   0.00200  0.24800  0.82900
+S10   S   0.49800  0.74800  0.82900
+S11   S   0.99800  0.75200  0.32900
+S12   S   0.50200  0.25200  0.32900
+S13   S   0.12700  0.99200  0.76200
+S14   S   0.37300  0.49200  0.76200
+S15   S   0.87300  0.00800  0.26200
+S16   S   0.62700  0.50800  0.26200
+S17   S   0.36200  0.00700  0.17800
+S18   S   0.13800  0.50700  0.17800
+S19   S   0.63800  0.99300  0.67800
+S20   S   0.86200  0.49300  0.67800
+S21   S   0.37100  0.99500  0.55400
+S22   S   0.12900  0.49500  0.55400
+S23   S   0.62900  0.00500  0.05400
+S24   S   0.87100  0.50500  0.05400
+```
+
+This is the orthorhombic β-Ag₈GeS₆ argyrodite structure (Pna2₁, Z=4) fully expanded into P1 with all 60 atoms (32 Ag, 4 Ge, 24 S). The four general-position equivalents of Pna2₁ — (x,y,z), (½−x,½+y,z), (1−x,1−y,½+z), (½+x,½−y,½+z) — were applied to each of the 8 Ag, 1 Ge, and 6 S Wyckoff sites.","data_Ag8GeS6_argyrodite
+_cell_length_a                    15.1600
+_cell_length_b                     7.4800
+_cell_length_c                    10.5700
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ag1   Ag  0.01340  0.02010  0.26780
+Ag2   Ag  0.48660  0.52010  0.26780
+Ag3   Ag  0.98660  0.97990  0.76780
+Ag4   Ag  0.51340  0.47990  0.76780
+Ag5   Ag  0.14520  0.26540  0.49530
+Ag6   Ag  0.35480  0.76540  0.49530
+Ag7   Ag  0.85480  0.73460  0.99530
+Ag8   Ag  0.64520  0.23460  0.99530
+Ag9   Ag  0.13870  0.24310  0.12640
+Ag10  Ag  0.36130  0.74310  0.12640
+Ag11  Ag  0.86130  0.75690  0.62640
+Ag12  Ag  0.63870  0.25690  0.62640
+Ag13  Ag  0.23710  0.99180  0.37510
+Ag14  Ag  0.26290  0.49180  0.37510
+Ag15  Ag  0.76290  0.00820  0.87510
+Ag16  Ag  0.73710  0.50820  0.87510
+Ag17  Ag  0.38640  0.23890  0.24870
+Ag18  Ag  0.11360  0.73890  0.24870
+Ag19  Ag  0.61360  0.76110  0.74870
+Ag20  Ag  0.88640  0.26110  0.74870
+Ag21  Ag  0.35790  0.25470  0.61530
+Ag22  Ag  0.14210  0.75470  0.61530
+Ag23  Ag  0.64210  0.74530  0.11530
+Ag24  Ag  0.85790  0.24530  0.11530
+Ag25  Ag  0.24680  0.48730  0.00640
+Ag26  Ag  0.25320  0.98730  0.00640
+Ag27  Ag  0.75320  0.51270  0.50640
+Ag28  Ag  0.74680  0.01270  0.50640
+Ag29  Ag  0.48150  0.00260  0.39120
+Ag30  Ag  0.01850  0.50260  0.39120
+Ag31  Ag  0.51850  0.99740  0.89120
+Ag32  Ag  0.98150  0.49740  0.89120
+Ge1   Ge  0.12420  0.24700  0.76490
+Ge2   Ge  0.37580  0.74700  0.76490
+Ge3   Ge  0.87580  0.75300  0.26490
+Ge4   Ge  0.62420  0.25300  0.26490
+S1    S   0.12150  0.26200  0.58700
+S2    S   0.37850  0.76200  0.58700
+S3    S   0.87850  0.73800  0.08700
+S4    S   0.62150  0.23800  0.08700
+S5    S   0.24530  0.25100  0.82100
+S6    S   0.25470  0.75100  0.82100
+S7    S   0.75470  0.74900  0.32100
+S8    S   0.74530  0.24900  0.32100
+S9    S   0.00200  0.24800  0.82900
+S10   S   0.49800  0.74800  0.82900
+S11   S   0.99800  0.75200  0.32900
+S12   S   0.50200  0.25200  0.32900
+S13   S   0.12700  0.99200  0.76200
+S14   S   0.37300  0.49200  0.76200
+S15   S   0.87300  0.00800  0.26200
+S16   S   0.62700  0.50800  0.26200
+S17   S   0.36200  0.00700  0.17800
+S18   S   0.13800  0.50700  0.17800
+S19   S   0.63800  0.99300  0.67800
+S20   S   0.86200  0.49300  0.67800
+S21   S   0.37100  0.99500  0.55400
+S22   S   0.12900  0.49500  0.55400
+S23   S   0.62900  0.00500  0.05400
+S24   S   0.87100  0.50500  0.05400",True,False
+Nd2Fe14B,136,68,claude-opus-4-6,"
+
+Nd₂Fe₁₄B crystallizes in the tetragonal space group P4₂/mnm (No. 136) with lattice parameters a = b ≈ 8.80 Å, c ≈ 12.20 Å. The unit cell contains 4 formula units → 68 atoms total (8 Nd, 56 Fe, 4 B). To list all 68 atoms explicitly in P1, I need to expand every Wyckoff site.
+
+Let me build this carefully.","Nd₂Fe₁₄B crystallizes in the tetragonal space group P4₂/mnm (No. 136) with lattice parameters a = b ≈ 8.80 Å, c ≈ 12.20 Å. The unit cell contains 4 formula units → 68 atoms total (8 Nd, 56 Fe, 4 B). To list all 68 atoms explicitly in P1, I need to expand every Wyckoff site.
+
+Let me build this carefully.",False,False
+Y3Al5O12,230,80,claude-opus-4-6,"
+
+Y₃Al₅O₁₂ (YAG) has a cubic garnet structure (Ia-3d, a ≈ 12.012 Å). The conventional cubic cell contains 160 atoms (24 Y, 16 Al_oct, 24 Al_tet, 96 O). Expanding to P1 means listing all 160 atoms explicitly.
+
+Let me generate this carefully using the known Wyckoff positions for YAG.","Y₃Al₅O₁₂ (YAG) has a cubic garnet structure (Ia-3d, a ≈ 12.012 Å). The conventional cubic cell contains 160 atoms (24 Y, 16 Al_oct, 24 Al_tet, 96 O). Expanding to P1 means listing all 160 atoms explicitly.
+
+Let me generate this carefully using the known Wyckoff positions for YAG.",False,False
+Ca14MnSb11,142,104,claude-opus-4-6,"
+
+Ca₁₄MnSb₁₁ crystallizes in the tetragonal I4₁/acd space group (Yb₁₄MnSb₁₁ structure type, Z = 8). The conventional tetragonal cell contains 8 formula units = 208 atoms. Expanding to P1 with no symmetry means we list all 208 atoms explicitly.
+
+Let me build this carefully with the known structure parameters.","Ca₁₄MnSb₁₁ crystallizes in the tetragonal I4₁/acd space group (Yb₁₄MnSb₁₁ structure type, Z = 8). The conventional tetragonal cell contains 8 formula units = 208 atoms. Expanding to P1 with no symmetry means we list all 208 atoms explicitly.
+
+Let me build this carefully with the known structure parameters.",False,False

@@ -1,0 +1,1421 @@
+formula,spg,n_atoms,model,gpt_raw,cif_text,parse_ok,gpt_match_gt
+C,166,4,gemini-3-pro-preview-thinking,"```cif
+data_graphite_P1
+_cell_length_a 2.46100
+_cell_length_b 2.46100
+_cell_length_c 6.70800
+_cell_angle_alpha 90.00000
+_cell_angle_beta 90.00000
+_cell_angle_gamma 120.00000
+_symmetry_space_group_name_H-M 'P 1'
+_symmetry_Int_Tables_number 1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1 C 0.00000 0.00000 0.25000
+C2 C 0.33333 0.66667 0.25000
+C3 C 0.00000 0.00000 0.75000
+C4 C 0.66667 0.33333 0.75000
+```","data_graphite_P1
+_cell_length_a 2.46100
+_cell_length_b 2.46100
+_cell_length_c 6.70800
+_cell_angle_alpha 90.00000
+_cell_angle_beta 90.00000
+_cell_angle_gamma 120.00000
+_symmetry_space_group_name_H-M 'P 1'
+_symmetry_Int_Tables_number 1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1 C 0.00000 0.00000 0.25000
+C2 C 0.33333 0.66667 0.25000
+C3 C 0.00000 0.00000 0.75000
+C4 C 0.66667 0.33333 0.75000",True,False
+Si,227,2,gemini-3-pro-preview-thinking,"```cif
+data_Si_diamond_P1
+
+_cell_length_a 5.4310
+_cell_length_b 5.4310
+_cell_length_c 5.4310
+_cell_angle_alpha 90.0
+_cell_angle_beta 90.0
+_cell_angle_gamma 90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si1 Si 0.0000 0.0000 0.0000
+Si2 Si 0.0000 0.5000 0.5000
+Si3 Si 0.5000 0.0000 0.5000
+Si4 Si 0.5000 0.5000 0.0000
+Si5 Si 0.2500 0.2500 0.2500
+Si6 Si 0.2500 0.7500 0.7500
+Si7 Si 0.7500 0.2500 0.7500
+Si8 Si 0.7500 0.7500 0.2500
+```","data_Si_diamond_P1
+
+_cell_length_a 5.4310
+_cell_length_b 5.4310
+_cell_length_c 5.4310
+_cell_angle_alpha 90.0
+_cell_angle_beta 90.0
+_cell_angle_gamma 90.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si1 Si 0.0000 0.0000 0.0000
+Si2 Si 0.0000 0.5000 0.5000
+Si3 Si 0.5000 0.0000 0.5000
+Si4 Si 0.5000 0.5000 0.0000
+Si5 Si 0.2500 0.2500 0.2500
+Si6 Si 0.2500 0.7500 0.7500
+Si7 Si 0.7500 0.2500 0.7500
+Si8 Si 0.7500 0.7500 0.2500",True,True
+GaAs,216,2,gemini-3-pro-preview-thinking,"```cif
+data_GaAs_ZincBlende
+
+_cell_length_a    5.65300
+_cell_length_b    5.65300
+_cell_length_c    5.65300
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+_symmetry_space_group_name_H-M 'P 1'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ga1 Ga 0.00000 0.00000 0.00000
+Ga2 Ga 0.00000 0.50000 0.50000
+Ga3 Ga 0.50000 0.00000 0.50000
+Ga4 Ga 0.50000 0.50000 0.00000
+As1 As 0.25000 0.25000 0.25000
+As2 As 0.25000 0.75000 0.75000
+As3 As 0.75000 0.25000 0.75000
+As4 As 0.75000 0.75000 0.25000
+```","data_GaAs_ZincBlende
+
+_cell_length_a    5.65300
+_cell_length_b    5.65300
+_cell_length_c    5.65300
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+_symmetry_space_group_name_H-M 'P 1'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ga1 Ga 0.00000 0.00000 0.00000
+Ga2 Ga 0.00000 0.50000 0.50000
+Ga3 Ga 0.50000 0.00000 0.50000
+Ga4 Ga 0.50000 0.50000 0.00000
+As1 As 0.25000 0.25000 0.25000
+As2 As 0.25000 0.75000 0.75000
+As3 As 0.75000 0.25000 0.75000
+As4 As 0.75000 0.75000 0.25000",True,True
+ZnO,186,4,gemini-3-pro-preview-thinking,"```cif
+data_ZnO_wurtzite_P1
+
+_cell_length_a 3.2498
+_cell_length_b 3.2498
+_cell_length_c 5.2066
+_cell_angle_alpha 90.0
+_cell_angle_beta 90.0
+_cell_angle_gamma 120.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zn1 Zn 0.333333 0.666667 0.000000
+Zn2 Zn 0.666667 0.333333 0.500000
+O1 O 0.333333 0.666667 0.382100
+O2 O 0.666667 0.333333 0.882100
+```","data_ZnO_wurtzite_P1
+
+_cell_length_a 3.2498
+_cell_length_b 3.2498
+_cell_length_c 5.2066
+_cell_angle_alpha 90.0
+_cell_angle_beta 90.0
+_cell_angle_gamma 120.0
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zn1 Zn 0.333333 0.666667 0.000000
+Zn2 Zn 0.666667 0.333333 0.500000
+O1 O 0.333333 0.666667 0.382100
+O2 O 0.666667 0.333333 0.882100",True,True
+BN,194,4,gemini-3-pro-preview-thinking,"```cif
+data_h-BN_most_stable
+_cell_length_a 2.50400
+_cell_length_b 2.50400
+_cell_length_c 6.66100
+_cell_angle_alpha 90.00000
+_cell_angle_beta 90.00000
+_cell_angle_gamma 120.00000
+_symmetry_space_group_name_H-M 'P 1'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+B1 B 0.333333 0.666667 0.250000
+N1 N 0.666667 0.333333 0.250000
+B2 B 0.666667 0.333333 0.750000
+N2 N 0.333333 0.666667 0.750000
+```","data_h-BN_most_stable
+_cell_length_a 2.50400
+_cell_length_b 2.50400
+_cell_length_c 6.66100
+_cell_angle_alpha 90.00000
+_cell_angle_beta 90.00000
+_cell_angle_gamma 120.00000
+_symmetry_space_group_name_H-M 'P 1'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+B1 B 0.333333 0.666667 0.250000
+N1 N 0.666667 0.333333 0.250000
+B2 B 0.666667 0.333333 0.750000
+N2 N 0.333333 0.666667 0.750000",True,True
+LiCoO2,227,16,gemini-3-pro-preview-thinking,"```cif
+data_LiCoO2_P1
+_cell_length_a 2.81600
+_cell_length_b 2.81600
+_cell_length_c 14.05000
+_cell_angle_alpha 90.00000
+_cell_angle_beta 90.00000
+_cell_angle_gamma 120.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1 Li 0.00000 0.00000 0.00000
+Li2 Li 0.66667 0.33333 0.33333
+Li3 Li 0.33333 0.66667 0.66667
+Co1 Co 0.00000 0.00000 0.50000
+Co2 Co 0.66667 0.33333 0.83333
+Co3 Co 0.33333 0.66667 0.16667
+O1 O 0.00000 0.00000 0.24000
+O2 O 0.00000 0.00000 0.76000
+O3 O 0.66667 0.33333 0.57333
+O4 O 0.66667 0.33333 0.09333
+O5 O 0.33333 0.66667 0.90667
+O6 O 0.33333 0.66667 0.42667
+```","data_LiCoO2_P1
+_cell_length_a 2.81600
+_cell_length_b 2.81600
+_cell_length_c 14.05000
+_cell_angle_alpha 90.00000
+_cell_angle_beta 90.00000
+_cell_angle_gamma 120.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1 Li 0.00000 0.00000 0.00000
+Li2 Li 0.66667 0.33333 0.33333
+Li3 Li 0.33333 0.66667 0.66667
+Co1 Co 0.00000 0.00000 0.50000
+Co2 Co 0.66667 0.33333 0.83333
+Co3 Co 0.33333 0.66667 0.16667
+O1 O 0.00000 0.00000 0.24000
+O2 O 0.00000 0.00000 0.76000
+O3 O 0.66667 0.33333 0.57333
+O4 O 0.66667 0.33333 0.09333
+O5 O 0.33333 0.66667 0.90667
+O6 O 0.33333 0.66667 0.42667",True,False
+Bi2Te3,166,5,gemini-3-pro-preview-thinking,"```cif
+data_Bi2Te3_P1
+_cell_length_a 4.3835
+_cell_length_b 4.3835
+_cell_length_c 30.4870
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 120
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Bi1 Bi 0.333333 0.666667 0.065","```cif
+data_Bi2Te3_P1
+_cell_length_a 4.3835
+_cell_length_b 4.3835
+_cell_length_c 30.4870
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 120
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Bi1 Bi 0.333333 0.666667 0.065",True,False
+Ba(FeAs)2,139,5,gemini-3-pro-preview-thinking,"```cif
+data_BaFe2As2
+_cell_length_a    3.9625
+_cell_length_b    3.9625
+_cell_length_c    13.0168
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+_symmetry_space_group_name_H-M 'P 1'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ba1 Ba 0.00000 0.00000 0.00000
+Ba2 Ba 0.50000 0.50000 0.50000
+Fe1 Fe 0.00000 0.50000 0.25000
+Fe2 Fe 0.50000 0.00000 0.25000
+Fe3 Fe 0.00000 0.50000 0.75000
+Fe4 Fe 0.50000 0.00000 0.75000
+As1 As 0.00000 0.00000 0.35450
+As2 As 0.00000 0.00000 0.64550
+As3 As 0.50000 0.50000 0.14550
+As4 As 0.50000 0.50000 0.85450
+```","data_BaFe2As2
+_cell_length_a    3.9625
+_cell_length_b    3.9625
+_cell_length_c    13.0168
+_cell_angle_alpha 90.0
+_cell_angle_beta  90.0
+_cell_angle_gamma 90.0
+_symmetry_space_group_name_H-M 'P 1'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ba1 Ba 0.00000 0.00000 0.00000
+Ba2 Ba 0.50000 0.50000 0.50000
+Fe1 Fe 0.00000 0.50000 0.25000
+Fe2 Fe 0.50000 0.00000 0.25000
+Fe3 Fe 0.00000 0.50000 0.75000
+Fe4 Fe 0.50000 0.00000 0.75000
+As1 As 0.00000 0.00000 0.35450
+As2 As 0.00000 0.00000 0.64550
+As3 As 0.50000 0.50000 0.14550
+As4 As 0.50000 0.50000 0.85450",True,True
+SiO2,122,6,gemini-3-pro-preview-thinking,"```cif
+data_alpha_quartz_P1
+_cell_length_a 4.9130
+_cell_length_b 4.9130
+_cell_length_c 5.4050
+_cell_angle_alpha 90.0000
+_cell_angle_beta 90.0000
+_cell_angle_gamma 120.0000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si1 Si 0.46970 0.00000 0.00000
+Si2 Si 0.00000 0.46970 0.33333
+Si3 Si 0.53030 0.53030 0.66667
+O1 O 0.41350 0.26690 0.11910
+O2 O 0.73310 0.14660 0.45243
+O3 O 0.85340 0.58650 0.78577
+O4 O 0.26690 0.41350 0.88090
+O5 O 0.58650 0.85340 0.21423
+O6 O 0.14660 0.73310 0.54757
+```","data_alpha_quartz_P1
+_cell_length_a 4.9130
+_cell_length_b 4.9130
+_cell_length_c 5.4050
+_cell_angle_alpha 90.0000
+_cell_angle_beta 90.0000
+_cell_angle_gamma 120.0000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si1 Si 0.46970 0.00000 0.00000
+Si2 Si 0.00000 0.46970 0.33333
+Si3 Si 0.53030 0.53030 0.66667
+O1 O 0.41350 0.26690 0.11910
+O2 O 0.73310 0.14660 0.45243
+O3 O 0.85340 0.58650 0.78577
+O4 O 0.26690 0.41350 0.88090
+O5 O 0.58650 0.85340 0.21423
+O6 O 0.14660 0.73310 0.54757",True,False
+VO2,136,6,gemini-3-pro-preview-thinking,"```cif
+data_VO2_M1_P1
+_cell_length_a 5.7517
+_cell_length_b 4.5378
+_cell_length_c 5.3825
+_cell_angle_alpha 90.000
+_cell_angle_beta 122.646
+_cell_angle_gamma 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+V1 V 0.23950 0.97900 0.02590
+V2 V 0.76050 0.02100 0.97410
+V3 V 0.76050 0.47900 0.47410
+V4 V 0.23950 0.52100 0.52590
+O1 O 0.10620 0.21180 0.20800
+O2 O 0.89380 0.78820 0.79200
+O3 O 0.89380 0.71180 0.29200
+O4 O 0.10620 0.28820 0.70800
+O5 O 0.39850 0.69880 0.29180
+O6 O 0.60150 0.30120 0.70820
+O7 O 0.60150 0.19880 0.20820
+O8 O 0.39850 0.80120 0.79180
+```","data_VO2_M1_P1
+_cell_length_a 5.7517
+_cell_length_b 4.5378
+_cell_length_c 5.3825
+_cell_angle_alpha 90.000
+_cell_angle_beta 122.646
+_cell_angle_gamma 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+V1 V 0.23950 0.97900 0.02590
+V2 V 0.76050 0.02100 0.97410
+V3 V 0.76050 0.47900 0.47410
+V4 V 0.23950 0.52100 0.52590
+O1 O 0.10620 0.21180 0.20800
+O2 O 0.89380 0.78820 0.79200
+O3 O 0.89380 0.71180 0.29200
+O4 O 0.10620 0.28820 0.70800
+O5 O 0.39850 0.69880 0.29180
+O6 O 0.60150 0.30120 0.70820
+O7 O 0.60150 0.19880 0.20820
+O8 O 0.39850 0.80120 0.79180",True,False
+La2CuO4,139,7,gemini-3-pro-preview-thinking,"```cif
+data_La2CuO4_orthorhombic
+_cell_length_a    5.35600
+_cell_length_b    5.40200
+_cell_length_c    13.15000
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cu1 Cu 0.000","```cif
+data_La2CuO4_orthorhombic
+_cell_length_a    5.35600
+_cell_length_b    5.40200
+_cell_length_c    13.15000
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cu1 Cu 0.000",False,False
+LiPF6,148,8,gemini-3-pro-preview-thinking,"```cif
+data_LiPF6_P1
+_cell_length_a 4.93200
+_cell_length_b 4.93200
+_cell_length_c 12.65800
+_cell_angle_alpha 90.00000
+_cell_angle_beta 90.00000
+_cell_angle_gamma 120.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1 Li 0.00000 0.00000 0.50000
+Li2 Li 0.66667 0.33333 0.83333
+Li3 Li 0.33333 0.66667 0.16667
+P1 P 0.00000 ","```cif
+data_LiPF6_P1
+_cell_length_a 4.93200
+_cell_length_b 4.93200
+_cell_length_c 12.65800
+_cell_angle_alpha 90.00000
+_cell_angle_beta 90.00000
+_cell_angle_gamma 120.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1 Li 0.00000 0.00000 0.50000
+Li2 Li 0.66667 0.33333 0.83333
+Li3 Li 0.33333 0.66667 0.16667
+P1 P 0.00000",False,False
+Al2O3,167,10,gemini-3-pro-preview-thinking,"```cif
+data_Al2O3_P1
+_cell_length_a    4.75900
+_cell_length_b    4.75900
+_cell_length_c    12.99100
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 120.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Al1 Al 0.","```cif
+data_Al2O3_P1
+_cell_length_a    4.75900
+_cell_length_b    4.75900
+_cell_length_c    12.99100
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 120.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Al1 Al 0.",False,False
+SrTiO3,140,10,gemini-3-pro-preview-thinking,"```cif
+data_SrTiO3_P1
+
+_cell_length_a 3.9050
+_cell_length_b 3.9050
+_cell_length_c 3.9050
+_cell_angle_alpha 90.0000
+_cell_angle_beta 90.0000
+_cell_angle_gamma 90.0000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Sr1 Sr 0.00000 0.00000 0.00000
+Ti1 Ti 0.50000 0.50000 0.50000
+O1  O  0.50000 0.50000 0.00000
+O2  O  0.50000 0.00000 0.50000
+O3  O  0.00000 0.50000 0.50000
+```","data_SrTiO3_P1
+
+_cell_length_a 3.9050
+_cell_length_b 3.9050
+_cell_length_c 3.9050
+_cell_angle_alpha 90.0000
+_cell_angle_beta 90.0000
+_cell_angle_gamma 90.0000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Sr1 Sr 0.00000 0.00000 0.00000
+Ti1 Ti 0.50000 0.50000 0.50000
+O1  O  0.50000 0.50000 0.00000
+O2  O  0.50000 0.00000 0.50000
+O3  O  0.00000 0.50000 0.50000",True,False
+CaCO3,167,10,gemini-3-pro-preview-thinking,"```cif
+data_CaCO3_Calcite_P1
+
+_cell_length_a    4.98900
+_cell_length_b    4.98900
+_cell_length_c    17.06200
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 120.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ca1 Ca 0.","```cif
+data_CaCO3_Calcite_P1
+
+_cell_length_a    4.98900
+_cell_length_b    4.98900
+_cell_length_c    17.06200
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 120.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ca1 Ca 0.",False,False
+TiO2,12,12,gemini-3-pro-preview-thinking,"```cif
+data_TiO2_Rutile_P1
+
+_cell_length_a    4.5937
+_cell_length_b    4.5937
+_cell_length_c    2.9587
+_cell_angle_alpha 90.000
+_cell_angle_beta  90.000
+_cell_angle_gamma 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ti1 Ti 0.00000 0.00000 0.00000
+Ti2 Ti 0.50000 0.50000 0.50000
+O1  O  0.30480 0.30480 0.00000
+O2  O  0.69520 0.69520 0.00000
+O3  O  0.80480 0.19520 0.50000
+O4  O  0.19520 0.80480 0.50000
+```","data_TiO2_Rutile_P1
+
+_cell_length_a    4.5937
+_cell_length_b    4.5937
+_cell_length_c    2.9587
+_cell_angle_alpha 90.000
+_cell_angle_beta  90.000
+_cell_angle_gamma 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ti1 Ti 0.00000 0.00000 0.00000
+Ti2 Ti 0.50000 0.50000 0.50000
+O1  O  0.30480 0.30480 0.00000
+O2  O  0.69520 0.69520 0.00000
+O3  O  0.80480 0.19520 0.50000
+O4  O  0.19520 0.80480 0.50000",True,False
+ZrO2,14,12,gemini-3-pro-preview-thinking,"```cif
+data_ZrO2_Baddeleyite_P1
+
+_cell_length_a    5.1450
+_cell_length_b    5.2075
+_cell_length_c    5.3107
+_cell_angle_alpha 90.0000
+_cell_angle_beta  99.2300
+_cell_angle_gamma 90.0000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zr1 Zr 0.2753 0.0404 0.2080
+Zr2 Zr 0.7247 0.9596 0.7920
+Zr3 Zr 0.7247 0.5404 0.2920
+Zr4 Zr 0.2753 0.4596 0.7080
+O1  O  0.0703 0.3321 0.3406
+O2  O  0.9297 0.6679 0.6594
+O3  O  0.9297 0.8321 0.1594
+O4  O  0.0703 0.1679 0.8406
+O5  O  0.4423 0.7549 0.4789
+O6  O  0.5577 0.2451 0.5211
+O7  O  0.5577 0.2549 0.0211
+O8  O  0.4423 0.7451 0.9789
+```","data_ZrO2_Baddeleyite_P1
+
+_cell_length_a    5.1450
+_cell_length_b    5.2075
+_cell_length_c    5.3107
+_cell_angle_alpha 90.0000
+_cell_angle_beta  99.2300
+_cell_angle_gamma 90.0000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zr1 Zr 0.2753 0.0404 0.2080
+Zr2 Zr 0.7247 0.9596 0.7920
+Zr3 Zr 0.7247 0.5404 0.2920
+Zr4 Zr 0.2753 0.4596 0.7080
+O1  O  0.0703 0.3321 0.3406
+O2  O  0.9297 0.6679 0.6594
+O3  O  0.9297 0.8321 0.1594
+O4  O  0.0703 0.1679 0.8406
+O5  O  0.4423 0.7549 0.4789
+O6  O  0.5577 0.2451 0.5211
+O7  O  0.5577 0.2549 0.0211
+O8  O  0.4423 0.7451 0.9789",True,True
+ZrTe5,63,12,gemini-3-pro-preview-thinking,"```cif
+data_ZrTe5
+_cell_length_a    3.98750
+_cell_length_b    14.53000
+_cell_length_c    13.72400
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zr1 Zr 0.00000 0.31520 0.25000
+Zr2 Zr 0.00000 0.68480 0.75000
+Zr3 Zr 0.50000 0.81520 0.25000
+Zr4 Zr 0.50000 0.18480 0.75000
+Te1 Te 0.00000 0.66280 0.25000
+Te2 Te 0.00000 0.33720 0.75000
+Te3 Te 0.50000","```cif
+data_ZrTe5
+_cell_length_a    3.98750
+_cell_length_b    14.53000
+_cell_length_c    13.72400
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zr1 Zr 0.00000 0.31520 0.25000
+Zr2 Zr 0.00000 0.68480 0.75000
+Zr3 Zr 0.50000 0.81520 0.25000
+Zr4 Zr 0.50000 0.18480 0.75000
+Te1 Te 0.00000 0.66280 0.25000
+Te2 Te 0.00000 0.33720 0.75000
+Te3 Te 0.50000",False,False
+V2O5,59,14,gemini-3-pro-preview-thinking,"```cif
+data_V2O5_P1
+_cell_length_a 11.5120
+_cell_length_b 3.5640
+_cell_length_c 4.3680
+_cell_angle_alpha 90.0000
+_cell_angle_beta 90.0000
+_cell_angle_gamma 90.0000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+V1 V 0.14840 0.25000 0.10860
+V2 V 0.35160 0.25000 0.10860
+V3 V 0.64840 0.75000 0.89140
+V4 V 0.85160 0.75000 0.89140
+O1 O 0.25000 0.25000 0.99690
+O2 O 0.75000 0.75000 0.00310
+O3 O 0.31910 0.25000 0.99720
+O4 O 0.18090 0.25000 0.99720
+O5 O 0.81910 0.75000 0.00280
+O6 O 0.68090 0.75000 0.00280
+O7 O 0.14860 0.25000 0.47130
+O8 O 0.35140 0.25000 0.47130
+O9 O 0.64860 0.75000 0.52870
+O10 O 0.85140 0.75000 0.52870
+```","data_V2O5_P1
+_cell_length_a 11.5120
+_cell_length_b 3.5640
+_cell_length_c 4.3680
+_cell_angle_alpha 90.0000
+_cell_angle_beta 90.0000
+_cell_angle_gamma 90.0000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+V1 V 0.14840 0.25000 0.10860
+V2 V 0.35160 0.25000 0.10860
+V3 V 0.64840 0.75000 0.89140
+V4 V 0.85160 0.75000 0.89140
+O1 O 0.25000 0.25000 0.99690
+O2 O 0.75000 0.75000 0.00310
+O3 O 0.31910 0.25000 0.99720
+O4 O 0.18090 0.25000 0.99720
+O5 O 0.81910 0.75000 0.00280
+O6 O 0.68090 0.75000 0.00280
+O7 O 0.14860 0.25000 0.47130
+O8 O 0.35140 0.25000 0.47130
+O9 O 0.64860 0.75000 0.52870
+O10 O 0.85140 0.75000 0.52870",True,False
+Si3N4,176,14,gemini-3-pro-preview-thinking,"```cif
+data_beta-Si3N4_P1
+
+_cell_length_a    7.60300
+_cell_length_b    7.60300
+_cell_length_c    2.90900
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 120.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si1 Si 0.1","```cif
+data_beta-Si3N4_P1
+
+_cell_length_a    7.60300
+_cell_length_b    7.60300
+_cell_length_c    2.90900
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 120.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si1 Si 0.1",False,False
+Fe3O4,227,14,gemini-3-pro-preview-thinking,"```cif
+data_Fe3O4_Magnetite_P1
+_cell_length_a 8.39400
+_cell_length_b 8.39400
+_cell_length_c 8.39400
+_cell_angle_alpha 90.00000
+_cell_angle_beta 90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Fe1 Fe 0","```cif
+data_Fe3O4_Magnetite_P1
+_cell_length_a 8.39400
+_cell_length_b 8.39400
+_cell_length_c 8.39400
+_cell_angle_alpha 90.00000
+_cell_angle_beta 90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Fe1 Fe 0",False,False
+Mn(FeO2)2,227,14,gemini-3-pro-preview-thinking,"```cif
+data_MnFe2O4_P1
+_cell_length_a    8.51000
+_cell_length_b    8.51000
+_cell_length_c    8.51000
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Mn1 Mn 0.0","```cif
+data_MnFe2O4_P1
+_cell_length_a    8.51000
+_cell_length_b    8.51000
+_cell_length_c    8.51000
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Mn1 Mn 0.0",False,False
+ZnSb,61,16,gemini-3-pro-preview-thinking,"```cif
+data_ZnSb_P1
+_cell_length_a 6.2180
+_cell_length_b 7.7410
+_cell_length_c 8.1150
+_cell_angle_alpha 90.000
+_cell_angle_beta 90.000
+_cell_angle_gamma 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zn1 Zn 0.1425 0.1732 0.0865
+Zn2 Zn 0.6425 0.3268 0.9135
+Zn3 Zn 0.8575 0.6732 0.4135
+Zn4 Zn 0.3575 0.8268 0.5865
+Zn5 Zn 0.8575 0.8268 0.9135
+Zn6 Zn 0.3575 0.6732 0.0865
+Zn7 Zn 0.1425 0.3268 0.5865
+Zn8 Zn 0.6425 0.1732 0.4135
+Sb1 Sb 0.1185 0.1585 0.5765
+Sb2 Sb 0.6185 0.3415 0.4235
+Sb3 Sb 0.8815 0.6585 0.9235
+Sb4 Sb 0.3815 0.8415 0.0765
+Sb5 Sb 0.8815 0.8415 0.4235
+Sb6 Sb 0.3815 0.6585 0.5765
+Sb7 Sb 0.1185 0.3415 0.0765
+Sb8 Sb 0.6185 0.1585 0.9235
+```","data_ZnSb_P1
+_cell_length_a 6.2180
+_cell_length_b 7.7410
+_cell_length_c 8.1150
+_cell_angle_alpha 90.000
+_cell_angle_beta 90.000
+_cell_angle_gamma 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zn1 Zn 0.1425 0.1732 0.0865
+Zn2 Zn 0.6425 0.3268 0.9135
+Zn3 Zn 0.8575 0.6732 0.4135
+Zn4 Zn 0.3575 0.8268 0.5865
+Zn5 Zn 0.8575 0.8268 0.9135
+Zn6 Zn 0.3575 0.6732 0.0865
+Zn7 Zn 0.1425 0.3268 0.5865
+Zn8 Zn 0.6425 0.1732 0.4135
+Sb1 Sb 0.1185 0.1585 0.5765
+Sb2 Sb 0.6185 0.3415 0.4235
+Sb3 Sb 0.8815 0.6585 0.9235
+Sb4 Sb 0.3815 0.8415 0.0765
+Sb5 Sb 0.8815 0.8415 0.4235
+Sb6 Sb 0.3815 0.6585 0.5765
+Sb7 Sb 0.1185 0.3415 0.0765
+Sb8 Sb 0.6185 0.1585 0.9235",True,False
+CoSb3,204,16,gemini-3-pro-preview-thinking,"```cif
+data_CoSb3_P1
+_cell_length_a 9.03850
+_cell_length_b 9.03850
+_cell_length_c 9.03850
+_cell_angle_alpha 90.00000
+_cell_angle_beta 90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Co1 Co 0.25000 0.25000 0.25000
+Co2 Co 0.75000 0.75000 0.25000
+Co3 Co 0.75000 0.25000 0.75000
+Co4 Co 0.25000 0.75000 0.75000
+Co5 Co 0.75000 0.75000 0.750","```cif
+data_CoSb3_P1
+_cell_length_a 9.03850
+_cell_length_b 9.03850
+_cell_length_c 9.03850
+_cell_angle_alpha 90.00000
+_cell_angle_beta 90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Co1 Co 0.25000 0.25000 0.25000
+Co2 Co 0.75000 0.75000 0.25000
+Co3 Co 0.75000 0.25000 0.75000
+Co4 Co 0.25000 0.75000 0.75000
+Co5 Co 0.75000 0.75000 0.750",True,False
+LiBF4,152,18,gemini-3-pro-preview-thinking,"```cif
+data_LiBF4_P1
+_cell_length_a    5.17800
+_cell_length_b    8.76300
+_cell_length_c    9.88200
+_cell_angle_alpha 90.00000
+_cell_angle_beta  120.60000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1 Li 0.25","```cif
+data_LiBF4_P1
+_cell_length_a    5.17800
+_cell_length_b    8.76300
+_cell_length_c    9.88200
+_cell_angle_alpha 90.00000
+_cell_angle_beta  120.60000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1 Li 0.25",False,False
+Y2Co17,166,19,gemini-3-pro-preview-thinking,"```cif
+data_Y2Co17_P1
+_cell_length_a    8.35200
+_cell_length_b    8.35200
+_cell_length_c    8.13600
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 120.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Y1   Y  0.","```cif
+data_Y2Co17_P1
+_cell_length_a    8.35200
+_cell_length_b    8.35200
+_cell_length_c    8.13600
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 120.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Y1   Y  0.",False,False
+GeH4,13,20,gemini-3-pro-preview-thinking,"```cif
+data_GeH4_solid_phase
+_cell_length_a    5.68000
+_cell_length_b    5.68000
+_cell_length_c    5.68000
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ge1 Ge 0.00","```cif
+data_GeH4_solid_phase
+_cell_length_a    5.68000
+_cell_length_b    5.68000
+_cell_length_c    5.68000
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ge1 Ge 0.00",False,False
+CsPbI3,62,20,gemini-3-pro-preview-thinking,"```cif
+data_CsPbI3_delta_phase
+_cell_length_a    10.46000
+_cell_length_b    4.79000
+_cell_length_c    17.77000
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cs1 Cs 0.4","```cif
+data_CsPbI3_delta_phase
+_cell_length_a    10.46000
+_cell_length_b    4.79000
+_cell_length_c    17.77000
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cs1 Cs 0.4",False,False
+NaCaAlPHO5F2,11,24,gemini-3-pro-preview-thinking,"Here is the CIF file for the crystal structure of Viitaniemiite (idealized composition NaCaAl(PO4)F2(OH)), which matches the stoichiometry NaCaAlPHO5F2.
+
+The structure is presented in space group P1 (triclinic) with all symmetry operations explicitly applied to generate the full unit cell contents (Z=2).
+
+```cif
+data_NaCaAlPHO5F2
+_chemical_name_common 'Viitaniemiite'
+_chemical_formula_sum 'Na2 Ca2 Al2 P2 H2 O10 F4'
+_cell_length_a 6.8210
+_cell_length_b 7.1430
+_cell_length_","Here is the CIF file for the crystal structure of Viitaniemiite (idealized composition NaCaAl(PO4)F2(OH)), which matches the stoichiometry NaCaAlPHO5F2.
+
+The structure is presented in space group P1 (triclinic) with all symmetry operations explicitly applied to generate the full unit cell contents (Z=2).
+
+```cif
+data_NaCaAlPHO5F2
+_chemical_name_common 'Viitaniemiite'
+_chemical_formula_sum 'Na2 Ca2 Al2 P2 H2 O10 F4'
+_cell_length_a 6.8210
+_cell_length_b 7.1430
+_cell_length_",False,False
+LiFePO4,62,28,gemini-3-pro-preview-thinking,"```cif
+data_LiFePO4_P1
+_cell_length_a    10.33200
+_cell_length_b    6.01000
+_cell_length_c    4.69200
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1 Li 0.000","```cif
+data_LiFePO4_P1
+_cell_length_a    10.33200
+_cell_length_b    6.01000
+_cell_length_c    4.69200
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li1 Li 0.000",False,False
+Cu12Sb4S13,217,29,gemini-3-pro-preview-thinking,"```cif
+data_Cu12Sb4S13_Tetrahedrite
+_cell_length_a    10.32000
+_cell_length_b    10.32000
+_cell_length_c    10.32000
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cu1","```cif
+data_Cu12Sb4S13_Tetrahedrite
+_cell_length_a    10.32000
+_cell_length_b    10.32000
+_cell_length_c    10.32000
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cu1",False,False
+MgB7,74,32,gemini-3-pro-preview-thinking,"```cif
+data_MgB7
+_cell_length_a    3.08700
+_cell_length_b    8.16500
+_cell_length_c    5.93200
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Mg1 Mg 0.50000 0.5","```cif
+data_MgB7
+_cell_length_a    3.08700
+_cell_length_b    8.16500
+_cell_length_c    5.93200
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Mg1 Mg 0.50000 0.5",False,False
+Li3PS4,62,32,gemini-3-pro-preview-thinking,"Here is the CIF file for the $\gamma$-$\text{Li}_3\text{PS}_4$ phase (Space Group $Pmn2_1$), which is widely regarded as the stable ground-state structure. The data has been converted to P1 (triclinic) with all atoms explicitly listed.
+
+```cif
+data_Li3PS4
+_cell_length_a    7.72900
+_cell_length_b    6.53300
+_cell_length_c    6.13700
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.0","Here is the CIF file for the $\gamma$-$\text{Li}_3\text{PS}_4$ phase (Space Group $Pmn2_1$), which is widely regarded as the stable ground-state structure. The data has been converted to P1 (triclinic) with all atoms explicitly listed.
+
+```cif
+data_Li3PS4
+_cell_length_a    7.72900
+_cell_length_b    6.53300
+_cell_length_c    6.13700
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.0",False,False
+Cd3As2,142,80,gemini-3-pro-preview-thinking,"Here is the CIF file for the low-temperature, most stable phase of Cd3As2 (Space Group $I4_1cd$), expanded into a P1 (triclinic) representation containing the full conventional unit cell (160 atoms).
+
+This structure corresponds to the experimental data by Steigmann and Goodyear (1968), representing the $2\sqrt{2}a \times 2\sqrt{2}a \times 4a$ superstructure of the antifluorite lattice with ordered vacancies.
+
+```cif
+data_Cd3As2_P1_Conventional
+_cell_length_a    12.67000
+_cell_length_b    12.67000
+_cell_length_c","Here is the CIF file for the low-temperature, most stable phase of Cd3As2 (Space Group $I4_1cd$), expanded into a P1 (triclinic) representation containing the full conventional unit cell (160 atoms).
+
+This structure corresponds to the experimental data by Steigmann and Goodyear (1968), representing the $2\sqrt{2}a \times 2\sqrt{2}a \times 4a$ superstructure of the antifluorite lattice with ordered vacancies.
+
+```cif
+data_Cd3As2_P1_Conventional
+_cell_length_a    12.67000
+_cell_length_b    12.67000
+_cell_length_c",False,False
+Li4Ti5O12,15,42,gemini-3-pro-preview-thinking,"Here is the CIF file for the ordered $Li_4Ti_5O_{12}$ structure. This structure represents the stoichiometry $Li_4Ti_5O_{12}$ using a hexagonal supercell (derived from the spinel structure) containing 84 atoms ($Li_{16}Ti_{20}O_{48}$), which allows for the explicit ordering of Lithium and Titanium atoms on the octahedral sites without fractional occupancy.
+
+```cif
+data_Li4Ti5O12
+_cell_length_a    5.91000
+_cell_length_b    5.91000
+_cell_length_c    14.48000
+_cell_angle_alpha 90.0","Here is the CIF file for the ordered $Li_4Ti_5O_{12}$ structure. This structure represents the stoichiometry $Li_4Ti_5O_{12}$ using a hexagonal supercell (derived from the spinel structure) containing 84 atoms ($Li_{16}Ti_{20}O_{48}$), which allows for the explicit ordering of Lithium and Titanium atoms on the octahedral sites without fractional occupancy.
+
+```cif
+data_Li4Ti5O12
+_cell_length_a    5.91000
+_cell_length_b    5.91000
+_cell_length_c    14.48000
+_cell_angle_alpha 90.0",False,False
+Ba2CaSi4(BO7)2,121,46,gemini-3-pro-preview-thinking,"Here is the CIF file for the most stable crystal structure of $\text{Ba}_2\text{CaSi}_4(\text{BO}_7)_2$ (formula $\text{Ba}_2\text{CaB}_2\text{Si}_4\text{O}_{14}$).
+
+The structure is based on the monoclinic $C2/c$ phase reported in literature (isostructural with $\text{Ba}_2\text{CdB}_2\text{Si}_4\text{O}_{14}$), expanded here into the P1 space group (triclinic setting with no symmetry assumptions) containing the full unit cell content ($Z=4$, 92 atoms).
+
+```cif
+data_Ba2CaSi4B","Here is the CIF file for the most stable crystal structure of $\text{Ba}_2\text{CaSi}_4(\text{BO}_7)_2$ (formula $\text{Ba}_2\text{CaB}_2\text{Si}_4\text{O}_{14}$).
+
+The structure is based on the monoclinic $C2/c$ phase reported in literature (isostructural with $\text{Ba}_2\text{CdB}_2\text{Si}_4\text{O}_{14}$), expanded here into the P1 space group (triclinic setting with no symmetry assumptions) containing the full unit cell content ($Z=4$, 92 atoms).
+
+```cif
+data_Ba2CaSi4B",False,False
+Ag8GeS6,33,60,gemini-3-pro-preview-thinking,"Here is the CIF file for the most stable (low-temperature orthorhombic) phase of Ag8GeS6, expanded into the P1 space group (triclinic setting with no symmetry operations) containing the full unit cell of 60 atoms.
+
+```cif
+data_Ag8GeS6
+_cell_length_a    15.63800
+_cell_length_b    7.76500
+_cell_length_c    10.92200
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+_symmetry","Here is the CIF file for the most stable (low-temperature orthorhombic) phase of Ag8GeS6, expanded into the P1 space group (triclinic setting with no symmetry operations) containing the full unit cell of 60 atoms.
+
+```cif
+data_Ag8GeS6
+_cell_length_a    15.63800
+_cell_length_b    7.76500
+_cell_length_c    10.92200
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+_symmetry",False,False
+Nd2Fe14B,136,68,gemini-3-pro-preview-thinking,"```cif
+data_Nd2Fe14B_P1
+_cell_length_a    8.80000
+_cell_length_b    8.80000
+_cell_length_c    12.20000
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Nd1 Nd 0.2","```cif
+data_Nd2Fe14B_P1
+_cell_length_a    8.80000
+_cell_length_b    8.80000
+_cell_length_c    12.20000
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Nd1 Nd 0.2",False,False
+Y3Al5O12,230,80,gemini-3-pro-preview-thinking,"```cif
+data_Y3Al5O12_P1
+
+_cell_length_a    12.0100
+_cell_length_b    12.0100
+_cell_length_c    12.0100
+_cell_angle_alpha 90.0000
+_cell_angle_beta  90.0000
+_cell_angle_gamma 90.0000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Y1 Y 0.1250","```cif
+data_Y3Al5O12_P1
+
+_cell_length_a    12.0100
+_cell_length_b    12.0100
+_cell_length_c    12.0100
+_cell_angle_alpha 90.0000
+_cell_angle_beta  90.0000
+_cell_angle_gamma 90.0000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Y1 Y 0.1250",False,False
+Ca14MnSb11,142,104,gemini-3-pro-preview-thinking,"Here is the CIF file for the most stable structure of Ca14MnSb11 (Space Group $I4_1/acd$, No. 142), expanded to P1 (Triclinic) as requested. This file contains the explicit fractional coordinates for all 208 atoms in the unit cell ($Z=8$).
+
+```cif
+data_Ca14MnSb11_P1
+_cell_length_a    16.6430
+_cell_length_b    16.6430
+_cell_length_c    22.4310
+_cell_angle_alpha 90.0000
+_cell_angle_beta  90.0000","Here is the CIF file for the most stable structure of Ca14MnSb11 (Space Group $I4_1/acd$, No. 142), expanded to P1 (Triclinic) as requested. This file contains the explicit fractional coordinates for all 208 atoms in the unit cell ($Z=8$).
+
+```cif
+data_Ca14MnSb11_P1
+_cell_length_a    16.6430
+_cell_length_b    16.6430
+_cell_length_c    22.4310
+_cell_angle_alpha 90.0000
+_cell_angle_beta  90.0000",False,False
