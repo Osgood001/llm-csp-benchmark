@@ -1,0 +1,72 @@
+data_CsPbI3
+_symmetry_space_group_name_H-M   'P m -3 m'
+_symmetry_Int_Tables_number       221
+_cell_length_a                    6.2894
+_cell_length_b                    6.2894
+_cell_length_c                    6.2894
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+_cell_formula_units_Z             1
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, -y, z'
+  '-x, y, -z'
+  'x, -y, -z'
+  'z, x, y'
+  'z, -x, -y'
+  '-z, -x, y'
+  '-z, x, -y'
+  'y, z, x'
+  '-y, z, -x'
+  'y, -z, -x'
+  '-y, -z, x'
+  'y, x, -z'
+  '-y, -x, -z'
+  'y, -x, z'
+  '-y, x, z'
+  'x, z, -y'
+  '-x, z, y'
+  '-x, -z, -y'
+  'x, -z, y'
+  'z, y, -x'
+  'z, -y, x'
+  '-z, y, x'
+  '-z, -y, -x'
+  '-x, -y, -z'
+  'x, y, -z'
+  'x, -y, z'
+  '-x, y, z'
+  '-z, -x, -y'
+  '-z, x, y'
+  'z, x, -y'
+  'z, -x, y'
+  '-y, -z, -x'
+  'y, -z, x'
+  '-y, z, x'
+  'y, z, -x'
+  '-y, -x, z'
+  'y, x, z'
+  '-y, x, -z'
+  'y, -x, -z'
+  '-x, -z, y'
+  'x, -z, -y'
+  'x, z, y'
+  '-x, z, -y'
+  '-z, -y, x'
+  '-z, y, -x'
+  'z, -y, -x'
+  'z, y, x'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Cs1  Cs  0.00000  0.00000  0.00000  1.0
+  Pb1  Pb  0.50000  0.50000  0.50000  1.0
+  I1   I   0.50000  0.50000  0.00000  1.0

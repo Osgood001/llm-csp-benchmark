@@ -1,0 +1,46 @@
+data_GeH4
+_chemical_formula_sum            'Ge H4'
+_chemical_name_common            'Germane'
+_chemical_formula_weight         76.64
+_space_group_name_H-M_alt        'T d'
+_symmetry_cell_setting           cubic
+
+_cell_length_a                   1.5271
+_cell_length_b                   1.5271
+_cell_length_c                   1.5271
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ge1  Ge  0.00000  0.00000  0.00000
+H1   H   0.33333  0.33333  0.33333
+H2   H  -0.33333 -0.33333  0.33333
+H3   H  -0.33333  0.33333 -0.33333
+H4   H   0.33333 -0.33333 -0.33333
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+Ge1  H1  1.527
+Ge1  H2  1.527
+Ge1  H3  1.527
+Ge1  H4  1.527
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+H1  Ge1  H2  109.471
+H1  Ge1  H3  109.471
+H1  Ge1  H4  109.471
+H2  Ge1  H3  109.471
+H2  Ge1  H4  109.471
+H3  Ge1  H4  109.471

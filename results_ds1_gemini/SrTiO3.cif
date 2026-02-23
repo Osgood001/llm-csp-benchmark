@@ -1,0 +1,75 @@
+data_SrTiO3
+_chemical_name_common                  'Strontium Titanate'
+_chemical_formula_sum                  'O3 Sr1 Ti1'
+_cell_length_a                         3.9050
+_cell_length_b                         3.9050
+_cell_length_c                         3.9050
+_cell_angle_alpha                      90.00
+_cell_angle_beta                       90.00
+_cell_angle_gamma                      90.00
+_cell_volume                           59.539
+_symmetry_space_group_name_H-M         'P m -3 m'
+_symmetry_Int_Tables_number            221
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, -z'
+'-x, y, z'
+'x, -y, -z'
+'x, -y, z'
+'-x, y, -z'
+'x, y, -z'
+'-x, -y, z'
+'z, x, y'
+'-z, -x, -y'
+'-z, x, y'
+'z, -x, -y'
+'z, -x, y'
+'-z, x, -y'
+'z, x, -y'
+'-z, -x, z'
+'y, z, x'
+'-y, -z, -x'
+'-y, z, x'
+'y, -z, -x'
+'y, -z, x'
+'-y, z, -x'
+'y, z, -x'
+'-y, -z, z'
+'y, x, -z'
+'-y, -x, z'
+'-y, x, -z'
+'y, -x, z'
+'y, -x, -z'
+'-y, x, z'
+'y, x, z'
+'-y, -x, -z'
+'x, z, -y'
+'-x, -z, y'
+'-x, z, -y'
+'x, -z, y'
+'x, -z, -y'
+'-x, z, y'
+'x, z, y'
+'-x, -z, -y'
+'z, y, -x'
+'-z, -y, x'
+'-z, y, -x'
+'z, -y, x'
+'z, -y, -x'
+'-z, y, x'
+'z, y, x'
+'-z, -y, -x'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Sr1 Sr 0.00000 0.00000 0.00000 1.000 0.500
+Ti1 Ti 0.50000 0.50000 0.50000 1.000 0.500
+O1  O  0.50000 0.50000 0.00000 1.000 0.500

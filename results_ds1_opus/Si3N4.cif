@@ -1,0 +1,40 @@
+data_Si3N4
+_chemical_formula_sum            'Si3 N4'
+_chemical_name_systematic        'Silicon nitride'
+_symmetry_space_group_name_H-M   'P 63/m'
+_symmetry_Int_Tables_number      176
+_cell_length_a                   7.7530
+_cell_length_b                   7.7530
+_cell_length_c                   5.6170
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     292.41
+_cell_formula_units_Z            2
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-y, x-y, z'
+  '-x+y, -x, z'
+  '-x, -y, z+1/2'
+  'y, -x+y, z+1/2'
+  'x-y, x, z+1/2'
+  '-x, -y, -z'
+  'y, -x+y, -z'
+  'x-y, x, -z'
+  'x, y, -z+1/2'
+  '-y, x-y, -z+1/2'
+  '-x+y, -x, -z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Si1  Si  0.17154  0.76890  0.25000  1.0
+Si2  Si  0.23264  0.40540  0.25000  1.0
+N1   N   0.33320  0.03130  0.25000  1.0
+N2   N   0.33333  0.66667  0.25000  1.0

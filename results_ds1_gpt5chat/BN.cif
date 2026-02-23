@@ -1,0 +1,48 @@
+data_BN
+_symmetry_space_group_name_H-M   "F-43m"
+_symmetry_Int_Tables_number      216
+_cell_length_a                   3.615
+_cell_length_b                   3.615
+_cell_length_c                   3.615
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_volume                     47.185
+_cell_formula_units_Z            4
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+    x,y,z
+    x,-y,-z
+    -x,y,-z
+    -x,-y,z
+    y,z,x
+    y,-z,-x
+    -y,z,-x
+    -y,-z,x
+    z,x,y
+    z,-x,-y
+    -z,x,-y
+    -z,-x,y
+    y,x,z
+    y,-x,-z
+    -y,x,-z
+    -y,-x,z
+    z,y,x
+    z,-y,-x
+    -z,y,-x
+    -z,-y,x
+    x,z,y
+    x,-z,-y
+    -x,z,-y
+    -x,-z,y
+
+loop_
+  _atom_site_label
+  _atom_site_type_symbol
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+    B   B   0.00000   0.00000   0.00000   1.0
+    N   N   0.25000   0.25000   0.25000   1.0

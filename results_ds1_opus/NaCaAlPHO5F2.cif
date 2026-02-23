@@ -1,0 +1,52 @@
+data_NaCaAlPHO5F2
+_symmetry_space_group_name_H-M   'P -1'
+_symmetry_Int_Tables_number       2
+_cell_length_a                    5.3200
+_cell_length_b                    6.9400
+_cell_length_c                    7.4800
+_cell_angle_alpha                 75.320
+_cell_angle_beta                  82.150
+_cell_angle_gamma                 89.970
+_cell_volume                      264.38
+_cell_formula_units_Z             2
+_chemical_formula_sum             'Na Ca Al P H O5 F2'
+_chemical_formula_weight          232.99
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, -y, -z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Na1   Na   0.24300   0.75120   0.49800   1.000   0.0120
+Ca1   Ca   0.73500   0.24830   0.00250   1.000   0.0095
+Al1   Al   0.25100   0.25040   0.24900   1.000   0.0070
+P1    P    0.74800   0.74900   0.25100   1.000   0.0065
+O1    O    0.74200   0.55300   0.37200   1.000   0.0100
+O2    O    0.51800   0.87400   0.30500   1.000   0.0105
+O3    O    0.98200   0.87200   0.28600   1.000   0.0110
+O4    O    0.73600   0.70100   0.05200   1.000   0.0098
+O5    O    0.24500   0.04800   0.42500   1.000   0.0115
+F1    F    0.25800   0.44900   0.07300   1.000   0.0090
+F2    F    0.23900   0.05200   0.10200   1.000   0.0092
+H1    H    0.11500   0.04000   0.52800   1.000   0.0250
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na1   0.0140   0.0130   0.0095  -0.0010  -0.0015  -0.0030
+Ca1   0.0085   0.0100   0.0098  -0.0005  -0.0012  -0.0020
+Al1   0.0065   0.0072   0.0070   0.0002  -0.0008  -0.0015
+P1    0.0060   0.0068   0.0065   0.0003  -0.0007  -0.0014

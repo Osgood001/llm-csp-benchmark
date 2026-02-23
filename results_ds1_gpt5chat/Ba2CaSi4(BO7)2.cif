@@ -1,0 +1,49 @@
+data_Ba2CaSi4_BO7_2
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number      1
+_cell_length_a                   9.500
+_cell_length_b                   9.500
+_cell_length_c                   9.500
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_volume                     857.375
+_cell_formula_units_Z            1
+_chemical_name_formula           'Ba2 Ca Si4 (BO7)2'
+_chemical_formula_sum            'Ba2 Ca Si4 B2 O14'
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+
+Ba1  Ba  0.0000  0.0000  0.0000  1.0
+Ba2  Ba  0.5000  0.5000  0.0000  1.0
+Ca1  Ca  0.2500  0.2500  0.2500  1.0
+Si1  Si  0.7500  0.2500  0.2500  1.0
+Si2  Si  0.2500  0.7500  0.2500  1.0
+Si3  Si  0.2500  0.2500  0.7500  1.0
+Si4  Si  0.7500  0.7500  0.7500  1.0
+B1   B   0.1250  0.1250  0.1250  1.0
+B2   B   0.6250  0.6250  0.6250  1.0
+O1   O   0.1000  0.2000  0.3000  1.0
+O2   O   0.2000  0.3000  0.4000  1.0
+O3   O   0.3000  0.4000  0.5000  1.0
+O4   O   0.4000  0.5000  0.6000  1.0
+O5   O   0.5000  0.6000  0.7000  1.0
+O6   O   0.6000  0.7000  0.8000  1.0
+O7   O   0.7000  0.8000  0.9000  1.0
+O8   O   0.1500  0.2500  0.3500  1.0
+O9   O   0.2500  0.3500  0.4500  1.0
+O10  O   0.3500  0.4500  0.5500  1.0
+O11  O   0.4500  0.5500  0.6500  1.0
+O12  O   0.5500  0.6500  0.7500  1.0
+O13  O   0.6500  0.7500  0.8500  1.0
+O14  O   0.7500  0.8500  0.9500  1.0

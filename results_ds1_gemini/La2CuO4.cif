@@ -1,0 +1,64 @@
+data_La2CuO4
+_audit_creation_method 'AI Generated based on Jorgensen et al. Phys. Rev. B 36, 3608 (1987)'
+_chemical_name_common 'Lanthanum cuprate'
+_chemical_formula_sum 'Cu La2 O4'
+_chemical_formula_weight 405.35
+
+_symmetry_space_group_name_H-M 'I 4/m m m'
+_symmetry_Int_Tables_number 139
+
+_cell_length_a 3.7873
+_cell_length_b 3.7873
+_cell_length_c 13.2883
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 190.603
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-x, y, -z'
+'x, -y, -z'
+'-x, -y, -z'
+'x, y, -z'
+'x, -y, z'
+'-x, y, z'
+'y, x, z'
+'-y, -x, z'
+'-y, x, -z'
+'y, -x, -z'
+'-y, -x, -z'
+'y, x, -z'
+'y, -x, z'
+'-y, x, z'
+'x+1/2, y+1/2, z+1/2'
+'-x+1/2, -y+1/2, z+1/2'
+'-x+1/2, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z+1/2'
+'-x+1/2, -y+1/2, -z+1/2'
+'x+1/2, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, z+1/2'
+'-x+1/2, y+1/2, z+1/2'
+'y+1/2, x+1/2, z+1/2'
+'-y+1/2, -x+1/2, z+1/2'
+'-y+1/2, x+1/2, -z+1/2'
+'y+1/2, -x+1/2, -z+1/2'
+'-y+1/2, -x+1/2, -z+1/2'
+'y+1/2, x+1/2, -z+1/2'
+'y+1/2, -x+1/2, z+1/2'
+'-y+1/2, x+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+La1 La 0.00000 0.00000 0.36060 1.00000 0.0045
+Cu1 Cu 0.00000 0.00000 0.00000 1.00000 0.0038
+O1 O 0.00000 0.50000 0.00000 1.00000 0.0085
+O2 O 0.00000 0.00000 0.18280 1.00000 0.0120

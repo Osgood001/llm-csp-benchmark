@@ -1,0 +1,42 @@
+data_LiFePO4_Olivine
+_chemical_name_common 'Lithium Iron Phosphate'
+_chemical_formula_sum 'Li1 Fe1 O4 P1'
+_chemical_formula_weight 157.76
+
+_symmetry_space_group_name_H-M 'P n m a'
+_symmetry_Int_Tables_number 62
+
+_cell_length_a 10.3230
+_cell_length_b 6.0030
+_cell_length_c 4.6930
+_cell_angle_alpha 90.000
+_cell_angle_beta 90.000
+_cell_angle_gamma 90.000
+_cell_volume 290.82
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, -y, -z'
+'x+1/2, y, -z+1/2'
+'x, -y+1/2, z'
+'-x+1/2, y+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Li1 Li 4a 0.00000 0.00000 0.00000 1.0 0.015
+Fe1 Fe 4c 0.28220 0.25000 0.97470 1.0 0.006
+P1  P  4c 0.09480 0.25000 0.41820 1.0 0.006
+O1  O  4c 0.09680 0.25000 0.74280 1.0 0.008
+O2  O  4c 0.45710 0.25000 0.20600 1.0 0.008
+O3  O  8d 0.16550 0.04640 0.28460 1.0 0.008

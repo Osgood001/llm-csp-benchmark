@@ -1,0 +1,61 @@
+data_BaFe2As2
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_symmetry_Int_Tables_number       139
+_cell_length_a                    3.9625
+_cell_length_b                    3.9625
+_cell_length_c                    13.0168
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+_cell_formula_units_Z             2
+_chemical_formula_sum             'Ba Fe2 As2'
+_chemical_formula_structural      'Ba (Fe As)2'
+_chemical_name_common             'Barium iron arsenide'
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, -y, z'
+  '-y, x, z'
+  'y, -x, z'
+  '-x, y, -z'
+  'x, -y, -z'
+  'y, x, -z'
+  '-y, -x, -z'
+  '-x, -y, -z'
+  'x, y, -z'
+  'y, -x, -z'
+  '-y, x, -z'
+  'x, -y, z'
+  '-x, y, z'
+  '-y, -x, z'
+  'y, x, z'
+  'x+1/2, y+1/2, z+1/2'
+  '-x+1/2, -y+1/2, z+1/2'
+  '-y+1/2, x+1/2, z+1/2'
+  'y+1/2, -x+1/2, z+1/2'
+  '-x+1/2, y+1/2, -z+1/2'
+  'x+1/2, -y+1/2, -z+1/2'
+  'y+1/2, x+1/2, -z+1/2'
+  '-y+1/2, -x+1/2, -z+1/2'
+  '-x+1/2, -y+1/2, -z+1/2'
+  'x+1/2, y+1/2, -z+1/2'
+  'y+1/2, -x+1/2, -z+1/2'
+  '-y+1/2, x+1/2, -z+1/2'
+  'x+1/2, -y+1/2, z+1/2'
+  '-x+1/2, y+1/2, z+1/2'
+  '-y+1/2, -x+1/2, z+1/2'
+  'y+1/2, x+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Ba  Ba  2  a  0.00000  0.00000  0.00000  1.0
+  Fe  Fe  4  d  0.00000  0.50000  0.25000  1.0
+  As  As  4  e  0.00000  0.00000  0.35460  1.0

@@ -1,0 +1,33 @@
+data_LiBF4
+_symmetry_space_group_name_H-M   'P 3 2 1'
+_symmetry_Int_Tables_number       150
+_cell_length_a                    4.906
+_cell_length_b                    4.906
+_cell_length_c                    11.170
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 120.000
+_cell_formula_units_Z             3
+_chemical_formula_sum             'Li B F4'
+_chemical_formula_weight          93.74
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-y, x-y, z'
+  '-x+y, -x, z'
+  'y, x, -z'
+  'x-y, -y, -z'
+  '-x, -x+y, -z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Li1  Li  0.00000  0.00000  0.50000  1.0
+B1   B   0.33333  0.66667  0.00000  1.0
+F1   F   0.33333  0.66667  0.13700  1.0
+F2   F   0.15600  0.47800  -0.04570  1.0
