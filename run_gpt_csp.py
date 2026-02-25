@@ -22,12 +22,12 @@ import traceback
 logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
 
 # ── API config ──────────────────────────────────────────────
-API_BASE = "https://luckyapi.chat/v1"
-API_KEY = "REDACTED_API_KEY"
+API_BASE = os.environ.get("API_BASE_URL", "https://luckyapi.chat/v1")
+API_KEY = os.environ.get("API_KEY", "")
 MODEL = "gemini-3-pro-preview-thinking"  # default, overridden by --model
 
 # ── MP API config ───────────────────────────────────────────
-MP_API_KEY = "REDACTED_MP_KEY"
+MP_API_KEY = os.environ.get("MP_API_KEY", "")
 
 
 def load_benchmark(path, dataset_id=None):
