@@ -1,6 +1,7 @@
 """
-Ask GPT to generate CIF files for benchmark structures,
-then compare with ground truth using pymatgen StructureMatcher.
+Benchmark LLMs on crystal structure prediction (CSP).
+Generate CIF files via OpenAI-compatible API, compare with ground truth
+using pymatgen StructureMatcher.
 """
 import os
 import sys
