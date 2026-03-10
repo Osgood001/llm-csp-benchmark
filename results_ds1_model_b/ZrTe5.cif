@@ -1,0 +1,47 @@
+data_ZrTe5
+_chemical_formula_sum            'Zr2 Te10'
+_chemical_formula_structural     'Zr Te5'
+_chemical_name_common            'Zirconium Pentatelluride'
+_cell_length_a                   3.9875
+_cell_length_b                   14.502
+_cell_length_c                   13.727
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     793.68
+_cell_formula_units_Z            2
+_space_group_name_H-M_alt        'C m c m'
+_space_group_IT_number           63
+_symmetry_space_group_name_Hall  '-C 2c 2'
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z+1/2'
+'-x, y, -z+1/2'
+'x, -y, -z'
+'-x, -y, -z'
+'x, y, -z+1/2'
+'x, -y, z+1/2'
+'-x, y, z'
+'x+1/2, y+1/2, z'
+'-x+1/2, -y+1/2, z+1/2'
+'-x+1/2, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, z+1/2'
+'-x+1/2, y+1/2, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Zr1   Zr   0.00000   0.61520   0.25000   1.0   4c
+Te1   Te   0.00000   0.01810   0.25000   1.0   4c
+Te2   Te   0.00000   0.41930   0.25000   1.0   4c
+Te3   Te   0.00000   0.28770   0.06490   1.0   8f

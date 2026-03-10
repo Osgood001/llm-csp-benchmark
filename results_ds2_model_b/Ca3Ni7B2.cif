@@ -1,0 +1,32 @@
+data_Ca3Ni7B2
+_chemical_formula_sum            'Ca3 Ni7 B2'
+_chemical_formula_weight         589.Sr
+
+_cell_length_a                   4.880
+_cell_length_b                   4.880
+_cell_length_c                   9.560
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     197.2
+_cell_formula_units_Z            1
+
+_space_group_name_H-M_alt        'P 63/m m c'
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ni1  Ni  2  a  0.00000  0.00000  0.00000  1.0
+Ni2  Ni  2  c  0.33333  0.66667  0.25000  1.0
+Ni3  Ni  2  d  0.33333  0.66667  0.75000  1.0
+Ni4  Ni  6  g  0.50000  0.00000  0.00000  0.5
+B1   B   2  b  0.00000  0.00000  0.25000  1.0
+Ca1  Ca  6  h  0.16667  0.33333  0.25000  0.5

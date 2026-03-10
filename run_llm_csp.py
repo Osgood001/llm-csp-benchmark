@@ -1,18 +1,18 @@
 """
 Benchmark LLMs on crystal structure prediction (CSP).
-Generate CIF files via OpenAI-compatible API, compare with ground truth
+Generate CIF files via API, compare with ground truth
 using pymatgen StructureMatcher.
 """
 import os
 import sys
 import json
 import time
+import requests
 import pandas as pd
 import argparse
 import logging
 from ast import literal_eval
 from tqdm import tqdm
-from openai import OpenAI
 from pymatgen.core import Structure
 from pymatgen.analysis.structure_matcher import StructureMatcher, ElementComparator
 from pymatgen.io.cif import CifParser
@@ -22,10 +22,9 @@ import traceback
 
 logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
 
-# ── API config ──────────────────────────────────────────────
-API_BASE = os.environ.get("API_BASE_URL", "https://luckyapi.chat/v1")
+# ── API config (from env) ──────────────────────────────────
+API_BASE = os.environ.get("API_BASE_URL", "")
 API_KEY = os.environ.get("API_KEY", "")
-MODEL = "gemini-3-pro-preview-thinking"  # default, overridden by --model
 
 # ── MP API config ───────────────────────────────────────────
 MP_API_KEY = os.environ.get("MP_API_KEY", "")
@@ -52,10 +51,11 @@ def load_benchmark(path, dataset_id=None):
     return entries
 
 
-def ask_gpt_for_cif(client, formula, model, n_atoms=None, simple=False):
-    """Ask GPT to generate a CIF file for the given formula."""
+def ask_gpt_for_cif(client_unused, formula, model, n_atoms=None, simple=False):
+    """Ask LLM to generate a CIF file for the given formula via predictions API."""
+    system_msg = "You are an expert crystallographer. Generate accurate CIF files."
     if simple:
-        prompt = (
+        user_msg = (
             f"Generate a CIF file for the most stable crystal structure of {formula}. "
             f"Use space group P1 (no symmetry operations). "
             f"List ALL atoms explicitly with their fractional coordinates. "
@@ -68,23 +68,42 @@ def ask_gpt_for_cif(client, formula, model, n_atoms=None, simple=False):
         hint = ""
         if n_atoms:
             hint = f" The conventional unit cell contains {n_atoms} atoms."
-        prompt = (
+        user_msg = (
             f"Generate a complete CIF (Crystallographic Information File) for the most stable "
             f"crystal structure of {formula}.{hint}\n"
             f"Output ONLY the CIF content between ```cif and ```. "
             f"Include all necessary fields: cell parameters, space group, "
             f"atom sites with fractional coordinates."
         )
-    resp = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": "You are an expert crystallographer. Generate accurate CIF files."},
-            {"role": "user", "content": prompt},
-        ],
-        temperature=0.2,
-        max_tokens=4096,
+
+    prompt = f"System: {system_msg}\n\nUser: {user_msg}"
+
+    resp = requests.post(
+        f"{API_BASE}/predictions",
+        headers={
+            "Authorization": f"Bearer {API_KEY}",
+            "Content-Type": "application/json",
+        },
+        json={
+            "model": model,
+            "input": {
+                "prompt": prompt,
+                "max_tokens": 4096,
+                "temperature": 0.2,
+            },
+        },
+        timeout=120,
     )
-    return resp.choices[0].message.content
+    resp.raise_for_status()
+    data = resp.json()
+
+    if data.get("status") != "succeeded":
+        raise RuntimeError(f"API error: {data.get('error', data.get('status'))}")
+
+    output = data.get("output", [])
+    if isinstance(output, list):
+        return "".join(output)
+    return str(output)
 
 
 def parse_cif_from_response(text):
@@ -140,23 +159,26 @@ def main():
                         default="/tmp/crystal_gpt/data/benchmark/Dataset_I_II_III_with_predictions.pd")
     parser.add_argument("--dataid", type=int, default=None,
                         help="Dataset id (1/2/3), None=all")
-    parser.add_argument("--model", type=str, default=MODEL,
+    parser.add_argument("--model", type=str, required=True,
                         help="Model name to use")
     parser.add_argument("--output", type=str, default="/home/osgood/gptcsp/results")
     parser.add_argument("--simple-prompt", action="store_true",
                         help="Use simple prompt (formula only, no hints)")
     parser.add_argument("--use-mp", action="store_true",
                         help="Also compare with Materials Project structures")
+    parser.add_argument("--skip-existing", action="store_true",
+                        help="Skip formulas that already have CIF files in output dir")
     args = parser.parse_args()
 
     os.makedirs(args.output, exist_ok=True)
 
+    if not API_BASE or not API_KEY:
+        logging.error("API_BASE_URL and API_KEY environment variables must be set")
+        sys.exit(1)
+
     # Load benchmark
     entries = load_benchmark(args.dataset, args.dataid)
     logging.info(f"Loaded {len(entries)} benchmark entries")
-
-    # Init OpenAI client
-    client = OpenAI(base_url=API_BASE, api_key=API_KEY)
 
     # Init matcher (same as CrystalFormer-CSP paper)
     matcher = StructureMatcher(comparator=ElementComparator())
@@ -168,13 +190,21 @@ def main():
     for entry in tqdm(entries, desc="Processing"):
         formula = entry['formula']
         gt_struct = entry['gt_struct']
+
+        # Skip if CIF already exists
+        if args.skip_existing:
+            cif_path = os.path.join(args.output, f"{formula}.cif")
+            if os.path.exists(cif_path):
+                logging.info(f"Skip (exists): {formula}")
+                continue
+
         logging.info(f"\n{'='*50}\nProcessing: {formula} (SG: {entry['spg']}, atoms: {entry['n_atoms']})")
 
         row = {'formula': formula, 'spg': entry['spg'], 'n_atoms': entry['n_atoms'], 'model': model_name}
 
         # Ask GPT
         try:
-            raw = ask_gpt_for_cif(client, formula, model_name, entry['n_atoms'], simple=args.simple_prompt)
+            raw = ask_gpt_for_cif(None, formula, model_name, entry['n_atoms'], simple=args.simple_prompt)
             row['gpt_raw'] = raw
         except Exception as e:
             logging.error(f"GPT call failed for {formula}: {e}")

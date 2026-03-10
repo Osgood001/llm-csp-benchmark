@@ -1,0 +1,62 @@
+data_EuAl8Cu4
+_chemical_formula_sum            'Eu1 Al8 Cu4'
+_chemical_formula_structural     'Eu (Al2 Cu)4'
+_cell_length_a                   6.220
+_cell_length_b                   6.220
+_cell_length_c                   5.080
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_symmetry_Int_Tables_number      139
+_cell_volume                     196.5
+_cell_formula_units_Z            1
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, -y, z'
+  '-y, x, z'
+  'y, -x, z'
+  '-x, y, -z'
+  'x, -y, -z'
+  'y, x, -z'
+  '-y, -x, -z'
+  '-x, -y, -z'
+  'x, y, -z'
+  'y, -x, -z'
+  '-y, x, -z'
+  'x, -y, z'
+  '-x, y, z'
+  '-y, -x, z'
+  'y, x, z'
+  'x+1/2, y+1/2, z+1/2'
+  '-x+1/2, -y+1/2, z+1/2'
+  '-y+1/2, x+1/2, z+1/2'
+  'y+1/2, -x+1/2, z+1/2'
+  '-x+1/2, y+1/2, -z+1/2'
+  'x+1/2, -y+1/2, -z+1/2'
+  'y+1/2, x+1/2, -z+1/2'
+  '-y+1/2, -x+1/2, -z+1/2'
+  '-x+1/2, -y+1/2, -z+1/2'
+  'x+1/2, y+1/2, -z+1/2'
+  'y+1/2, -x+1/2, -z+1/2'
+  '-y+1/2, x+1/2, -z+1/2'
+  'x+1/2, -y+1/2, z+1/2'
+  '-x+1/2, y+1/2, z+1/2'
+  '-y+1/2, -x+1/2, z+1/2'
+  'y+1/2, x+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Eu1  Eu   2  a  0.00000  0.00000  0.00000  1.0
+  Cu1  Cu   4  d  0.00000  0.50000  0.25000  1.0
+  Al1  Al   4  e  0.00000  0.00000  0.33800  1.0
+  Al2  Al   4  c  0.00000  0.50000  0.00000  0.5

@@ -1,0 +1,79 @@
+data_Cu12Sb4S13_tetrahedrite
+_chemical_formula_sum            'Cu12 Sb4 S13'
+_chemical_name_mineral           'Tetrahedrite'
+_cell_length_a                   10.3290
+_cell_length_b                   10.3290
+_cell_length_c                   10.3290
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     1102.08
+_cell_formula_units_Z            2
+_symmetry_space_group_name_H-M   'I -4 3 m'
+_symmetry_Int_Tables_number      217
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, -y, z'
+  '-x, y, -z'
+  'x, -y, -z'
+  'z, x, y'
+  'z, -x, -y'
+  '-z, -x, y'
+  '-z, x, -y'
+  'y, z, x'
+  '-y, z, -x'
+  'y, -z, -x'
+  '-y, -z, x'
+  'y, x, z'
+  '-y, -x, z'
+  'y, -x, -z'
+  '-y, x, -z'
+  'x, z, y'
+  '-x, z, -y'
+  '-x, -z, y'
+  'x, -z, -y'
+  'z, y, x'
+  'z, -y, -x'
+  '-z, y, -x'
+  '-z, -y, x'
+  'x+1/2, y+1/2, z+1/2'
+  '-x+1/2, -y+1/2, z+1/2'
+  '-x+1/2, y+1/2, -z+1/2'
+  'x+1/2, -y+1/2, -z+1/2'
+  'z+1/2, x+1/2, y+1/2'
+  'z+1/2, -x+1/2, -y+1/2'
+  '-z+1/2, -x+1/2, y+1/2'
+  '-z+1/2, x+1/2, -y+1/2'
+  'y+1/2, z+1/2, x+1/2'
+  '-y+1/2, z+1/2, -x+1/2'
+  'y+1/2, -z+1/2, -x+1/2'
+  '-y+1/2, -z+1/2, x+1/2'
+  'y+1/2, x+1/2, z+1/2'
+  '-y+1/2, -x+1/2, z+1/2'
+  'y+1/2, -x+1/2, -z+1/2'
+  '-y+1/2, x+1/2, -z+1/2'
+  'x+1/2, z+1/2, y+1/2'
+  '-x+1/2, z+1/2, -y+1/2'
+  '-x+1/2, -z+1/2, y+1/2'
+  'x+1/2, -z+1/2, -y+1/2'
+  'z+1/2, y+1/2, x+1/2'
+  'z+1/2, -y+1/2, -x+1/2'
+  '-z+1/2, y+1/2, -x+1/2'
+  '-z+1/2, -y+1/2, x+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Cu1   Cu   12   d   0.25000   0.50000   0.00000   1.0
+Cu2   Cu   12   e   0.21800   0.21800   0.21800   1.0
+Sb1   Sb    8   c   0.26800   0.26800   0.26800   1.0
+S1    S    24   g   0.11500   0.11500   0.36200   1.0
+S2    S     2   a   0.00000   0.00000   0.00000   1.0

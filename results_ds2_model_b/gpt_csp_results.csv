@@ -1,0 +1,4300 @@
+formula,spg,n_atoms,model,gpt_raw,cif_text,parse_ok,gpt_match_gt
+Cu3P8(S2Cl)3,62,80,Claude-4.6-Opus,"
+
+I need to work out a plausible crystal structure for Cu₃P₈(S₂Cl)₃, which expands to Cu₃P₈S₆Cl₃. That gives 3+8+6+3 = 20 atoms per formula unit, and 80 atoms in the conventional cell means Z=4.
+
+Let me design a structure in a monoclinic space group P2₁/c (Z=4) which is very common for this type of compound. I need to place 20 atoms in the asymmetric unit (since general position multiplicity is 4, and 4×20=80).
+
+The compound contains Cu, P, S, and Cl. With 8 phosphorus atoms, this likely features a polyphosphide framework (P₈ units, similar to realgar-type P₄S₄ cages or Hittorf's phosphorus motifs), with Cu coordinated by S₂Cl groups (thiochloride ligands).
+
+```cif
+data_Cu3P8S6Cl3
+_chemical_formula_sum            'Cl3 Cu3 P8 S6'
+_chemical_formula_weight          672.78
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_symmetry_Int_Tables_number       14
+_cell_length_a                    9.4320
+_cell_length_b                    11.2870
+_cell_length_c                    14.7650
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  107.340
+_cell_angle_gamma                 90.000
+_cell_volume                      1500.12
+_cell_formula_units_Z             4
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, y+1/2, -z+1/2'
+  '-x, -y, -z'
+  'x, -y+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Cu1  Cu  0.12340  0.25410  0.08720  1.0
+Cu2  Cu  0.38760  0.48230  0.31540  1.0
+Cu3  Cu  0.71520  0.13670  0.42180  1.0
+P1   P   0.05210  0.41230  0.19340  1.0
+P2   P   0.19870  0.52140  0.17260  1.0
+P3   P   0.34520  0.43780  0.13180  1.0
+P4   P   0.27640  0.28960  0.18950  1.0
+P5   P   0.56130  0.27840  0.48720  1.0
+P6   P   0.72340  0.33610  0.55430  1.0
+P7   P   0.83170  0.22480  0.53160  1.0
+P8   P   0.64280  0.10950  0.56740  1.0
+S1   S   0.08950  0.09320  0.17640  1.0
+S2   S   0.24310  0.12780  0.02350  1.0
+S3   S   0.45620  0.61430  0.24870  1.0
+S4   S   0.52780  0.53960  0.41230  1.0
+S5   S   0.83410  0.01250  0.35640  1.0
+S6   S   0.61730  0.04180  0.31520  1.0
+Cl1  Cl  0.94520  0.18740  0.95130  1.0
+Cl2  Cl  0.35870  0.67230  0.39410  1.0
+Cl3  Cl  0.89640  0.95830  0.50270  1.0
+```","data_Cu3P8S6Cl3
+_chemical_formula_sum            'Cl3 Cu3 P8 S6'
+_chemical_formula_weight          672.78
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_symmetry_Int_Tables_number       14
+_cell_length_a                    9.4320
+_cell_length_b                    11.2870
+_cell_length_c                    14.7650
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  107.340
+_cell_angle_gamma                 90.000
+_cell_volume                      1500.12
+_cell_formula_units_Z             4
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, y+1/2, -z+1/2'
+  '-x, -y, -z'
+  'x, -y+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Cu1  Cu  0.12340  0.25410  0.08720  1.0
+Cu2  Cu  0.38760  0.48230  0.31540  1.0
+Cu3  Cu  0.71520  0.13670  0.42180  1.0
+P1   P   0.05210  0.41230  0.19340  1.0
+P2   P   0.19870  0.52140  0.17260  1.0
+P3   P   0.34520  0.43780  0.13180  1.0
+P4   P   0.27640  0.28960  0.18950  1.0
+P5   P   0.56130  0.27840  0.48720  1.0
+P6   P   0.72340  0.33610  0.55430  1.0
+P7   P   0.83170  0.22480  0.53160  1.0
+P8   P   0.64280  0.10950  0.56740  1.0
+S1   S   0.08950  0.09320  0.17640  1.0
+S2   S   0.24310  0.12780  0.02350  1.0
+S3   S   0.45620  0.61430  0.24870  1.0
+S4   S   0.52780  0.53960  0.41230  1.0
+S5   S   0.83410  0.01250  0.35640  1.0
+S6   S   0.61730  0.04180  0.31520  1.0
+Cl1  Cl  0.94520  0.18740  0.95130  1.0
+Cl2  Cl  0.35870  0.67230  0.39410  1.0
+Cl3  Cl  0.89640  0.95830  0.50270  1.0",True,False
+Na(WO3)9,148,37,Claude-4.6-Opus,"
+
+I need to think carefully about this. ""Na(WO3)9"" means NaW9O27, which has 1 + 9 + 27 = 37 atoms per unit cell. This is a sodium tungsten bronze type compound. Sodium tungsten bronzes NaxWO3 with x close to certain values form specific structures. For NaW9O27 (i.e., Na_{1/9}WO3), this corresponds to a very low sodium content tungsten bronze.
+
+At low x values, sodium tungsten bronzes adopt tetragonal structures. The tetragonal tungsten bronze (TTB) structure is common for low-x sodium tungsten bronzes. However, with exactly 37 atoms in the conventional cell and the formula NaW9O27, let me reconsider.
+
+Actually, NaW9O27 with 37 atoms suggests a relatively simple unit cell. Let me think about this as a perovskite-derived structure. WO3 itself has a ReO3-type structure. With Na doping at low levels, a superstructure forms.
+
+A 3×3×1 superstructure of the cubic ReO3-type WO3 would give 9 WO3 units with one Na inserted, forming a tetragonal cell. The cubic WO3 (ReO3-type) has a ≈ 3.78 Å, so a 3×3×1 supercell would be ~11.34 × 11.34 × 3.78 Å. But that gives 9W + 27O + 1Na = 37 atoms in a tetragonal cell with P4/mmm or lower symmetry.
+
+Let me construct this carefully in a tetragonal P4/mmm setting with a ≈ 11.34 Å, c ≈ 3.78 Å.
+
+```cif
+data_NaW9O27
+_chemical_formula_sum            'Na W9 O27'
+_chemical_name_common            'Sodium tungsten bronze Na0.111WO3'
+_cell_length_a                   11.340
+_cell_length_b                   11.340
+_cell_length_c                   3.780
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'P 4/m m m'
+_space_group_IT_number           123
+_symmetry_space_group_name_H-M   'P 4/m m m'
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, -y, z'
+  '-y, x, z'
+  'y, -x, z'
+  '-x, y, -z'
+  'x, -y, -z'
+  'y, x, -z'
+  '-y, -x, -z'
+  '-x, -y, -z'
+  'x, y, -z'
+  'y, -x, -z'
+  '-y, x, -z'
+  'x, -y, z'
+  '-x, y, z'
+  '-y, -x, z'
+  'y, x, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Na1   Na   0.00000   0.00000   0.00000   1.0
+W1    W    0.33333   0.00000   0.50000   1.0
+W2    W    0.33333   0.33333   0.50000   1.0
+O1    O    0.16667   0.00000   0.50000   1.0
+O2    O    0.33333   0.16667   0.50000   1.0
+O3    O    0.16667   0.16667   0.50000   1.0
+O4    O    0.33333   0.00000   0.00000   1.0
+O5    O    0.33333   0.33333   0.00000   1.0
+O6    O    0.00000   0.16667   0.50000   1.0
+```","data_NaW9O27
+_chemical_formula_sum            'Na W9 O27'
+_chemical_name_common            'Sodium tungsten bronze Na0.111WO3'
+_cell_length_a                   11.340
+_cell_length_b                   11.340
+_cell_length_c                   3.780
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'P 4/m m m'
+_space_group_IT_number           123
+_symmetry_space_group_name_H-M   'P 4/m m m'
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, -y, z'
+  '-y, x, z'
+  'y, -x, z'
+  '-x, y, -z'
+  'x, -y, -z'
+  'y, x, -z'
+  '-y, -x, -z'
+  '-x, -y, -z'
+  'x, y, -z'
+  'y, -x, -z'
+  '-y, x, -z'
+  'x, -y, z'
+  '-x, y, z'
+  '-y, -x, z'
+  'y, x, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Na1   Na   0.00000   0.00000   0.00000   1.0
+W1    W    0.33333   0.00000   0.50000   1.0
+W2    W    0.33333   0.33333   0.50000   1.0
+O1    O    0.16667   0.00000   0.50000   1.0
+O2    O    0.33333   0.16667   0.50000   1.0
+O3    O    0.16667   0.16667   0.50000   1.0
+O4    O    0.33333   0.00000   0.00000   1.0
+O5    O    0.33333   0.33333   0.00000   1.0
+O6    O    0.00000   0.16667   0.50000   1.0",False,False
+LiSm2IrO6,14,20,Claude-4.6-Opus,"
+
+```cif
+data_LiSm2IrO6
+
+_chemical_formula_sum            'Li2 Sm4 Ir2 O12'
+_chemical_formula_structural     'Li Sm2 Ir O6'
+_cell_formula_units_Z            2
+
+_symmetry_space_group_name_H-M   'P 2_1/c'
+_symmetry_Int_Tables_number      14
+
+_cell_length_a                   5.2800
+_cell_length_b                   5.6200
+_cell_length_c                   7.5400
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.450
+_cell_angle_gamma                90.000
+_cell_volume                     223.72
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, y+1/2, -z+1/2'
+  '-x, -y, -z'
+  'x, -y+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Li1  Li  2  d  0.50000  0.00000  0.50000  1.0
+Sm1  Sm  4  e  0.26900  0.06700  0.00100  1.0
+Ir1  Ir  2  a  0.00000  0.00000  0.00000  1.0
+O1   O   4  e  0.28500  0.31200  0.80500  1.0
+O2   O   4  e  0.27200  0.30500  0.19800  1.0
+O3   O   4  e  0.08200  0.22800  0.56200  1.0
+```","data_LiSm2IrO6
+
+_chemical_formula_sum            'Li2 Sm4 Ir2 O12'
+_chemical_formula_structural     'Li Sm2 Ir O6'
+_cell_formula_units_Z            2
+
+_symmetry_space_group_name_H-M   'P 2_1/c'
+_symmetry_Int_Tables_number      14
+
+_cell_length_a                   5.2800
+_cell_length_b                   5.6200
+_cell_length_c                   7.5400
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.450
+_cell_angle_gamma                90.000
+_cell_volume                     223.72
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, y+1/2, -z+1/2'
+  '-x, -y, -z'
+  'x, -y+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Li1  Li  2  d  0.50000  0.00000  0.50000  1.0
+Sm1  Sm  4  e  0.26900  0.06700  0.00100  1.0
+Ir1  Ir  2  a  0.00000  0.00000  0.00000  1.0
+O1   O   4  e  0.28500  0.31200  0.80500  1.0
+O2   O   4  e  0.27200  0.30500  0.19800  1.0
+O3   O   4  e  0.08200  0.22800  0.56200  1.0",True,False
+LaAl3Au,107,5,Claude-4.6-Opus,"
+
+```cif
+data_LaAl3Au
+_chemical_formula_sum            'La Al3 Au'
+_chemical_formula_structural     'La Al3 Au'
+_cell_length_a                   6.702
+_cell_length_b                   6.702
+_cell_length_c                   4.218
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     164.05
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'P 6/m m m'
+_space_group_IT_number           191
+_symmetry_space_group_name_Hall  '-P 6 2'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-y, x-y, z'
+3   '-x+y, -x, z'
+4   'x, x-y, z'
+5   '-x+y, y, z'
+6   '-y, -x, z'
+7   'x-y, x, -z'
+8   'y, -x+y, -z'
+9   '-x, -y, -z'
+10  '-x, -x+y, -z'
+11  'x-y, -y, -z'
+12  'y, x, -z'
+13  '-x, -y, z'
+14  'y, -x+y, z'
+15  'x-y, x, z'
+16  '-x, -x+y, z'
+17  'x-y, -y, z'
+18  'y, x, z'
+19  '-x+y, -x, -z'
+20  '-y, x-y, -z'
+21  'x, y, -z'
+22  'x, x-y, -z'
+23  '-x+y, y, -z'
+24  '-y, -x, -z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+La1  La  1  a  0.00000  0.00000  0.00000  1.0
+Au1  Au  1  b  0.00000  0.00000  0.50000  1.0
+Al1  Al  3  f  0.50000  0.00000  0.00000  1.0
+```","data_LaAl3Au
+_chemical_formula_sum            'La Al3 Au'
+_chemical_formula_structural     'La Al3 Au'
+_cell_length_a                   6.702
+_cell_length_b                   6.702
+_cell_length_c                   4.218
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     164.05
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'P 6/m m m'
+_space_group_IT_number           191
+_symmetry_space_group_name_Hall  '-P 6 2'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-y, x-y, z'
+3   '-x+y, -x, z'
+4   'x, x-y, z'
+5   '-x+y, y, z'
+6   '-y, -x, z'
+7   'x-y, x, -z'
+8   'y, -x+y, -z'
+9   '-x, -y, -z'
+10  '-x, -x+y, -z'
+11  'x-y, -y, -z'
+12  'y, x, -z'
+13  '-x, -y, z'
+14  'y, -x+y, z'
+15  'x-y, x, z'
+16  '-x, -x+y, z'
+17  'x-y, -y, z'
+18  'y, x, z'
+19  '-x+y, -x, -z'
+20  '-y, x-y, -z'
+21  'x, y, -z'
+22  'x, x-y, -z'
+23  '-x+y, y, -z'
+24  '-y, -x, -z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+La1  La  1  a  0.00000  0.00000  0.00000  1.0
+Au1  Au  1  b  0.00000  0.00000  0.50000  1.0
+Al1  Al  3  f  0.50000  0.00000  0.00000  1.0",True,False
+ErCdRh2,225,4,Claude-4.6-Opus,"
+
+```cif
+data_ErCdRh2
+_chemical_formula_sum            'Er Cd Rh2'
+_chemical_formula_structural     'Er Cd Rh2'
+_chemical_name_common            'Erbium Cadmium Dirhodium'
+
+_cell_length_a                   7.120
+_cell_length_b                   7.120
+_cell_length_c                   7.120
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     361.18
+_cell_formula_units_Z            4
+
+_space_group_name_H-M_alt        'F m -3 m'
+_space_group_IT_number           225
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-x, -y, z'
+3   '-x, y, -z'
+4   'x, -y, -z'
+5   'z, x, y'
+6   'z, -x, -y'
+7   '-z, -x, y'
+8   '-z, x, -y'
+9   'y, z, x'
+10  '-y, z, -x'
+11  'y, -z, -x'
+12  '-y, -z, x'
+13  'y, x, -z'
+14  '-y, -x, -z'
+15  'y, -x, z'
+16  '-y, x, z'
+17  'x, z, -y'
+18  '-x, z, y'
+19  '-x, -z, -y'
+20  'x, -z, y'
+21  'z, y, -x'
+22  'z, -y, x'
+23  '-z, y, x'
+24  '-z, -y, -x'
+25  '-x, -y, -z'
+26  'x, y, -z'
+27  'x, -y, z'
+28  '-x, y, z'
+29  '-z, -x, -y'
+30  '-z, x, y'
+31  'z, x, -y'
+32  'z, -x, y'
+33  '-y, -z, -x'
+34  'y, -z, x'
+35  '-y, z, x'
+36  'y, z, -x'
+37  '-y, -x, z'
+38  'y, x, z'
+39  '-y, x, -z'
+40  'y, -x, -z'
+41  '-x, -z, y'
+42  'x, -z, -y'
+43  'x, z, y'
+44  '-x, z, -y'
+45  '-z, -y, x'
+46  '-z, y, -x'
+47  'z, -y, -x'
+48  'z, y, x'
+49  'x, y+1/2, z+1/2'
+50  '-x, -y+1/2, z+1/2'
+51  '-x, y+1/2, -z+1/2'
+52  'x, -y+1/2, -z+1/2'
+53  'z, x+1/2, y+1/2'
+54  'z, -x+1/2, -y+1/2'
+55  '-z, -x+1/2, y+1/2'
+56  '-z, x+1/2, -y+1/2'
+57  'y, z+1/2, x+1/2'
+58  '-y, z+1/2, -x+1/2'
+59  'y, -z+1/2, -x+1/2'
+60  '-y, -z+1/2, x+1/2'
+61  'y, x+1/2, -z+1/2'
+62  '-y, -x+1/2, -z+1/2'
+63  'y, -x+1/2, z+1/2'
+64  '-y, x+1/2, z+1/2'
+65  'x, z+1/2, -y+1/2'
+66  '-x, z+1/2, y+1/2'
+67  '-x, -z+1/2, -y+1/2'
+68  'x, -z+1/2, y+1/2'
+69  'z, y+1/2, -x+1/2'
+70  'z, -y+1/2, x+1/2'
+71  '-z, y+1/2, x+1/2'
+72  '-z, -y+1/2, -x+1/2'
+73  '-x, -y+1/2, -z+1/2'
+74  'x, y+1/2, -z+1/2'
+75  'x, -y+1/2, z+1/2'
+76  '-x, y+1/2, z+1/2'
+77  '-z, -x+1/2, -y+1/2'
+78  '-z, x+1/2, y+1/2'
+79  'z, x+1/2, -y+1/2'
+80  'z, -x+1/2, y+1/2'
+81  '-y, -z+1/2, -x+1/2'
+82  'y, -z+1/2, x+1/2'
+83  '-y, z+1/2, x+1/2'
+84  'y, z+1/2, -x+1/2'
+85  '-y, -x+1/2, z+1/2'
+86  'y, x+1/2, z+1/2'
+87  '-y, x+1/2, -z+1/2'
+88  'y, -x+1/2, -z+1/2'
+89  '-x, -z+1/2, y+1/2'
+90  'x, -z+1/2, -y+1/2'
+91  'x, z+1/2, y+1/2'
+92  '-x, z+1/2, -y+1/2'
+93  '-z, -y+1/2, x+1/2'
+94  '-z, y+1/2, -x+1/2'
+95  'z, -y+1/2, -x+1/2'
+96  'z, y+1/2, x+1/2'
+97  'x+1/2, y, z+1/2'
+98  '-x+1/2, -y, z+1/2'
+99  '-x+1/2, y, -z+1/2'
+100 'x+1/2, -y, -z+1/2'
+101 'z+1/2, x, y+1/2'
+102 'z+1/2, -x, -y+1/2'
+103 '-z+1/2, -x, y+1/2'
+104 '-z+1/2, x, -y+1/2'
+105 'y+1/2, z, x+1/2'
+106 '-y+1/2, z, -x+1/2'
+107 'y+1/2, -z, -x+1/2'
+108 '-y+1/2, -z, x+1/2'
+109 'y+1/2, x, -z+1/2'
+110 '-y+1/2, -x, -z+1/2'
+111 'y+1/2, -x, z+1/2'
+112 '-y+1/2, x, z+1/2'
+113 'x+1/2, z, -y+1/2'
+114 '-x+1/2, z, y+1/2'
+115 '-x+1/2, -z, -y+1/2'
+116 'x+1/2, -z, y+1/2'
+117 'z+1/2, y, -x+1/2'
+118 'z+1/2, -y, x+1/2'
+119 '-z+1/2, y, x+1/2'
+120 '-z+1/2, -y, -x+1/2'
+121 '-x+1/2, -y, -z+1/2'
+122 'x+1/2, y, -z+1/2'
+123 'x+1/2, -y, z+1/2'
+124 '-x+1/2, y, z+1/2'
+125 '-z+1/2, -x, -y+1/2'
+126 '-z+1/2, x, y+1/2'
+127 'z+1/2, x, -y+1/2'
+128 'z+1/2, -x, y+1/2'
+129 '-y+1/2, -z, -x+1/2'
+130 'y+1/2, -z, x+1/2'
+131 '-y+1/2, z, x+1/2'
+132 'y+1/2, z, -x+1/2'
+133 '-y+1/2, -x, z+1/2'
+134 'y+1/2, x, z+1/2'
+135 '-y+1/2, x, -z+1/2'
+136 'y+1/2, -x, -z+1/2'
+137 '-x+1/2, -z, y+1/2'
+138 'x+1/2, -z, -y+1/2'
+139 'x+1/2, z, y+1/2'
+140 '-x+1/2, z, -y+1/2'
+141 '-z+1/2, -y, x+1/2'
+142 '-z+1/2, y, -x+1/2'
+143 'z+1/2, -y, -x+1/2'
+144 'z+1/2, y, x+1/2'
+145 'x+1/2, y+1/2, z'
+146 '-x+1/2, -y+1/2, z'
+147 '-x+1/2, y+1/2, -z'
+148 'x+1/2, -y+1/2, -z'
+149 'z+1/2, x+1/2, y'
+150 'z+1/2, -x+1/2, -y'
+151 '-z+1/2, -x+1/2, y'
+152 '-z+1/2, x+1/2, -y'
+153 'y+1/2, z+1/2, x'
+154 '-y+1/2, z+1/2, -x'
+155 'y+1/2, -z+1/2, -x'
+156 '-y+1/2, -z+1/2, x'
+157 'y+1/2, x+1/2, -z'
+158 '-y+1/2, -x+1/2, -z'
+159 'y+1/2, -x+1/2, z'
+160 '-y+1/2, x+1/2, z'
+161 'x+1/2, z+1/2, -y'
+162 '-x+1/2, z+1/2, y'
+163 '-x+1/2, -z+1/2, -y'
+164 'x+1/2, -z+1/2, y'
+165 'z+1/2, y+1/2, -x'
+166 'z+1/2, -y+1/2, x'
+167 '-z+1/2, y+1/2, x'
+168 '-z+1/2, -y+1/2, -x'
+169 '-x+1/2, -y+1/2, -z'
+170 'x+1/2, y+1/2, -z'
+171 'x+1/2, -y+1/2, z'
+172 '-x+1/2, y+1/2, z'
+173 '-z+1/2, -x+1/2, -y'
+174 '-z+1/2, x+1/2, y'
+175 'z+1/2, x+1/2, -y'
+176 'z+1/2, -x+1/2, y'
+177 '-y+1/2, -z+1/2, -x'
+178 'y+1/2, -z+1/2, x'
+179 '-y+1/2, z+1/2, x'
+180 'y+1/2, z+1/2, -x'
+181 '-y+1/2, -x+1/2, z'
+182 'y+1/2, x+1/2, z'
+183 '-y+1/2, x+1/2, -z'
+184 'y+1/2, -x+1/2, -z'
+185 '-x+1/2, -z+1/2, y'
+186 'x+1/2, -z+1/2, -y'
+187 'x+1/2, z+1/2, y'
+188 '-x+1/2, z+1/2, -y'
+189 '-z+1/2, -y+1/2, x'
+190 '-z+1/2, y+1/2, -x'
+191 'z+1/2, -y+1/2, -x'
+192 'z+1/2, y+1/2, x'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Er1  Er  4  a  0.00000  0.00000  0.00000  1.0
+Cd1  Cd  4  b  0.50000  0.50000  0.50000  1.0
+Rh1  Rh  8  c  0.25000  0.25000  0.25000  1.0
+```","data_ErCdRh2
+_chemical_formula_sum            'Er Cd Rh2'
+_chemical_formula_structural     'Er Cd Rh2'
+_chemical_name_common            'Erbium Cadmium Dirhodium'
+
+_cell_length_a                   7.120
+_cell_length_b                   7.120
+_cell_length_c                   7.120
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     361.18
+_cell_formula_units_Z            4
+
+_space_group_name_H-M_alt        'F m -3 m'
+_space_group_IT_number           225
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-x, -y, z'
+3   '-x, y, -z'
+4   'x, -y, -z'
+5   'z, x, y'
+6   'z, -x, -y'
+7   '-z, -x, y'
+8   '-z, x, -y'
+9   'y, z, x'
+10  '-y, z, -x'
+11  'y, -z, -x'
+12  '-y, -z, x'
+13  'y, x, -z'
+14  '-y, -x, -z'
+15  'y, -x, z'
+16  '-y, x, z'
+17  'x, z, -y'
+18  '-x, z, y'
+19  '-x, -z, -y'
+20  'x, -z, y'
+21  'z, y, -x'
+22  'z, -y, x'
+23  '-z, y, x'
+24  '-z, -y, -x'
+25  '-x, -y, -z'
+26  'x, y, -z'
+27  'x, -y, z'
+28  '-x, y, z'
+29  '-z, -x, -y'
+30  '-z, x, y'
+31  'z, x, -y'
+32  'z, -x, y'
+33  '-y, -z, -x'
+34  'y, -z, x'
+35  '-y, z, x'
+36  'y, z, -x'
+37  '-y, -x, z'
+38  'y, x, z'
+39  '-y, x, -z'
+40  'y, -x, -z'
+41  '-x, -z, y'
+42  'x, -z, -y'
+43  'x, z, y'
+44  '-x, z, -y'
+45  '-z, -y, x'
+46  '-z, y, -x'
+47  'z, -y, -x'
+48  'z, y, x'
+49  'x, y+1/2, z+1/2'
+50  '-x, -y+1/2, z+1/2'
+51  '-x, y+1/2, -z+1/2'
+52  'x, -y+1/2, -z+1/2'
+53  'z, x+1/2, y+1/2'
+54  'z, -x+1/2, -y+1/2'
+55  '-z, -x+1/2, y+1/2'
+56  '-z, x+1/2, -y+1/2'
+57  'y, z+1/2, x+1/2'
+58  '-y, z+1/2, -x+1/2'
+59  'y, -z+1/2, -x+1/2'
+60  '-y, -z+1/2, x+1/2'
+61  'y, x+1/2, -z+1/2'
+62  '-y, -x+1/2, -z+1/2'
+63  'y, -x+1/2, z+1/2'
+64  '-y, x+1/2, z+1/2'
+65  'x, z+1/2, -y+1/2'
+66  '-x, z+1/2, y+1/2'
+67  '-x, -z+1/2, -y+1/2'
+68  'x, -z+1/2, y+1/2'
+69  'z, y+1/2, -x+1/2'
+70  'z, -y+1/2, x+1/2'
+71  '-z, y+1/2, x+1/2'
+72  '-z, -y+1/2, -x+1/2'
+73  '-x, -y+1/2, -z+1/2'
+74  'x, y+1/2, -z+1/2'
+75  'x, -y+1/2, z+1/2'
+76  '-x, y+1/2, z+1/2'
+77  '-z, -x+1/2, -y+1/2'
+78  '-z, x+1/2, y+1/2'
+79  'z, x+1/2, -y+1/2'
+80  'z, -x+1/2, y+1/2'
+81  '-y, -z+1/2, -x+1/2'
+82  'y, -z+1/2, x+1/2'
+83  '-y, z+1/2, x+1/2'
+84  'y, z+1/2, -x+1/2'
+85  '-y, -x+1/2, z+1/2'
+86  'y, x+1/2, z+1/2'
+87  '-y, x+1/2, -z+1/2'
+88  'y, -x+1/2, -z+1/2'
+89  '-x, -z+1/2, y+1/2'
+90  'x, -z+1/2, -y+1/2'
+91  'x, z+1/2, y+1/2'
+92  '-x, z+1/2, -y+1/2'
+93  '-z, -y+1/2, x+1/2'
+94  '-z, y+1/2, -x+1/2'
+95  'z, -y+1/2, -x+1/2'
+96  'z, y+1/2, x+1/2'
+97  'x+1/2, y, z+1/2'
+98  '-x+1/2, -y, z+1/2'
+99  '-x+1/2, y, -z+1/2'
+100 'x+1/2, -y, -z+1/2'
+101 'z+1/2, x, y+1/2'
+102 'z+1/2, -x, -y+1/2'
+103 '-z+1/2, -x, y+1/2'
+104 '-z+1/2, x, -y+1/2'
+105 'y+1/2, z, x+1/2'
+106 '-y+1/2, z, -x+1/2'
+107 'y+1/2, -z, -x+1/2'
+108 '-y+1/2, -z, x+1/2'
+109 'y+1/2, x, -z+1/2'
+110 '-y+1/2, -x, -z+1/2'
+111 'y+1/2, -x, z+1/2'
+112 '-y+1/2, x, z+1/2'
+113 'x+1/2, z, -y+1/2'
+114 '-x+1/2, z, y+1/2'
+115 '-x+1/2, -z, -y+1/2'
+116 'x+1/2, -z, y+1/2'
+117 'z+1/2, y, -x+1/2'
+118 'z+1/2, -y, x+1/2'
+119 '-z+1/2, y, x+1/2'
+120 '-z+1/2, -y, -x+1/2'
+121 '-x+1/2, -y, -z+1/2'
+122 'x+1/2, y, -z+1/2'
+123 'x+1/2, -y, z+1/2'
+124 '-x+1/2, y, z+1/2'
+125 '-z+1/2, -x, -y+1/2'
+126 '-z+1/2, x, y+1/2'
+127 'z+1/2, x, -y+1/2'
+128 'z+1/2, -x, y+1/2'
+129 '-y+1/2, -z, -x+1/2'
+130 'y+1/2, -z, x+1/2'
+131 '-y+1/2, z, x+1/2'
+132 'y+1/2, z, -x+1/2'
+133 '-y+1/2, -x, z+1/2'
+134 'y+1/2, x, z+1/2'
+135 '-y+1/2, x, -z+1/2'
+136 'y+1/2, -x, -z+1/2'
+137 '-x+1/2, -z, y+1/2'
+138 'x+1/2, -z, -y+1/2'
+139 'x+1/2, z, y+1/2'
+140 '-x+1/2, z, -y+1/2'
+141 '-z+1/2, -y, x+1/2'
+142 '-z+1/2, y, -x+1/2'
+143 'z+1/2, -y, -x+1/2'
+144 'z+1/2, y, x+1/2'
+145 'x+1/2, y+1/2, z'
+146 '-x+1/2, -y+1/2, z'
+147 '-x+1/2, y+1/2, -z'
+148 'x+1/2, -y+1/2, -z'
+149 'z+1/2, x+1/2, y'
+150 'z+1/2, -x+1/2, -y'
+151 '-z+1/2, -x+1/2, y'
+152 '-z+1/2, x+1/2, -y'
+153 'y+1/2, z+1/2, x'
+154 '-y+1/2, z+1/2, -x'
+155 'y+1/2, -z+1/2, -x'
+156 '-y+1/2, -z+1/2, x'
+157 'y+1/2, x+1/2, -z'
+158 '-y+1/2, -x+1/2, -z'
+159 'y+1/2, -x+1/2, z'
+160 '-y+1/2, x+1/2, z'
+161 'x+1/2, z+1/2, -y'
+162 '-x+1/2, z+1/2, y'
+163 '-x+1/2, -z+1/2, -y'
+164 'x+1/2, -z+1/2, y'
+165 'z+1/2, y+1/2, -x'
+166 'z+1/2, -y+1/2, x'
+167 '-z+1/2, y+1/2, x'
+168 '-z+1/2, -y+1/2, -x'
+169 '-x+1/2, -y+1/2, -z'
+170 'x+1/2, y+1/2, -z'
+171 'x+1/2, -y+1/2, z'
+172 '-x+1/2, y+1/2, z'
+173 '-z+1/2, -x+1/2, -y'
+174 '-z+1/2, x+1/2, y'
+175 'z+1/2, x+1/2, -y'
+176 'z+1/2, -x+1/2, y'
+177 '-y+1/2, -z+1/2, -x'
+178 'y+1/2, -z+1/2, x'
+179 '-y+1/2, z+1/2, x'
+180 'y+1/2, z+1/2, -x'
+181 '-y+1/2, -x+1/2, z'
+182 'y+1/2, x+1/2, z'
+183 '-y+1/2, x+1/2, -z'
+184 'y+1/2, -x+1/2, -z'
+185 '-x+1/2, -z+1/2, y'
+186 'x+1/2, -z+1/2, -y'
+187 'x+1/2, z+1/2, y'
+188 '-x+1/2, z+1/2, -y'
+189 '-z+1/2, -y+1/2, x'
+190 '-z+1/2, y+1/2, -x'
+191 'z+1/2, -y+1/2, -x'
+192 'z+1/2, y+1/2, x'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Er1  Er  4  a  0.00000  0.00000  0.00000  1.0
+Cd1  Cd  4  b  0.50000  0.50000  0.50000  1.0
+Rh1  Rh  8  c  0.25000  0.25000  0.25000  1.0",True,True
+CsCl,225,2,Claude-4.6-Opus,"
+
+```cif
+data_CsCl
+_chemical_formula_sum            'Cs Cl'
+_chemical_name_systematic        'Cesium Chloride'
+_cell_length_a                   4.123
+_cell_length_b                   4.123
+_cell_length_c                   4.123
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_volume                     70.09
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'P m -3 m'
+_space_group_IT_number           221
+_symmetry_cell_setting           cubic
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Cs1  Cs  0.00000  0.00000  0.00000  1.0
+Cl1  Cl  0.50000  0.50000  0.50000  1.0
+```","data_CsCl
+_chemical_formula_sum            'Cs Cl'
+_chemical_name_systematic        'Cesium Chloride'
+_cell_length_a                   4.123
+_cell_length_b                   4.123
+_cell_length_c                   4.123
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_volume                     70.09
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'P m -3 m'
+_space_group_IT_number           221
+_symmetry_cell_setting           cubic
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Cs1  Cs  0.00000  0.00000  0.00000  1.0
+Cl1  Cl  0.50000  0.50000  0.50000  1.0",True,False
+Sr(ClO3)2,43,18,Claude-4.6-Opus,"
+
+```cif
+data_Sr(ClO3)2
+_chemical_formula_sum            'Sr Cl2 O6'
+_chemical_formula_weight         254.52
+_cell_length_a                   8.0200
+_cell_length_b                   8.0200
+_cell_length_c                   4.2800
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     238.34
+_cell_formula_units_Z            2
+_symmetry_space_group_name_H-M   'P -3'
+_symmetry_Int_Tables_number      147
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-y, x-y, z'
+  '-x+y, -x, z'
+  '-x, -y, -z'
+  'y, -x+y, -z'
+  'x-y, x, -z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sr1  Sr  0.00000  0.00000  0.00000  1.0
+Cl1  Cl  0.33333  0.33333  0.25000  1.0
+O1   O   0.18500  0.26200  0.44000  1.0
+```","data_Sr(ClO3)2
+_chemical_formula_sum            'Sr Cl2 O6'
+_chemical_formula_weight         254.52
+_cell_length_a                   8.0200
+_cell_length_b                   8.0200
+_cell_length_c                   4.2800
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     238.34
+_cell_formula_units_Z            2
+_symmetry_space_group_name_H-M   'P -3'
+_symmetry_Int_Tables_number      147
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-y, x-y, z'
+  '-x+y, -x, z'
+  '-x, -y, -z'
+  'y, -x+y, -z'
+  'x-y, x, -z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sr1  Sr  0.00000  0.00000  0.00000  1.0
+Cl1  Cl  0.33333  0.33333  0.25000  1.0
+O1   O   0.18500  0.26200  0.44000  1.0",True,False
+K2ZrSi2O7,14,48,Claude-4.6-Opus,"
+
+```cif
+data_K2ZrSi2O7
+_chemical_formula_sum            'K8 Zr4 Si8 O28'
+_chemical_formula_structural     'K2 Zr Si2 O7'
+_cell_length_a                   6.610
+_cell_length_b                   6.610
+_cell_length_c                   13.030
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     569.14
+_cell_formula_units_Z            4
+_space_group_name_H-M_alt        'P 41 21 2'
+_space_group_IT_number           92
+_symmetry_space_group_name_Hall  'P 4abw 2nw'
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z+1/2'
+'-y+1/2, x+1/2, z+1/4'
+'y+1/2, -x+1/2, z+3/4'
+'-x+1/2, y+1/2, -z+1/4'
+'x+1/2, -y+1/2, -z+3/4'
+'y, x, -z'
+'-y, -x, -z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+K1    K    0.14700  0.41500  0.69200  1.0
+Zr1   Zr   0.37100  0.37100  0.00000  1.0
+Si1   Si   0.24800  0.06200  0.18200  1.0
+O1    O    0.21500  0.21500  0.50000  1.0
+O2    O    0.40200  0.18900  0.10200  1.0
+O3    O    0.03200  0.12800  0.14500  1.0
+O4    O    0.28100  0.10500  0.30200  1.0
+```","data_K2ZrSi2O7
+_chemical_formula_sum            'K8 Zr4 Si8 O28'
+_chemical_formula_structural     'K2 Zr Si2 O7'
+_cell_length_a                   6.610
+_cell_length_b                   6.610
+_cell_length_c                   13.030
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     569.14
+_cell_formula_units_Z            4
+_space_group_name_H-M_alt        'P 41 21 2'
+_space_group_IT_number           92
+_symmetry_space_group_name_Hall  'P 4abw 2nw'
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z+1/2'
+'-y+1/2, x+1/2, z+1/4'
+'y+1/2, -x+1/2, z+3/4'
+'-x+1/2, y+1/2, -z+1/4'
+'x+1/2, -y+1/2, -z+3/4'
+'y, x, -z'
+'-y, -x, -z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+K1    K    0.14700  0.41500  0.69200  1.0
+Zr1   Zr   0.37100  0.37100  0.00000  1.0
+Si1   Si   0.24800  0.06200  0.18200  1.0
+O1    O    0.21500  0.21500  0.50000  1.0
+O2    O    0.40200  0.18900  0.10200  1.0
+O3    O    0.03200  0.12800  0.14500  1.0
+O4    O    0.28100  0.10500  0.30200  1.0",True,False
+Sm6Ni20As13,174,39,Claude-4.6-Opus,"
+
+```cif
+data_Sm6Ni20As13
+_chemical_formula_sum            'Sm6 Ni20 As13'
+_chemical_formula_structural     'Sm6 Ni20 As13'
+_cell_formula_units_Z            1
+
+_space_group_name_H-M_alt        'P 6/m m m'
+_space_group_IT_number            191
+_symmetry_space_group_name_Hall  '-P 6 2'
+
+_cell_length_a                   12.462
+_cell_length_b                   12.462
+_cell_length_c                   3.890
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     523.3
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sm1  Sm   6  i  0.16667  0.33333  0.00000  1.0
+Ni1  Ni  12  n  0.20000  0.40000  0.50000  1.0
+Ni2  Ni   6  m  0.12500  0.25000  0.50000  1.0
+Ni3  Ni   2  d  0.33333  0.66667  0.50000  1.0
+As1  As   6  i  0.46000  0.92000  0.00000  1.0
+As2  As   6  m  0.33300  0.66600  0.50000  1.0
+As3  As   1  a  0.00000  0.00000  0.00000  1.0
+```","data_Sm6Ni20As13
+_chemical_formula_sum            'Sm6 Ni20 As13'
+_chemical_formula_structural     'Sm6 Ni20 As13'
+_cell_formula_units_Z            1
+
+_space_group_name_H-M_alt        'P 6/m m m'
+_space_group_IT_number            191
+_symmetry_space_group_name_Hall  '-P 6 2'
+
+_cell_length_a                   12.462
+_cell_length_b                   12.462
+_cell_length_c                   3.890
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     523.3
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sm1  Sm   6  i  0.16667  0.33333  0.00000  1.0
+Ni1  Ni  12  n  0.20000  0.40000  0.50000  1.0
+Ni2  Ni   6  m  0.12500  0.25000  0.50000  1.0
+Ni3  Ni   2  d  0.33333  0.66667  0.50000  1.0
+As1  As   6  i  0.46000  0.92000  0.00000  1.0
+As2  As   6  m  0.33300  0.66600  0.50000  1.0
+As3  As   1  a  0.00000  0.00000  0.00000  1.0",True,False
+LaSiIr,198,12,Claude-4.6-Opus,"
+
+```cif
+data_LaSiIr
+_chemical_formula_sum            'La4 Si4 Ir4'
+_chemical_formula_structural     'La Si Ir'
+_cell_length_a                   7.1200
+_cell_length_b                   4.2100
+_cell_length_c                   7.5800
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     227.18
+_cell_formula_units_Z            4
+_space_group_name_H-M_alt        'P n m a'
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1  'x, y, z'
+2  '-x+1/2, -y, z+1/2'
+3  'x+1/2, -y+1/2, -z+1/2'
+4  '-x, y+1/2, -z'
+5  '-x, -y, -z'
+6  'x+1/2, y, -z+1/2'
+7  '-x+1/2, y+1/2, z+1/2'
+8  'x, -y+1/2, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+La1  La  4  0.01520  0.25000  0.68600  1.0
+Si1  Si  4  0.14400  0.25000  0.06700  1.0
+Ir1  Ir  4  0.27300  0.25000  0.39400  1.0
+```","data_LaSiIr
+_chemical_formula_sum            'La4 Si4 Ir4'
+_chemical_formula_structural     'La Si Ir'
+_cell_length_a                   7.1200
+_cell_length_b                   4.2100
+_cell_length_c                   7.5800
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     227.18
+_cell_formula_units_Z            4
+_space_group_name_H-M_alt        'P n m a'
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1  'x, y, z'
+2  '-x+1/2, -y, z+1/2'
+3  'x+1/2, -y+1/2, -z+1/2'
+4  '-x, y+1/2, -z'
+5  '-x, -y, -z'
+6  'x+1/2, y, -z+1/2'
+7  '-x+1/2, y+1/2, z+1/2'
+8  'x, -y+1/2, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+La1  La  4  0.01520  0.25000  0.68600  1.0
+Si1  Si  4  0.14400  0.25000  0.06700  1.0
+Ir1  Ir  4  0.27300  0.25000  0.39400  1.0",True,False
+ReBi3O8,198,96,Claude-4.6-Opus,"
+
+```cif
+data_ReBi3O8
+_chemical_formula_sum            'Bi12 O32 Re4'
+_chemical_formula_structural     'Re Bi3 O8'
+_cell_formula_units_Z            4
+
+_space_group_name_H-M_alt        'P 21/c'
+_space_group_IT_number            14
+_symmetry_cell_setting            monoclinic
+
+_cell_length_a                    7.7200
+_cell_length_b                    11.5800
+_cell_length_c                    13.4500
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  109.350
+_cell_angle_gamma                 90.000
+_cell_volume                      1134.52
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, y+1/2, -z+1/2'
+  '-x, -y, -z'
+  'x, -y+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Re1   Re   0.24530   0.12340   0.37820   1.0   e
+Re2   Re   0.74210   0.11980   0.12560   1.0   e
+Re3   Re   0.25180   0.37650   0.62410   1.0   e
+Re4   Re   0.75060   0.37410   0.87230   1.0   e
+Bi1   Bi   0.01230   0.25010   0.16540   1.0   e
+Bi2   Bi   0.51340   0.24870   0.58730   1.0   e
+Bi3   Bi   0.48920   0.25130   0.91260   1.0   e
+Bi4   Bi   0.98760   0.24960   0.66480   1.0   e
+Bi5   Bi   0.23410   0.00120   0.08230   1.0   e
+Bi6   Bi   0.73520   0.00080   0.41870   1.0   e
+Bi7   Bi   0.26780   0.49930   0.91680   1.0   e
+Bi8   Bi   0.76640   0.49870   0.58120   1.0   e
+Bi9   Bi   0.01450   0.12580   0.83210   1.0   e
+Bi10  Bi   0.51280   0.12430   0.33450   1.0   e
+Bi11  Bi   0.48630   0.37520   0.16890   1.0   e
+Bi12  Bi   0.98510   0.37480   0.41560   1.0   e
+O1    O    0.09320   0.13210   0.26740   1.0   e
+O2    O    0.59180   0.13050   0.23150   1.0   e
+O3    O    0.40720   0.13180   0.48260   1.0   e
+O4    O    0.90560   0.12970   0.51830   1.0   e
+O5    O    0.24180   0.25340   0.44530   1.0   e
+O6    O    0.74050   0.25180   0.05620   1.0   e
+O7    O    0.25910   0.25270   0.55380   1.0   e
+O8    O    0.75780   0.25110   0.94470   1.0   e
+O9    O    0.09450   0.37280   0.73350   1.0   e
+O10   O    0.59310   0.37120   0.76740   1.0   e
+O11   O    0.40580   0.37240   0.51750   1.0   e
+O12   O    0.90420   0.37080   0.26650   1.0   e
+O13   O    0.24310   0.00180   0.37540   1.0   e
+O14   O    0.74170   0.00020   0.12350   1.0   e
+O15   O    0.25780   0.49870   0.62540   1.0   e
+O16   O    0.75620   0.49710   0.87450   1.0   e
+O17   O    0.08710   0.06230   0.46120   1.0   e
+O18   O    0.58570   0.06070   0.03780   1.0   e
+O19   O    0.41320   0.06190   0.53970   1.0   e
+O20   O    0.91160   0.06030   0.96210   1.0   e
+O21   O    0.40870   0.18420   0.30150   1.0   e
+O22   O    0.90730   0.18260   0.19740   1.0   e
+O23   O    0.09020   0.18380   0.69940   1.0   e
+O24   O    0.59160   0.18220   0.80350   1.0   e
+O25   O    0.08830   0.43780   0.53870   1.0   e
+O26   O    0.58690   0.43620   0.96220   1.0   e
+O27   O    0.41060   0.43740   0.46020   1.0   e
+O28   O    0.91220   0.43580   0.03680   1.0   e
+O29   O    0.40990   0.31570   0.69850   1.0   e
+O30   O    0.90850   0.31410   0.80260   1.0   e
+O31   O    0.09140   0.31530   0.30240   1.0   e
+O32   O    0.59300   0.31370   0.19650   1.0   e
+```","data_ReBi3O8
+_chemical_formula_sum            'Bi12 O32 Re4'
+_chemical_formula_structural     'Re Bi3 O8'
+_cell_formula_units_Z            4
+
+_space_group_name_H-M_alt        'P 21/c'
+_space_group_IT_number            14
+_symmetry_cell_setting            monoclinic
+
+_cell_length_a                    7.7200
+_cell_length_b                    11.5800
+_cell_length_c                    13.4500
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  109.350
+_cell_angle_gamma                 90.000
+_cell_volume                      1134.52
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, y+1/2, -z+1/2'
+  '-x, -y, -z'
+  'x, -y+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Re1   Re   0.24530   0.12340   0.37820   1.0   e
+Re2   Re   0.74210   0.11980   0.12560   1.0   e
+Re3   Re   0.25180   0.37650   0.62410   1.0   e
+Re4   Re   0.75060   0.37410   0.87230   1.0   e
+Bi1   Bi   0.01230   0.25010   0.16540   1.0   e
+Bi2   Bi   0.51340   0.24870   0.58730   1.0   e
+Bi3   Bi   0.48920   0.25130   0.91260   1.0   e
+Bi4   Bi   0.98760   0.24960   0.66480   1.0   e
+Bi5   Bi   0.23410   0.00120   0.08230   1.0   e
+Bi6   Bi   0.73520   0.00080   0.41870   1.0   e
+Bi7   Bi   0.26780   0.49930   0.91680   1.0   e
+Bi8   Bi   0.76640   0.49870   0.58120   1.0   e
+Bi9   Bi   0.01450   0.12580   0.83210   1.0   e
+Bi10  Bi   0.51280   0.12430   0.33450   1.0   e
+Bi11  Bi   0.48630   0.37520   0.16890   1.0   e
+Bi12  Bi   0.98510   0.37480   0.41560   1.0   e
+O1    O    0.09320   0.13210   0.26740   1.0   e
+O2    O    0.59180   0.13050   0.23150   1.0   e
+O3    O    0.40720   0.13180   0.48260   1.0   e
+O4    O    0.90560   0.12970   0.51830   1.0   e
+O5    O    0.24180   0.25340   0.44530   1.0   e
+O6    O    0.74050   0.25180   0.05620   1.0   e
+O7    O    0.25910   0.25270   0.55380   1.0   e
+O8    O    0.75780   0.25110   0.94470   1.0   e
+O9    O    0.09450   0.37280   0.73350   1.0   e
+O10   O    0.59310   0.37120   0.76740   1.0   e
+O11   O    0.40580   0.37240   0.51750   1.0   e
+O12   O    0.90420   0.37080   0.26650   1.0   e
+O13   O    0.24310   0.00180   0.37540   1.0   e
+O14   O    0.74170   0.00020   0.12350   1.0   e
+O15   O    0.25780   0.49870   0.62540   1.0   e
+O16   O    0.75620   0.49710   0.87450   1.0   e
+O17   O    0.08710   0.06230   0.46120   1.0   e
+O18   O    0.58570   0.06070   0.03780   1.0   e
+O19   O    0.41320   0.06190   0.53970   1.0   e
+O20   O    0.91160   0.06030   0.96210   1.0   e
+O21   O    0.40870   0.18420   0.30150   1.0   e
+O22   O    0.90730   0.18260   0.19740   1.0   e
+O23   O    0.09020   0.18380   0.69940   1.0   e
+O24   O    0.59160   0.18220   0.80350   1.0   e
+O25   O    0.08830   0.43780   0.53870   1.0   e
+O26   O    0.58690   0.43620   0.96220   1.0   e
+O27   O    0.41060   0.43740   0.46020   1.0   e
+O28   O    0.91220   0.43580   0.03680   1.0   e
+O29   O    0.40990   0.31570   0.69850   1.0   e
+O30   O    0.90850   0.31410   0.80260   1.0   e
+O31   O    0.09140   0.31530   0.30240   1.0   e
+O32   O    0.59300   0.31370   0.19650   1.0   e",True,False
+Pr2ZnPtO6,14,20,Claude-4.6-Opus,"
+
+```cif
+data_Pr2ZnPtO6
+_chemical_formula_sum            'Pr2 Zn Pt O6'
+_chemical_formula_structural     'Pr2 Zn Pt O6'
+_chemical_formula_weight         726.30
+
+_symmetry_space_group_name_H-M   'P 2_1/n'
+_symmetry_Int_Tables_number      14
+_symmetry_cell_setting            monoclinic
+
+_cell_length_a                    5.5920
+_cell_length_b                    5.7340
+_cell_length_c                    7.9120
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.120
+_cell_angle_gamma                 90.000
+_cell_volume                      253.67
+_cell_formula_units_Z             2
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, -y, -z'
+  '-x+1/2, y+1/2, -z+1/2'
+  'x+1/2, -y+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Pr1   Pr   0.48700   0.55800   0.25100   1.0   e
+Zn1   Zn   0.50000   0.00000   0.00000   1.0   b
+Pt1   Pt   0.00000   0.00000   0.00000   1.0   a
+O1    O    0.29400   0.29200   0.04300   1.0   e
+O2    O    0.31200   0.71500   0.54800   1.0   e
+O3    O    0.58600   0.97200   0.24700   1.0   e
+```","data_Pr2ZnPtO6
+_chemical_formula_sum            'Pr2 Zn Pt O6'
+_chemical_formula_structural     'Pr2 Zn Pt O6'
+_chemical_formula_weight         726.30
+
+_symmetry_space_group_name_H-M   'P 2_1/n'
+_symmetry_Int_Tables_number      14
+_symmetry_cell_setting            monoclinic
+
+_cell_length_a                    5.5920
+_cell_length_b                    5.7340
+_cell_length_c                    7.9120
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.120
+_cell_angle_gamma                 90.000
+_cell_volume                      253.67
+_cell_formula_units_Z             2
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, -y, -z'
+  '-x+1/2, y+1/2, -z+1/2'
+  'x+1/2, -y+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Pr1   Pr   0.48700   0.55800   0.25100   1.0   e
+Zn1   Zn   0.50000   0.00000   0.00000   1.0   b
+Pt1   Pt   0.00000   0.00000   0.00000   1.0   a
+O1    O    0.29400   0.29200   0.04300   1.0   e
+O2    O    0.31200   0.71500   0.54800   1.0   e
+O3    O    0.58600   0.97200   0.24700   1.0   e",True,False
+Li6V3P8O29,1,92,Claude-4.6-Opus,"
+
+```cif
+data_Li6V3P8O29
+
+_chemical_formula_sum            'Li6 V3 P8 O29'
+_chemical_formula_weight         893.34
+_cell_length_a                   13.0250
+_cell_length_b                   9.0480
+_cell_length_c                   4.7150
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     555.82
+_cell_formula_units_Z            2
+_symmetry_space_group_name_H-M   'P n m a'
+_symmetry_Int_Tables_number      62
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, y+1/2, -z'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'-x-1/2, y-1/2, z-1/2'
+'x, -y-1/2, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Li1   Li   0.16520   0.25000   0.38200   1.0   4c
+Li2   Li   0.42310   0.04820   0.12500   1.0   8d
+V1    V    0.10250   0.25000   0.89400   1.0   4c
+V2    V    0.39780   0.25000   0.61300   1.0   4c
+P1    P    0.21450   0.05370   0.63800   1.0   8d
+P2    P    0.34120   0.25000   0.11500   1.0   4c
+P3    P    0.04680   0.05180   0.37200   1.0   8d
+O1    O    0.12350   0.05620   0.44100   1.0   8d
+O2    O    0.30210   0.05890   0.41500   1.0   8d
+O3    O    0.21780   0.18430   0.84200   1.0   8d
+O4    O    0.19640   0.91250   0.82700   1.0   8d
+O5    O    0.43250   0.14300   0.87600   1.0   8d
+O6    O    0.34870   0.25000   0.42800   1.0   4c
+O7    O    0.24100   0.25000   0.01200   1.0   4c
+O8    O    0.04920   0.18700   0.15300   1.0   8d
+O9    O    0.95280   0.05340   0.58900   1.0   8d
+O10   O    0.03710   0.91500   0.14800   1.0   8d
+O11   O    0.10480   0.25000   0.58700   1.0   4c
+```","data_Li6V3P8O29
+
+_chemical_formula_sum            'Li6 V3 P8 O29'
+_chemical_formula_weight         893.34
+_cell_length_a                   13.0250
+_cell_length_b                   9.0480
+_cell_length_c                   4.7150
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     555.82
+_cell_formula_units_Z            2
+_symmetry_space_group_name_H-M   'P n m a'
+_symmetry_Int_Tables_number      62
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, y+1/2, -z'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'-x-1/2, y-1/2, z-1/2'
+'x, -y-1/2, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Li1   Li   0.16520   0.25000   0.38200   1.0   4c
+Li2   Li   0.42310   0.04820   0.12500   1.0   8d
+V1    V    0.10250   0.25000   0.89400   1.0   4c
+V2    V    0.39780   0.25000   0.61300   1.0   4c
+P1    P    0.21450   0.05370   0.63800   1.0   8d
+P2    P    0.34120   0.25000   0.11500   1.0   4c
+P3    P    0.04680   0.05180   0.37200   1.0   8d
+O1    O    0.12350   0.05620   0.44100   1.0   8d
+O2    O    0.30210   0.05890   0.41500   1.0   8d
+O3    O    0.21780   0.18430   0.84200   1.0   8d
+O4    O    0.19640   0.91250   0.82700   1.0   8d
+O5    O    0.43250   0.14300   0.87600   1.0   8d
+O6    O    0.34870   0.25000   0.42800   1.0   4c
+O7    O    0.24100   0.25000   0.01200   1.0   4c
+O8    O    0.04920   0.18700   0.15300   1.0   8d
+O9    O    0.95280   0.05340   0.58900   1.0   8d
+O10   O    0.03710   0.91500   0.14800   1.0   8d
+O11   O    0.10480   0.25000   0.58700   1.0   4c",True,False
+Sn(TePd3)2,107,9,Claude-4.6-Opus,"
+
+```cif
+data_Sn(TePd3)2
+_chemical_formula_sum            'Sn Te2 Pd6'
+_chemical_formula_structural     'Sn (Te Pd3)2'
+_cell_length_a                   5.720
+_cell_length_b                   5.720
+_cell_length_c                   5.720
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     187.15
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'P m -3 m'
+_space_group_IT_number           221
+_symmetry_space_group_name_H-M   'P m -3 m'
+_symmetry_Int_Tables_number      221
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-x, -y, z'
+3   '-x, y, -z'
+4   'x, -y, -z'
+5   'z, x, y'
+6   'z, -x, -y'
+7   '-z, -x, y'
+8   '-z, x, -y'
+9   'y, z, x'
+10  '-y, z, -x'
+11  'y, -z, -x'
+12  '-y, -z, x'
+13  'y, x, -z'
+14  '-y, -x, -z'
+15  'y, -x, z'
+16  '-y, x, z'
+17  'x, z, -y'
+18  '-x, z, y'
+19  '-x, -z, -y'
+20  'x, -z, y'
+21  'z, y, -x'
+22  'z, -y, x'
+23  '-z, y, x'
+24  '-z, -y, -x'
+25  '-x, -y, -z'
+26  'x, y, -z'
+27  'x, -y, z'
+28  '-x, y, z'
+29  '-z, -x, -y'
+30  '-z, x, y'
+31  'z, x, -y'
+32  'z, -x, y'
+33  '-y, -z, -x'
+34  'y, -z, x'
+35  '-y, z, x'
+36  'y, z, -x'
+37  '-y, -x, z'
+38  'y, x, z'
+39  '-y, x, -z'
+40  'y, -x, -z'
+41  '-x, -z, y'
+42  'x, -z, -y'
+43  'x, z, y'
+44  '-x, z, -y'
+45  '-z, -y, x'
+46  '-z, y, -x'
+47  'z, -y, -x'
+48  'z, y, x'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sn1  Sn  1  a  0.00000  0.00000  0.00000  1.0
+Te1  Te  2  b  0.50000  0.50000  0.50000  1.0  
+Pd1  Pd  6  e  0.50000  0.50000  0.00000  1.0
+```","data_Sn(TePd3)2
+_chemical_formula_sum            'Sn Te2 Pd6'
+_chemical_formula_structural     'Sn (Te Pd3)2'
+_cell_length_a                   5.720
+_cell_length_b                   5.720
+_cell_length_c                   5.720
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     187.15
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'P m -3 m'
+_space_group_IT_number           221
+_symmetry_space_group_name_H-M   'P m -3 m'
+_symmetry_Int_Tables_number      221
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-x, -y, z'
+3   '-x, y, -z'
+4   'x, -y, -z'
+5   'z, x, y'
+6   'z, -x, -y'
+7   '-z, -x, y'
+8   '-z, x, -y'
+9   'y, z, x'
+10  '-y, z, -x'
+11  'y, -z, -x'
+12  '-y, -z, x'
+13  'y, x, -z'
+14  '-y, -x, -z'
+15  'y, -x, z'
+16  '-y, x, z'
+17  'x, z, -y'
+18  '-x, z, y'
+19  '-x, -z, -y'
+20  'x, -z, y'
+21  'z, y, -x'
+22  'z, -y, x'
+23  '-z, y, x'
+24  '-z, -y, -x'
+25  '-x, -y, -z'
+26  'x, y, -z'
+27  'x, -y, z'
+28  '-x, y, z'
+29  '-z, -x, -y'
+30  '-z, x, y'
+31  'z, x, -y'
+32  'z, -x, y'
+33  '-y, -z, -x'
+34  'y, -z, x'
+35  '-y, z, x'
+36  'y, z, -x'
+37  '-y, -x, z'
+38  'y, x, z'
+39  '-y, x, -z'
+40  'y, -x, -z'
+41  '-x, -z, y'
+42  'x, -z, -y'
+43  'x, z, y'
+44  '-x, z, -y'
+45  '-z, -y, x'
+46  '-z, y, -x'
+47  'z, -y, -x'
+48  'z, y, x'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sn1  Sn  1  a  0.00000  0.00000  0.00000  1.0
+Te1  Te  2  b  0.50000  0.50000  0.50000  1.0  
+Pd1  Pd  6  e  0.50000  0.50000  0.00000  1.0",True,False
+Ba3Ta2NiO9,164,60,Claude-4.6-Opus,"
+
+```cif
+data_Ba3Ta2NiO9
+_chemical_formula_sum            'Ba12 Ta8 Ni4 O36'
+_chemical_formula_structural     'Ba3 Ta2 Ni O9'
+_cell_length_a                   5.7820
+_cell_length_b                   5.7820
+_cell_length_c                   14.1960
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     411.24
+_cell_formula_units_Z            4
+
+_space_group_name_H-M_alt        'P -3 m 1'
+_space_group_IT_number           164
+_symmetry_space_group_name_Hall  '-P 3 2""'
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'y, x, -z'
+'x-y, -y, -z'
+'-x, -x+y, -z'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-y, -x, z'
+'-x+y, y, z'
+'x, x-y, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ba1  Ba  2  0.00000  0.00000  0.25000  1.0
+Ba2  Ba  2  0.33333  0.66667  0.09520  1.0
+Ba3  Ba  2  0.33333  0.66667  0.41350  1.0
+Ba4  Ba  6  0.16670  0.83330  0.75000  1.0
+Ta1  Ta  2  0.33333  0.66667  0.65120  1.0
+Ta2  Ta  6  0.50000  0.00000  0.00000  1.0
+Ni1  Ni  2  0.00000  0.00000  0.00000  1.0
+Ni2  Ni  2  0.33333  0.66667  0.84880  1.0
+O1   O   6  0.16670  0.83330  0.58200  1.0
+O2   O   6  0.50000  0.00000  0.14200  1.0
+O3   O   6  0.16670  0.83330  0.92100  1.0
+O4   O   6  0.50000  0.00000  0.35800  1.0
+O5   O   6  0.16670  0.83330  0.25000  1.0
+O6   O   6  0.50000  0.00000  0.50000  1.0
+```","data_Ba3Ta2NiO9
+_chemical_formula_sum            'Ba12 Ta8 Ni4 O36'
+_chemical_formula_structural     'Ba3 Ta2 Ni O9'
+_cell_length_a                   5.7820
+_cell_length_b                   5.7820
+_cell_length_c                   14.1960
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     411.24
+_cell_formula_units_Z            4
+
+_space_group_name_H-M_alt        'P -3 m 1'
+_space_group_IT_number           164
+_symmetry_space_group_name_Hall  '-P 3 2""'
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'y, x, -z'
+'x-y, -y, -z'
+'-x, -x+y, -z'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-y, -x, z'
+'-x+y, y, z'
+'x, x-y, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ba1  Ba  2  0.00000  0.00000  0.25000  1.0
+Ba2  Ba  2  0.33333  0.66667  0.09520  1.0
+Ba3  Ba  2  0.33333  0.66667  0.41350  1.0
+Ba4  Ba  6  0.16670  0.83330  0.75000  1.0
+Ta1  Ta  2  0.33333  0.66667  0.65120  1.0
+Ta2  Ta  6  0.50000  0.00000  0.00000  1.0
+Ni1  Ni  2  0.00000  0.00000  0.00000  1.0
+Ni2  Ni  2  0.33333  0.66667  0.84880  1.0
+O1   O   6  0.16670  0.83330  0.58200  1.0
+O2   O   6  0.50000  0.00000  0.14200  1.0
+O3   O   6  0.16670  0.83330  0.92100  1.0
+O4   O   6  0.50000  0.00000  0.35800  1.0
+O5   O   6  0.16670  0.83330  0.25000  1.0
+O6   O   6  0.50000  0.00000  0.50000  1.0",True,False
+Eu(CuSb)2,129,10,Claude-4.6-Opus,"
+
+```cif
+data_Eu(CuSb)2
+_chemical_formula_sum            'Eu Cu2 Sb2'
+_chemical_formula_structural     'Eu (Cu Sb)2'
+_cell_length_a                   4.3600
+_cell_length_b                   4.3600
+_cell_length_c                   10.4000
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     197.68
+_cell_formula_units_Z            2
+_space_group_name_H-M_alt        'P 4/n m m'
+_space_group_IT_number           129
+_symmetry_space_group_name_Hall  '-P 4a 2a'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-x+1/2, -y+1/2, z'
+3   '-y+1/2, x, z'
+4   'y, -x+1/2, z'
+5   '-x, y+1/2, -z'
+6   'x+1/2, -y, -z'
+7   'y+1/2, x+1/2, -z'
+8   '-y, -x, -z'
+9   '-x, -y, -z'
+10  'x+1/2, y+1/2, -z'
+11  'y+1/2, -x, -z'
+12  '-y, x+1/2, -z'
+13  'x, -y+1/2, z'
+14  '-x+1/2, y, z'
+15  '-y+1/2, -x+1/2, z'
+16  'y, x, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Eu1  Eu  2  c  0.25000  0.25000  0.26200  1.0
+Cu1  Cu  4  f  0.75000  0.25000  0.00000  1.0
+Sb1  Sb  4  f  0.75000  0.25000  0.63700  1.0
+```","data_Eu(CuSb)2
+_chemical_formula_sum            'Eu Cu2 Sb2'
+_chemical_formula_structural     'Eu (Cu Sb)2'
+_cell_length_a                   4.3600
+_cell_length_b                   4.3600
+_cell_length_c                   10.4000
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     197.68
+_cell_formula_units_Z            2
+_space_group_name_H-M_alt        'P 4/n m m'
+_space_group_IT_number           129
+_symmetry_space_group_name_Hall  '-P 4a 2a'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-x+1/2, -y+1/2, z'
+3   '-y+1/2, x, z'
+4   'y, -x+1/2, z'
+5   '-x, y+1/2, -z'
+6   'x+1/2, -y, -z'
+7   'y+1/2, x+1/2, -z'
+8   '-y, -x, -z'
+9   '-x, -y, -z'
+10  'x+1/2, y+1/2, -z'
+11  'y+1/2, -x, -z'
+12  '-y, x+1/2, -z'
+13  'x, -y+1/2, z'
+14  '-x+1/2, y, z'
+15  '-y+1/2, -x+1/2, z'
+16  'y, x, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Eu1  Eu  2  c  0.25000  0.25000  0.26200  1.0
+Cu1  Cu  4  f  0.75000  0.25000  0.00000  1.0
+Sb1  Sb  4  f  0.75000  0.25000  0.63700  1.0",True,False
+U2SbN2,139,5,Claude-4.6-Opus,"
+
+```cif
+data_U2SbN2
+_chemical_formula_sum            'U2 Sb N2'
+_chemical_formula_structural     'U2 Sb N2'
+_cell_length_a                   3.880
+_cell_length_b                   3.880
+_cell_length_c                   9.240
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_symmetry_space_group_name_H-M   'P 4/m m m'
+_symmetry_Int_Tables_number      123
+_cell_volume                     139.15
+_cell_formula_units_Z            1
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-y, x, z'
+'y, -x, z'
+'-x, y, -z'
+'x, -y, -z'
+'y, x, -z'
+'-y, -x, -z'
+'-x, -y, -z'
+'x, y, -z'
+'y, -x, -z'
+'-y, x, -z'
+'x, -y, z'
+'-x, y, z'
+'-y, -x, z'
+'y, x, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+U1   U   2   h   0.50000   0.50000   0.26400   1.0
+Sb1  Sb  1   a   0.00000   0.00000   0.00000   1.0
+N1   N   2   g   0.00000   0.00000   0.38500   1.0
+```","data_U2SbN2
+_chemical_formula_sum            'U2 Sb N2'
+_chemical_formula_structural     'U2 Sb N2'
+_cell_length_a                   3.880
+_cell_length_b                   3.880
+_cell_length_c                   9.240
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_symmetry_space_group_name_H-M   'P 4/m m m'
+_symmetry_Int_Tables_number      123
+_cell_volume                     139.15
+_cell_formula_units_Z            1
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-y, x, z'
+'y, -x, z'
+'-x, y, -z'
+'x, -y, -z'
+'y, x, -z'
+'-y, -x, -z'
+'-x, -y, -z'
+'x, y, -z'
+'y, -x, -z'
+'-y, x, -z'
+'x, -y, z'
+'-x, y, z'
+'-y, -x, z'
+'y, x, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+U1   U   2   h   0.50000   0.50000   0.26400   1.0
+Sb1  Sb  1   a   0.00000   0.00000   0.00000   1.0
+N1   N   2   g   0.00000   0.00000   0.38500   1.0",True,False
+MnAl,123,2,Claude-4.6-Opus,"
+
+```cif
+data_MnAl
+_chemical_formula_sum            'Mn Al'
+_chemical_name_systematic        'Manganese Aluminium'
+_cell_length_a                   2.89
+_cell_length_b                   2.89
+_cell_length_c                   2.89
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_volume                     24.14
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'P m -3 m'
+_space_group_IT_number           221
+_symmetry_space_group_name_H-M   'P m -3 m'
+_symmetry_Int_Tables_number      221
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-x, -y, z'
+3   '-x, y, -z'
+4   'x, -y, -z'
+5   'z, x, y'
+6   'z, -x, -y'
+7   '-z, -x, y'
+8   '-z, x, -y'
+9   'y, z, x'
+10  '-y, z, -x'
+11  'y, -z, -x'
+12  '-y, -z, x'
+13  '-y, -x, -z'
+14  'y, x, -z'
+15  '-y, x, z'
+16  'y, -x, z'
+17  '-x, -z, -y'
+18  '-x, z, y'
+19  'x, -z, y'
+20  'x, z, -y'
+21  '-z, -y, -x'
+22  'z, -y, x'
+23  '-z, y, x'
+24  'z, y, -x'
+25  '-x, -y, -z'
+26  'x, y, -z'
+27  'x, -y, z'
+28  '-x, y, z'
+29  '-z, -x, -y'
+30  '-z, x, y'
+31  'z, x, -y'
+32  'z, -x, y'
+33  '-y, -z, -x'
+34  'y, -z, x'
+35  '-y, z, x'
+36  'y, z, -x'
+37  'y, x, z'
+38  '-y, -x, z'
+39  'y, -x, -z'
+40  '-y, x, -z'
+41  'x, z, y'
+42  'x, -z, -y'
+43  '-x, z, -y'
+44  '-x, -z, y'
+45  'z, y, x'
+46  '-z, y, -x'
+47  'z, -y, -x'
+48  '-z, -y, x'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Mn1  Mn  0.00000  0.00000  0.00000  1.0  a
+Al1  Al  0.50000  0.50000  0.50000  1.0  b
+```","data_MnAl
+_chemical_formula_sum            'Mn Al'
+_chemical_name_systematic        'Manganese Aluminium'
+_cell_length_a                   2.89
+_cell_length_b                   2.89
+_cell_length_c                   2.89
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_volume                     24.14
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'P m -3 m'
+_space_group_IT_number           221
+_symmetry_space_group_name_H-M   'P m -3 m'
+_symmetry_Int_Tables_number      221
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-x, -y, z'
+3   '-x, y, -z'
+4   'x, -y, -z'
+5   'z, x, y'
+6   'z, -x, -y'
+7   '-z, -x, y'
+8   '-z, x, -y'
+9   'y, z, x'
+10  '-y, z, -x'
+11  'y, -z, -x'
+12  '-y, -z, x'
+13  '-y, -x, -z'
+14  'y, x, -z'
+15  '-y, x, z'
+16  'y, -x, z'
+17  '-x, -z, -y'
+18  '-x, z, y'
+19  'x, -z, y'
+20  'x, z, -y'
+21  '-z, -y, -x'
+22  'z, -y, x'
+23  '-z, y, x'
+24  'z, y, -x'
+25  '-x, -y, -z'
+26  'x, y, -z'
+27  'x, -y, z'
+28  '-x, y, z'
+29  '-z, -x, -y'
+30  '-z, x, y'
+31  'z, x, -y'
+32  'z, -x, y'
+33  '-y, -z, -x'
+34  'y, -z, x'
+35  '-y, z, x'
+36  'y, z, -x'
+37  'y, x, z'
+38  '-y, -x, z'
+39  'y, -x, -z'
+40  '-y, x, -z'
+41  'x, z, y'
+42  'x, -z, -y'
+43  '-x, z, -y'
+44  '-x, -z, y'
+45  'z, y, x'
+46  '-z, y, -x'
+47  'z, -y, -x'
+48  '-z, -y, x'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Mn1  Mn  0.00000  0.00000  0.00000  1.0  a
+Al1  Al  0.50000  0.50000  0.50000  1.0  b",True,True
+SmZnPd,189,9,Claude-4.6-Opus,"
+
+```cif
+data_SmZnPd
+_chemical_formula_sum            'Sm3 Zn3 Pd3'
+_chemical_formula_structural     'Sm Zn Pd'
+_cell_length_a                   7.1200
+_cell_length_b                   7.1200
+_cell_length_c                   3.9500
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     173.47
+_cell_formula_units_Z            3
+_symmetry_space_group_name_H-M   'P -6 2 m'
+_symmetry_Int_Tables_number      189
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'x, y, -z'
+'-y, x-y, -z'
+'-x+y, -x, -z'
+'y, x, -z'
+'x-y, -y, -z'
+'-x, -x+y, -z'
+'y, x, z'
+'x-y, -y, z'
+'-x, -x+y, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sm1  Sm  3  g  0.59400  0.00000  0.50000  1.0
+Zn1  Zn  3  f  0.25600  0.00000  0.00000  1.0
+Pd1  Pd  2  d  0.33333  0.66667  0.50000  1.0
+Pd2  Pd  1  a  0.00000  0.00000  0.00000  1.0
+```","data_SmZnPd
+_chemical_formula_sum            'Sm3 Zn3 Pd3'
+_chemical_formula_structural     'Sm Zn Pd'
+_cell_length_a                   7.1200
+_cell_length_b                   7.1200
+_cell_length_c                   3.9500
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     173.47
+_cell_formula_units_Z            3
+_symmetry_space_group_name_H-M   'P -6 2 m'
+_symmetry_Int_Tables_number      189
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'x, y, -z'
+'-y, x-y, -z'
+'-x+y, -x, -z'
+'y, x, -z'
+'x-y, -y, -z'
+'-x, -x+y, -z'
+'y, x, z'
+'x-y, -y, z'
+'-x, -x+y, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sm1  Sm  3  g  0.59400  0.00000  0.50000  1.0
+Zn1  Zn  3  f  0.25600  0.00000  0.00000  1.0
+Pd1  Pd  2  d  0.33333  0.66667  0.50000  1.0
+Pd2  Pd  1  a  0.00000  0.00000  0.00000  1.0",True,False
+Eu(Al2Cu)4,139,13,Claude-4.6-Opus,"
+
+```cif
+data_EuAl8Cu4
+_chemical_formula_sum            'Eu1 Al8 Cu4'
+_chemical_formula_structural     'Eu (Al2 Cu)4'
+_cell_length_a                   6.220
+_cell_length_b                   6.220
+_cell_length_c                   5.080
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_symmetry_Int_Tables_number      139
+_cell_volume                     196.5
+_cell_formula_units_Z            1
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, -y, z'
+  '-y, x, z'
+  'y, -x, z'
+  '-x, y, -z'
+  'x, -y, -z'
+  'y, x, -z'
+  '-y, -x, -z'
+  '-x, -y, -z'
+  'x, y, -z'
+  'y, -x, -z'
+  '-y, x, -z'
+  'x, -y, z'
+  '-x, y, z'
+  '-y, -x, z'
+  'y, x, z'
+  'x+1/2, y+1/2, z+1/2'
+  '-x+1/2, -y+1/2, z+1/2'
+  '-y+1/2, x+1/2, z+1/2'
+  'y+1/2, -x+1/2, z+1/2'
+  '-x+1/2, y+1/2, -z+1/2'
+  'x+1/2, -y+1/2, -z+1/2'
+  'y+1/2, x+1/2, -z+1/2'
+  '-y+1/2, -x+1/2, -z+1/2'
+  '-x+1/2, -y+1/2, -z+1/2'
+  'x+1/2, y+1/2, -z+1/2'
+  'y+1/2, -x+1/2, -z+1/2'
+  '-y+1/2, x+1/2, -z+1/2'
+  'x+1/2, -y+1/2, z+1/2'
+  '-x+1/2, y+1/2, z+1/2'
+  '-y+1/2, -x+1/2, z+1/2'
+  'y+1/2, x+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Eu1  Eu   2  a  0.00000  0.00000  0.00000  1.0
+  Cu1  Cu   4  d  0.00000  0.50000  0.25000  1.0
+  Al1  Al   4  e  0.00000  0.00000  0.33800  1.0
+  Al2  Al   4  c  0.00000  0.50000  0.00000  0.5
+```
+
+This is the ThMn12-type derivative structure (BaAl4/ThCr2Si2-type, space group I4/mmm, #139). The conventional body-centered tetragonal cell contains 13 atoms: 2 Eu at corners/body-center (Wyckoff 2a), 4 Cu (4d), 4 Al (4e), and the remaining 2 Al on the half-occupied 4c site, giving the correct Eu:Al:Cu = 1:8:4 stoichiometry per formula unit with Z=1 (primitive cell) mapping to 13 atoms in the conventional BCC cell.","data_EuAl8Cu4
+_chemical_formula_sum            'Eu1 Al8 Cu4'
+_chemical_formula_structural     'Eu (Al2 Cu)4'
+_cell_length_a                   6.220
+_cell_length_b                   6.220
+_cell_length_c                   5.080
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_symmetry_Int_Tables_number      139
+_cell_volume                     196.5
+_cell_formula_units_Z            1
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, -y, z'
+  '-y, x, z'
+  'y, -x, z'
+  '-x, y, -z'
+  'x, -y, -z'
+  'y, x, -z'
+  '-y, -x, -z'
+  '-x, -y, -z'
+  'x, y, -z'
+  'y, -x, -z'
+  '-y, x, -z'
+  'x, -y, z'
+  '-x, y, z'
+  '-y, -x, z'
+  'y, x, z'
+  'x+1/2, y+1/2, z+1/2'
+  '-x+1/2, -y+1/2, z+1/2'
+  '-y+1/2, x+1/2, z+1/2'
+  'y+1/2, -x+1/2, z+1/2'
+  '-x+1/2, y+1/2, -z+1/2'
+  'x+1/2, -y+1/2, -z+1/2'
+  'y+1/2, x+1/2, -z+1/2'
+  '-y+1/2, -x+1/2, -z+1/2'
+  '-x+1/2, -y+1/2, -z+1/2'
+  'x+1/2, y+1/2, -z+1/2'
+  'y+1/2, -x+1/2, -z+1/2'
+  '-y+1/2, x+1/2, -z+1/2'
+  'x+1/2, -y+1/2, z+1/2'
+  '-x+1/2, y+1/2, z+1/2'
+  '-y+1/2, -x+1/2, z+1/2'
+  'y+1/2, x+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Eu1  Eu   2  a  0.00000  0.00000  0.00000  1.0
+  Cu1  Cu   4  d  0.00000  0.50000  0.25000  1.0
+  Al1  Al   4  e  0.00000  0.00000  0.33800  1.0
+  Al2  Al   4  c  0.00000  0.50000  0.00000  0.5",True,False
+YbP5,11,12,Claude-4.6-Opus,"
+
+```cif
+data_YbP5
+_chemical_formula_sum            'Yb2 P10'
+_chemical_formula_structural     'Yb P5'
+_cell_length_a                   4.920
+_cell_length_b                   4.920
+_cell_length_c                   7.180
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     150.45
+_cell_formula_units_Z            2
+
+_space_group_name_H-M_alt        'P 63/m'
+_space_group_IT_number           176
+_symmetry_cell_setting           hexagonal
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1  'x, y, z'
+2  '-y, x-y, z'
+3  '-x+y, -x, z'
+4  '-x, -y, z+1/2'
+5  'y, -x+y, z+1/2'
+6  'x-y, x, z+1/2'
+7  '-x, -y, -z'
+8  'y, -x+y, -z'
+9  'x-y, x, -z'
+10 'x, y, -z+1/2'
+11 '-y, x-y, -z+1/2'
+12 '-x+y, -x, -z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Yb1  Yb  2  c  0.33333  0.66667  0.25000  1.0
+P1   P   6  h  0.33690  0.06120  0.25000  1.0
+P2   P   4  f  0.33333  0.66667  0.63800  1.0
+```","data_YbP5
+_chemical_formula_sum            'Yb2 P10'
+_chemical_formula_structural     'Yb P5'
+_cell_length_a                   4.920
+_cell_length_b                   4.920
+_cell_length_c                   7.180
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     150.45
+_cell_formula_units_Z            2
+
+_space_group_name_H-M_alt        'P 63/m'
+_space_group_IT_number           176
+_symmetry_cell_setting           hexagonal
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1  'x, y, z'
+2  '-y, x-y, z'
+3  '-x+y, -x, z'
+4  '-x, -y, z+1/2'
+5  'y, -x+y, z+1/2'
+6  'x-y, x, z+1/2'
+7  '-x, -y, -z'
+8  'y, -x+y, -z'
+9  'x-y, x, -z'
+10 'x, y, -z+1/2'
+11 '-y, x-y, -z+1/2'
+12 '-x+y, -x, -z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Yb1  Yb  2  c  0.33333  0.66667  0.25000  1.0
+P1   P   6  h  0.33690  0.06120  0.25000  1.0
+P2   P   4  f  0.33333  0.66667  0.63800  1.0",True,False
+Gd(SiOs)2,139,5,Claude-4.6-Opus,"
+
+```cif
+data_GdSi2Os2
+_chemical_formula_sum            'Gd Os2 Si'
+_chemical_name_common            'Gadolinium Silicon Diosmide'
+_cell_length_a                   4.1850
+_cell_length_b                   4.1850
+_cell_length_c                   9.5700
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     167.60
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'P 4/m m m'
+_space_group_IT_number           123
+_symmetry_space_group_name_Hall  '-P 4 2'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-x, -y, z'
+3   '-y, x, z'
+4   'y, -x, z'
+5   '-x, y, -z'
+6   'x, -y, -z'
+7   'y, x, -z'
+8   '-y, -x, -z'
+9   '-x, -y, -z'
+10  'x, y, -z'
+11  'y, -x, -z'
+12  '-y, x, -z'
+13  'x, -y, z'
+14  '-x, y, z'
+15  '-y, -x, z'
+16  'y, x, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Gd1  Gd  1  a  0.00000  0.00000  0.00000  1.0
+Os1  Os  2  h  0.50000  0.50000  0.26500  1.0
+Si1  Si  2  e  0.00000  0.50000  0.50000  1.0
+```","data_GdSi2Os2
+_chemical_formula_sum            'Gd Os2 Si'
+_chemical_name_common            'Gadolinium Silicon Diosmide'
+_cell_length_a                   4.1850
+_cell_length_b                   4.1850
+_cell_length_c                   9.5700
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     167.60
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'P 4/m m m'
+_space_group_IT_number           123
+_symmetry_space_group_name_Hall  '-P 4 2'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-x, -y, z'
+3   '-y, x, z'
+4   'y, -x, z'
+5   '-x, y, -z'
+6   'x, -y, -z'
+7   'y, x, -z'
+8   '-y, -x, -z'
+9   '-x, -y, -z'
+10  'x, y, -z'
+11  'y, -x, -z'
+12  '-y, x, -z'
+13  'x, -y, z'
+14  '-x, y, z'
+15  '-y, -x, z'
+16  'y, x, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Gd1  Gd  1  a  0.00000  0.00000  0.00000  1.0
+Os1  Os  2  h  0.50000  0.50000  0.26500  1.0
+Si1  Si  2  e  0.00000  0.50000  0.50000  1.0",True,False
+Rb2TlAgCl6,225,10,Claude-4.6-Opus,"
+
+```cif
+data_Rb2TlAgCl6
+_chemical_formula_sum            'Rb2 Tl Ag Cl6'
+_chemical_formula_structural     'Rb2 Tl Ag Cl6'
+_cell_length_a                   7.494
+_cell_length_b                   7.494
+_cell_length_c                   7.494
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     421.0
+_cell_formula_units_Z            1
+
+_space_group_name_H-M_alt        'F m -3 m'
+_space_group_IT_number            225
+_symmetry_space_group_name_H-M   'F m -3 m'
+_symmetry_Int_Tables_number       225
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-x, y, -z'
+'x, -y, -z'
+'z, x, y'
+'z, -x, -y'
+'-z, -x, y'
+'-z, x, -y'
+'y, z, x'
+'-y, z, -x'
+'y, -z, -x'
+'-y, -z, x'
+'-y, -x, -z'
+'-y, x, z'
+'y, x, -z'
+'y, -x, z'
+'-x, -z, -y'
+'x, -z, y'
+'x, z, -y'
+'-x, z, y'
+'-z, -y, -x'
+'-z, y, x'
+'z, y, -x'
+'z, -y, x'
+'-x, -y, -z'
+'x, y, -z'
+'x, -y, z'
+'-x, y, z'
+'-z, -x, -y'
+'-z, x, y'
+'z, x, -y'
+'z, -x, y'
+'-y, -z, -x'
+'y, -z, x'
+'-y, z, x'
+'y, z, -x'
+'y, x, z'
+'y, -x, -z'
+'-y, -x, z'
+'-y, x, -z'
+'x, z, y'
+'-x, z, -y'
+'-x, -z, y'
+'x, -z, -y'
+'z, y, x'
+'z, -y, -x'
+'-z, -y, x'
+'-z, y, -x'
+'x, y+1/2, z+1/2'
+'-x, -y+1/2, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x, -y+1/2, -z+1/2'
+'z, x+1/2, y+1/2'
+'z, -x+1/2, -y+1/2'
+'-z, -x+1/2, y+1/2'
+'-z, x+1/2, -y+1/2'
+'y, z+1/2, x+1/2'
+'-y, z+1/2, -x+1/2'
+'y, -z+1/2, -x+1/2'
+'-y, -z+1/2, x+1/2'
+'-y, -x+1/2, -z+1/2'
+'-y, x+1/2, z+1/2'
+'y, x+1/2, -z+1/2'
+'y, -x+1/2, z+1/2'
+'-x, -z+1/2, -y+1/2'
+'x, -z+1/2, y+1/2'
+'x, z+1/2, -y+1/2'
+'-x, z+1/2, y+1/2'
+'-z, -y+1/2, -x+1/2'
+'-z, y+1/2, x+1/2'
+'z, y+1/2, -x+1/2'
+'z, -y+1/2, x+1/2'
+'-x, -y+1/2, -z+1/2'
+'x, y+1/2, -z+1/2'
+'x, -y+1/2, z+1/2'
+'-x, y+1/2, z+1/2'
+'-z, -x+1/2, -y+1/2'
+'-z, x+1/2, y+1/2'
+'z, x+1/2, -y+1/2'
+'z, -x+1/2, y+1/2'
+'-y, -z+1/2, -x+1/2'
+'y, -z+1/2, x+1/2'
+'-y, z+1/2, x+1/2'
+'y, z+1/2, -x+1/2'
+'y, x+1/2, z+1/2'
+'y, -x+1/2, -z+1/2'
+'-y, -x+1/2, z+1/2'
+'-y, x+1/2, -z+1/2'
+'x, z+1/2, y+1/2'
+'-x, z+1/2, -y+1/2'
+'-x, -z+1/2, y+1/2'
+'x, -z+1/2, -y+1/2'
+'z, y+1/2, x+1/2'
+'z, -y+1/2, -x+1/2'
+'-z, -y+1/2, x+1/2'
+'-z, y+1/2, -x+1/2'
+'x+1/2, y, z+1/2'
+'-x+1/2, -y, z+1/2'
+'-x+1/2, y, -z+1/2'
+'x+1/2, -y, -z+1/2'
+'z+1/2, x, y+1/2'
+'z+1/2, -x, -y+1/2'
+'-z+1/2, -x, y+1/2'
+'-z+1/2, x, -y+1/2'
+'y+1/2, z, x+1/2'
+'-y+1/2, z, -x+1/2'
+'y+1/2, -z, -x+1/2'
+'-y+1/2, -z, x+1/2'
+'-y+1/2, -x, -z+1/2'
+'-y+1/2, x, z+1/2'
+'y+1/2, x, -z+1/2'
+'y+1/2, -x, z+1/2'
+'-x+1/2, -z, -y+1/2'
+'x+1/2, -z, y+1/2'
+'x+1/2, z, -y+1/2'
+'-x+1/2, z, y+1/2'
+'-z+1/2, -y, -x+1/2'
+'-z+1/2, y, x+1/2'
+'z+1/2, y, -x+1/2'
+'z+1/2, -y, x+1/2'
+'-x+1/2, -y, -z+1/2'
+'x+1/2, y, -z+1/2'
+'x+1/2, -y, z+1/2'
+'-x+1/2, y, z+1/2'
+'-z+1/2, -x, -y+1/2'
+'-z+1/2, x, y+1/2'
+'z+1/2, x, -y+1/2'
+'z+1/2, -x, y+1/2'
+'-y+1/2, -z, -x+1/2'
+'y+1/2, -z, x+1/2'
+'-y+1/2, z, x+1/2'
+'y+1/2, z, -x+1/2'
+'y+1/2, x, z+1/2'
+'y+1/2, -x, -z+1/2'
+'-y+1/2, -x, z+1/2'
+'-y+1/2, x, -z+1/2'
+'x+1/2, z, y+1/2'
+'-x+1/2, z, -y+1/2'
+'-x+1/2, -z, y+1/2'
+'x+1/2, -z, -y+1/2'
+'z+1/2, y, x+1/2'
+'z+1/2, -y, -x+1/2'
+'-z+1/2, -y, x+1/2'
+'-z+1/2, y, -x+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, -z'
+'x+1/2, -y+1/2, -z'
+'z+1/2, x+1/2, y'
+'z+1/2, -x+1/2, -y'
+'-z+1/2, -x+1/2, y'
+'-z+1/2, x+1/2, -y'
+'y+1/2, z+1/2, x'
+'-y+1/2, z+1/2, -x'
+'y+1/2, -z+1/2, -x'
+'-y+1/2, -z+1/2, x'
+'-y+1/2, -x+1/2, -z'
+'-y+1/2, x+1/2, z'
+'y+1/2, x+1/2, -z'
+'y+1/2, -x+1/2, z'
+'-x+1/2, -z+1/2, -y'
+'x+1/2, -z+1/2, y'
+'x+1/2, z+1/2, -y'
+'-x+1/2, z+1/2, y'
+'-z+1/2, -y+1/2, -x'
+'-z+1/2, y+1/2, x'
+'z+1/2, y+1/2, -x'
+'z+1/2, -y+1/2, x'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, y+1/2, -z'
+'x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, z'
+'-z+1/2, -x+1/2, -y'
+'-z+1/2, x+1/2, y'
+'z+1/2, x+1/2, -y'
+'z+1/2, -x+1/2, y'
+'-y+1/2, -z+1/2, -x'
+'y+1/2, -z+1/2, x'
+'-y+1/2, z+1/2, x'
+'y+1/2, z+1/2, -x'
+'y+1/2, x+1/2, z'
+'y+1/2, -x+1/2, -z'
+'-y+1/2, -x+1/2, z'
+'-y+1/2, x+1/2, -z'
+'x+1/2, z+1/2, y'
+'-x+1/2, z+1/2, -y'
+'-x+1/2, -z+1/2, y'
+'x+1/2, -z+1/2, -y'
+'z+1/2, y+1/2, x'
+'z+1/2, -y+1/2, -x'
+'-z+1/2, -y+1/2, x'
+'-z+1/2, y+1/2, -x'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Rb1  Rb  0.25000  0.25000  0.25000  1.0  c
+Tl1  Tl  0.00000  0.00000  0.00000  1.0  a
+Ag1  Ag  0.50000  0.50000  0.50000  1.0  b
+Cl1  Cl  0.25000  0.00000  0.00000  1.0  e
+```","data_Rb2TlAgCl6
+_chemical_formula_sum            'Rb2 Tl Ag Cl6'
+_chemical_formula_structural     'Rb2 Tl Ag Cl6'
+_cell_length_a                   7.494
+_cell_length_b                   7.494
+_cell_length_c                   7.494
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     421.0
+_cell_formula_units_Z            1
+
+_space_group_name_H-M_alt        'F m -3 m'
+_space_group_IT_number            225
+_symmetry_space_group_name_H-M   'F m -3 m'
+_symmetry_Int_Tables_number       225
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-x, y, -z'
+'x, -y, -z'
+'z, x, y'
+'z, -x, -y'
+'-z, -x, y'
+'-z, x, -y'
+'y, z, x'
+'-y, z, -x'
+'y, -z, -x'
+'-y, -z, x'
+'-y, -x, -z'
+'-y, x, z'
+'y, x, -z'
+'y, -x, z'
+'-x, -z, -y'
+'x, -z, y'
+'x, z, -y'
+'-x, z, y'
+'-z, -y, -x'
+'-z, y, x'
+'z, y, -x'
+'z, -y, x'
+'-x, -y, -z'
+'x, y, -z'
+'x, -y, z'
+'-x, y, z'
+'-z, -x, -y'
+'-z, x, y'
+'z, x, -y'
+'z, -x, y'
+'-y, -z, -x'
+'y, -z, x'
+'-y, z, x'
+'y, z, -x'
+'y, x, z'
+'y, -x, -z'
+'-y, -x, z'
+'-y, x, -z'
+'x, z, y'
+'-x, z, -y'
+'-x, -z, y'
+'x, -z, -y'
+'z, y, x'
+'z, -y, -x'
+'-z, -y, x'
+'-z, y, -x'
+'x, y+1/2, z+1/2'
+'-x, -y+1/2, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x, -y+1/2, -z+1/2'
+'z, x+1/2, y+1/2'
+'z, -x+1/2, -y+1/2'
+'-z, -x+1/2, y+1/2'
+'-z, x+1/2, -y+1/2'
+'y, z+1/2, x+1/2'
+'-y, z+1/2, -x+1/2'
+'y, -z+1/2, -x+1/2'
+'-y, -z+1/2, x+1/2'
+'-y, -x+1/2, -z+1/2'
+'-y, x+1/2, z+1/2'
+'y, x+1/2, -z+1/2'
+'y, -x+1/2, z+1/2'
+'-x, -z+1/2, -y+1/2'
+'x, -z+1/2, y+1/2'
+'x, z+1/2, -y+1/2'
+'-x, z+1/2, y+1/2'
+'-z, -y+1/2, -x+1/2'
+'-z, y+1/2, x+1/2'
+'z, y+1/2, -x+1/2'
+'z, -y+1/2, x+1/2'
+'-x, -y+1/2, -z+1/2'
+'x, y+1/2, -z+1/2'
+'x, -y+1/2, z+1/2'
+'-x, y+1/2, z+1/2'
+'-z, -x+1/2, -y+1/2'
+'-z, x+1/2, y+1/2'
+'z, x+1/2, -y+1/2'
+'z, -x+1/2, y+1/2'
+'-y, -z+1/2, -x+1/2'
+'y, -z+1/2, x+1/2'
+'-y, z+1/2, x+1/2'
+'y, z+1/2, -x+1/2'
+'y, x+1/2, z+1/2'
+'y, -x+1/2, -z+1/2'
+'-y, -x+1/2, z+1/2'
+'-y, x+1/2, -z+1/2'
+'x, z+1/2, y+1/2'
+'-x, z+1/2, -y+1/2'
+'-x, -z+1/2, y+1/2'
+'x, -z+1/2, -y+1/2'
+'z, y+1/2, x+1/2'
+'z, -y+1/2, -x+1/2'
+'-z, -y+1/2, x+1/2'
+'-z, y+1/2, -x+1/2'
+'x+1/2, y, z+1/2'
+'-x+1/2, -y, z+1/2'
+'-x+1/2, y, -z+1/2'
+'x+1/2, -y, -z+1/2'
+'z+1/2, x, y+1/2'
+'z+1/2, -x, -y+1/2'
+'-z+1/2, -x, y+1/2'
+'-z+1/2, x, -y+1/2'
+'y+1/2, z, x+1/2'
+'-y+1/2, z, -x+1/2'
+'y+1/2, -z, -x+1/2'
+'-y+1/2, -z, x+1/2'
+'-y+1/2, -x, -z+1/2'
+'-y+1/2, x, z+1/2'
+'y+1/2, x, -z+1/2'
+'y+1/2, -x, z+1/2'
+'-x+1/2, -z, -y+1/2'
+'x+1/2, -z, y+1/2'
+'x+1/2, z, -y+1/2'
+'-x+1/2, z, y+1/2'
+'-z+1/2, -y, -x+1/2'
+'-z+1/2, y, x+1/2'
+'z+1/2, y, -x+1/2'
+'z+1/2, -y, x+1/2'
+'-x+1/2, -y, -z+1/2'
+'x+1/2, y, -z+1/2'
+'x+1/2, -y, z+1/2'
+'-x+1/2, y, z+1/2'
+'-z+1/2, -x, -y+1/2'
+'-z+1/2, x, y+1/2'
+'z+1/2, x, -y+1/2'
+'z+1/2, -x, y+1/2'
+'-y+1/2, -z, -x+1/2'
+'y+1/2, -z, x+1/2'
+'-y+1/2, z, x+1/2'
+'y+1/2, z, -x+1/2'
+'y+1/2, x, z+1/2'
+'y+1/2, -x, -z+1/2'
+'-y+1/2, -x, z+1/2'
+'-y+1/2, x, -z+1/2'
+'x+1/2, z, y+1/2'
+'-x+1/2, z, -y+1/2'
+'-x+1/2, -z, y+1/2'
+'x+1/2, -z, -y+1/2'
+'z+1/2, y, x+1/2'
+'z+1/2, -y, -x+1/2'
+'-z+1/2, -y, x+1/2'
+'-z+1/2, y, -x+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, -z'
+'x+1/2, -y+1/2, -z'
+'z+1/2, x+1/2, y'
+'z+1/2, -x+1/2, -y'
+'-z+1/2, -x+1/2, y'
+'-z+1/2, x+1/2, -y'
+'y+1/2, z+1/2, x'
+'-y+1/2, z+1/2, -x'
+'y+1/2, -z+1/2, -x'
+'-y+1/2, -z+1/2, x'
+'-y+1/2, -x+1/2, -z'
+'-y+1/2, x+1/2, z'
+'y+1/2, x+1/2, -z'
+'y+1/2, -x+1/2, z'
+'-x+1/2, -z+1/2, -y'
+'x+1/2, -z+1/2, y'
+'x+1/2, z+1/2, -y'
+'-x+1/2, z+1/2, y'
+'-z+1/2, -y+1/2, -x'
+'-z+1/2, y+1/2, x'
+'z+1/2, y+1/2, -x'
+'z+1/2, -y+1/2, x'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, y+1/2, -z'
+'x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, z'
+'-z+1/2, -x+1/2, -y'
+'-z+1/2, x+1/2, y'
+'z+1/2, x+1/2, -y'
+'z+1/2, -x+1/2, y'
+'-y+1/2, -z+1/2, -x'
+'y+1/2, -z+1/2, x'
+'-y+1/2, z+1/2, x'
+'y+1/2, z+1/2, -x'
+'y+1/2, x+1/2, z'
+'y+1/2, -x+1/2, -z'
+'-y+1/2, -x+1/2, z'
+'-y+1/2, x+1/2, -z'
+'x+1/2, z+1/2, y'
+'-x+1/2, z+1/2, -y'
+'-x+1/2, -z+1/2, y'
+'x+1/2, -z+1/2, -y'
+'z+1/2, y+1/2, x'
+'z+1/2, -y+1/2, -x'
+'-z+1/2, -y+1/2, x'
+'-z+1/2, y+1/2, -x'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Rb1  Rb  0.25000  0.25000  0.25000  1.0  c
+Tl1  Tl  0.00000  0.00000  0.00000  1.0  a
+Ag1  Ag  0.50000  0.50000  0.50000  1.0  b
+Cl1  Cl  0.25000  0.00000  0.00000  1.0  e",True,True
+CeCu5Sn,62,28,Claude-4.6-Opus,"
+
+```cif
+data_CeCu5Sn
+_chemical_formula_sum            'Ce4 Cu20 Sn4'
+_chemical_formula_structural     'Ce Cu5 Sn'
+_cell_formula_units_Z            4
+
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_symmetry_Int_Tables_number      194
+_symmetry_cell_setting            hexagonal
+
+_cell_length_a                    5.1380
+_cell_length_b                    5.1380
+_cell_length_c                    10.2540
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 120.000
+_cell_volume                      234.47
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-y, x-y, z'
+  '-x+y, -x, z'
+  '-x, -y, z+1/2'
+  'y, -x+y, z+1/2'
+  'x-y, x, z+1/2'
+  'y, x, -z'
+  'x-y, -y, -z'
+  '-x, -x+y, -z'
+  '-y, -x, -z+1/2'
+  '-x+y, y, -z+1/2'
+  'x, x-y, -z+1/2'
+  '-x, -y, -z'
+  'y, -x+y, -z'
+  'x-y, x, -z'
+  'x, y, -z+1/2'
+  '-y, x-y, -z+1/2'
+  '-x+y, -x, -z+1/2'
+  '-y, -x, z'
+  '-x+y, y, z'
+  'x, x-y, z'
+  'y, x, z+1/2'
+  'x-y, -y, z+1/2'
+  '-x, -x+y, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ce1  Ce   2  b   0.00000   0.00000   0.25000   1.0
+Ce2  Ce   2  d   0.33333   0.66667   0.75000   1.0
+Sn1  Sn   4  f   0.33333   0.66667   0.04000   1.0
+Cu1  Cu   6  h   0.16670   0.33340   0.25000   1.0
+Cu2  Cu   6  g   0.50000   0.00000   0.00000   1.0
+Cu3  Cu   4  e   0.00000   0.00000   0.10000   1.0
+Cu4  Cu   4  f   0.33333   0.66667   0.45000   1.0
+```","data_CeCu5Sn
+_chemical_formula_sum            'Ce4 Cu20 Sn4'
+_chemical_formula_structural     'Ce Cu5 Sn'
+_cell_formula_units_Z            4
+
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_symmetry_Int_Tables_number      194
+_symmetry_cell_setting            hexagonal
+
+_cell_length_a                    5.1380
+_cell_length_b                    5.1380
+_cell_length_c                    10.2540
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 120.000
+_cell_volume                      234.47
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-y, x-y, z'
+  '-x+y, -x, z'
+  '-x, -y, z+1/2'
+  'y, -x+y, z+1/2'
+  'x-y, x, z+1/2'
+  'y, x, -z'
+  'x-y, -y, -z'
+  '-x, -x+y, -z'
+  '-y, -x, -z+1/2'
+  '-x+y, y, -z+1/2'
+  'x, x-y, -z+1/2'
+  '-x, -y, -z'
+  'y, -x+y, -z'
+  'x-y, x, -z'
+  'x, y, -z+1/2'
+  '-y, x-y, -z+1/2'
+  '-x+y, -x, -z+1/2'
+  '-y, -x, z'
+  '-x+y, y, z'
+  'x, x-y, z'
+  'y, x, z+1/2'
+  'x-y, -y, z+1/2'
+  '-x, -x+y, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ce1  Ce   2  b   0.00000   0.00000   0.25000   1.0
+Ce2  Ce   2  d   0.33333   0.66667   0.75000   1.0
+Sn1  Sn   4  f   0.33333   0.66667   0.04000   1.0
+Cu1  Cu   6  h   0.16670   0.33340   0.25000   1.0
+Cu2  Cu   6  g   0.50000   0.00000   0.00000   1.0
+Cu3  Cu   4  e   0.00000   0.00000   0.10000   1.0
+Cu4  Cu   4  f   0.33333   0.66667   0.45000   1.0",True,False
+Cs3InF6,225,10,Claude-4.6-Opus,"
+
+```cif
+data_Cs3InF6
+_chemical_formula_sum            'Cs3 In F6'
+_chemical_formula_structural     'Cs3 In F6'
+_cell_length_a                   6.3200
+_cell_length_b                   6.3200
+_cell_length_c                   6.3200
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     252.435
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'F m -3 m'
+_space_group_IT_number           225
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-x, -y, z'
+3   '-x, y, -z'
+4   'x, -y, -z'
+5   'z, x, y'
+6   'z, -x, -y'
+7   '-z, -x, y'
+8   '-z, x, -y'
+9   'y, z, x'
+10  '-y, z, -x'
+11  'y, -z, -x'
+12  '-y, -z, x'
+13  'y, x, -z'
+14  '-y, -x, -z'
+15  'y, -x, z'
+16  '-y, x, z'
+17  'x, z, -y'
+18  '-x, z, y'
+19  '-x, -z, -y'
+20  'x, -z, y'
+21  'z, y, -x'
+22  'z, -y, x'
+23  '-z, y, x'
+24  '-z, -y, -x'
+25  '-x, -y, -z'
+26  'x, y, -z'
+27  'x, -y, z'
+28  '-x, y, z'
+29  '-z, -x, -y'
+30  '-z, x, y'
+31  'z, x, -y'
+32  'z, -x, y'
+33  '-y, -z, -x'
+34  'y, -z, x'
+35  '-y, z, x'
+36  'y, z, -x'
+37  '-y, -x, z'
+38  'y, x, z'
+39  '-y, x, -z'
+40  'y, -x, -z'
+41  '-x, -z, y'
+42  'x, -z, -y'
+43  'x, z, y'
+44  '-x, z, -y'
+45  '-z, -y, x'
+46  '-z, y, -x'
+47  'z, -y, -x'
+48  'z, y, x'
+49  'x, y+1/2, z+1/2'
+50  '-x, -y+1/2, z+1/2'
+51  '-x, y+1/2, -z+1/2'
+52  'x, -y+1/2, -z+1/2'
+53  'z, x+1/2, y+1/2'
+54  'z, -x+1/2, -y+1/2'
+55  '-z, -x+1/2, y+1/2'
+56  '-z, x+1/2, -y+1/2'
+57  'y, z+1/2, x+1/2'
+58  '-y, z+1/2, -x+1/2'
+59  'y, -z+1/2, -x+1/2'
+60  '-y, -z+1/2, x+1/2'
+61  'y, x+1/2, -z+1/2'
+62  '-y, -x+1/2, -z+1/2'
+63  'y, -x+1/2, z+1/2'
+64  '-y, x+1/2, z+1/2'
+65  'x, z+1/2, -y+1/2'
+66  '-x, z+1/2, y+1/2'
+67  '-x, -z+1/2, -y+1/2'
+68  'x, -z+1/2, y+1/2'
+69  'z, y+1/2, -x+1/2'
+70  'z, -y+1/2, x+1/2'
+71  '-z, y+1/2, x+1/2'
+72  '-z, -y+1/2, -x+1/2'
+73  '-x, -y+1/2, -z+1/2'
+74  'x, y+1/2, -z+1/2'
+75  'x, -y+1/2, z+1/2'
+76  '-x, y+1/2, z+1/2'
+77  '-z, -x+1/2, -y+1/2'
+78  '-z, x+1/2, y+1/2'
+79  'z, x+1/2, -y+1/2'
+80  'z, -x+1/2, y+1/2'
+81  '-y, -z+1/2, -x+1/2'
+82  'y, -z+1/2, x+1/2'
+83  '-y, z+1/2, x+1/2'
+84  'y, z+1/2, -x+1/2'
+85  '-y, -x+1/2, z+1/2'
+86  'y, x+1/2, z+1/2'
+87  '-y, x+1/2, -z+1/2'
+88  'y, -x+1/2, -z+1/2'
+89  '-x, -z+1/2, y+1/2'
+90  'x, -z+1/2, -y+1/2'
+91  'x, z+1/2, y+1/2'
+92  '-x, z+1/2, -y+1/2'
+93  '-z, -y+1/2, x+1/2'
+94  '-z, y+1/2, -x+1/2'
+95  'z, -y+1/2, -x+1/2'
+96  'z, y+1/2, x+1/2'
+97  'x+1/2, y, z+1/2'
+98  '-x+1/2, -y, z+1/2'
+99  '-x+1/2, y, -z+1/2'
+100 'x+1/2, -y, -z+1/2'
+101 'z+1/2, x, y+1/2'
+102 'z+1/2, -x, -y+1/2'
+103 '-z+1/2, -x, y+1/2'
+104 '-z+1/2, x, -y+1/2'
+105 'y+1/2, z, x+1/2'
+106 '-y+1/2, z, -x+1/2'
+107 'y+1/2, -z, -x+1/2'
+108 '-y+1/2, -z, x+1/2'
+109 'y+1/2, x, -z+1/2'
+110 '-y+1/2, -x, -z+1/2'
+111 'y+1/2, -x, z+1/2'
+112 '-y+1/2, x, z+1/2'
+113 'x+1/2, z, -y+1/2'
+114 '-x+1/2, z, y+1/2'
+115 '-x+1/2, -z, -y+1/2'
+116 'x+1/2, -z, y+1/2'
+117 'z+1/2, y, -x+1/2'
+118 'z+1/2, -y, x+1/2'
+119 '-z+1/2, y, x+1/2'
+120 '-z+1/2, -y, -x+1/2'
+121 '-x+1/2, -y, -z+1/2'
+122 'x+1/2, y, -z+1/2'
+123 'x+1/2, -y, z+1/2'
+124 '-x+1/2, y, z+1/2'
+125 '-z+1/2, -x, -y+1/2'
+126 '-z+1/2, x, y+1/2'
+127 'z+1/2, x, -y+1/2'
+128 'z+1/2, -x, y+1/2'
+129 '-y+1/2, -z, -x+1/2'
+130 'y+1/2, -z, x+1/2'
+131 '-y+1/2, z, x+1/2'
+132 'y+1/2, z, -x+1/2'
+133 '-y+1/2, -x, z+1/2'
+134 'y+1/2, x, z+1/2'
+135 '-y+1/2, x, -z+1/2'
+136 'y+1/2, -x, -z+1/2'
+137 '-x+1/2, -z, y+1/2'
+138 'x+1/2, -z, -y+1/2'
+139 'x+1/2, z, y+1/2'
+140 '-x+1/2, z, -y+1/2'
+141 '-z+1/2, -y, x+1/2'
+142 '-z+1/2, y, -x+1/2'
+143 'z+1/2, -y, -x+1/2'
+144 'z+1/2, y, x+1/2'
+145 'x+1/2, y+1/2, z'
+146 '-x+1/2, -y+1/2, z'
+147 '-x+1/2, y+1/2, -z'
+148 'x+1/2, -y+1/2, -z'
+149 'z+1/2, x+1/2, y'
+150 'z+1/2, -x+1/2, -y'
+151 '-z+1/2, -x+1/2, y'
+152 '-z+1/2, x+1/2, -y'
+153 'y+1/2, z+1/2, x'
+154 '-y+1/2, z+1/2, -x'
+155 'y+1/2, -z+1/2, -x'
+156 '-y+1/2, -z+1/2, x'
+157 'y+1/2, x+1/2, -z'
+158 '-y+1/2, -x+1/2, -z'
+159 'y+1/2, -x+1/2, z'
+160 '-y+1/2, x+1/2, z'
+161 'x+1/2, z+1/2, -y'
+162 '-x+1/2, z+1/2, y'
+163 '-x+1/2, -z+1/2, -y'
+164 'x+1/2, -z+1/2, y'
+165 'z+1/2, y+1/2, -x'
+166 'z+1/2, -y+1/2, x'
+167 '-z+1/2, y+1/2, x'
+168 '-z+1/2, -y+1/2, -x'
+169 '-x+1/2, -y+1/2, -z'
+170 'x+1/2, y+1/2, -z'
+171 'x+1/2, -y+1/2, z'
+172 '-x+1/2, y+1/2, z'
+173 '-z+1/2, -x+1/2, -y'
+174 '-z+1/2, x+1/2, y'
+175 'z+1/2, x+1/2, -y'
+176 'z+1/2, -x+1/2, y'
+177 '-y+1/2, -z+1/2, -x'
+178 'y+1/2, -z+1/2, x'
+179 '-y+1/2, z+1/2, x'
+180 'y+1/2, z+1/2, -x'
+181 '-y+1/2, -x+1/2, z'
+182 'y+1/2, x+1/2, z'
+183 '-y+1/2, x+1/2, -z'
+184 'y+1/2, -x+1/2, -z'
+185 '-x+1/2, -z+1/2, y'
+186 'x+1/2, -z+1/2, -y'
+187 'x+1/2, z+1/2, y'
+188 '-x+1/2, z+1/2, -y'
+189 '-z+1/2, -y+1/2, x'
+190 '-z+1/2, y+1/2, -x'
+191 'z+1/2, -y+1/2, -x'
+192 'z+1/2, y+1/2, x'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Cs1  Cs  3  c  0.00000  0.50000  0.50000  1.0
+In1  In  1  a  0.00000  0.00000  0.00000  1.0
+F1   F   6  e  0.25000  0.00000  0.00000  1.0
+```","data_Cs3InF6
+_chemical_formula_sum            'Cs3 In F6'
+_chemical_formula_structural     'Cs3 In F6'
+_cell_length_a                   6.3200
+_cell_length_b                   6.3200
+_cell_length_c                   6.3200
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     252.435
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'F m -3 m'
+_space_group_IT_number           225
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-x, -y, z'
+3   '-x, y, -z'
+4   'x, -y, -z'
+5   'z, x, y'
+6   'z, -x, -y'
+7   '-z, -x, y'
+8   '-z, x, -y'
+9   'y, z, x'
+10  '-y, z, -x'
+11  'y, -z, -x'
+12  '-y, -z, x'
+13  'y, x, -z'
+14  '-y, -x, -z'
+15  'y, -x, z'
+16  '-y, x, z'
+17  'x, z, -y'
+18  '-x, z, y'
+19  '-x, -z, -y'
+20  'x, -z, y'
+21  'z, y, -x'
+22  'z, -y, x'
+23  '-z, y, x'
+24  '-z, -y, -x'
+25  '-x, -y, -z'
+26  'x, y, -z'
+27  'x, -y, z'
+28  '-x, y, z'
+29  '-z, -x, -y'
+30  '-z, x, y'
+31  'z, x, -y'
+32  'z, -x, y'
+33  '-y, -z, -x'
+34  'y, -z, x'
+35  '-y, z, x'
+36  'y, z, -x'
+37  '-y, -x, z'
+38  'y, x, z'
+39  '-y, x, -z'
+40  'y, -x, -z'
+41  '-x, -z, y'
+42  'x, -z, -y'
+43  'x, z, y'
+44  '-x, z, -y'
+45  '-z, -y, x'
+46  '-z, y, -x'
+47  'z, -y, -x'
+48  'z, y, x'
+49  'x, y+1/2, z+1/2'
+50  '-x, -y+1/2, z+1/2'
+51  '-x, y+1/2, -z+1/2'
+52  'x, -y+1/2, -z+1/2'
+53  'z, x+1/2, y+1/2'
+54  'z, -x+1/2, -y+1/2'
+55  '-z, -x+1/2, y+1/2'
+56  '-z, x+1/2, -y+1/2'
+57  'y, z+1/2, x+1/2'
+58  '-y, z+1/2, -x+1/2'
+59  'y, -z+1/2, -x+1/2'
+60  '-y, -z+1/2, x+1/2'
+61  'y, x+1/2, -z+1/2'
+62  '-y, -x+1/2, -z+1/2'
+63  'y, -x+1/2, z+1/2'
+64  '-y, x+1/2, z+1/2'
+65  'x, z+1/2, -y+1/2'
+66  '-x, z+1/2, y+1/2'
+67  '-x, -z+1/2, -y+1/2'
+68  'x, -z+1/2, y+1/2'
+69  'z, y+1/2, -x+1/2'
+70  'z, -y+1/2, x+1/2'
+71  '-z, y+1/2, x+1/2'
+72  '-z, -y+1/2, -x+1/2'
+73  '-x, -y+1/2, -z+1/2'
+74  'x, y+1/2, -z+1/2'
+75  'x, -y+1/2, z+1/2'
+76  '-x, y+1/2, z+1/2'
+77  '-z, -x+1/2, -y+1/2'
+78  '-z, x+1/2, y+1/2'
+79  'z, x+1/2, -y+1/2'
+80  'z, -x+1/2, y+1/2'
+81  '-y, -z+1/2, -x+1/2'
+82  'y, -z+1/2, x+1/2'
+83  '-y, z+1/2, x+1/2'
+84  'y, z+1/2, -x+1/2'
+85  '-y, -x+1/2, z+1/2'
+86  'y, x+1/2, z+1/2'
+87  '-y, x+1/2, -z+1/2'
+88  'y, -x+1/2, -z+1/2'
+89  '-x, -z+1/2, y+1/2'
+90  'x, -z+1/2, -y+1/2'
+91  'x, z+1/2, y+1/2'
+92  '-x, z+1/2, -y+1/2'
+93  '-z, -y+1/2, x+1/2'
+94  '-z, y+1/2, -x+1/2'
+95  'z, -y+1/2, -x+1/2'
+96  'z, y+1/2, x+1/2'
+97  'x+1/2, y, z+1/2'
+98  '-x+1/2, -y, z+1/2'
+99  '-x+1/2, y, -z+1/2'
+100 'x+1/2, -y, -z+1/2'
+101 'z+1/2, x, y+1/2'
+102 'z+1/2, -x, -y+1/2'
+103 '-z+1/2, -x, y+1/2'
+104 '-z+1/2, x, -y+1/2'
+105 'y+1/2, z, x+1/2'
+106 '-y+1/2, z, -x+1/2'
+107 'y+1/2, -z, -x+1/2'
+108 '-y+1/2, -z, x+1/2'
+109 'y+1/2, x, -z+1/2'
+110 '-y+1/2, -x, -z+1/2'
+111 'y+1/2, -x, z+1/2'
+112 '-y+1/2, x, z+1/2'
+113 'x+1/2, z, -y+1/2'
+114 '-x+1/2, z, y+1/2'
+115 '-x+1/2, -z, -y+1/2'
+116 'x+1/2, -z, y+1/2'
+117 'z+1/2, y, -x+1/2'
+118 'z+1/2, -y, x+1/2'
+119 '-z+1/2, y, x+1/2'
+120 '-z+1/2, -y, -x+1/2'
+121 '-x+1/2, -y, -z+1/2'
+122 'x+1/2, y, -z+1/2'
+123 'x+1/2, -y, z+1/2'
+124 '-x+1/2, y, z+1/2'
+125 '-z+1/2, -x, -y+1/2'
+126 '-z+1/2, x, y+1/2'
+127 'z+1/2, x, -y+1/2'
+128 'z+1/2, -x, y+1/2'
+129 '-y+1/2, -z, -x+1/2'
+130 'y+1/2, -z, x+1/2'
+131 '-y+1/2, z, x+1/2'
+132 'y+1/2, z, -x+1/2'
+133 '-y+1/2, -x, z+1/2'
+134 'y+1/2, x, z+1/2'
+135 '-y+1/2, x, -z+1/2'
+136 'y+1/2, -x, -z+1/2'
+137 '-x+1/2, -z, y+1/2'
+138 'x+1/2, -z, -y+1/2'
+139 'x+1/2, z, y+1/2'
+140 '-x+1/2, z, -y+1/2'
+141 '-z+1/2, -y, x+1/2'
+142 '-z+1/2, y, -x+1/2'
+143 'z+1/2, -y, -x+1/2'
+144 'z+1/2, y, x+1/2'
+145 'x+1/2, y+1/2, z'
+146 '-x+1/2, -y+1/2, z'
+147 '-x+1/2, y+1/2, -z'
+148 'x+1/2, -y+1/2, -z'
+149 'z+1/2, x+1/2, y'
+150 'z+1/2, -x+1/2, -y'
+151 '-z+1/2, -x+1/2, y'
+152 '-z+1/2, x+1/2, -y'
+153 'y+1/2, z+1/2, x'
+154 '-y+1/2, z+1/2, -x'
+155 'y+1/2, -z+1/2, -x'
+156 '-y+1/2, -z+1/2, x'
+157 'y+1/2, x+1/2, -z'
+158 '-y+1/2, -x+1/2, -z'
+159 'y+1/2, -x+1/2, z'
+160 '-y+1/2, x+1/2, z'
+161 'x+1/2, z+1/2, -y'
+162 '-x+1/2, z+1/2, y'
+163 '-x+1/2, -z+1/2, -y'
+164 'x+1/2, -z+1/2, y'
+165 'z+1/2, y+1/2, -x'
+166 'z+1/2, -y+1/2, x'
+167 '-z+1/2, y+1/2, x'
+168 '-z+1/2, -y+1/2, -x'
+169 '-x+1/2, -y+1/2, -z'
+170 'x+1/2, y+1/2, -z'
+171 'x+1/2, -y+1/2, z'
+172 '-x+1/2, y+1/2, z'
+173 '-z+1/2, -x+1/2, -y'
+174 '-z+1/2, x+1/2, y'
+175 'z+1/2, x+1/2, -y'
+176 'z+1/2, -x+1/2, y'
+177 '-y+1/2, -z+1/2, -x'
+178 'y+1/2, -z+1/2, x'
+179 '-y+1/2, z+1/2, x'
+180 'y+1/2, z+1/2, -x'
+181 '-y+1/2, -x+1/2, z'
+182 'y+1/2, x+1/2, z'
+183 '-y+1/2, x+1/2, -z'
+184 'y+1/2, -x+1/2, -z'
+185 '-x+1/2, -z+1/2, y'
+186 'x+1/2, -z+1/2, -y'
+187 'x+1/2, z+1/2, y'
+188 '-x+1/2, z+1/2, -y'
+189 '-z+1/2, -y+1/2, x'
+190 '-z+1/2, y+1/2, -x'
+191 'z+1/2, -y+1/2, -x'
+192 'z+1/2, y+1/2, x'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Cs1  Cs  3  c  0.00000  0.50000  0.50000  1.0
+In1  In  1  a  0.00000  0.00000  0.00000  1.0
+F1   F   6  e  0.25000  0.00000  0.00000  1.0",False,False
+DyPO4,141,12,Claude-4.6-Opus,"
+
+```cif
+data_DyPO4_zircon
+_chemical_formula_sum            'Dy4 P4 O16'
+_chemical_name_mineral           'Xenotime'
+_cell_length_a                   6.9073
+_cell_length_b                   6.9073
+_cell_length_c                   6.0535
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     288.76
+_cell_formula_units_Z            4
+_space_group_name_H-M_alt        'I 41/a m d'
+_space_group_IT_number           141
+_symmetry_space_group_name_Hall  '-I 4bd 2'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-x+1/2, -y, z+1/2'
+3   '-y+1/4, x+3/4, z+1/4'
+4   'y+1/4, -x+1/4, z+3/4'
+5   '-x+1/2, y, -z+1/2'
+6   'x, -y, -z'
+7   'y+1/4, x+3/4, -z+1/4'
+8   '-y+1/4, -x+1/4, -z+3/4'
+9   '-x, -y, -z'
+10  'x+1/2, y, -z+1/2'
+11  'y+3/4, -x+1/4, -z+3/4'
+12  '-y+3/4, x+3/4, -z+1/4'
+13  'x+1/2, -y, z+1/2'
+14  '-x, y, z'
+15  '-y+3/4, -x+1/4, z+3/4'
+16  'y+3/4, x+3/4, z+1/4'
+17  'x+1/2, y+1/2, z+1/2'
+18  '-x, -y+1/2, z'
+19  '-y+3/4, x+1/4, z+3/4'
+20  'y+3/4, -x+3/4, z+1/4'
+21  '-x, y+1/2, -z'
+22  'x+1/2, -y+1/2, -z+1/2'
+23  'y+3/4, x+1/4, -z+3/4'
+24  '-y+3/4, -x+3/4, -z+1/4'
+25  '-x+1/2, -y+1/2, -z+1/2'
+26  'x, y+1/2, -z'
+27  'y+1/4, -x+3/4, -z+1/4'
+28  '-y+1/4, x+1/4, -z+3/4'
+29  'x, -y+1/2, z'
+30  '-x+1/2, y+1/2, z+1/2'
+31  '-y+1/4, -x+3/4, z+1/4'
+32  'y+1/4, x+1/4, z+3/4'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Dy1  Dy  4  a  0.00000  0.75000  0.12500  1.0
+P1   P   4  b  0.00000  0.75000  0.62500  1.0
+O1   O  16  h  0.00000  0.06700  0.21100  1.0
+```","data_DyPO4_zircon
+_chemical_formula_sum            'Dy4 P4 O16'
+_chemical_name_mineral           'Xenotime'
+_cell_length_a                   6.9073
+_cell_length_b                   6.9073
+_cell_length_c                   6.0535
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     288.76
+_cell_formula_units_Z            4
+_space_group_name_H-M_alt        'I 41/a m d'
+_space_group_IT_number           141
+_symmetry_space_group_name_Hall  '-I 4bd 2'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-x+1/2, -y, z+1/2'
+3   '-y+1/4, x+3/4, z+1/4'
+4   'y+1/4, -x+1/4, z+3/4'
+5   '-x+1/2, y, -z+1/2'
+6   'x, -y, -z'
+7   'y+1/4, x+3/4, -z+1/4'
+8   '-y+1/4, -x+1/4, -z+3/4'
+9   '-x, -y, -z'
+10  'x+1/2, y, -z+1/2'
+11  'y+3/4, -x+1/4, -z+3/4'
+12  '-y+3/4, x+3/4, -z+1/4'
+13  'x+1/2, -y, z+1/2'
+14  '-x, y, z'
+15  '-y+3/4, -x+1/4, z+3/4'
+16  'y+3/4, x+3/4, z+1/4'
+17  'x+1/2, y+1/2, z+1/2'
+18  '-x, -y+1/2, z'
+19  '-y+3/4, x+1/4, z+3/4'
+20  'y+3/4, -x+3/4, z+1/4'
+21  '-x, y+1/2, -z'
+22  'x+1/2, -y+1/2, -z+1/2'
+23  'y+3/4, x+1/4, -z+3/4'
+24  '-y+3/4, -x+3/4, -z+1/4'
+25  '-x+1/2, -y+1/2, -z+1/2'
+26  'x, y+1/2, -z'
+27  'y+1/4, -x+3/4, -z+1/4'
+28  '-y+1/4, x+1/4, -z+3/4'
+29  'x, -y+1/2, z'
+30  '-x+1/2, y+1/2, z+1/2'
+31  '-y+1/4, -x+3/4, z+1/4'
+32  'y+1/4, x+1/4, z+3/4'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Dy1  Dy  4  a  0.00000  0.75000  0.12500  1.0
+P1   P   4  b  0.00000  0.75000  0.62500  1.0
+O1   O  16  h  0.00000  0.06700  0.21100  1.0",True,True
+Zr4O,148,15,Claude-4.6-Opus,"
+
+```cif
+data_Zr4O
+_chemical_formula_sum            'Zr12 O3'
+_chemical_formula_structural     'Zr4 O'
+_cell_length_a                   3.34
+_cell_length_b                   3.34
+_cell_length_c                   5.15
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     49.77
+_symmetry_space_group_name_H-M   'P-3 1 m'
+_symmetry_Int_Tables_number      162
+_cell_formula_units_Z            1
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-y, x-y, z'
+  '-x+y, -x, z'
+  '-y, -x, -z'
+  '-x+y, y, -z'
+  'x, x-y, -z'
+  '-x, -y, -z'
+  'y, -x+y, -z'
+  'x-y, x, -z'
+  'y, x, z'
+  'x-y, -y, z'
+  '-x, -x+y, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Zr1  Zr  0.33333  0.66667  0.25000  1.0  4h
+Zr2  Zr  0.33333  0.66667  0.75000  1.0  4h
+Zr3  Zr  0.00000  0.00000  0.00000  1.0  1a
+Zr4  Zr  0.00000  0.00000  0.50000  1.0  1b
+Zr5  Zr  0.66667  0.33333  0.25000  1.0  4h
+Zr6  Zr  0.66667  0.33333  0.75000  1.0  4h
+Zr7  Zr  0.33333  0.66667  0.25000  1.0  4h
+Zr8  Zr  0.33333  0.66667  0.75000  1.0  4h
+Zr9  Zr  0.66667  0.33333  0.25000  1.0  4h
+Zr10 Zr  0.66667  0.33333  0.75000  1.0  4h
+Zr11 Zr  0.00000  0.00000  0.00000  1.0  1a
+Zr12 Zr  0.00000  0.00000  0.50000  1.0  1b
+O1   O   0.33333  0.00000  0.00000  1.0  2c
+O2   O   0.00000  0.33333  0.00000  1.0  2c
+O3   O   0.66667  0.66667  0.00000  1.0  2c
+```
+
+Hmm, let me redo this properly. The Zr4O structure with 15 atoms in the conventional cell should be done correctly with unique Wyckoff positions:
+
+```cif
+data_Zr4O
+_chemical_formula_sum            'Zr12 O3'
+_chemical_formula_structural     'Zr4 O'
+_chemical_name_systematic        'Zirconium suboxide'
+_cell_length_a                   5.039
+_cell_length_b                   5.039
+_cell_length_c                   3.262
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     71.74
+_symmetry_space_group_name_H-M   'P-3 1 m'
+_symmetry_Int_Tables_number      162
+_cell_formula_units_Z            3
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-y, x-y, z'
+  '-x+y, -x, z'
+  '-y, -x, -z'
+  '-x+y, y, -z'
+  'x, x-y, -z'
+  '-x, -y, -z'
+  'y, -x+y, -z'
+  'x-y, x, -z'
+  'y, x, z'
+  'x-y, -y, z'
+  '-x, -x+y, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Zr1  Zr  0.33333  0.00000  0.50000  1.0
+Zr2  Zr  0.33333  0.00000  0.00000  1.0
+O1   O   0.00000  0.00000  0.00000  1.0
+O2   O   0.33333  0.66667  0.00000  1.0
+```","data_Zr4O
+_chemical_formula_sum            'Zr12 O3'
+_chemical_formula_structural     'Zr4 O'
+_cell_length_a                   3.34
+_cell_length_b                   3.34
+_cell_length_c                   5.15
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     49.77
+_symmetry_space_group_name_H-M   'P-3 1 m'
+_symmetry_Int_Tables_number      162
+_cell_formula_units_Z            1
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-y, x-y, z'
+  '-x+y, -x, z'
+  '-y, -x, -z'
+  '-x+y, y, -z'
+  'x, x-y, -z'
+  '-x, -y, -z'
+  'y, -x+y, -z'
+  'x-y, x, -z'
+  'y, x, z'
+  'x-y, -y, z'
+  '-x, -x+y, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Zr1  Zr  0.33333  0.66667  0.25000  1.0  4h
+Zr2  Zr  0.33333  0.66667  0.75000  1.0  4h
+Zr3  Zr  0.00000  0.00000  0.00000  1.0  1a
+Zr4  Zr  0.00000  0.00000  0.50000  1.0  1b
+Zr5  Zr  0.66667  0.33333  0.25000  1.0  4h
+Zr6  Zr  0.66667  0.33333  0.75000  1.0  4h
+Zr7  Zr  0.33333  0.66667  0.25000  1.0  4h
+Zr8  Zr  0.33333  0.66667  0.75000  1.0  4h
+Zr9  Zr  0.66667  0.33333  0.25000  1.0  4h
+Zr10 Zr  0.66667  0.33333  0.75000  1.0  4h
+Zr11 Zr  0.00000  0.00000  0.00000  1.0  1a
+Zr12 Zr  0.00000  0.00000  0.50000  1.0  1b
+O1   O   0.33333  0.00000  0.00000  1.0  2c
+O2   O   0.00000  0.33333  0.00000  1.0  2c
+O3   O   0.66667  0.66667  0.00000  1.0  2c",False,False
+Sc2Mn12P7,174,21,Claude-4.6-Opus,"
+
+```cif
+data_Sc2Mn12P7
+_chemical_formula_sum            'Sc2 Mn12 P7'
+_chemical_formula_structural     'Sc2 Mn12 P7'
+_cell_length_a                   9.080
+_cell_length_b                   9.080
+_cell_length_c                   3.588
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     256.12
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'P -6'
+_space_group_IT_number           174
+_symmetry_space_group_name_Hall  'P -6'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1  'x, y, z'
+2  '-y, x-y, z'
+3  '-x+y, -x, z'
+4  'x, y, -z'
+5  '-y, x-y, -z'
+6  '-x+y, -x, -z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sc1  Sc  1  a  0.00000  0.00000  0.00000  1.0
+Sc2  Sc  1  f  0.66667  0.33333  0.50000  1.0
+Mn1  Mn  3  k  0.04470  0.25580  0.50000  1.0
+Mn2  Mn  3  j  0.37150  0.08370  0.00000  1.0
+Mn3  Mn  3  k  0.41530  0.32700  0.50000  1.0
+Mn4  Mn  3  j  0.75800  0.08100  0.00000  1.0
+P1   P   3  k  0.16670  0.44400  0.00000  1.0
+P2   P   3  j  0.52200  0.13500  0.50000  1.0
+P3   P   1  c  0.33333  0.66667  0.00000  1.0
+```","data_Sc2Mn12P7
+_chemical_formula_sum            'Sc2 Mn12 P7'
+_chemical_formula_structural     'Sc2 Mn12 P7'
+_cell_length_a                   9.080
+_cell_length_b                   9.080
+_cell_length_c                   3.588
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     256.12
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'P -6'
+_space_group_IT_number           174
+_symmetry_space_group_name_Hall  'P -6'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1  'x, y, z'
+2  '-y, x-y, z'
+3  '-x+y, -x, z'
+4  'x, y, -z'
+5  '-y, x-y, -z'
+6  '-x+y, -x, -z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sc1  Sc  1  a  0.00000  0.00000  0.00000  1.0
+Sc2  Sc  1  f  0.66667  0.33333  0.50000  1.0
+Mn1  Mn  3  k  0.04470  0.25580  0.50000  1.0
+Mn2  Mn  3  j  0.37150  0.08370  0.00000  1.0
+Mn3  Mn  3  k  0.41530  0.32700  0.50000  1.0
+Mn4  Mn  3  j  0.75800  0.08100  0.00000  1.0
+P1   P   3  k  0.16670  0.44400  0.00000  1.0
+P2   P   3  j  0.52200  0.13500  0.50000  1.0
+P3   P   1  c  0.33333  0.66667  0.00000  1.0",True,False
+SmVO4,141,12,Claude-4.6-Opus,"
+
+```cif
+data_SmVO4
+_chemical_formula_sum            'Sm4 V4 O16'
+_chemical_name_systematic        'Samarium Vanadate'
+_chemical_formula_structural     'Sm V O4'
+
+_cell_length_a                   7.260
+_cell_length_b                   7.260
+_cell_length_c                   6.393
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     336.87
+
+_symmetry_space_group_name_H-M   'I 41/a m d :2'
+_symmetry_Int_Tables_number      141
+_symmetry_cell_setting            tetragonal
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x+1/2, -y, z+1/2'
+  'x, -y+1/2, -z+1/4'
+  '-x+1/2, y+1/2, -z+3/4'
+  '-y+1/4, x+3/4, z+1/4'
+  'y+1/4, -x+3/4, z+3/4'
+  '-y+1/4, -x+1/4, -z'
+  'y+1/4, x+1/4, -z+1/2'
+  '-x, -y, -z'
+  'x+1/2, y, -z+1/2'
+  '-x, y+1/2, z+1/4'
+  'x+1/2, -y+1/2, z+3/4'
+  'y+3/4, -x+1/4, -z+3/4'
+  '-y+3/4, x+1/4, -z+1/4'
+  'y+3/4, x+3/4, z'
+  '-y+3/4, -x+3/4, z+1/2'
+  'x+1/2, y+1/2, z+1/2'
+  '-x, -y+1/2, z'
+  'x+1/2, -y, -z+3/4'
+  '-x, y, -z+1/4'
+  '-y+3/4, x+1/4, z+3/4'
+  'y+3/4, -x+1/4, z+1/4'
+  '-y+3/4, -x+3/4, -z+1/2'
+  'y+3/4, x+3/4, z'
+  '-x+1/2, -y+1/2, -z+1/2'
+  'x, y+1/2, -z'
+  '-x+1/2, y, z+3/4'
+  'x, -y, z+1/4'
+  'y+1/4, -x+3/4, -z+1/4'
+  '-y+1/4, x+3/4, -z+3/4'
+  'y+1/4, x+1/4, z+1/2'
+  '-y+1/4, -x+1/4, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sm1  Sm  4  a  0.00000  0.75000  0.12500  1.0
+V1   V   4  b  0.00000  0.25000  0.37500  1.0
+O1   O  16  h  0.00000  0.06600  0.21100  1.0
+```","data_SmVO4
+_chemical_formula_sum            'Sm4 V4 O16'
+_chemical_name_systematic        'Samarium Vanadate'
+_chemical_formula_structural     'Sm V O4'
+
+_cell_length_a                   7.260
+_cell_length_b                   7.260
+_cell_length_c                   6.393
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     336.87
+
+_symmetry_space_group_name_H-M   'I 41/a m d :2'
+_symmetry_Int_Tables_number      141
+_symmetry_cell_setting            tetragonal
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x+1/2, -y, z+1/2'
+  'x, -y+1/2, -z+1/4'
+  '-x+1/2, y+1/2, -z+3/4'
+  '-y+1/4, x+3/4, z+1/4'
+  'y+1/4, -x+3/4, z+3/4'
+  '-y+1/4, -x+1/4, -z'
+  'y+1/4, x+1/4, -z+1/2'
+  '-x, -y, -z'
+  'x+1/2, y, -z+1/2'
+  '-x, y+1/2, z+1/4'
+  'x+1/2, -y+1/2, z+3/4'
+  'y+3/4, -x+1/4, -z+3/4'
+  '-y+3/4, x+1/4, -z+1/4'
+  'y+3/4, x+3/4, z'
+  '-y+3/4, -x+3/4, z+1/2'
+  'x+1/2, y+1/2, z+1/2'
+  '-x, -y+1/2, z'
+  'x+1/2, -y, -z+3/4'
+  '-x, y, -z+1/4'
+  '-y+3/4, x+1/4, z+3/4'
+  'y+3/4, -x+1/4, z+1/4'
+  '-y+3/4, -x+3/4, -z+1/2'
+  'y+3/4, x+3/4, z'
+  '-x+1/2, -y+1/2, -z+1/2'
+  'x, y+1/2, -z'
+  '-x+1/2, y, z+3/4'
+  'x, -y, z+1/4'
+  'y+1/4, -x+3/4, -z+1/4'
+  '-y+1/4, x+3/4, -z+3/4'
+  'y+1/4, x+1/4, z+1/2'
+  '-y+1/4, -x+1/4, z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sm1  Sm  4  a  0.00000  0.75000  0.12500  1.0
+V1   V   4  b  0.00000  0.25000  0.37500  1.0
+O1   O  16  h  0.00000  0.06600  0.21100  1.0",True,False
+Ca3Ni7B2,166,12,Claude-4.6-Opus,"
+
+```cif
+data_Ca3Ni7B2
+_chemical_formula_sum            'Ca3 Ni7 B2'
+_chemical_formula_weight         589.Sr
+
+_cell_length_a                   4.880
+_cell_length_b                   4.880
+_cell_length_c                   9.560
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     197.2
+_cell_formula_units_Z            1
+
+_space_group_name_H-M_alt        'P 63/m m c'
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ni1  Ni  2  a  0.00000  0.00000  0.00000  1.0
+Ni2  Ni  2  c  0.33333  0.66667  0.25000  1.0
+Ni3  Ni  2  d  0.33333  0.66667  0.75000  1.0
+Ni4  Ni  6  g  0.50000  0.00000  0.00000  0.5
+B1   B   2  b  0.00000  0.00000  0.25000  1.0
+Ca1  Ca  6  h  0.16667  0.33333  0.25000  0.5
+```
+
+Wait — let me redo this more carefully. The stoichiometry Ca3Ni7B2 with Z=1 means exactly 12 atoms in the unit cell (3+7+2). Let me construct this properly with sites that sum correctly.
+
+```cif
+data_Ca3Ni7B2
+_chemical_formula_sum            'B2 Ca3 Ni7'
+_chemical_formula_weight         453.44
+
+_cell_length_a                   4.920
+_cell_length_b                   4.920
+_cell_length_c                   14.380
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     301.3
+_cell_formula_units_Z            2
+
+_space_group_name_H-M_alt        'P 63/m m c'
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-x, -y, z+1/2'
+'y, -x+y, z+1/2'
+'x-y, x, z+1/2'
+'-y, -x, -z'
+'-x+y, y, -z'
+'x, x-y, -z'
+'y, x, -z+1/2'
+'x-y, -y, -z+1/2'
+'-x, -x+y, -z+1/2'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'x, y, -z+1/2'
+'-y, x-y, -z+1/2'
+'-x+y, -x, -z+1/2'
+'y, x, z'
+'x-y, -y, z'
+'-x, -x+y, z'
+'-y, -x, z+1/2'
+'-x+y, y, z+1/2'
+'x, x-y, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ni1  Ni  2  a  0.00000  0.00000  0.00000  1.0
+Ni2  Ni  6  h  0.16667  0.33334  0.25000  1.0
+Ni3  Ni  6  h  0.83090  0.66180  0.25000  1.0
+Ca1  Ca  6  h  0.52020  0.04040  0.25000  1.0
+B1   B   4  f  0.33333  0.66667  0.14000  1.0
+```
+
+Apologies — I need to be precise. With Z=2, the cell has 24 atoms, not 12. Let me correct for a 12-atom conventional cell with Z=1.
+
+```cif
+data_Ca3Ni7B2
+_chemical_formula_sum            'B2 Ca3 Ni7'
+_chemical_formula_weight         453.44
+
+_cell_length_a                   4.910
+_cell_length_b                   4.910
+_cell_length_c                   9.580
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     200.0
+_cell_formula_units_Z            1
+
+_space_group_name_H-M_alt        'P -6 m 2'
+_space_group_IT_number           187
+_symmetry_cell_setting           hexagonal
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'x, y, -z'
+'-y, x-y, -z'
+'-x+y, -x, -z'
+'-y, -x, z'
+'-x+y, y, z'
+'x, x-y, z'
+'-y, -x, -z'
+'-x+y, y, -z'
+'x, x-y, -z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ni1  Ni  1  a  0.00000  0.00000  0.00000  1.0
+Ni2  Ni  3  j  0.50000  0.00000  0.00000  1.0
+Ni3  Ni  1  d  0.33333  0.66667  0.50000  1.0
+Ni4  Ni  2  g  0.00000  0.00000  0.31200  1.0
+B1   B   2  h  0.33333  0.66667  0.25800  1.0
+Ca1  Ca  3  k  0.50000  0.00000  0.50000  1.0
+```","data_Ca3Ni7B2
+_chemical_formula_sum            'Ca3 Ni7 B2'
+_chemical_formula_weight         589.Sr
+
+_cell_length_a                   4.880
+_cell_length_b                   4.880
+_cell_length_c                   9.560
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     197.2
+_cell_formula_units_Z            1
+
+_space_group_name_H-M_alt        'P 63/m m c'
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ni1  Ni  2  a  0.00000  0.00000  0.00000  1.0
+Ni2  Ni  2  c  0.33333  0.66667  0.25000  1.0
+Ni3  Ni  2  d  0.33333  0.66667  0.75000  1.0
+Ni4  Ni  6  g  0.50000  0.00000  0.00000  0.5
+B1   B   2  b  0.00000  0.00000  0.25000  1.0
+Ca1  Ca  6  h  0.16667  0.33333  0.25000  0.5",True,False

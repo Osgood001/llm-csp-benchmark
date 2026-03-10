@@ -1,0 +1,48 @@
+data_MgB7
+_chemical_formula_sum            'Mg4 B28'
+_chemical_formula_structural     'Mg B7'
+_cell_length_a                   5.970
+_cell_length_b                   5.970
+_cell_length_c                   8.125
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     289.65
+_cell_formula_units_Z            4
+_space_group_name_H-M_alt        'I m m a'
+_space_group_IT_number           74
+_symmetry_space_group_name_Hall  '-I 2b 2'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-x, -y+1/2, z'
+3   '-x, y+1/2, -z'
+4   'x, -y, -z'
+5   '-x, -y, -z'
+6   'x, y+1/2, -z'
+7   'x, -y+1/2, z'
+8   '-x, y, z'
+9   'x+1/2, y+1/2, z+1/2'
+10  '-x+1/2, -y, z+1/2'
+11  '-x+1/2, y, -z+1/2'
+12  'x+1/2, -y+1/2, -z+1/2'
+13  '-x+1/2, -y+1/2, -z+1/2'
+14  'x+1/2, y, -z+1/2'
+15  'x+1/2, -y, z+1/2'
+16  '-x+1/2, y+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Mg1   Mg   0.00000   0.25000   0.14060   1.0   e
+B1    B    0.00000   0.25000   0.38950   1.0   e
+B2    B    0.17640   0.25000   0.56420   1.0   e
+B3    B    0.28530   0.00000   0.00000   1.0   h
+B4    B    0.18750   0.05320   0.17280   1.0   l

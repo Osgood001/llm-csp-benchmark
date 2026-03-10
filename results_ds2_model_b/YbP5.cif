@@ -1,0 +1,44 @@
+data_YbP5
+_chemical_formula_sum            'Yb2 P10'
+_chemical_formula_structural     'Yb P5'
+_cell_length_a                   4.920
+_cell_length_b                   4.920
+_cell_length_c                   7.180
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     150.45
+_cell_formula_units_Z            2
+
+_space_group_name_H-M_alt        'P 63/m'
+_space_group_IT_number           176
+_symmetry_cell_setting           hexagonal
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1  'x, y, z'
+2  '-y, x-y, z'
+3  '-x+y, -x, z'
+4  '-x, -y, z+1/2'
+5  'y, -x+y, z+1/2'
+6  'x-y, x, z+1/2'
+7  '-x, -y, -z'
+8  'y, -x+y, -z'
+9  'x-y, x, -z'
+10 'x, y, -z+1/2'
+11 '-y, x-y, -z+1/2'
+12 '-x+y, -x, -z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Yb1  Yb  2  c  0.33333  0.66667  0.25000  1.0
+P1   P   6  h  0.33690  0.06120  0.25000  1.0
+P2   P   4  f  0.33333  0.66667  0.63800  1.0

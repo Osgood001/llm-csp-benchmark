@@ -1,0 +1,43 @@
+data_Sc2Mn12P7
+_chemical_formula_sum            'Sc2 Mn12 P7'
+_chemical_formula_structural     'Sc2 Mn12 P7'
+_cell_length_a                   9.080
+_cell_length_b                   9.080
+_cell_length_c                   3.588
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_volume                     256.12
+_cell_formula_units_Z            1
+_space_group_name_H-M_alt        'P -6'
+_space_group_IT_number           174
+_symmetry_space_group_name_Hall  'P -6'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1  'x, y, z'
+2  '-y, x-y, z'
+3  '-x+y, -x, z'
+4  'x, y, -z'
+5  '-y, x-y, -z'
+6  '-x+y, -x, -z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sc1  Sc  1  a  0.00000  0.00000  0.00000  1.0
+Sc2  Sc  1  f  0.66667  0.33333  0.50000  1.0
+Mn1  Mn  3  k  0.04470  0.25580  0.50000  1.0
+Mn2  Mn  3  j  0.37150  0.08370  0.00000  1.0
+Mn3  Mn  3  k  0.41530  0.32700  0.50000  1.0
+Mn4  Mn  3  j  0.75800  0.08100  0.00000  1.0
+P1   P   3  k  0.16670  0.44400  0.00000  1.0
+P2   P   3  j  0.52200  0.13500  0.50000  1.0
+P3   P   1  c  0.33333  0.66667  0.00000  1.0

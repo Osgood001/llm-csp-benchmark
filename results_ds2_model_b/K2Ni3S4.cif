@@ -1,0 +1,66 @@
+data_K2Ni3S4
+_chemical_formula_sum            'K2 Ni3 S4'
+_chemical_formula_structural     'K2 Ni3 S4'
+_chemical_name_systematic        'Dipotassium trinickel tetrasulfide'
+_cell_formula_units_Z            2
+
+_symmetry_space_group_name_H-M   'Fmmm'
+_symmetry_Int_Tables_number      69
+
+_cell_length_a                   3.940
+_cell_length_b                   7.440
+_cell_length_c                   13.200
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     386.93
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x,y,z'
+  '-x,-y,z'
+  '-x,y,-z'
+  'x,-y,-z'
+  '-x,-y,-z'
+  'x,y,-z'
+  'x,-y,z'
+  '-x,y,z'
+  'x,y+1/2,z+1/2'
+  '-x,-y+1/2,z+1/2'
+  '-x,y+1/2,-z+1/2'
+  'x,-y+1/2,-z+1/2'
+  '-x,-y+1/2,-z+1/2'
+  'x,y+1/2,-z+1/2'
+  'x,-y+1/2,z+1/2'
+  '-x,y+1/2,z+1/2'
+  'x+1/2,y,z+1/2'
+  '-x+1/2,-y,z+1/2'
+  '-x+1/2,y,-z+1/2'
+  'x+1/2,-y,-z+1/2'
+  '-x+1/2,-y,-z+1/2'
+  'x+1/2,y,-z+1/2'
+  'x+1/2,-y,z+1/2'
+  '-x+1/2,y,z+1/2'
+  'x+1/2,y+1/2,z'
+  '-x+1/2,-y+1/2,z'
+  '-x+1/2,y+1/2,-z'
+  'x+1/2,-y+1/2,-z'
+  '-x+1/2,-y+1/2,-z'
+  'x+1/2,y+1/2,-z'
+  'x+1/2,-y+1/2,z'
+  '-x+1/2,y+1/2,z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+K1   K    4  a  0.00000  0.00000  0.00000  1.0
+Ni1  Ni   4  b  0.00000  0.00000  0.50000  1.0
+Ni2  Ni   8  i  0.00000  0.00000  0.33330  1.0
+S1   S    8  i  0.00000  0.00000  0.15700  1.0
+S2   S    8  f  0.25000  0.25000  0.25000  1.0

@@ -1,0 +1,39 @@
+data_Pr2ZnPtO6
+_chemical_formula_sum            'Pr2 Zn Pt O6'
+_chemical_formula_structural     'Pr2 Zn Pt O6'
+_chemical_formula_weight         726.30
+
+_symmetry_space_group_name_H-M   'P 2_1/n'
+_symmetry_Int_Tables_number      14
+_symmetry_cell_setting            monoclinic
+
+_cell_length_a                    5.5920
+_cell_length_b                    5.7340
+_cell_length_c                    7.9120
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.120
+_cell_angle_gamma                 90.000
+_cell_volume                      253.67
+_cell_formula_units_Z             2
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, -y, -z'
+  '-x+1/2, y+1/2, -z+1/2'
+  'x+1/2, -y+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Pr1   Pr   0.48700   0.55800   0.25100   1.0   e
+Zn1   Zn   0.50000   0.00000   0.00000   1.0   b
+Pt1   Pt   0.00000   0.00000   0.00000   1.0   a
+O1    O    0.29400   0.29200   0.04300   1.0   e
+O2    O    0.31200   0.71500   0.54800   1.0   e
+O3    O    0.58600   0.97200   0.24700   1.0   e

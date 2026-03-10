@@ -1,0 +1,48 @@
+data_Cu3P8S6Cl3
+_chemical_formula_sum            'Cl3 Cu3 P8 S6'
+_chemical_formula_weight          672.78
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_symmetry_Int_Tables_number       14
+_cell_length_a                    9.4320
+_cell_length_b                    11.2870
+_cell_length_c                    14.7650
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  107.340
+_cell_angle_gamma                 90.000
+_cell_volume                      1500.12
+_cell_formula_units_Z             4
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, y+1/2, -z+1/2'
+  '-x, -y, -z'
+  'x, -y+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Cu1  Cu  0.12340  0.25410  0.08720  1.0
+Cu2  Cu  0.38760  0.48230  0.31540  1.0
+Cu3  Cu  0.71520  0.13670  0.42180  1.0
+P1   P   0.05210  0.41230  0.19340  1.0
+P2   P   0.19870  0.52140  0.17260  1.0
+P3   P   0.34520  0.43780  0.13180  1.0
+P4   P   0.27640  0.28960  0.18950  1.0
+P5   P   0.56130  0.27840  0.48720  1.0
+P6   P   0.72340  0.33610  0.55430  1.0
+P7   P   0.83170  0.22480  0.53160  1.0
+P8   P   0.64280  0.10950  0.56740  1.0
+S1   S   0.08950  0.09320  0.17640  1.0
+S2   S   0.24310  0.12780  0.02350  1.0
+S3   S   0.45620  0.61430  0.24870  1.0
+S4   S   0.52780  0.53960  0.41230  1.0
+S5   S   0.83410  0.01250  0.35640  1.0
+S6   S   0.61730  0.04180  0.31520  1.0
+Cl1  Cl  0.94520  0.18740  0.95130  1.0
+Cl2  Cl  0.35870  0.67230  0.39410  1.0
+Cl3  Cl  0.89640  0.95830  0.50270  1.0

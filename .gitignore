@@ -1,2 +1,7 @@
 .venv/
 .env
+__pycache__/
+run_benchmark_all.sh
+run_continue_*.sh
+run_relax.sh
+*.log

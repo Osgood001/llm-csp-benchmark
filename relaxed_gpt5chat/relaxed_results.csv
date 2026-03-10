@@ -1,0 +1,11 @@
+formula,n_atoms,status,final_energy,relaxed_spg,ehull
+Ag8GeS6,68,success,-3.6227549384622013,1.0,
+Al2O3,12,success,-6.182234446207683,1.0,
+BN,5,success,-5.339186477661133,215.0,
+Ba(FeAs)2,7,success,-5.860507965087891,3.0,
+Ba2CaSi4(BO7)2,23,success,-6.293499490489131,1.0,
+Bi2Te3,5,success,-1.5307235717773438,191.0,
+Ca14MnSb11,106,skipped_large,,,
+CaCO3,9,success,-6.177686903211805,1.0,
+Cd3As2,80,success,-2.0211002349853517,1.0,
+CoSb3,26,success,-4.94805908203125,1.0,

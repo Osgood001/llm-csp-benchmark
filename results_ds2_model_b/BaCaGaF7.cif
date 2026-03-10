@@ -1,0 +1,41 @@
+data_BaCaGaF7
+_chemical_formula_sum            'Ba4 Ca4 Ga4 F28'
+_chemical_formula_structural     'Ba Ca Ga F7'
+_cell_formula_units_Z            4
+
+_symmetry_space_group_name_H-M   'P 21/c'
+_symmetry_Int_Tables_number      14
+_symmetry_cell_setting            monoclinic
+
+_cell_length_a                    5.432
+_cell_length_b                    14.287
+_cell_length_c                    7.891
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  107.35
+_cell_angle_gamma                 90.000
+_cell_volume                      584.2
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, y+1/2, -z+1/2'
+  '-x, -y, -z'
+  'x, -y+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ba1  Ba  0.24130  0.11520  0.00340  1.0
+Ca1  Ca  0.27450  0.38710  0.24680  1.0
+Ga1  Ga  0.74520  0.12340  0.48720  1.0
+F1   F   0.04210  0.25130  0.17830  1.0
+F2   F   0.48370  0.18920  0.39540  1.0
+F3   F   0.71230  0.24670  0.62150  1.0
+F4   F   0.93410  0.04280  0.38760  1.0
+F5   F   0.56780  0.04510  0.59230  1.0
+F6   F   0.78940  0.46230  0.14520  1.0
+F7   F   0.31560  0.38450  0.51370  1.0

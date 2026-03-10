@@ -1,0 +1,41 @@
+data_LiP(HO2)2_LiH2PO4
+
+_chemical_formula_sum            'Li4 H8 P4 O16'
+_chemical_formula_structural     'Li (H2 P O4)'
+_chemical_name_common            'Lithium dihydrogen phosphate'
+_cell_formula_units_Z            4
+
+_space_group_name_H-M_alt        'I -4'
+_space_group_IT_number            82
+_space_group_crystal_system       tetragonal
+
+_cell_length_a                    7.122
+_cell_length_b                    7.122
+_cell_length_c                    6.901
+_cell_angle_alpha                 90.000
+_cell_angle_beta                  90.000
+_cell_angle_gamma                 90.000
+_cell_volume                      350.12
+
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x, -y, z'
+  'y, -x, -z'
+  '-y, x, -z'
+  'x+1/2, y+1/2, z+1/2'
+  '-x+1/2, -y+1/2, z+1/2'
+  'y+1/2, -x+1/2, -z+1/2'
+  '-y+1/2, x+1/2, -z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Li1   Li   0.00000   0.00000   0.00000   1.0
+P1    P    0.00000   0.00000   0.50000   1.0
+O1    O    0.13280   0.08050   0.34520   1.0
+O2    O    0.08050  -0.13280   0.65480   1.0
+H1    H    0.23200   0.14600   0.28800   1.0

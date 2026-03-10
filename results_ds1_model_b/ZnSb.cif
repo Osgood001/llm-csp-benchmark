@@ -1,0 +1,43 @@
+data_ZnSb
+_chemical_name_common                   'Zinc Antimonide'
+_chemical_formula_sum                   'Zn Sb'
+_chemical_formula_structural            'Zn Sb'
+_chemical_formula_weight                187.12
+
+_cell_length_a                          6.2018
+_cell_length_b                          7.7416
+_cell_length_c                          8.0995
+_cell_angle_alpha                       90.000
+_cell_angle_beta                        90.000
+_cell_angle_gamma                       90.000
+_cell_volume                            388.82
+_cell_formula_units_Z                   8
+
+_space_group_name_H-M_alt               'P b c a'
+_space_group_IT_number                  61
+_space_group_crystal_system             orthorhombic
+
+_symmetry_space_group_name_H-M         'P b c a'
+_symmetry_Int_Tables_number            61
+
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+  '-x+1/2, -y, z+1/2'
+  'x+1/2, -y+1/2, -z'
+  '-x, y+1/2, -z+1/2'
+  '-x, -y, -z'
+  'x-1/2, y, -z-1/2'
+  '-x-1/2, y-1/2, z'
+  'x, -y-1/2, z-1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Zn1  Zn  0.1399  0.0791  0.1094  1.0  c
+Sb1  Sb  0.1461  0.3717  0.3230  1.0  c

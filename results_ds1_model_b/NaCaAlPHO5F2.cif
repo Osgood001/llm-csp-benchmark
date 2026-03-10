@@ -1,0 +1,39 @@
+data_NaCaAlPHO5F2
+_chemical_formula_sum            'Na Ca Al P H O5 F2'
+_chemical_formula_structural     'Na Ca Al (P O4) (O H) F2'
+_cell_length_a                   6.3820
+_cell_length_b                   6.7450
+_cell_length_c                   7.1230
+_cell_angle_alpha                98.340
+_cell_angle_beta                 108.520
+_cell_angle_gamma                101.760
+_cell_volume                     278.43
+_cell_formula_units_Z            2
+_space_group_name_H-M_alt        'P -1'
+_space_group_IT_number           2
+_symmetry_space_group_name_H-M   'P -1'
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, -z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Na1   Na   0.24530   0.75120   0.49830   1.0
+Ca1   Ca   0.00000   0.00000   0.00000   1.0
+Al1   Al   0.50000   0.50000   0.00000   1.0
+P1    P    0.31240   0.21560   0.38470   1.0
+O1    O    0.14280   0.12340   0.21050   1.0
+O2    O    0.27650   0.39210   0.46320   1.0
+O3    O    0.53710   0.25830   0.33940   1.0
+O4    O    0.31520   0.08470   0.53610   1.0
+O5    O    0.78430   0.62150   0.18720   1.0
+F1    F    0.41230   0.58340   0.81250   1.0
+F2    F    0.60870   0.34720   0.87630   1.0
+H1    H    0.89120   0.55830   0.26340   1.0

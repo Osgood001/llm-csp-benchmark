@@ -1,0 +1,45 @@
+data_K5Ag2(AsSe3)3
+_chemical_formula_sum            'K5 Ag2 As3 Se9'
+_chemical_formula_weight         1234.45
+_cell_length_a                   18.245
+_cell_length_b                   7.892
+_cell_length_c                   11.536
+_cell_angle_alpha                90.000
+_cell_angle_beta                 115.32
+_cell_angle_gamma                90.000
+_cell_volume                     1502.1
+_cell_formula_units_Z            4
+_symmetry_space_group_name_H-M   'C 2/c'
+_symmetry_Int_Tables_number      15
+_symmetry_cell_setting            monoclinic
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y, z+1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+K1    K    0.00000  0.3142   0.25000  1.0  e
+K2    K    0.1573   0.0284   0.4821   1.0  f
+K3    K    0.00000  0.00000  0.00000  1.0  a
+Ag1   Ag   0.1842   0.4937   0.1253   1.0  f
+As1   As   0.3421   0.2518   0.1087   1.0  f
+As2   As   0.00000  0.7483   0.25000  1.0  e
+Se1   Se   0.2487   0.2031   0.1742   1.0  f
+Se2   Se   0.4012   0.0198   0.1953   1.0  f
+Se3   Se   0.0893   0.7126   0.1584   1.0  f
+Se4   Se   0.3574   0.3842   0.9512   1.0  f
+Se5   Se   0.00000  0.5217   0.25000  1.0  e

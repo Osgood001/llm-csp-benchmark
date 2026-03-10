@@ -1,0 +1,50 @@
+data_Y4Si5Ir9
+_chemical_formula_sum            'Y4 Si5 Ir9'
+_chemical_formula_structural     'Y4 Si5 Ir9'
+_cell_length_a                   12.890
+_cell_length_b                   12.890
+_cell_length_c                   4.170
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_volume                     692.76
+_cell_formula_units_Z            2
+_space_group_name_H-M_alt        'P 4/m n c'
+_space_group_IT_number           128
+_symmetry_space_group_name_Hall  '-P 4 2n'
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1   'x, y, z'
+2   '-x, -y, z'
+3   '-y, x, z'
+4   'y, -x, z'
+5   '-x+1/2, y+1/2, -z+1/2'
+6   'x+1/2, -y+1/2, -z+1/2'
+7   'y+1/2, x+1/2, -z+1/2'
+8   '-y+1/2, -x+1/2, -z+1/2'
+9   '-x, -y, -z'
+10  'x, y, -z'
+11  'y, -x, -z'
+12  '-y, x, -z'
+13  'x+1/2, -y+1/2, z+1/2'
+14  '-x+1/2, y+1/2, z+1/2'
+15  '-y+1/2, -x+1/2, z+1/2'
+16  'y+1/2, x+1/2, z+1/2'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+Ir1  Ir  0.15700  0.06200  0.00000  1.0  8h
+Ir2  Ir  0.40900  0.13500  0.00000  1.0  8h
+Ir3  Ir  0.00000  0.00000  0.00000  1.0  2a
+Y1   Y   0.31800  0.31800  0.00000  1.0  4e
+Y2   Y   0.09400  0.59400  0.00000  1.0  4e
+Si1  Si  0.26200  0.04100  0.00000  1.0  8h
+Si2  Si  0.00000  0.50000  0.25000  1.0  2b
