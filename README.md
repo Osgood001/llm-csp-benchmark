@@ -45,22 +45,22 @@ run_llm_csp.py              # Main benchmark script
 
 ### Dataset I (40 common materials)
 
-| Model | Parsed | Struct Match | SPG Match |
-|-------|--------|-------------|-----------|
-| Claude-4.6-Opus | 27/40 | 15/40 (37.5%) | 14/40 (35.0%) |
-| GPT-5.4 | 20/40 | 2/40 (5.0%) | 3/40 (7.5%) |
+| Model | Raw CIF Match | Relaxed Match |
+|-------|---------------|---------------|
+| Claude-4.6-Opus | 13/40 (32.5%) | 15/40 (37.5%) |
+| GPT-5.4 | - | 2/40 (5.0%) |
 
 ### Dataset II (50 complex materials)
 
-| Model | Parsed | Struct Match | SPG Match |
-|-------|--------|-------------|-----------|
-| Claude-4.6-Opus | 32/50 | 4/50 (8.0%) | 4/50 (8.0%) |
-| GPT-5.4 | 41/50 | 1/50 (2.0%) | 6/50 (12.0%) |
+| Model | Raw CIF Match | Relaxed Match |
+|-------|---------------|---------------|
+| Claude-4.6-Opus | 6/50 (12.0%) | 6/50 (12.0%) |
+| GPT-5.4 | - | 1/50 (2.0%) |
 
 **Notes:**
-- "Parsed" = LLM generated valid CIF with correct stoichiometry
-- "Struct Match" = Structure matches ground truth via StructureMatcher
-- "SPG Match" = Space group number matches ground truth
+- "Raw CIF Match" = LLM-generated CIF matches ground truth before relaxation
+- "Relaxed Match" = Structure matches after ORB v3 MLFF relaxation
+- GPT-5.4 raw CIF data not available (relaxation done directly from parsed structures)
 
 ## Usage
 
