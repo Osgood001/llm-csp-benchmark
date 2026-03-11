@@ -48,10 +48,7 @@ run_llm_csp.py              # Main benchmark script
 | Model | Parsed | Struct Match | SPG Match |
 |-------|--------|-------------|-----------|
 | Claude-4.6-Opus | 27/40 | 15/40 (37.5%) | 14/40 (35.0%) |
-| claude-opus-4-6 (old API) | 28/40 | 12/40 (30.0%) | 12/40 (30.0%) |
-| gemini-3-pro-preview-thinking | 25/40 | 12/40 (30.0%) | 12/40 (30.0%) |
 | GPT-5.4 | 20/40 | 2/40 (5.0%) | 3/40 (7.5%) |
-| gpt-5-chat (old) | 30/40 | 1/40 (2.5%) | 0/40 (0.0%) |
 
 ### Dataset II (50 complex materials)
 
