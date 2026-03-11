@@ -48,19 +48,19 @@ run_llm_csp.py              # Main benchmark script
 | Model | Raw CIF Match | Relaxed Match |
 |-------|---------------|---------------|
 | Claude-4.6-Opus | 13/40 (32.5%) | 15/40 (37.5%) |
-| GPT-5.4 | - | 2/40 (5.0%) |
+| GPT-5.4 | 2/40 (5.0%) | - |
 
 ### Dataset II (50 complex materials)
 
 | Model | Raw CIF Match | Relaxed Match |
 |-------|---------------|---------------|
 | Claude-4.6-Opus | 6/50 (12.0%) | 6/50 (12.0%) |
-| GPT-5.4 | - | 1/50 (2.0%) |
+| GPT-5.4 | 1/50 (2.0%) | - |
 
 **Notes:**
 - "Raw CIF Match" = LLM-generated CIF matches ground truth before relaxation
 - "Relaxed Match" = Structure matches after ORB v3 MLFF relaxation
-- GPT-5.4 raw CIF data not available (relaxation done directly from parsed structures)
+- GPT-5.4 relaxation failed due to segfaults
 
 ## Usage
 
