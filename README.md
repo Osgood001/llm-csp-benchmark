@@ -47,7 +47,6 @@ run_llm_csp.py              # Main benchmark script
 
 | Model | Parsed | Struct Match | SPG Match |
 |-------|--------|-------------|-----------|
-| **CrystalFormer** (cfg_0.1 ep44000) | **39/40** | **32/40 (80.0%)** | **26/40 (65.0%)** |
 | Claude-4.6-Opus | 27/40 | 15/40 (37.5%) | 14/40 (35.0%) |
 | claude-opus-4-6 (old API) | 28/40 | 12/40 (30.0%) | 12/40 (30.0%) |
 | gemini-3-pro-preview-thinking | 25/40 | 12/40 (30.0%) | 12/40 (30.0%) |
@@ -58,7 +57,6 @@ run_llm_csp.py              # Main benchmark script
 
 | Model | Parsed | Struct Match | SPG Match |
 |-------|--------|-------------|-----------|
-| **CrystalFormer** (cfg_0.1 ep44000) | **50/50** | **38/50 (76.0%)** | **30/50 (60.0%)** |
 | Claude-4.6-Opus | 32/50 | 4/50 (8.0%) | 4/50 (8.0%) |
 | GPT-5.4 | 41/50 | 1/50 (2.0%) | 6/50 (12.0%) |
 
@@ -66,7 +64,6 @@ run_llm_csp.py              # Main benchmark script
 - "Parsed" = LLM generated valid CIF with correct stoichiometry
 - "Struct Match" = Structure matches ground truth via StructureMatcher
 - "SPG Match" = Space group number matches ground truth
-- CrystalFormer results from [crystal_gpt_benchmark_results](https://code.itp.ac.cn/osgood/crystal_gpt_benchmark_results)
 
 ## Usage
 
